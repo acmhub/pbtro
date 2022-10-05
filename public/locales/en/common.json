@@ -1,0 +1,28 @@
+{
+    "title": "The Title",
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "products": "Products",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "getquote": "Get Quote",
+    "fereastrapbt": "PBT Window",
+
+    "product": {
+        "balustrada": "Railing",
+        "rulouexterior": "Exterior Roller",
+        "pergola": "Pergola",
+        "copertina": "Canopy",
+        "panelornamental": "Aluminium Ornamental Panel",
+        "usagaraj": "Garage Door",
+        "roletatextila": "Textile Roller",
+        "tamplariepvc": "PVC Joinery",
+        "tamplariealuminiu": "Aluminium Joinery",
+        "tamplarielemn": "Wood Joinery",
+        "sticla": "Glass",
+        "peretecortina": "Curatin Wall",
+        "usaantifoc": "Fireproof Door",
+        "plasainsecte": "Insect Net"
+    }
+}

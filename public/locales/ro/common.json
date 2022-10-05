@@ -1,0 +1,28 @@
+{
+    "title": "Pagina principala",
+    "home": "Acasa",
+    "about": "Despre noi",
+    "services": "Servicii",
+    "products": "Produse",
+    "portfolio": "Portofoliu",
+    "contact": "Contact",
+    "getquote": "Solicita Oferta",
+    "fereastrapbt": "Fereastra PBT",
+
+    "product": {
+        "balustrada": "Balustradă",
+        "rulouexterior": "Rulou Exterior",
+        "pergola": "Pergolă",
+        "copertina": "Copertină",
+        "panelornamental": "Panel Ornamental Aluminiu",
+        "usagaraj": "Ușă de Garaj",
+        "roletatextila": "Roletă Textilă",
+        "tamplariepvc": "Tâmplărie PVC",
+        "tamplariealuminiu": "Tâmplărie Aluminiu",
+        "tamplarielemn": "Tâmplărie Lemn Stratificat",
+        "sticla": "Sticlă",
+        "peretecortina": "Perete Cortină",
+        "usaantifoc": "Ușă Antifoc",
+        "plasainsecte": "Plasă contra Insectelor"
+    }
+}

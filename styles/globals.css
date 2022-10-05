@@ -1,26 +1,34 @@
+@import './tailwind.css';
+
+:root {
+    --navbar-index: 999;
+
+    --theme1: #daa32b;
+    --theme2: #214e59;
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: #fafafa;
+    color: black;
+    font-family: 'Exo 2', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.fa-facebook-f {
+    color: #4267b2;
+}
+
+.fa-whatsapp {
+    color: #128c7e;
 }
