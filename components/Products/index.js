@@ -68,6 +68,11 @@ export const productsData = [
         src: '/images/products/plasa-insecte/highlight.webp',
         name: 'product.plasainsecte',
         href: '/produse/plasa-insecte'
+    },
+    {
+        src: '/images/products/perete-antivant/highlight.webp',
+        name: 'product.pereteantivant',
+        href: '/produse/perete-antivant'
     }
 ];
 

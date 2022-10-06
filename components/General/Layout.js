@@ -3,6 +3,7 @@ import Head from 'next/head';
 
 import Navigation from './navigation';
 import Footer from './footer';
+import BackToTop from './BackToTop';
 
 export default function Layout({ title, description, pageID, children }) {
     return (
@@ -18,6 +19,7 @@ export default function Layout({ title, description, pageID, children }) {
                 <Navigation />
                 <React.Fragment>{children}</React.Fragment>
                 <Footer />
+                <BackToTop />
             </div>
         </React.Fragment>
     );

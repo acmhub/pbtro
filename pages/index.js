@@ -2,7 +2,17 @@ import React from 'react';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import Layout from '../components/General/Layout';
-import { Landing, Products, WindowDoor } from '../components/HomeComponents';
+import {
+    Landing,
+    Products,
+    About,
+    WindowDoor,
+    Services,
+    CallToAction,
+    Accessories,
+    Testimonials,
+    Contact
+} from '../components/HomeComponents';
 
 export default function Home() {
     const { t } = useTranslation('home');
@@ -14,8 +24,20 @@ export default function Home() {
             <div className="py-10" />
             <Products t={t} />
             <div className="section-spacing" />
+            <About t={t} />
+            <div className="section-spacing" />
             <WindowDoor t={t} />
-            <div className="py-16" />
+            <div className="section-spacing" />
+            <Services t={t} />
+            <div className="section-spacing" />
+            <CallToAction t={t} />
+            <div className="section-spacing" />
+            <Accessories t={t} />
+            <div className="section-spacing" />
+            <Testimonials t={t} />
+            <div className="section-spacing" />
+            <Contact t={t} />
+            <div className="section-spacing" />
         </Layout>
     );
 }

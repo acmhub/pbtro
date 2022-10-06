@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function Landing({ t }) {
     return (
         <div className="container-padding">
-            <div className=" relative flex items-center min-h-[550px] bg-gradient-to-tr from-[#1A62A5] to-[#5BA2D7] rounded-lg shadow-xl lg:mxt-12">
+            <div className="relative flex items-center min-h-[550px] bg-gradient-to-tr from-[#1A62A5] to-[#5BA2D7] rounded-lg shadow-xl lg:mxt-12">
                 <div className="grid grid-cols-1 lg:grid-cols-2">
                     <div className="space-y-10 px-8 py-8 lg:py-4 text-white my-auto">
                         <div className="space-y-2">
