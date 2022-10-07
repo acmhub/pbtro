@@ -22,11 +22,11 @@ const suppliersData = [
         name: 'Klass'
     },
     {
-        src: '/images/suppliers/Maco.webp',
+        src: '/images/suppliers/maco.webp',
         name: 'Maco Multimatic'
     },
     {
-        src: '/images/suppliers/Profilco.webp',
+        src: '/images/suppliers/profilco.webp',
         name: 'Profilco'
     },
     {

@@ -297,6 +297,15 @@ export default function Navigation() {
                             ))}
                         </Menu>
 
+                        <Link href="/accesorii" passHref>
+                            <a
+                                className={currentRoute == '/accesorii' ? 'nav-link active' : 'nav-link'}
+                                onClick={() => setToggle(false)}
+                            >
+                                {t('accessories')}
+                            </a>
+                        </Link>
+
                         <Link href="/portofoliu" passHref>
                             <a
                                 className={currentRoute == '/servicii' ? 'nav-link active' : 'nav-link'}

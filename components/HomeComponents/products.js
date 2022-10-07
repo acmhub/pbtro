@@ -48,7 +48,7 @@ function Products({ t }) {
                 >
                     {productsData.map((e, i) => (
                         <SwiperSlide key={i}>
-                            <div className="relative h-[450px] w-full bg-red-400 rounded-lg overflow-hidden">
+                            <div className="relative h-[550px] w-full bg-red-400 rounded-lg overflow-hidden">
                                 <div className="absolute top-0 left-0 h-full w-full bg-gradient-to-t from-[rgba(0,0,0,0.5)] to-transparent pointer-events-none z-10" />
 
                                 <div className="absolute bottom-2 left-2 space-y-2 z-20">

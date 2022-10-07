@@ -100,7 +100,7 @@ export default function WindowDoor({ t }) {
 
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 translate-y-8">
                     {cardsData.map((e, i) => (
-                        <div className="bg-white shadow divide-y p-4" key={i}>
+                        <div className="card divide-y" key={i}>
                             <div className="grid grid-cols-1 xl:grid-cols-12 gap-4 pb-3">
                                 <div className="col-span-1 xl:col-span-8 space-y-2">
                                     <div>

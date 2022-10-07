@@ -53,7 +53,7 @@ export default function About({ t }) {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-2 xl:grid-cols-4 divide-x">
+                <div className="grid grid-cols-2 xl:grid-cols-4 lg:divide-x">
                     {statsData.map((e, i) => (
                         <div className="text-center p-2" key={i}>
                             <h3>{e.count}</h3>

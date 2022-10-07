@@ -17,7 +17,7 @@ export default function Landing({ t }) {
 
                         <div className="flex space-x-4">
                             <button className="theme-button1">{t('common:getquote')}</button>
-                            <button className="theme-button1-outlined">{t('common:services')}</button>
+                            <button className="theme-button1-outlined text-white">{t('common:services')}</button>
                         </div>
                     </div>
                     <div className="lg:absolute lg:bottom-0 lg:right-0">
