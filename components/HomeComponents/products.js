@@ -11,10 +11,10 @@ function Products({ t }) {
                 <h1>Produsele Oferite de Noi</h1>
 
                 <div className="hidden lg:flex space-x-4">
-                    <span className="material-symbols-outlined cursor-pointer arrow-left rotate-180 md-48 text-3xl">
+                    <span className="material-symbols-outlined cursor-pointer arrow-left rotate-180 m-icon-40">
                         trending_flat
                     </span>
-                    <span className="material-symbols-outlined cursor-pointer arrow-right md-48 text-3xl">
+                    <span className="material-symbols-outlined cursor-pointer arrow-right m-icon-40">
                         trending_flat
                     </span>
                 </div>
@@ -49,6 +49,7 @@ function Products({ t }) {
                     {productsData.map((e, i) => (
                         <SwiperSlide key={i}>
                             <div className="relative h-[550px] w-full bg-red-400 rounded-lg overflow-hidden">
+                                {/* <Image src={e.src} alt={t(e.name)} layout="fill" objectFit="contain" priority /> */}
                                 <div className="absolute top-0 left-0 h-full w-full bg-gradient-to-t from-[rgba(0,0,0,0.5)] to-transparent pointer-events-none z-10" />
 
                                 <div className="absolute bottom-2 left-2 space-y-2 z-20">
@@ -67,10 +68,10 @@ function Products({ t }) {
                 </Swiper>
 
                 <div className="flex justify-center lg:hidden space-x-4">
-                    <span className="material-symbols-outlined cursor-pointer arrow-left rotate-180 md-48 text-3xl">
+                    <span className="material-symbols-outlined cursor-pointer arrow-left rotate-180 m-icon-40">
                         trending_flat
                     </span>
-                    <span className="material-symbols-outlined cursor-pointer arrow-right md-48 text-3xl">
+                    <span className="material-symbols-outlined cursor-pointer arrow-right m-icon-40">
                         trending_flat
                     </span>
                 </div>

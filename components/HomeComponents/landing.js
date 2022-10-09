@@ -27,6 +27,7 @@ export default function Landing({ t }) {
                                 alt="Promotion Business Team"
                                 layout="fill"
                                 objectFit="contain"
+                                priority
                             />
                         </div>
                     </div>

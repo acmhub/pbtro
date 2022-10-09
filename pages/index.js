@@ -8,6 +8,7 @@ import {
     About,
     WindowDoor,
     Services,
+    Portfolio,
     CallToAction,
     Accessories,
     Testimonials,
@@ -29,6 +30,8 @@ export default function Home() {
             <WindowDoor t={t} />
             <div className="section-spacing" />
             <Services t={t} />
+            <div className="section-spacing" />
+            <Portfolio t={t} />
             <div className="section-spacing" />
             <CallToAction t={t} />
             <div className="section-spacing" />

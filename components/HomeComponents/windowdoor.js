@@ -89,8 +89,8 @@ export default function WindowDoor({ t }) {
                             'Masuratori Gratuite'
                         ].map((e, i) => (
                             <div className="flex items-center space-x-2" key={i}>
-                                <div className="bg-theme1 p-1 rounded-full">
-                                    <span className="material-icons block text-white">done</span>
+                                <div className="bg-theme1 h-6 w-6 grid place-content-center rounded-full">
+                                    <span className="material-icons block text-white m-icon-20">done</span>
                                 </div>
                                 <div>{t(e)}</div>
                             </div>
@@ -131,7 +131,7 @@ export default function WindowDoor({ t }) {
                 <div className="container-padding flex flex-col lg:flex-row items-center justify-between space-y-4 lg:space-y-0">
                     {specsData.map((e, i) => (
                         <div className="flex items-center space-x-2 text-white" key={i}>
-                            <span className="material-symbols-outlined md-48 text-3xl">{e.icon}</span>
+                            <span className="material-symbols-outlined m-icon-36">{e.icon}</span>
                             <div className="text-xl">{t(e.name)}</div>
                         </div>
                     ))}

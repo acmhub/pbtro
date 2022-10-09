@@ -45,9 +45,9 @@ export default function Services({ t }) {
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
                 {servicesData.map((e, i) => (
-                    <div className="card" key={i}>
+                    <div className="card space-y-2" key={i}>
                         <div className="flex items-center space-x-2">
-                            <span className="material-symbols-outlined text-theme1 text-4xl md-48">{e.icon}</span>
+                            <span className="material-symbols-outlined text-theme2 m-icon-40">{e.icon}</span>
                             <div>{e.title}</div>
                         </div>
                         <p>{e.description}</p>
@@ -55,7 +55,7 @@ export default function Services({ t }) {
                 ))}
             </div>
             <Link href="/servicii" passhref>
-                <a className="theme-button1-outlined flex items-center space-x-2 w-fit mx-auto">
+                <a className="theme-button2-outlined flex items-center space-x-2 w-fit mx-auto">
                     <span>Mai multe informatii</span>
                     <span className="material-symbols-outlined">trending_flat</span>
                 </a>

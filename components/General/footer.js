@@ -2,12 +2,16 @@ import Link from 'next/link';
 import React from 'react';
 import { useTranslation } from 'next-i18next';
 import { productsData } from '../Products';
+import Image from 'next/image';
 
 export default function Footer() {
     const { t } = useTranslation('common');
 
     return (
         <footer className="bg-white pt-10 pb-4">
+            <div className="relative h-20 mx-auto mb-12">
+                <Image src="/images/logos/logo.svg" alt="Promotion Business Team" layout="fill" objectFit="contain" />
+            </div>
             <div className="container-padding divide-y">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 pb-5">
                     <div className="col-span-1 lg:col-span-4 space-y-4">
@@ -85,7 +89,7 @@ export default function Footer() {
                                 rel="noopener noreferrer"
                                 className="w-fit opacity-75 hover:opacity-100 flex items-center space-x-2"
                             >
-                                <span className="material-symbols-outlined text-theme1">phone_in_talk</span>
+                                <span className="material-symbols-outlined m-icon-30 text-theme1">phone_in_talk</span>
                                 <div>+40 786 422 450</div>
                             </a>
                             <a
@@ -94,7 +98,7 @@ export default function Footer() {
                                 rel="noopener noreferrer"
                                 className="w-fit opacity-75 hover:opacity-100 flex items-center space-x-2"
                             >
-                                <span className="material-symbols-outlined text-theme1">phone_in_talk</span>
+                                <span className="material-symbols-outlined m-icon-30 text-theme1">phone_in_talk</span>
                                 <div>+40 786 422 450</div>
                             </a>
                             <a
@@ -103,8 +107,8 @@ export default function Footer() {
                                 rel="noopener noreferrer"
                                 className="w-fit opacity-75 hover:opacity-100 flex items-center space-x-2"
                             >
-                                <span className="material-symbols-outlined text-theme1">email</span>
-                                <div>pbtromania@gmail</div>
+                                <span className="material-symbols-outlined m-icon-30 text-theme1">email</span>
+                                <div>pbtromania@gmail.com</div>
                             </a>
                         </div>
                     </div>

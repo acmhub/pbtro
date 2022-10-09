@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import { ToastContainer } from 'react-toastify';
 
 import Navigation from './navigation';
 import Footer from './footer';
@@ -19,7 +20,20 @@ export default function Layout({ title, description, pageID, children }) {
                 <Navigation />
                 <React.Fragment>{children}</React.Fragment>
                 <Footer />
+
                 <BackToTop />
+                <ToastContainer
+                    position="bottom-center"
+                    autoClose={5000}
+                    hideProgressBar={true}
+                    newestOnTop={false}
+                    pauseOnHover={false}
+                    pauseOnFocusLoss={false}
+                    rtl={false}
+                    limit={4}
+                    closeOnClick
+                    draggable
+                />
             </div>
         </React.Fragment>
     );

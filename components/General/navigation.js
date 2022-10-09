@@ -131,43 +131,61 @@ export default function Navigation() {
             <nav id="contact-details-nav">
                 <div className="container-padding border-b flex items-center justify-between">
                     <div className="flex items-center">
-                        <Link href="/">
-                            <a className="nav-link space-x-1">
-                                <span className="material-symbols-outlined text-theme1">phone_in_talk</span>
-                                <p className="hidden lg:inline">+40 786 422 450</p>
-                            </a>
-                        </Link>
-                        <Link href="/">
-                            <a className="nav-link space-x-1">
-                                <span className="material-symbols-outlined text-theme1">phone_in_talk</span>
-                                <p className="hidden lg:inline">+40 723 391 843</p>
-                            </a>
-                        </Link>
-                        <Link href="/">
-                            <a className="nav-link space-x-1">
-                                <span className="material-symbols-outlined text-theme1">drafts</span>
-                                <p className="hidden lg:inline">pbtromania@gmail.com</p>
-                            </a>
-                        </Link>
-                        <Link href="/">
-                            <a className="nav-link space-x-1">
-                                <span className="material-symbols-outlined text-theme1">location_on</span>
-                                <p className="hidden lg:inline">Domnesti, IF</p>
-                            </a>
-                        </Link>
+                        <a
+                            href="tel:+40786422450"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="nav-link space-x-1"
+                        >
+                            <span className="material-symbols-outlined text-theme1">phone_in_talk</span>
+                            <p className="hidden lg:inline">+40 786 422 450</p>
+                        </a>
+                        <a
+                            href="tel:+40723391843"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="nav-link space-x-1"
+                        >
+                            <span className="material-symbols-outlined text-theme1">phone_in_talk</span>
+                            <p className="hidden lg:inline">+40 723 391 843</p>
+                        </a>
+                        <a
+                            href="mailto:pbtromania@gmail.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="nav-link space-x-1"
+                        >
+                            <span className="material-symbols-outlined text-theme1">drafts</span>
+                            <p className="hidden lg:inline">pbtromania@gmail.com</p>
+                        </a>
+                        <a
+                            href="https://goo.gl/maps/MsJhkRS4S4CgE8zNA"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="nav-link space-x-1"
+                        >
+                            <span className="material-symbols-outlined text-theme1">location_on</span>
+                            <p className="hidden lg:inline">Domnesti, IF</p>
+                        </a>
                     </div>
 
                     <div className="flex items-center social-links">
-                        <Link href="/">
-                            <a target="_blank" rel="noopener noreferrer" className="nav-link space-x-1 facebook-icon">
-                                <i className="fa-brands fa-facebook-f" />
-                            </a>
-                        </Link>
-                        <Link href="/">
-                            <a target="_blank" rel="noopener noreferrer" className="nav-link space-x-1 whatsapp-icon">
-                                <i className="fa-brands fa-whatsapp" />
-                            </a>
-                        </Link>
+                        <a
+                            href="https://www.facebook.com/PBT-Romania-404413622991425"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="nav-link facebook-icon"
+                        >
+                            <i className="fa-brands fa-facebook-f" />
+                        </a>
+                        <a
+                            href="https://wa.me/+40786422450"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="nav-link whatsapp-icon"
+                        >
+                            <i className="fa-brands fa-whatsapp" />
+                        </a>
 
                         <div className="nav-link">
                             <Select
@@ -209,9 +227,9 @@ export default function Navigation() {
             >
                 <div className="container-padding flex items-center justify-between">
                     <Link href="/" passHref>
-                        <a className="relative my-2 navbar-brand h-12 w-24">
+                        <a className="relative h-12 w-24">
                             <Image
-                                src="/images/logos/logo.webp"
+                                src="/images/logos/logo.svg"
                                 alt="Promotion Business Team"
                                 layout="fill"
                                 objectFit="contain"
