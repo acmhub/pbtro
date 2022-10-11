@@ -8,24 +8,24 @@
     }
 
     .card {
-        @apply bg-white shadow rounded-lg p-4;
+        @apply bg-white shadow p-4;
     }
 
     /* Buttons */
     .theme-button1 {
-        @apply bg-gradient-to-r from-[#eea617] to-[#FCB731]  text-white px-6 py-2.5 rounded-lg hover:shadow-lg duration-100 ease-out;
+        @apply bg-gradient-to-r from-[#eea617] to-[#FCB731]  text-white px-6 py-2.5 hover:shadow-lg duration-100 ease-out;
     }
 
     .theme-button1-outlined {
-        @apply border border-theme1 hover:bg-gradient-to-r from-[#eea617] to-[#FCB731] text-black hover:text-white px-6 py-2.5 rounded-lg hover:shadow-lg duration-100 ease-out;
+        @apply border border-theme1 hover:bg-gradient-to-r from-[#eea617] to-[#FCB731] text-black hover:text-white px-6 py-2.5 hover:shadow-lg duration-100 ease-out;
     }
 
     .theme-button2 {
-        @apply bg-gradient-to-r from-[#193d46] to-[#214e59]  text-white px-6 py-2.5 rounded-lg hover:shadow-lg duration-100 ease-out;
+        @apply bg-gradient-to-r from-[#193d46] to-[#214e59]  text-white px-6 py-2.5 hover:shadow-lg duration-100 ease-out;
     }
 
     .theme-button2-outlined {
-        @apply border border-theme2 hover:bg-gradient-to-r from-[#193d46] to-[#214e59] text-black hover:text-white px-6 py-2.5 rounded-lg hover:shadow-lg duration-100 ease-out;
+        @apply border border-theme2 hover:bg-gradient-to-r from-[#193d46] to-[#214e59] text-black hover:text-white px-6 py-2.5 hover:shadow-lg duration-100 ease-out;
     }
 
     /* Spacings */
@@ -34,7 +34,7 @@
     }
 
     .section-spacing {
-        @apply py-12;
+        @apply py-16;
     }
 
     .material-symbols-outlined {

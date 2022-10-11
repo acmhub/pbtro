@@ -6,19 +6,19 @@ const cardsData = [
     {
         name: 'common:product.tamplariepvc',
         description: 'Ferestrele din tâmplărie PVC reprezintă o soluție modernă și confortabilă pentru căminul tău.',
-        image: '',
+        image: '/images/fillers/pvcprofile.jpg',
         link: '/produse/tamplarie-pvc'
     },
     {
         name: 'common:product.tamplariealuminiu',
         description: 'Ferestrele din tâmplărie PVC reprezintă o soluție modernă și confortabilă pentru căminul tău.',
-        image: '',
+        image: '/images/fillers/aluprofile.jpg',
         link: '/produse/tamplarie-aluminiu'
     },
     {
         name: 'common:product.tamplarielemn',
         description: 'Ferestrele din tâmplărie PVC reprezintă o soluție modernă și confortabilă pentru căminul tău.',
-        image: '',
+        image: '/images/fillers/woodprofile.jpg',
         link: '/produse/tamplarie-lemn'
     }
 ];
@@ -110,7 +110,9 @@ export default function WindowDoor({ t }) {
                                     <p>{e.description}</p>
                                 </div>
                                 <div className="col-span-1 xl:col-span-4 my-auto order-first xl:order-last">
-                                    <div className="relative h-24 bg-red-200 w-full"></div>
+                                    <div className="relative h-24 w-auto">
+                                        <Image src={e.image} alt={t(e.name)} layout="fill" objectFit="contain" />
+                                    </div>
                                 </div>
                             </div>
 

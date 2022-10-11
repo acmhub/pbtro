@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Suppliers from '../General/Suppliers';
 
 const statsData = [
@@ -23,18 +24,20 @@ const statsData = [
 export default function About({ t }) {
     return (
         <div className="space-y-10">
-            <div className="container-padding space-y-10">
-                <div className="grid grid-cols-1 lg:grid-cols-11 gap-8">
-                    <div className="col-span-1 lg:col-span-4 relative">
-                        <img
-                            src="https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvYTAwOC1zaW1vbmVoLTc0LmpwZw.jpg"
-                            alt=""
-                            className="h-[400px] w-fit object-contain mx-auto"
-                        />
+            <div className="container-padding relative space-y-20">
+                <div className="relative grid grid-cols-1 lg:grid-cols-12 gap-8 z-10">
+                    <div className="col-span-1 lg:col-span-4 relative h-96">
+                        <div className="absolute top-2 left-2 h-72 w-[75%] shadow-xl">
+                            <Image src="/images/portfolio/15.webp" alt=" " layout="fill" objectFit="cover" />
+                        </div>
+
+                        <div className="absolute bottom-2 right-2 h-64 w-[40%] shadow-xl">
+                            <Image src="/images/portfolio/32.webp" alt=" " layout="fill" objectFit="cover" />
+                        </div>
                     </div>
 
-                    <div className="col-span-1 lg:col-span-3 text-center">
-                        <h1 className="h-48 grid place-content-center text-[12rem] font-bold">16</h1>
+                    <div className="col-span-1 lg:col-span-4 text-center">
+                        <h1 className="year-text h-56 grid place-content-center text-[14rem] font-bold">16</h1>
                         <div className="space-y-4 my-auto">
                             <h4 className="text-4xl uppercase">ani de experienta</h4>
                             <p>
@@ -44,20 +47,29 @@ export default function About({ t }) {
                             <button className="theme-button1 block mx-auto">Vezi mai mult</button>
                         </div>
                     </div>
-                    <div className="col-span-1 lg:col-span-4 hidden lg:block">
-                        <img
-                            src="https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvYTAwOC1zaW1vbmVoLTc0LmpwZw.jpg"
-                            alt=""
-                            className="h-[400px] w-fit object-contain mx-auto"
-                        />
+
+                    <div className="col-span-1 lg:col-span-4 hidden lg:block relative h-96">
+                        <div className="absolute top-2 right-2 h-72 w-[75%] shadow-xl">
+                            <Image src="/images/portfolio/36.webp" alt=" " layout="fill" objectFit="cover" />
+                        </div>
+
+                        <div className="absolute bottom-2 left-2 h-64 w-[40%] shadow-xl">
+                            <Image src="/images/portfolio/38.webp" alt=" " layout="fill" objectFit="cover" />
+                        </div>
                     </div>
                 </div>
+
+                <img
+                    src="/images/fillers/worldmap.png"
+                    alt=""
+                    className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] h-96 w-fit object-contain opacity-[0.05] z-[0]"
+                />
 
                 <div className="grid grid-cols-2 xl:grid-cols-4 lg:divide-x">
                     {statsData.map((e, i) => (
                         <div className="text-center p-2" key={i}>
-                            <h3>{e.count}</h3>
-                            <h5 className="uppercase">{e.name}</h5>
+                            <h4>{e.count}</h4>
+                            <h6 className="uppercase">{e.name}</h6>
                         </div>
                     ))}
                 </div>

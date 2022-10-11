@@ -89,7 +89,7 @@ export default function Footer() {
                                 rel="noopener noreferrer"
                                 className="w-fit opacity-75 hover:opacity-100 flex items-center space-x-2"
                             >
-                                <span className="material-symbols-outlined m-icon-30 text-theme1">phone_in_talk</span>
+                                <span className="material-symbols-outlined text-theme1">phone_in_talk</span>
                                 <div>+40 786 422 450</div>
                             </a>
                             <a
@@ -98,7 +98,7 @@ export default function Footer() {
                                 rel="noopener noreferrer"
                                 className="w-fit opacity-75 hover:opacity-100 flex items-center space-x-2"
                             >
-                                <span className="material-symbols-outlined m-icon-30 text-theme1">phone_in_talk</span>
+                                <span className="material-symbols-outlined text-theme1">phone_in_talk</span>
                                 <div>+40 786 422 450</div>
                             </a>
                             <a
@@ -107,7 +107,7 @@ export default function Footer() {
                                 rel="noopener noreferrer"
                                 className="w-fit opacity-75 hover:opacity-100 flex items-center space-x-2"
                             >
-                                <span className="material-symbols-outlined m-icon-30 text-theme1">email</span>
+                                <span className="material-symbols-outlined text-theme1">email</span>
                                 <div>pbtromania@gmail.com</div>
                             </a>
                         </div>

@@ -1,5 +1,6 @@
-import Link from 'next/link';
 import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const stepsData = [
     {
@@ -33,5 +34,5 @@ const stepsData = [
 ];
 
 export default function CallToAction({ t }) {
-    return <div className="container-padding">Call to action</div>;
+    return <div className="container-padding bg-theme1 p-4"></div>;
 }

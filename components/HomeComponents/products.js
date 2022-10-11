@@ -1,5 +1,7 @@
 import React from 'react';
 import dynamic from 'next/dynamic';
+import Link from 'next/link';
+import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation } from 'swiper';
 import { productsData } from '../Products';
@@ -29,15 +31,15 @@ function Products({ t }) {
                         640: {
                             slidesPerView: 2
                         },
-                        768: {
+                        1024: {
                             slidesPerView: 3
                         },
-                        1024: {
+                        1280: {
                             slidesPerView: 4
                         }
                     }}
                     autoplay={{
-                        delay: 3000,
+                        delay: 5000,
                         disableOnInteraction: false
                     }}
                     navigation={{
@@ -48,21 +50,34 @@ function Products({ t }) {
                 >
                     {productsData.map((e, i) => (
                         <SwiperSlide key={i}>
-                            <div className="relative h-[550px] w-full bg-red-400 rounded-lg overflow-hidden">
-                                {/* <Image src={e.src} alt={t(e.name)} layout="fill" objectFit="contain" priority /> */}
-                                <div className="absolute top-0 left-0 h-full w-full bg-gradient-to-t from-[rgba(0,0,0,0.5)] to-transparent pointer-events-none z-10" />
+                            <Link href={e.href} passHref>
+                                <a>
+                                    <div className="relative h-[550px] w-full overflow-hidden">
+                                        <Image
+                                            src={e.src}
+                                            alt={t(e.name)}
+                                            layout="fill"
+                                            objectFit="cover"
+                                            priority
+                                            className="hover:scale-110 duration-200 ease-in-out"
+                                        />
+                                        <div className="absolute bottom-0 left-0 h-[50%] w-full bg-gradient-to-t from-[rgba(0,0,0,0.75)] to-transparent pointer-events-none z-10" />
 
-                                <div className="absolute bottom-2 left-2 space-y-2 z-20">
-                                    {(e.name === 'product.tamplariepvc' ||
-                                        e.name === 'product.tamplariealuminiu' ||
-                                        e.name === 'product.tamplarielemn') && (
-                                        <div className="text-theme1 uppercase tracking-widest">
-                                            {t('common:fereastrapbt')}
+                                        <div className="absolute bottom-2 left-2 space-y-2 z-20">
+                                            {(e.name === 'product.tamplariepvc' ||
+                                                e.name === 'product.tamplariealuminiu' ||
+                                                e.name === 'product.tamplarielemn') && (
+                                                <div className="text-theme1 uppercase tracking-widest">
+                                                    {t('common:fereastrapbt')}
+                                                </div>
+                                            )}
+                                            <div className="product-name text-white text-2xl">
+                                                {t(`common:${e.name}`)}
+                                            </div>
                                         </div>
-                                    )}
-                                    <div className="product-name text-white text-2xl">{t(`common:${e.name}`)}</div>
-                                </div>
-                            </div>
+                                    </div>
+                                </a>
+                            </Link>
                         </SwiperSlide>
                     ))}
                 </Swiper>

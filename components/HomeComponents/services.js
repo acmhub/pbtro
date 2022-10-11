@@ -48,14 +48,14 @@ export default function Services({ t }) {
                     <div className="card space-y-2" key={i}>
                         <div className="flex items-center space-x-2">
                             <span className="material-symbols-outlined text-theme2 m-icon-40">{e.icon}</span>
-                            <div>{e.title}</div>
+                            <h5>{e.title}</h5>
                         </div>
                         <p>{e.description}</p>
                     </div>
                 ))}
             </div>
             <Link href="/servicii" passhref>
-                <a className="theme-button2-outlined flex items-center space-x-2 w-fit mx-auto">
+                <a className="theme-button2 flex items-center space-x-2 w-fit mx-auto">
                     <span>Mai multe informatii</span>
                     <span className="material-symbols-outlined">trending_flat</span>
                 </a>

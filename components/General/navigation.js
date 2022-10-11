@@ -65,6 +65,104 @@ const NavStyles = styled.div`
             transition: 0.1s ease-in-out, box-shadow 0s ease;
         }
     }
+
+    .nav-toggle {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+
+        svg {
+            height: 40px;
+            width: 40px;
+        }
+
+        .line {
+            fill: none;
+            stroke: #191919;
+            stroke-width: 6;
+            transition: stroke-dasharray 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+                stroke-dashoffset 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .line1 {
+            stroke-dasharray: 60 207;
+            stroke-width: 6;
+        }
+
+        .line2 {
+            stroke-dasharray: 60 60;
+            stroke-width: 6;
+        }
+
+        .line3 {
+            stroke-dasharray: 60 207;
+            stroke-width: 6;
+        }
+
+        &.opened .line1 {
+            stroke-dasharray: 90 207;
+            stroke-dashoffset: -134;
+            stroke-width: 6;
+        }
+
+        &.opened .line2 {
+            stroke-dasharray: 1 60;
+            stroke-dashoffset: -30;
+            stroke-width: 6;
+        }
+
+        &.opened .line3 {
+            stroke-dasharray: 90 207;
+            stroke-dashoffset: -134;
+            stroke-width: 6;
+        }
+    }
+
+    @media only screen and (max-width: 1024px) {
+        #routes-nav {
+            .nav-links {
+                position: absolute;
+                top: 70px;
+                right: 0;
+                height: calc(100vh - 70px);
+                overflow-y: scroll;
+                width: 100%;
+                padding: 20px;
+                background: white;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+
+                pointer-events: none;
+                transform: translateY(200px);
+                opacity: 0;
+                transition: 0.2s ease-in-out;
+
+                &.active {
+                    transform: translateY(0px);
+                    opacity: 1;
+                    pointer-events: all;
+                }
+
+                & > *.nav-link,
+                #products-dropdown-button {
+                    margin: 5px 0;
+                    padding: 5px 0;
+                    border-bottom: 1px solid silver;
+                    width: 100%;
+                    text-align: left;
+
+                    &:nth-last-child(1) {
+                        border-bottom: none;
+                        margin: 0 auto;
+                        margin-top: 40px;
+                        width: fit-content;
+                    }
+                }
+            }
+        }
+    }
 `;
 
 const locales = [
@@ -238,25 +336,27 @@ export default function Navigation() {
                     </Link>
 
                     <div
-                        className={
-                            toggle
-                                ? 'nav-toggle active flex items-center cursor-pointer lg:hidden'
-                                : 'nav-toggle flex items-center cursor-pointer lg:hidden'
-                        }
+                        className={toggle ? 'nav-toggle opened lg:hidden' : 'nav-toggle lg:hidden'}
                         onClick={() => setToggle(!toggle)}
                     >
-                        {toggle ? (
-                            <span className="material-symbols-outlined">close</span>
-                        ) : (
-                            <span className="material-symbols-outlined">menu</span>
-                        )}
+                        <svg width="100" height="100" viewBox="0 0 100 100">
+                            <path
+                                className="line line1"
+                                d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+                            />
+                            <path className="line line2" d="M 20,50 H 80" />
+                            <path
+                                className="line line3"
+                                d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+                            />
+                        </svg>
                     </div>
 
                     <div
                         className={
                             toggle
-                                ? 'route-links hidden lg:flex items-center lg:space-x-4 visible'
-                                : 'route-links hidden lg:flex items-center lg:space-x-4'
+                                ? 'nav-links active lg:flex lg:items-center lg:space-x-4'
+                                : 'nav-links hidden lg:flex lg:items-center lg:space-x-4'
                         }
                     >
                         <Link href="/" passHref>
@@ -342,7 +442,7 @@ export default function Navigation() {
                             </a>
                         </Link>
 
-                        <div className="lg:px-2" />
+                        <div className="hidden lg:block lg:px-2" />
 
                         <Link href="/solicita-oferta" passHref>
                             <a className="nav-link" onClick={() => setToggle(false)}>
