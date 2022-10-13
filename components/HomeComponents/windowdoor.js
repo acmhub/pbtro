@@ -105,7 +105,7 @@ export default function WindowDoor({ t }) {
                                 <div className="col-span-1 xl:col-span-8 space-y-2">
                                     <div>
                                         <h6 className="text-theme1">{t('common:fereastrapbt')}</h6>
-                                        <h6>{t(e.name)}</h6>
+                                        <h4>{t(e.name)}</h4>
                                     </div>
                                     <p>{e.description}</p>
                                 </div>
@@ -130,7 +130,7 @@ export default function WindowDoor({ t }) {
             </div>
 
             <div className="bg-theme2 pt-14 pb-4">
-                <div className="container-padding flex flex-col lg:flex-row items-center justify-between space-y-4 lg:space-y-0">
+                <div className="container-padding flex flex-col lg:flex-row lg:items-center justify-between w-fit lg:w-full space-y-4 lg:space-y-0">
                     {specsData.map((e, i) => (
                         <div className="flex items-center space-x-2 text-white" key={i}>
                             <span className="material-symbols-outlined m-icon-36">{e.icon}</span>

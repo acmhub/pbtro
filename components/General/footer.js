@@ -3,16 +3,78 @@ import React from 'react';
 import { useTranslation } from 'next-i18next';
 import { productsData } from '../Products';
 import Image from 'next/image';
+import styled from 'styled-components';
+
+const ImageWrapper = styled.div`
+    position: relative;
+
+    &:before {
+        position: absolute;
+        content: '';
+        top: -40px;
+        left: 0;
+        right: 0;
+        width: auto;
+        height: 50px;
+        background: white;
+        margin: 0 25%;
+    }
+
+    .wrapper {
+        position: absolute;
+        top: -40px;
+        left: 0;
+        right: 0;
+        background: transparent;
+        padding-top: 20px;
+        margin: 0 25%;
+
+        &:before {
+            position: absolute;
+            content: '';
+            left: -50px;
+            top: 0px;
+
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 0 50px 50px;
+            border-color: transparent transparent white transparent;
+        }
+
+        &:after {
+            position: absolute;
+            content: '';
+            right: -50px;
+            top: 0px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 50px 0 0 50px;
+            border-color: transparent transparent transparent white;
+        }
+    }
+`;
 
 export default function Footer() {
     const { t } = useTranslation('common');
 
     return (
-        <footer className="bg-white pt-10 pb-4">
-            <div className="relative h-20 mx-auto mb-12">
-                <Image src="/images/logos/logo.svg" alt="Promotion Business Team" layout="fill" objectFit="contain" />
-            </div>
-            <div className="container-padding divide-y">
+        <footer className="bg-white mt-10 pb-4">
+            <ImageWrapper>
+                <div className="wrapper">
+                    <div className="relative h-20 mx-auto mb-12">
+                        <Image
+                            src="/images/logos/logo.svg"
+                            alt="Promotion Business Team"
+                            layout="fill"
+                            objectFit="contain"
+                        />
+                    </div>
+                </div>
+            </ImageWrapper>
+
+            <div className="container-padding divide-y pt-20">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 pb-5">
                     <div className="col-span-1 lg:col-span-4 space-y-4">
                         <h3>{t('about')}</h3>
@@ -79,7 +141,7 @@ export default function Footer() {
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 py-5">
-                    <div className="col-span-1 lg:col-span-3 space-y-4">
+                    <div className="col-span-1 lg:col-span-4 space-y-4">
                         <h3>{t('contact')}</h3>
 
                         <div className="space-y-2">
@@ -117,7 +179,7 @@ export default function Footer() {
                         <iframe
                             title="location"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2850.3339008248113!2d25.97047921552232!3d44.40579357910266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b200fc0e10d997%3A0x6ae5655545a9990d!2sDistribuitor%20Ferestre%20si%20Usi%20-%20Promotion%20Business%20Team!5e0!3m2!1sro!2sro!4v1644401679264!5m2!1sro!2sro"
-                            className="h-64 lg:h-full w-full"
+                            className="h-64 lg:h-full w-full block"
                         />
                     </div>
                 </div>

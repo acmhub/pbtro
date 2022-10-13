@@ -45,15 +45,18 @@ export default function Services({ t }) {
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
                 {servicesData.map((e, i) => (
-                    <div className="card space-y-2" key={i}>
-                        <div className="flex items-center space-x-2">
-                            <span className="material-symbols-outlined text-theme2 m-icon-40">{e.icon}</span>
-                            <h5>{e.title}</h5>
+                    <div className="bg-white shadow flex items-center" key={i}>
+                        <div className="bg-theme2 text-white h-full w-fit flex items-center p-2">
+                            <span className="material-symbols-outlined m-icon-30">{e.icon}</span>
                         </div>
-                        <p>{e.description}</p>
+                        <div className="p-4">
+                            <h4>{e.title}</h4>
+                            <p>{e.description}</p>
+                        </div>
                     </div>
                 ))}
             </div>
+
             <Link href="/servicii" passhref>
                 <a className="theme-button2 flex items-center space-x-2 w-fit mx-auto">
                     <span>Mai multe informatii</span>

@@ -18,7 +18,7 @@ const testimonialData = [
 function Testimonials({ t }) {
     return (
         <div className="container-padding space-y-10">
-            <h2 className="text-center">Părerile Clienților Despre Noi</h2>
+            <h3 className="text-center">Părerile Clienților Despre Noi</h3>
 
             <Swiper
                 loop={true}

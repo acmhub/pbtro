@@ -6,27 +6,27 @@ const portfolioData = [
     {
         colClass: 'col-span-1 lg:row-span-1',
         cardHeight: 'lg:h-[200px]',
-        src: '/images/portfolio/20.webp'
+        src: '/images/portfolio/23.webp'
     },
     {
         colClass: 'col-span-1 lg:col-span-2 lg:row-span-2',
-        cardHeight: 'lg:h-[400px]',
-        src: '/images/portfolio/13.webp'
+        cardHeight: 'lg:h-[300px]',
+        src: '/images/portfolio/36.webp'
     },
     {
         colClass: 'col-span-1 lg:row-span-3',
-        cardHeight: 'h-[400px]',
-        src: '/images/portfolio/24.webp'
+        cardHeight: 'lg:h-[300px]',
+        src: '/images/portfolio/39.webp'
     },
     {
         colClass: 'col-span-1',
-        cardHeight: 'h-[200px]',
-        src: '/images/portfolio/26.webp'
+        cardHeight: 'lg:h-[200px]',
+        src: '/images/portfolio/44.webp'
     },
     {
         colClass: 'col-span-1',
-        cardHeight: 'h-[200px]',
-        src: '/images/portfolio/16.webp'
+        cardHeight: 'lg:h-[200px]',
+        src: '/images/portfolio/7.webp'
     }
 ];
 

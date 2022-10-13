@@ -19,8 +19,8 @@ export default function Home() {
     const { t } = useTranslation('home');
 
     return (
-        <Layout pageID="home">
-            <div className="navbar-spacing" />
+        <Layout pageID="home" description="">
+            <div className="section-spacing" />
             <Landing t={t} />
             <div className="py-10" />
             <Products t={t} />

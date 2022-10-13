@@ -8,15 +8,15 @@ import { productsData } from '../Products';
 
 function Products({ t }) {
     return (
-        <div className="container-padding space-y-10">
+        <div className="container-padding space-y-6">
             <div className="flex items-center justify-between">
-                <h1>Produsele Oferite de Noi</h1>
+                <h2>Produsele Oferite de Noi</h2>
 
                 <div className="hidden lg:flex space-x-4">
-                    <span className="material-symbols-outlined cursor-pointer arrow-left rotate-180 m-icon-40">
+                    <span className="material-symbols-outlined cursor-pointer arrow-left rotate-180 m-icon-30">
                         trending_flat
                     </span>
-                    <span className="material-symbols-outlined cursor-pointer arrow-right m-icon-40">
+                    <span className="material-symbols-outlined cursor-pointer arrow-right m-icon-30">
                         trending_flat
                     </span>
                 </div>
@@ -83,10 +83,10 @@ function Products({ t }) {
                 </Swiper>
 
                 <div className="flex justify-center lg:hidden space-x-4">
-                    <span className="material-symbols-outlined cursor-pointer arrow-left rotate-180 m-icon-40">
+                    <span className="material-symbols-outlined cursor-pointer arrow-left rotate-180 m-icon-30">
                         trending_flat
                     </span>
-                    <span className="material-symbols-outlined cursor-pointer arrow-right m-icon-40">
+                    <span className="material-symbols-outlined cursor-pointer arrow-right m-icon-30">
                         trending_flat
                     </span>
                 </div>

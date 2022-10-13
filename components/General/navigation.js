@@ -26,7 +26,7 @@ const NavStyles = styled.div`
             justify-content: center;
             text-align: center;
             height: 39px;
-            padding: 0 10px;
+            padding: 0 5px;
             transition: 0.1s ease-in-out;
 
             i {

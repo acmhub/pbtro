@@ -11,7 +11,7 @@ html,
 body {
     background-color: #fafafa;
     color: black;
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -30,7 +30,7 @@ a {
 }
 
 .year-text {
-    background: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHgxMDMzMjQ5LWltYWdlLWt3dnk3aGdwLmpwZw.jpg');
+    background: url('/images/fillers/year-background.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

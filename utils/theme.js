@@ -10,6 +10,6 @@ export const theme = createTheme({
         }
     },
     typography: {
-        fontFamily: `"Exo 2", sans-serif`
+        fontFamily: `'Red Hat Display', sans-serif`
     }
 });

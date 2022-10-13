@@ -1,5 +1,20 @@
 export const productsData = [
     {
+        src: '/images/products/tamplarie-pvc/highlight.webp',
+        name: 'product.tamplariepvc',
+        href: '/produse/tamplarie-pvc'
+    },
+    {
+        src: '/images/products/tamplarie-aluminiu/highlight.webp',
+        name: 'product.tamplariealuminiu',
+        href: '/produse/tamplarie-aluminiu'
+    },
+    {
+        src: '/images/products/tamplarie-lemn/highlight.webp',
+        name: 'product.tamplarielemn',
+        href: '/produse/tamplarie-lemn'
+    },
+    {
         src: '/images/products/balustrada/highlight.webp',
         name: 'product.balustrada',
         href: '/produse/balustrada'
@@ -33,21 +48,6 @@ export const productsData = [
         src: '/images/products/roleta-textila/highlight.webp',
         name: 'product.roletatextila',
         href: '/produse/roleta-textila'
-    },
-    {
-        src: '/images/products/tamplarie-pvc/highlight.webp',
-        name: 'product.tamplariepvc',
-        href: '/produse/tamplarie-pvc'
-    },
-    {
-        src: '/images/products/tamplarie-aluminiu/highlight.webp',
-        name: 'product.tamplariealuminiu',
-        href: '/produse/tamplarie-aluminiu'
-    },
-    {
-        src: '/images/products/tamplarie-lemn/highlight.webp',
-        name: 'product.tamplarielemn',
-        href: '/produse/tamplarie-lemn'
     },
     {
         src: '/images/products/sticla/highlight.webp',
