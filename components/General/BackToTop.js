@@ -30,7 +30,7 @@ export default function BackToTop() {
             `}
             onClick={scrollToTop}
         >
-            <span className="material-symbols-outlined">arrow_upward</span>
+            <span className="material-symbols-outlined -rotate-90">trending_flat</span>
         </div>
     );
 }

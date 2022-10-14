@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React from 'react';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
@@ -72,17 +72,17 @@ export default function Portfolio() {
             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ex quidem perspiciatis architecto? Quam, voluptas aliquid laboriosam officiis corrupti esse."
         >
             <div className="section-spacing-lg" />
+
             <div className="container-padding">
                 <h1 className="text-center mb-20">{t('common:portfolio')}</h1>
 
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2">
                     {portfolioData.map((e, i) => (
-                        <div className="relative h-96 w-auto" key={i}>
-                            <Image src={e} alt="Portofoliu" layout="fill" objectFit="cover" />
-                        </div>
+                        <img src={e.src} alt=" " className="h-96 w-full object-cover" key={i} />
                     ))}
                 </div>
             </div>
+
             <div className="section-spacing" />
         </Layout>
     );

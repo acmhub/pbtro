@@ -49,7 +49,7 @@ export default function CallToAction({ t }) {
                                 } w-full mx-auto items-center`}
                             >
                                 <div className={`w-full sm:w-1/2 ${i % 2 == 0 ? 'sm:pr-8' : 'sm:pl-8'}`}>
-                                    <div className="relative bg-white rounded shadow p-4">
+                                    <div className="relative bg-white rounded shadow p-4 pt-8 lg:pt-4">
                                         <h5 className="absolute top-2 right-2 text-theme1 tracking-widest font-bold opacity-80">
                                             0{i + 1}
                                         </h5>
@@ -58,6 +58,7 @@ export default function CallToAction({ t }) {
                                     </div>
                                 </div>
                             </div>
+                            <div className="lg:hidden my-3" />
                             <div className="rounded-full bg-theme1 w-10 h-10 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
                                 <span className="material-symbols-outlined text-white">{e.icon}</span>
                             </div>
@@ -66,9 +67,10 @@ export default function CallToAction({ t }) {
                 ))}
             </div>
 
-            <Link href="/solicita-oferta" passHref>
-                <a className="flex w-fit mx-auto mt-20">
-                    <button className="theme-button1">{t('common:getquote')}</button>
+            <Link href="/solicita-oferta" passhref>
+                <a className="theme-button1-outlined flex items-center space-x-2 w-fit mx-auto mt-0 lg:mt-20">
+                    <span>{t('common:getquote')}</span>
+                    <span className="material-symbols-outlined">trending_flat</span>
                 </a>
             </Link>
         </div>

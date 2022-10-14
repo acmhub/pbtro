@@ -198,8 +198,7 @@ export default function Navigation() {
     const { t } = useTranslation('common');
     const [navbar, setNavbar] = useState(false);
     const [toggle, setToggle] = useState(false);
-    const [anchorEl, setAnchorEl] = useState(null);
-    const open = Boolean(anchorEl);
+    const [dropdownToggle, setDropdownToggle] = useState(null);
 
     const handleLocaleChange = (event) => {
         const value = event.target.value;
@@ -355,8 +354,8 @@ export default function Navigation() {
                     <div
                         className={
                             toggle
-                                ? 'nav-links active lg:flex lg:items-center lg:space-x-4'
-                                : 'nav-links hidden lg:flex lg:items-center lg:space-x-4'
+                                ? 'nav-links active lg:flex lg:items-center lg:space-x-4 scrollbar-hide'
+                                : 'nav-links hidden lg:flex lg:items-center lg:space-x-4 scrollbar-hide'
                         }
                     >
                         <Link href="/" passHref>
@@ -385,35 +384,26 @@ export default function Navigation() {
                             </a>
                         </Link>
 
-                        <button
-                            id="products-dropdown-button"
-                            aria-controls={open ? 'products-menu' : undefined}
-                            aria-haspopup="true"
-                            aria-expanded={open ? 'true' : undefined}
-                            onClick={(e) => setAnchorEl(e.currentTarget)}
-                        >
+                        <button className="nav-link" onClick={() => setDropdownToggle(!dropdownToggle)}>
                             {t('products')}
                         </button>
-                        <Menu
-                            id="products-menu"
-                            anchorEl={anchorEl}
-                            open={open}
-                            onClose={() => setAnchorEl(null)}
-                            MenuListProps={{
-                                'aria-labelledby': 'products-dropdown-button'
-                            }}
-                            disableScrollLock={true}
+                        <div
+                            className={`${
+                                dropdownToggle
+                                    ? 'flex flex-col space-y-3 ml-2 my-4 pl-2 border-l-2 lg:space-y-0 lg:w-4/5 duration-200 ease-in-out opacity-1 pointer-events-all lg:shadow-xl'
+                                    : 'hidden opacity-0 pointer-events-none'
+                            }
+                            lg:absolute lg:grid lg:grid-cols-4 lg:gap-2 lg:card lg:top-12 lg:left-1/2 lg:-translate-x-1/2 lg:border-none
+                            `}
                         >
                             {productsData.map((e, i) => (
-                                <MenuItem onClick={() => setAnchorEl(null)} key={i}>
-                                    <Link href={e.href} as={e.href} passHref>
-                                        <a className="dropdown-link lg:text-gray-600 whitespace-nowrap lg:hover:text-black">
-                                            {t(e.name)}
-                                        </a>
-                                    </Link>
-                                </MenuItem>
+                                <Link href={e.href} as={e.href} key={i} passHref>
+                                    <a className="nav-link lg:text-gray-600 whitespace-nowrap lg:hover:text-black">
+                                        {t(e.name)}
+                                    </a>
+                                </Link>
                             ))}
-                        </Menu>
+                        </div>
 
                         <Link href="/accesorii" passHref>
                             <a

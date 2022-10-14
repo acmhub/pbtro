@@ -7,6 +7,10 @@
     --theme2: #214e59;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 html,
 body {
     background-color: #fafafa;
@@ -19,10 +23,6 @@ body {
 a {
     color: inherit;
     text-decoration: none;
-}
-
-* {
-    box-sizing: border-box;
 }
 
 .no-scroll {
