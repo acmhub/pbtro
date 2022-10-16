@@ -2,8 +2,8 @@ import React from 'react';
 import Head from 'next/head';
 import { ToastContainer } from 'react-toastify';
 
-import Navigation from './navigation';
-import Footer from './footer';
+import Navigation from './Navigation';
+import Footer from './Footer';
 import BackToTop from './BackToTop';
 
 export default function Layout({ title, description, pageID, children }) {

@@ -32,6 +32,14 @@ export default function GetQuote() {
                                     {t(`common:${e.name}`)}
                                 </div>
                             ))}
+                            <div
+                                className={`
+                                    ${activeProduct === 'accesorii' && 'bg-theme1 text-white'}
+                                    hover:bg-theme1 hover:text-white duration-200 ease-in-out cursor-pointer p-2`}
+                                onClick={() => setActiveProduct('accesorii')}
+                            >
+                                {t('common:accessories')}
+                            </div>
                         </div>
                     </div>
                 </div>

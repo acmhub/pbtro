@@ -46,7 +46,9 @@ a {
     color: #128c7e;
 }
 
-.suppliers-swiper .swiper-wrapper {
+.suppliers-swiper .swiper-wrapper,
+.atypics-swiper1 .swiper-wrapper,
+.atypics-swiper2 .swiper-wrapper {
     transition-timing-function: linear !important;
 }
 

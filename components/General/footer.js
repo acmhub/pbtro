@@ -93,10 +93,10 @@ export default function Footer() {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <i className="fa-brands fa-fw fa-lg fa-facebook-f" />
+                                    <i className="fa-brands fa-fw fa-facebook-f" />
                                 </a>
                                 <a href="https://wa.me/+40786422450" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa-brands fa-fw fa-lg fa-whatsapp" />
+                                    <i className="fa-brands fa-fw fa-whatsapp" />
                                 </a>
                             </div>
                         </div>

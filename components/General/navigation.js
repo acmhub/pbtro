@@ -4,7 +4,6 @@ import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import Select from '@mui/material/Select';
-import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import styled from 'styled-components';
 import { productsData } from '../Products';
@@ -153,7 +152,7 @@ const NavStyles = styled.div`
                     width: 100%;
                     text-align: left;
 
-                    &:nth-last-child(1) {
+                    &:nth-last-child(2) {
                         border-bottom: none;
                         margin: 0 auto;
                         margin-top: 40px;
@@ -309,7 +308,9 @@ export default function Navigation() {
                                         key={i}
                                         disableGutters
                                     >
-                                        <img src={e.icon} alt={e.value} className="h-8 w-8" />
+                                        <div className="relative h-8 w-8">
+                                            <Image src={e.icon} alt={e.value} layout="fill" objectFit="contain" />
+                                        </div>
                                     </MenuItem>
                                 ))}
                             </Select>
@@ -330,6 +331,7 @@ export default function Navigation() {
                                 alt="Promotion Business Team"
                                 layout="fill"
                                 objectFit="contain"
+                                priority
                             />
                         </a>
                     </Link>
@@ -434,11 +436,71 @@ export default function Navigation() {
 
                         <div className="hidden lg:block lg:px-2" />
 
+                        <div className="flex flex-col space-y-4 mt-8 w-fit mx-auto lg:hidden">
+                            <a
+                                href="tel:+40786422450"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="nav-link text-center"
+                            >
+                                <span className="material-symbols-outlined text-theme1">phone_in_talk</span>
+                                <p>+40 786 422 450</p>
+                            </a>
+                            <a
+                                href="tel:+40723391843"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="nav-link text-center"
+                            >
+                                <span className="material-symbols-outlined text-theme1">phone_in_talk</span>
+                                <p>+40 723 391 843</p>
+                            </a>
+                            <a
+                                href="mailto:pbtromania@gmail.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="nav-link text-center"
+                            >
+                                <span className="material-symbols-outlined text-theme1">drafts</span>
+                                <p>pbtromania@gmail.com</p>
+                            </a>
+                            <a
+                                href="https://goo.gl/maps/MsJhkRS4S4CgE8zNA"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="nav-link text-center"
+                            >
+                                <span className="material-symbols-outlined text-theme1">location_on</span>
+                                <p>Domnesti, IF</p>
+                            </a>
+
+                            <div className="flex justify-center items-center space-x-8 pt-8">
+                                <a
+                                    href="https://www.facebook.com/PBT-Romania-404413622991425"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="nav-link facebook-icon"
+                                >
+                                    <i className="fa-brands fa-fw fa-lg fa-facebook-f" />
+                                </a>
+                                <a
+                                    href="https://wa.me/+40786422450"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="nav-link whatsapp-icon"
+                                >
+                                    <i className="fa-brands fa-fw fa-lg fa-whatsapp" />
+                                </a>
+                            </div>
+                        </div>
+
                         <Link href="/solicita-oferta" passHref>
                             <a className="nav-link" onClick={() => setToggle(false)}>
                                 <button className="theme-button1">{t('getquote')}</button>
                             </a>
                         </Link>
+
+                        <div className="block lg:hidden py-16" />
                     </div>
                 </div>
             </nav>

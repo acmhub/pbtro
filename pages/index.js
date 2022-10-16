@@ -20,7 +20,6 @@ export default function Home() {
 
     return (
         <Layout pageID="home" description="">
-            <div className="section-spacing" />
             <Landing t={t} />
             <div className="py-10" />
             <Products t={t} />

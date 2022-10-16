@@ -68,7 +68,7 @@ export default function CallToAction({ t }) {
             </div>
 
             <Link href="/solicita-oferta" passhref>
-                <a className="theme-button1-outlined flex items-center space-x-2 w-fit mx-auto mt-0 lg:mt-20">
+                <a className="theme-button1-outlined flex items-center space-x-2 w-fit mx-auto mt-0 sm:mt-10 lg:mt-20">
                     <span>{t('common:getquote')}</span>
                     <span className="material-symbols-outlined">trending_flat</span>
                 </a>

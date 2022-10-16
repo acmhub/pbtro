@@ -32,7 +32,7 @@ export default function About({ t }) {
                         </div>
 
                         <div className="absolute bottom-2 right-2 h-64 w-[50%] shadow-xl">
-                            <Image src="/images/portfolio/1.webp" alt=" " layout="fill" objectFit="cover" />
+                            <Image src="/images/portfolio/1.webp" alt=" " layout="fill" objectFit="cover" priority />
                         </div>
                     </div>
 

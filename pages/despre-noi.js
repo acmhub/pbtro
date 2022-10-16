@@ -167,12 +167,13 @@ export default function About() {
                         </div>
 
                         <div className="order-first lg:order-2">
-                            <div className="relative h-[500px] w-auto shadow-xl">
+                            <div className="relative h-96 w-auto shadow-xl">
                                 <Image
                                     src="/images/fillers/atelier.webp"
                                     alt="Atelier tamplarie pvc, lemn si aluminiu"
                                     layout="fill"
                                     objectFit="cover"
+                                    priority
                                 />
                             </div>
                         </div>
@@ -266,7 +267,30 @@ export default function About() {
                 <div className="section-spacing" />
 
                 <section id="cta">
-                    <div className="card bg-theme1 text-white"></div>
+                    <div className="relative bg-gradient-to-tr from-[#bb9031] to-[#f4b632] shadow-xl">
+                        <div className="grid grid-cols-1 lg:grid-cols-2">
+                            <div className="space-y-10 px-8 py-8 lg:py-4 text-white my-auto">
+                                <div className="space-y-4">
+                                    <h2>Lorem ipsum dolor sit amet.</h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex qui omnis, error
+                                        quasi ea molestias? Earum, possimus vero. Eveniet, libero.
+                                    </p>
+                                </div>
+
+                                <div className="flex space-x-4">
+                                    <button className="theme-button1">{t('common:getquote')}</button>
+                                </div>
+                            </div>
+                            <div className="flex items-end justify-end">
+                                <img
+                                    src="/images/fillers/landing-image.webp"
+                                    alt=""
+                                    className="h-96 w-auto object-contain"
+                                />
+                            </div>
+                        </div>
+                    </div>
                 </section>
             </div>
 
