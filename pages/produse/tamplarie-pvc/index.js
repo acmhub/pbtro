@@ -162,7 +162,7 @@ export default function TamplariePVC() {
             <div className="section-spacing" />
 
             <div className="container-padding">
-                <Colors />
+                <Colors t={t} />
 
                 <div className="section-spacing" />
 

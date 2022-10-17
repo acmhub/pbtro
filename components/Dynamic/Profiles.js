@@ -17,12 +17,12 @@ function Profiles({ data }) {
             onSwiper={(swiper) => setSwiper(swiper)}
             className="flex flex-col-reverse"
         >
-            <div className={`px-2 swiper-pagination flex justify-between overflow-x-scroll scrollbar-none gap-1`}>
+            <div className={`px-2 swiper-pagination flex justify-evenly overflow-x-scroll scrollbar-none`}>
                 {data.map((e, i) => (
                     <div
                         className={`${
                             activeSlide == i ? 'bg-theme1 text-white' : 'hover:text-theme1 opacity-50'
-                        } grow text-center font-bold whitespace-nowrap px-4 py-1 cursor-pointer duration-200 ease-in-out`}
+                        } w-full text-center font-bold whitespace-nowrap px-4 py-1 cursor-pointer duration-200 ease-in-out`}
                         onClick={() => {
                             swiper.slideTo(i + 1);
                             setActiveSlide(i);
@@ -35,9 +35,9 @@ function Profiles({ data }) {
             </div>
 
             {data.map((e, i) => (
-                <SwiperSlide className="px-2 pb-2" key={i}>
-                    <div className="relative card p-0 grid grid-cols-1 lg:grid-cols-2 lg:gap-18">
-                        <div className="col-span-1 relative h-96 lg:h-full">
+                <SwiperSlide className="h-auto px-2 pb-2" key={i}>
+                    <div className="relative card p-0 grid grid-cols-1 lg:grid-cols-2 lg:gap-18 lg:h-full">
+                        <div className="col-span-1 relative lg:h-full">
                             <Image src={e.image} alt={e.manufacturer} layout="fill" objectFit="cover" />
                         </div>
 
@@ -54,7 +54,7 @@ function Profiles({ data }) {
 
                         <div className="lg:hidden my-12 lg:my-0" />
 
-                        <div className="col-span-1 my-auto space-y-6 lg:pl-28 p-8">
+                        <div className="col-span-1 my-auto space-y-6 lg:pl-28 p-8 lg:h-full">
                             <div className="flex lg:flex-col items-center justify-center space-x-4 lg:space-x-0">
                                 <div className="relative h-12 w-12 lg:h-24 lg:w-24">
                                     <Image

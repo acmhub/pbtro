@@ -395,12 +395,12 @@ export default function Navigation() {
                                     ? 'flex flex-col space-y-3 ml-2 my-4 pl-2 border-l-2 lg:space-y-0 lg:w-4/5 duration-200 ease-in-out opacity-1 pointer-events-all lg:shadow-xl'
                                     : 'hidden opacity-0 pointer-events-none'
                             }
-                            lg:absolute lg:grid lg:grid-cols-4 lg:gap-2 lg:card lg:top-12 lg:left-1/2 lg:-translate-x-1/2 lg:border-none
+                            lg:absolute lg:grid lg:grid-cols-4 lg:gap-2 lg:card lg:top-[54px] lg:left-1/2 lg:-translate-x-1/2 lg:border-none lg:bg-theme1
                             `}
                         >
                             {productsData.map((e, i) => (
                                 <Link href={e.href} as={e.href} key={i} passHref>
-                                    <a className="nav-link lg:text-gray-600 whitespace-nowrap lg:hover:text-black">
+                                    <a className="nav-link lg:text-gray-200 lg:hover:text-white w-fit whitespace-nowrap">
                                         {t(e.name)}
                                     </a>
                                 </Link>
