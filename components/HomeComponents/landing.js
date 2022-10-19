@@ -1,56 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
-import styled from 'styled-components';
-
-const LandingStyles = styled.div`
-    padding: 120px 0 80px;
-    position: relative;
-
-    .background {
-        position: absolute;
-        overflow: hidden;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        display: flex;
-        flex-grow: 1;
-        mask-image: linear-gradient(to bottom, white, transparent);
-    }
-
-    .background #color {
-        position: absolute;
-        border-radius: 100%;
-        height: 0;
-        filter: blur(8vw);
-        opacity: 1;
-    }
-
-    .background #color:nth-child(1) {
-        background: linear-gradient(132deg, lightseagreen 0%, lightseagreen 100%);
-        width: 50%;
-        padding-top: 50%;
-        left: 10%;
-        top: 75%;
-        transform: translateX(-50%) translateY(-50%);
-    }
-
-    .background #color:nth-child(2) {
-        background: linear-gradient(132deg, goldenrod 0%, goldenrod 100%);
-        width: 50%;
-        padding-top: 50%;
-        left: 90%;
-        top: 80%;
-        transform: translateX(-50%) translateY(-50%);
-    }
-`;
 
 export default function Landing({ t }) {
     return (
-        <LandingStyles>
-            <div className="background">
-                <div id="color"></div>
-                <div id="color"></div>
+        <div className="relative pt-[120px] pb-[80px]">
+            <div className="blur-background">
+                <div className="top-[40%] lg:top-[80%] left-2" id="color"></div>
+                <div className="top-[75%] lg:top-[80%] left-[100%]" id="color"></div>
             </div>
 
             <div className="container-padding">
@@ -82,6 +38,6 @@ export default function Landing({ t }) {
                     </div>
                 </div>
             </div>
-        </LandingStyles>
+        </div>
     );
 }

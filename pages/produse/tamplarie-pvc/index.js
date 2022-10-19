@@ -6,6 +6,15 @@ import Profiles from '../../../components/Dynamic/Profiles';
 import Atypics from '../../../components/Products/Atypics';
 import Colors from '../../../components/Products/Colors';
 import ProductCTA from '../../../components/Products/ProductCTA';
+import ProductLanding from '../../../components/Products/ProductLanding';
+
+const landingData = {
+    src: '/images/products/tamplarie-pvc/highlight.webp',
+    product: 'common:product.tamplariepvc',
+    description: [
+        'Siguranța și aspectul plăcut determină calitatea și confortul spațiului dumneavoastră. Profilele din PVC sunt cele mai frecvent utilizate în realizarea feroneriei ferestrelor și a ușilor. Izolația termică și costul accesibil tuturor sunt doar câteva dintre beneficiile acestui material.'
+    ]
+};
 
 const profilesData = [
     {
@@ -141,11 +150,14 @@ const ctaData = [
 export default function TamplariePVC() {
     const { t } = useTranslation('tamplariepvc');
     return (
-        <Layout>
-            <div className="section-spacing-lg" />
-
+        <Layout title={t('common:product.tamplariepvc')} description="">
             <div className="container-padding">
-                <h1 className="text-center mb-20">{t('common:product.tamplariepvc')}</h1>
+                <div className="section-spacing" />
+                <section id="landing">
+                    <ProductLanding data={landingData} t={t} />
+                </section>
+
+                <div className="section-spacing" />
 
                 <section id="profiles">
                     <h3 className="text-center mb-10">{t('common:fereastrapbt')}</h3>

@@ -38,7 +38,7 @@ export default function CallToAction({ t }) {
             <h2 className="text-center mb-10">Procesul nostru</h2>
 
             <div className="relative py-3 sm:max-w-5xl sm:mx-auto w-full px-2 sm:px-0">
-                <div className="hidden sm:block w-1 bg-theme1 absolute h-full left-1/2 transform -translate-x-1/2"></div>
+                <div className="hidden sm:block w-px bg-theme1 absolute h-full left-1/2 transform -translate-x-1/2"></div>
 
                 {stepsData.map((e, i) => (
                     <div className="mt-6 sm:mt-0" key={i}>

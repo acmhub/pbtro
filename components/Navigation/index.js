@@ -6,7 +6,7 @@ import { useTranslation } from 'next-i18next';
 import Select from '@mui/material/Select';
 import MenuItem from '@mui/material/MenuItem';
 import styled from 'styled-components';
-import { productsData } from '../Products';
+import { windoorProducts, glassProducts, accessoriesProducts, exteriorProducts } from '../Products';
 
 const NavStyles = styled.div`
     #contact-details-nav {
@@ -392,19 +392,64 @@ export default function Navigation() {
                         <div
                             className={`${
                                 dropdownToggle
-                                    ? 'flex flex-col space-y-3 ml-2 my-4 pl-2 border-l-2 lg:space-y-0 lg:w-4/5 duration-200 ease-in-out opacity-1 pointer-events-all lg:shadow-xl'
+                                    ? 'flex flex-col space-y-3 ml-2 my-4 pl-2 border-l-2 lg:space-y-0 lg:w-4/6 duration-200 ease-in-out opacity-1 pointer-events-all lg:shadow-xl'
                                     : 'hidden opacity-0 pointer-events-none'
                             }
                             lg:absolute lg:grid lg:grid-cols-4 lg:gap-2 lg:card lg:top-[54px] lg:left-1/2 lg:-translate-x-1/2 lg:border-none lg:bg-theme1
                             `}
                         >
-                            {productsData.map((e, i) => (
-                                <Link href={e.href} as={e.href} key={i} passHref>
-                                    <a className="nav-link lg:text-gray-200 lg:hover:text-white w-fit whitespace-nowrap">
-                                        {t(e.name)}
-                                    </a>
-                                </Link>
-                            ))}
+                            <div className="col-span-1 space-y-2">
+                                <h5 className="lg:text-white">Ferestre si Usi</h5>
+
+                                <div className="flex flex-col">
+                                    {windoorProducts.map((e, i) => (
+                                        <Link href={e.href} as={e.href} key={i} passHref>
+                                            <a className="nav-link lg:text-gray-100 lg:hover:text-white w-fit whitespace-nowrap">
+                                                {t(e.name)}
+                                            </a>
+                                        </Link>
+                                    ))}
+                                </div>
+                            </div>
+                            <div className="col-span-1 space-y-2">
+                                <h5 className="lg:text-white">Sticla</h5>
+
+                                <div className="flex flex-col">
+                                    {glassProducts.map((e, i) => (
+                                        <Link href={e.href} as={e.href} key={i} passHref>
+                                            <a className="nav-link lg:text-gray-100 lg:hover:text-white w-fit whitespace-nowrap">
+                                                {t(e.name)}
+                                            </a>
+                                        </Link>
+                                    ))}
+                                </div>
+                            </div>
+                            <div className="col-span-1 space-y-2">
+                                <h5 className="lg:text-white">Accesorii</h5>
+
+                                <div className="flex flex-col">
+                                    {accessoriesProducts.map((e, i) => (
+                                        <Link href={e.href} as={e.href} key={i} passHref>
+                                            <a className="nav-link lg:text-gray-100 lg:hover:text-white w-fit whitespace-nowrap">
+                                                {t(e.name)}
+                                            </a>
+                                        </Link>
+                                    ))}
+                                </div>
+                            </div>
+                            <div className="col-span-1 space-y-2">
+                                <h5 className="lg:text-white">Exterior</h5>
+
+                                <div className="flex flex-col">
+                                    {exteriorProducts.map((e, i) => (
+                                        <Link href={e.href} as={e.href} key={i} passHref>
+                                            <a className="nav-link lg:text-gray-100 lg:hover:text-white w-fit whitespace-nowrap">
+                                                {t(e.name)}
+                                            </a>
+                                        </Link>
+                                    ))}
+                                </div>
+                            </div>
                         </div>
 
                         <Link href="/accesorii" passHref>

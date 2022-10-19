@@ -286,7 +286,7 @@ export default function About() {
                                 <img
                                     src="/images/fillers/landing-image.webp"
                                     alt=""
-                                    className="h-96 w-auto object-contain"
+                                    className="h-full lg:h-96 w-auto object-contain"
                                 />
                             </div>
                         </div>

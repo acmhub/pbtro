@@ -1,11 +1,21 @@
 import React from 'react';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
+import Image from 'next/image';
 import Layout from '../../../components/General/Layout';
 import Profiles from '../../../components/Dynamic/Profiles';
 import Atypics from '../../../components/Products/Atypics';
 import Colors from '../../../components/Products/Colors';
 import ProductCTA from '../../../components/Products/ProductCTA';
+import ProductLanding from '../../../components/Products/ProductLanding';
+
+const landingData = {
+    src: '/images/products/tamplarie-aluminiu/highlight.webp',
+    product: 'common:product.tamplariealuminiu',
+    description: [
+        'Tâmplaria de aluminiu aduce un grad ridicat de stabilitate, eficiență energetică, valoare crescută, cadru îngust și modern, funcționare bună, întreținere minimă și durată lungă de viață.'
+    ]
+};
 
 const profilesData = [
     {
@@ -231,13 +241,14 @@ const ctaData = [
 ];
 
 export default function TamplarieAluminiu() {
-    const { t } = useTranslation('tamplariepvc');
+    const { t } = useTranslation('tamplariealuminiu');
     return (
-        <Layout>
-            <div className="section-spacing-lg" />
-
+        <Layout title={t('common:product.tamplariealuminiu')} description="">
             <div className="container-padding">
-                <h1 className="text-center mb-20">Tamplarie Aluminiu</h1>
+                <div className="section-spacing" />
+                <ProductLanding data={landingData} t={t} />
+
+                <div className="section-spacing" />
 
                 <section id="profiles">
                     <h3 className="text-center mb-10">Fereastra PBT</h3>

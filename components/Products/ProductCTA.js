@@ -7,9 +7,9 @@ import { Autoplay, EffectFade } from 'swiper';
 
 function ProductCTA({ t, data }) {
     return (
-        <div className="card p-0 bg-theme2">
+        <div className="card p-0 bg-white">
             <div className="grid grid-cols-1 lg:grid-cols-2">
-                <div className="col-span-1 text-white space-y-6 p-8 my-auto">
+                <div className="col-span-1 space-y-6 p-8 my-auto">
                     <div>
                         <h3>Lorem ipsum dolor sit.</h3>
                         <p>
@@ -20,7 +20,7 @@ function ProductCTA({ t, data }) {
 
                     <Link href="/solicita-oferta" passHref>
                         <a className="block w-fit">
-                            <button className="theme-button1">{t('common:getquote')}</button>
+                            <button className="theme-button1-outlined">{t('common:getquote')}</button>
                         </a>
                     </Link>
                 </div>

@@ -21,6 +21,7 @@ const CustomTooltip = styled(({ className, ...props }) => <Tooltip {...props} ar
 export default function Colors({ t }) {
     const [wood, setWood] = useState(false);
     const [ral, setRAL] = useState(false);
+    const [woodOpen, setWoodOpen] = useState({ state: false, index: null });
 
     return (
         <div className="space-y-10">
@@ -58,15 +59,39 @@ export default function Colors({ t }) {
 
                                 <div className="relative h-[75vh] overflow-y-scroll scrollbar-thin grid grid-cols-2 gap-1">
                                     {woodImitation.map((e, i) => (
-                                        <div className="col-span-1" key={i}>
+                                        <div className="col-span-1 cursor-zoom-in" key={i}>
                                             <CustomTooltip className="text-2xl" title={e.name} placement="top" arrow>
-                                                <div className="relative h-16 w-full">
-                                                    <Image
-                                                        src={e.source}
-                                                        alt={e.name}
-                                                        layout="fill"
-                                                        objectFit="cover"
-                                                    />
+                                                <div>
+                                                    <div
+                                                        className="relative h-16 w-full"
+                                                        onClick={() => setWoodOpen({ state: true, index: i })}
+                                                    >
+                                                        <Image
+                                                            src={e.source}
+                                                            alt={e.name}
+                                                            layout="fill"
+                                                            objectFit="cover"
+                                                        />
+                                                    </div>
+
+                                                    <Modal
+                                                        open={woodOpen.index === i ? true : false}
+                                                        onClose={() => setWoodOpen({ state: false, index: null })}
+                                                        aria-labelledby="wood-color"
+                                                        aria-describedby="wood-color-details"
+                                                    >
+                                                        <div className="container absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-96 lg:w-[600px] bg-white shadow space-y-2 p-2">
+                                                            <div className="relative h-96 w-full">
+                                                                <Image
+                                                                    src={e.source}
+                                                                    alt={e.name}
+                                                                    layout="fill"
+                                                                    objectFit="cover"
+                                                                />
+                                                            </div>
+                                                            <h5>{e.name}</h5>
+                                                        </div>
+                                                    </Modal>
                                                 </div>
                                             </CustomTooltip>
                                         </div>
