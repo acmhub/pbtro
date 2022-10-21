@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Layout from '../../components/General/Layout';
 import Modal from '@mui/material/Modal';
 import ProductLanding from '../../components/Products/ProductLanding';
+import Colors from '../../components/Products/Colors';
 import ProductCTA from '../../components/Products/ProductCTA';
 import { aluminiuData, inoxData } from '../../components/Products/PanelOrnamental';
 
@@ -123,6 +124,10 @@ export default function PanelOrnamental() {
                         </div>
                     </div>
                 </section>
+
+                <div className="section-spacing" />
+
+                <Colors t={t} />
 
                 <div className="section-spacing" />
 

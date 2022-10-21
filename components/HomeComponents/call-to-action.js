@@ -3,30 +3,30 @@ import Link from 'next/link';
 
 const stepsData = [
     {
-        icon: 'home',
+        icon: 'draft',
         title: 'Trimite-ne o schita',
         description:
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit beatae in molestiae quasi tenetur a.'
     },
     {
-        icon: 'home',
+        icon: 'support_agent',
         title: 'Consultanta in baza ofertei',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, corporis.'
     },
     {
-        icon: 'home',
+        icon: 'straighten',
         title: 'Plata si masuratori',
         description:
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur blanditiis deleniti aut reprehenderit rerum aperiam neque iste delectus excepturi voluptatum!'
     },
     {
-        icon: 'home',
+        icon: 'construction',
         title: 'Productie si montaj',
         description:
             'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint et non earum officiis reprehenderit eius pariatur eaque.'
     },
     {
-        icon: 'home',
+        icon: 'mood',
         title: 'Bucura-te de produsul tau',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, corporis.'
     }
@@ -59,8 +59,8 @@ export default function CallToAction({ t }) {
                                 </div>
                             </div>
                             <div className="lg:hidden my-3" />
-                            <div className="rounded-full bg-theme1 w-10 h-10 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-                                <span className="material-symbols-outlined text-white">{e.icon}</span>
+                            <div className="rounded-full bg-theme1 w-11 h-11 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                                <span className="material-symbols-outlined text-white m-icon-30">{e.icon}</span>
                             </div>
                         </div>
                     </div>

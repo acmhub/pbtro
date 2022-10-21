@@ -4,6 +4,7 @@ import { useTranslation } from 'next-i18next';
 import Layout from '../../components/General/Layout';
 import ProductLanding from '../../components/Products/ProductLanding';
 import ProductVariants from '../../components/Products/ProductVariants';
+import ProductAccessories from '../../components/Products/ProductAccessories';
 import Colors from '../../components/Products/Colors';
 import ProductCTA from '../../components/Products/ProductCTA';
 
@@ -32,6 +33,68 @@ const variantsData = [
     }
 ];
 
+const accessoriesData = [
+    {
+        tab: 'Actionare',
+        items: [
+            {
+                src: '/images/products/rulou-exterior/highlight.webp',
+                name: 'Pamblica'
+            },
+            {
+                src: '/images/products/rulou-exterior/highlight.webp',
+                name: 'Manivela'
+            },
+            {
+                src: '/images/products/rulou-exterior/highlight.webp',
+                name: 'Buton'
+            },
+            {
+                src: '/images/products/rulou-exterior/highlight.webp',
+                name: 'Telecomanda'
+            }
+        ]
+    },
+    {
+        tab: 'Caseta',
+        items: [
+            {
+                src: '/images/products/rulou-exterior/highlight.webp',
+                name: 'Casetă Tesita 45°'
+            },
+            {
+                src: '/images/products/rulou-exterior/highlight.webp',
+                name: 'Casetă Tesita Semirotunda'
+            },
+            {
+                src: '/images/products/rulou-exterior/highlight.webp',
+                name: 'Casetă Tesita 90°'
+            }
+        ]
+    },
+    {
+        tab: 'Accesorii',
+        items: [
+            {
+                src: '/images/products/rulou-exterior/highlight.webp',
+                name: 'Plasa contra Insectelor'
+            },
+            {
+                src: '/images/products/rulou-exterior/highlight.webp',
+                name: 'Lamela (39mm, 43mm sau 55mm)'
+            },
+            {
+                src: '/images/products/rulou-exterior/highlight.webp',
+                name: 'Yala'
+            },
+            {
+                src: '/images/products/rulou-exterior/highlight.webp',
+                name: 'Cleme Anti-efractie'
+            }
+        ]
+    }
+];
+
 const ctaData = [
     '/images/products/rulou-exterior/highlight.webp',
     '/images/products/rulou-exterior/highlight.webp',
@@ -52,6 +115,10 @@ export default function RulouExterior() {
                 <div className="section-spacing" />
 
                 <ProductVariants data={variantsData} t={t} />
+
+                <div className="section-spacing" />
+
+                <ProductAccessories data={accessoriesData} t={t} />
 
                 <div className="section-spacing" />
 

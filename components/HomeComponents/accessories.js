@@ -35,8 +35,8 @@ export default function Accessories({ t }) {
             <div className="space-y-2">
                 <h1>Accesorii</h1>
                 <p className="lg:w-2/5">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque nemo expedita vero perspiciatis
-                    cumque inventore ex officiis dolor, illo aliquam!
+                    Un prim criteriu de selectare a unui producător de accesorii tâmplărie poate fi experiența acestuia
+                    și vechimea pe piața de producție.
                 </p>
             </div>
 

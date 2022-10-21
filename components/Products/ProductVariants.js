@@ -11,13 +11,27 @@ export default function ProductVariants({ data, t }) {
                             <Image src={e.src} alt={t(e.name)} layout="fill" objectFit="cover" />
                         </div>
                     </div>
-                    <div className="space-y-4 my-auto p-4 xl:p-8">
+                    <div className="space-y-8 my-auto p-4 xl:p-8">
                         <h3>{t(e.name)}</h3>
                         <div className="space-y-2">
                             {e.description.map((desc, idx) => (
                                 <p key={idx}>{desc}</p>
                             ))}
                         </div>
+
+                        {e.stats && (
+                            <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 w-fit mx-auto lg:w-full lg:mx-0 gap-4">
+                                {e.stats.map((stat, id) => (
+                                    <div className="space-y-2" key={id}>
+                                        <div className="flex space-x-2 items-center">
+                                            <span className="material-symbols-outlined text-theme1">{stat.icon}</span>
+                                            <h6>{stat.label}</h6>
+                                        </div>
+                                        <h5>{stat.value}</h5>
+                                    </div>
+                                ))}
+                            </div>
+                        )}
                     </div>
                 </div>
             ))}

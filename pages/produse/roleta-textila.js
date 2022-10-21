@@ -29,7 +29,7 @@ export default function RoletaTextila() {
     const [modalState, setModalState] = useState({ state: false, index: null });
 
     return (
-        <Layout title={t('common:product.panelornamental')} description="">
+        <Layout title={t('common:product.roletatextila')} description="">
             <div className="section-spacing" />
 
             <div className="container-padding">

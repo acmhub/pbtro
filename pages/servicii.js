@@ -1,6 +1,7 @@
 import React from 'react';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
+import Image from 'next/image';
 import Layout from '../components/General/Layout';
 import Products from '../components/HomeComponents/products';
 
@@ -77,7 +78,31 @@ export default function Services() {
 
                 <div className="section-spacing" />
 
-                {/* Export section */}
+                <section className="relative lg:p-4 lg:py-10" id="export">
+                    <div className="lg:absolute top-0 left-0 h-full w-1/2 bg-theme2 z-0"></div>
+                    <div className="relative grid grid-cols-1 lg:grid-cols-3 gap-10 z-10">
+                        <div className="space-y-4 lg:text-white my-auto">
+                            <h2>Paletizare Export</h2>
+                            <p className="text-justify">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum incidunt aut
+                                exercitationem laborum reiciendis, dolorem dignissimos asperiores, expedita praesentium
+                                illo consectetur. Quidem enim saepe dolores?
+                            </p>
+                        </div>
+
+                        <div className="order-first lg:order-last lg:col-span-2">
+                            <div className="relative h-96 w-auto shadow-xl">
+                                <Image
+                                    src="/images/portfolio/8.webp"
+                                    alt={t('common:product.tamplarielemn')}
+                                    layout="fill"
+                                    objectFit="cover"
+                                    priority
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
                 <div className="section-spacing" />
 

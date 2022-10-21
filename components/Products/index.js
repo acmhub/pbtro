@@ -155,6 +155,11 @@ export const exteriorProducts = [
         href: '/produse/copertina'
     },
     {
+        src: '/images/products/usa-garaj/highlight.webp',
+        name: 'product.usagaraj',
+        href: '/produse/usa-garaj'
+    },
+    {
         src: '/images/products/perete-antivant/highlight.webp',
         name: 'product.pereteantivant',
         href: '/produse/perete-antivant'

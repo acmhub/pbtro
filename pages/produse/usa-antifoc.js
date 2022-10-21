@@ -9,7 +9,7 @@ import { firedoorData } from '../../components/Products/UsaAntifoc';
 import Modal from '@mui/material/Modal';
 
 const landingData = {
-    src: '/images/products/panel-ornamental/highlight.webp',
+    src: '/images/products/usa-antifoc/highlight.webp',
     product: 'common:product.usaantifoc',
     description: [
         'Ușile rezistente la foc sunt foarte importante pentru protecția ta, acestea formează o bariera în calea răspândirii focului și pot salva o mulțime de vieți. Au proprietăți care le fac să se transforme în adevărate bariere în calea focului. '
@@ -26,10 +26,10 @@ const ctaData = [
 
 export default function UsaAntifoc() {
     const { t } = useTranslation('usaantifoc');
-    const [modalState, setModalState] = useState({ state: false, index: null });
+    const [modalState, setModalState] = useState(null);
 
     return (
-        <Layout title={t('common:product.panelornamental')} description="">
+        <Layout title={t('common:product.usaantifoc')} description="">
             <div className="section-spacing" />
 
             <div className="container-padding">
@@ -92,26 +92,23 @@ export default function UsaAntifoc() {
                     <div className="grid grid-cols-2 lg:grid-cols-6 gap-1">
                         {firedoorData.map((e, i) => (
                             <div key={i}>
-                                <div
-                                    className="cursor-zoom-in"
-                                    onClick={() => setModalState({ state: true, index: i })}
-                                >
+                                <div className="cursor-zoom-in" onClick={() => setModalState(i)}>
                                     <div className="relative h-40 w-auto">
                                         <Image src={e.source} alt={e.name} layout="fill" objectFit="contain" />
                                     </div>
                                     <h6 className="text-center">{e.name}</h6>
                                 </div>
                                 <Modal
-                                    open={modalState.index === i ? true : false}
-                                    onClose={() => setModalState({ state: false, index: null })}
-                                    aria-labelledby="aluminium-model"
-                                    aria-describedby="aluminium-model-details"
+                                    open={modalState === i ? true : false}
+                                    onClose={() => setModalState(null)}
+                                    aria-labelledby="firedoor-model"
+                                    aria-describedby="firedoor-model-details"
                                     sx={{ paper: { outline: 'none' } }}
                                 >
                                     <div className="container absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-96 lg:w-[600px] bg-white shadow space-y-2 p-2">
                                         <div
                                             className="absolute top-1 right-1 cursor-pointer z-10"
-                                            onClick={() => setModalState({ state: false, index: null })}
+                                            onClick={() => setModalState(null)}
                                         >
                                             <span className="material-symbols-outlined">close</span>
                                         </div>

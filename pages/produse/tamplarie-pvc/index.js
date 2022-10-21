@@ -2,7 +2,7 @@ import React from 'react';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import Layout from '../../../components/General/Layout';
-import Profiles from '../../../components/Dynamic/Profiles';
+import Profiles from '../../../components/Products/Profiles';
 import Atypics from '../../../components/Products/Atypics';
 import Colors from '../../../components/Products/Colors';
 import ProductCTA from '../../../components/Products/ProductCTA';

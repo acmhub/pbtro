@@ -108,22 +108,22 @@ export default function Footer() {
                             <Link href="/" passHref>
                                 <a className="w-fit opacity-75 hover:opacity-100">{t('home')}</a>
                             </Link>
-                            <Link href="/" passHref>
+                            <Link href="/despre-noi" passHref>
                                 <a className="w-fit opacity-75 hover:opacity-100">{t('about')}</a>
                             </Link>
-                            <Link href="/" passHref>
+                            <Link href="/services" passHref>
                                 <a className="w-fit opacity-75 hover:opacity-100">{t('services')}</a>
                             </Link>
-                            <Link href="/" passHref>
+                            <Link href="/produse" passHref>
                                 <a className="w-fit opacity-75 hover:opacity-100">{t('products')}</a>
                             </Link>
-                            <Link href="/" passHref>
+                            <Link href="/portofoliu" passHref>
                                 <a className="w-fit opacity-75 hover:opacity-100">{t('portfolio')}</a>
                             </Link>
-                            <Link href="/" passHref>
+                            <Link href="/accesorii" passHref>
                                 <a className="w-fit opacity-75 hover:opacity-100">{t('accessories')}</a>
                             </Link>
-                            <Link href="/" passHref>
+                            <Link href="/contact" passHref>
                                 <a className="w-fit opacity-75 hover:opacity-100">{t('contact')}</a>
                             </Link>
                         </div>

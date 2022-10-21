@@ -4,7 +4,7 @@
 
 @layer components {
     .container-padding {
-        @apply container mx-auto px-4 xl:px-0;
+        @apply container mx-auto px-4;
     }
 
     .card {

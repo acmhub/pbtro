@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
+import Modal from '@mui/material/Modal';
 import Image from 'next/image';
 import Layout from '../components/General/Layout';
 
@@ -64,6 +65,19 @@ const portfolioData = [
 
 export default function Portfolio() {
     const { t } = useTranslation('portfolio');
+    const [modalState, setModalState] = useState();
+
+    const handlePrev = () => {
+        if (modalState === 0) {
+            setModalState(portfolioData.length - 1);
+        } else setModalState(modalState - 1);
+    };
+
+    const handleNext = () => {
+        if (modalState === portfolioData.length - 1) {
+            setModalState(0);
+        } else setModalState(modalState + 1);
+    };
 
     return (
         <Layout
@@ -78,9 +92,47 @@ export default function Portfolio() {
 
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2">
                     {portfolioData.map((e, i) => (
-                        <img src={e.src} alt=" " className="h-96 w-full object-cover" key={i} />
+                        <div key={i}>
+                            <div
+                                className="relative cursor-zoom-in h-96 w-auto"
+                                onClick={() => setModalState(i)}
+                                key={i}
+                            >
+                                <Image src={e.src} alt=" " layout="fill" objectFit="cover" />
+                            </div>
+                        </div>
                     ))}
                 </div>
+
+                <Modal
+                    open={modalState != null ? true : false}
+                    onClose={() => setModalState(null)}
+                    aria-labelledby="portfolio-modal"
+                    aria-describedby="portfolio-modal-details"
+                >
+                    <div className="container absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-96 lg:w-[600px] bg-white shadow space-y-2 p-2">
+                        <div
+                            className="relative flex justify-end cursor-pointer z-10"
+                            onClick={() => setModalState(null)}
+                        >
+                            <span className="material-symbols-outlined m-icon-36">close</span>
+                        </div>
+                        <div className="relative h-[80vh] w-full">
+                            {modalState != null && (
+                                <Image src={portfolioData[modalState]} alt=" " layout="fill" objectFit="contain" />
+                            )}
+                        </div>
+
+                        <div className="flex items-center justify-center space-x-5">
+                            <span className="material-symbols-outlined cursor-pointer m-icon-36" onClick={handlePrev}>
+                                arrow_back_ios
+                            </span>
+                            <span className="material-symbols-outlined cursor-pointer m-icon-36" onClick={handleNext}>
+                                arrow_forward_ios
+                            </span>
+                        </div>
+                    </div>
+                </Modal>
             </div>
 
             <div className="section-spacing" />
