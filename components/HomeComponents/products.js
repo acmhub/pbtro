@@ -49,7 +49,7 @@ function Products({ t }) {
                     modules={[Autoplay, Navigation]}
                 >
                     {productsData.map((e, i) => (
-                        <SwiperSlide key={i}>
+                        <SwiperSlide key={i} itemType="https://schema.org/Product" itemScope>
                             <Link href={e.href} passHref>
                                 <a>
                                     <div className="relative h-[550px] w-full overflow-hidden">
@@ -58,8 +58,9 @@ function Products({ t }) {
                                             alt={t(e.name)}
                                             layout="fill"
                                             objectFit="cover"
-                                            priority
                                             className="hover:scale-110 duration-200 ease-in-out"
+                                            itemProp="image"
+                                            priority
                                         />
                                         <div className="absolute bottom-0 left-0 h-[50%] w-full bg-gradient-to-t from-[rgba(0,0,0,0.75)] to-transparent pointer-events-none z-10" />
 
@@ -71,7 +72,7 @@ function Products({ t }) {
                                                     {t('common:fereastrapbt')}
                                                 </div>
                                             )}
-                                            <div className="product-name text-white text-2xl">
+                                            <div className="product-name text-white text-2xl" itemProp="name">
                                                 {t(`common:${e.name}`)}
                                             </div>
                                         </div>

@@ -66,7 +66,7 @@ export default function TamplarieLemn() {
                                 {['Durabilitate Ecologica', 'Izolatie Termica', 'Izolatie Fonica', 'Estetica'].map(
                                     (e, i) => (
                                         <div className="flex items-center space-x-2" key={i}>
-                                            <div className="bg-theme1 rounded-full p-0.5">
+                                            <div className="bg-theme1 rounded-full h-8 w-8 grid place-content-center p-0.5">
                                                 <span className="material-symbols-outlined text-white">done</span>
                                             </div>
                                             <span>{e}</span>

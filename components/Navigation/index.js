@@ -227,12 +227,13 @@ export default function Navigation() {
         <NavStyles>
             <nav id="contact-details-nav">
                 <div className="container-padding border-b flex items-center justify-between">
-                    <div className="flex items-center">
+                    <div className="flex items-center" itemType="https://schema.org/Organization" itemScope>
                         <a
                             href="tel:+40786422450"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="nav-link space-x-1"
+                            itemProp="telephone"
                         >
                             <span className="material-symbols-outlined text-theme1">phone_in_talk</span>
                             <p className="hidden lg:inline">+40 786 422 450</p>
@@ -242,6 +243,7 @@ export default function Navigation() {
                             target="_blank"
                             rel="noopener noreferrer"
                             className="nav-link space-x-1"
+                            itemProp="telephone"
                         >
                             <span className="material-symbols-outlined text-theme1">phone_in_talk</span>
                             <p className="hidden lg:inline">+40 723 391 843</p>
@@ -251,6 +253,7 @@ export default function Navigation() {
                             target="_blank"
                             rel="noopener noreferrer"
                             className="nav-link space-x-1"
+                            itemProp="email"
                         >
                             <span className="material-symbols-outlined text-theme1">drafts</span>
                             <p className="hidden lg:inline">pbtromania@gmail.com</p>
@@ -260,6 +263,7 @@ export default function Navigation() {
                             target="_blank"
                             rel="noopener noreferrer"
                             className="nav-link space-x-1"
+                            itemProp="location"
                         >
                             <span className="material-symbols-outlined text-theme1">location_on</span>
                             <p className="hidden lg:inline">Domnesti, IF</p>
@@ -271,17 +275,17 @@ export default function Navigation() {
                             href="https://www.facebook.com/PBT-Romania-404413622991425"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="nav-link facebook-icon"
+                            className="nav-link"
                         >
-                            <i className="fa-brands fa-facebook-f" />
+                            <i className="fa-brands fa-facebook-f text-theme1 hover:facebook-icon" />
                         </a>
                         <a
                             href="https://wa.me/+40786422450"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="nav-link whatsapp-icon"
+                            className="nav-link"
                         >
-                            <i className="fa-brands fa-whatsapp" />
+                            <i className="fa-brands fa-whatsapp text-theme1" />
                         </a>
 
                         <div className="nav-link">
@@ -326,12 +330,13 @@ export default function Navigation() {
             >
                 <div className="container-padding flex items-center justify-between">
                     <Link href="/" passHref>
-                        <a className="relative h-12 w-24">
+                        <a className="relative h-12 w-24" itemType="https://schema.org/Organization" itemScope>
                             <Image
                                 src="/images/logos/logo.svg"
                                 alt="Promotion Business Team"
                                 layout="fill"
                                 objectFit="contain"
+                                itemProp="logo"
                                 priority
                             />
                         </a>
@@ -455,14 +460,14 @@ export default function Navigation() {
                             </div>
                         </ClickAwayListener>
 
-                        <Link href="/accesorii" passHref>
+                        {/* <Link href="/accesorii" passHref>
                             <a
                                 className={currentRoute == '/accesorii' ? 'nav-link active' : 'nav-link'}
                                 onClick={() => setToggle(false)}
                             >
                                 {t('accessories')}
                             </a>
-                        </Link>
+                        </Link> */}
 
                         <Link href="/portofoliu" passHref>
                             <a

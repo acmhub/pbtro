@@ -93,10 +93,10 @@ export default function Footer() {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <i className="fa-brands fa-fw fa-facebook-f" />
+                                    <i className="fa-brands fa-fw fa-facebook-f facebook-icon" />
                                 </a>
                                 <a href="https://wa.me/+40786422450" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa-brands fa-fw fa-whatsapp" />
+                                    <i className="fa-brands fa-fw fa-whatsapp whatsapp-icon" />
                                 </a>
                             </div>
                         </div>
@@ -144,7 +144,7 @@ export default function Footer() {
                     <div className="col-span-1 lg:col-span-4 space-y-4">
                         <h3>{t('contact')}</h3>
 
-                        <div className="space-y-2">
+                        <div className="space-y-2" itemType="https://schema.org/Organization" itemScope>
                             <a
                                 href="tel:+40786422450"
                                 target="_blank"
@@ -152,7 +152,7 @@ export default function Footer() {
                                 className="w-fit opacity-75 hover:opacity-100 flex items-center space-x-2"
                             >
                                 <span className="material-symbols-outlined text-theme1">phone_in_talk</span>
-                                <div>+40 786 422 450</div>
+                                <div itemProp="telephone">+40 786 422 450</div>
                             </a>
                             <a
                                 href="tel:+40723391843"
@@ -161,7 +161,7 @@ export default function Footer() {
                                 className="w-fit opacity-75 hover:opacity-100 flex items-center space-x-2"
                             >
                                 <span className="material-symbols-outlined text-theme1">phone_in_talk</span>
-                                <div>+40 786 422 450</div>
+                                <div itemProp="telephone">+40 786 422 450</div>
                             </a>
                             <a
                                 href="mailto:pbtromania@gmail"
@@ -170,7 +170,7 @@ export default function Footer() {
                                 className="w-fit opacity-75 hover:opacity-100 flex items-center space-x-2"
                             >
                                 <span className="material-symbols-outlined text-theme1">email</span>
-                                <div>pbtromania@gmail.com</div>
+                                <div itemProp="email">pbtromania@gmail.com</div>
                             </a>
                         </div>
                     </div>
@@ -180,6 +180,7 @@ export default function Footer() {
                             title="location"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2850.3339008248113!2d25.97047921552232!3d44.40579357910266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b200fc0e10d997%3A0x6ae5655545a9990d!2sDistribuitor%20Ferestre%20si%20Usi%20-%20Promotion%20Business%20Team!5e0!3m2!1sro!2sro!4v1644401679264!5m2!1sro!2sro"
                             className="h-64 lg:h-full w-full block"
+                            itemProp="location"
                         />
                     </div>
                 </div>

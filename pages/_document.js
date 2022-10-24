@@ -48,9 +48,22 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
+                    <title>Promotion Business Team - Producător Tâmplărie PVC și Aluminiu</title>
+                    {/* Meta */}
+                    <meta name="robots" content="index, follow" />
+                    <meta
+                        property="og:title"
+                        content="Promotion Business Team - Producător Tâmplărie PVC și Aluminiu"
+                    />
+                    <meta
+                        property="og:description"
+                        content="Produsele noastre constituie o investitie pe termen lung sigura, fara costuri suplimentare de intretinere, reparatii , reconditionare etc. Montajul este executat de catre specialistii echipei noastre, la care se adauga si servicii de consultanta disponibile oricand pentru clientii nostri."
+                    />
+                    <meta property="og:image" content="/images/logos/logo.svg" />
+
                     {this.props.emotionStyleTags}
 
-                    {/* Google Fonts */}
+                    {/* Google Font */}
                     <link rel="preconnect" href="https://fonts.googleapis.com" />
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
                     <link

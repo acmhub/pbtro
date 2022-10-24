@@ -110,20 +110,20 @@ export default function Portfolio() {
                     aria-labelledby="portfolio-modal"
                     aria-describedby="portfolio-modal-details"
                 >
-                    <div className="container absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-96 lg:w-[600px] bg-white shadow space-y-2 p-2">
+                    <div className="container absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-96 lg:w-[600px] bg-white shadow-xl">
                         <div
-                            className="relative flex justify-end cursor-pointer z-10"
+                            className="absolute top-2 right-2 flex justify-end cursor-pointer z-10"
                             onClick={() => setModalState(null)}
                         >
                             <span className="material-symbols-outlined m-icon-36">close</span>
                         </div>
                         <div className="relative h-[80vh] w-full">
                             {modalState != null && (
-                                <Image src={portfolioData[modalState]} alt=" " layout="fill" objectFit="contain" />
+                                <Image src={portfolioData[modalState]} alt=" " layout="fill" objectFit="cover" />
                             )}
                         </div>
 
-                        <div className="flex items-center justify-center space-x-5">
+                        <div className="flex items-center justify-center space-x-5 my-2">
                             <span className="material-symbols-outlined cursor-pointer m-icon-36" onClick={handlePrev}>
                                 arrow_back_ios
                             </span>

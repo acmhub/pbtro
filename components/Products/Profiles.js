@@ -17,7 +17,11 @@ function Profiles({ data }) {
             onSwiper={(swiper) => setSwiper(swiper)}
             className="flex flex-col-reverse"
         >
-            <div className="swiper-pagination flex lg:justify-evenly mx-2 overflow-x-auto scrollbar-thin">
+            <div
+                className="swiper-pagination flex lg:justify-evenly mx-2 overflow-x-auto scrollbar-thin"
+                itemType="https://schema.org/Product"
+                itemScope
+            >
                 {data.map((e, i) => (
                     <div
                         className={`${
@@ -29,30 +33,37 @@ function Profiles({ data }) {
                         }}
                         key={i}
                     >
-                        {e.model}
+                        <span itemProp="name">{e.model}</span>
                     </div>
                 ))}
             </div>
 
             {data.map((e, i) => (
-                <SwiperSlide className="h-auto px-2 pb-2" key={i}>
-                    <div className="relative card p-0 grid grid-cols-1 lg:grid-cols-2 lg:gap-18 h-full">
-                        <div className="col-span-1 relative h-60 lg:h-full">
-                            <Image src={e.image} alt={e.manufacturer} layout="fill" objectFit="cover" />
+                <SwiperSlide className="h-auto px-2 pb-2" itemType="https://schema.org/Product" itemScope key={i}>
+                    <div className="relative card p-0 grid grid-cols-1 lg:grid-cols-10 lg:gap-18 h-full">
+                        <div className="col-span-1 lg:col-span-4 relative h-60 lg:h-full">
+                            <Image
+                                src={e.image}
+                                alt={e.manufacturer}
+                                layout="fill"
+                                objectFit="cover"
+                                itemProp="image"
+                            />
                         </div>
 
-                        <div className="mx-auto -translate-y-16 lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 bg-white p-4">
+                        <div className="mx-auto -translate-y-16 lg:absolute lg:top-1/2 lg:left-[40%] lg:-translate-x-1/2 lg:-translate-y-1/2 bg-white p-4">
                             <div className="relative h-36 w-36">
                                 <Image
                                     src={e.profile}
                                     alt={e.manufacturer + ' ' + e.model}
                                     layout="fill"
                                     objectFit="contain"
+                                    itemProp="image"
                                 />
                             </div>
                         </div>
 
-                        <div className="col-span-1 my-auto space-y-6 lg:pl-28 p-8 pt-0 lg:pt-8 lg:h-full -translate-y-5 lg:-translate-y-0">
+                        <div className="col-span-1 lg:col-span-6 my-auto space-y-6 lg:pl-28 p-8 pt-0 lg:pt-8 lg:h-full -translate-y-5 lg:-translate-y-0">
                             <div className="flex lg:flex-col items-center justify-center space-x-4 lg:space-x-0">
                                 <div className="relative h-12 w-12 lg:h-24 lg:w-24">
                                     <Image
@@ -60,9 +71,10 @@ function Profiles({ data }) {
                                         alt={e.manufacturer}
                                         layout="fill"
                                         objectFit="contain"
+                                        itemProp="image"
                                     />
                                 </div>
-                                <h4>{e.model}</h4>
+                                <h4 itemProp="name">{e.model}</h4>
                             </div>
 
                             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
@@ -74,9 +86,11 @@ function Profiles({ data }) {
                                 ))}
                             </div>
 
-                            <Link href={e.href} passHref>
-                                <a className="theme-button1 block w-fit mx-auto">Mai multe informatii</a>
-                            </Link>
+                            {e.href && (
+                                <Link href={e.href} passHref>
+                                    <a className="theme-button1 block w-fit mx-auto">Mai multe informatii</a>
+                                </Link>
+                            )}
                         </div>
                     </div>
                 </SwiperSlide>

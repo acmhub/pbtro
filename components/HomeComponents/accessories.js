@@ -62,12 +62,12 @@ export default function Accessories({ t }) {
                 ))}
             </div>
 
-            <Link href="/accesorii" passhref>
+            {/* <Link href="/accesorii" passhref>
                 <a className="theme-button1-outlined flex items-center space-x-2 w-fit mx-auto">
                     <span>Vezi mai mult</span>
                     <span className="material-symbols-outlined">trending_flat</span>
                 </a>
-            </Link>
+            </Link> */}
         </div>
     );
 }

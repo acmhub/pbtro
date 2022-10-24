@@ -3,6 +3,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import Layout from '../../components/General/Layout';
 import ProductLanding from '../../components/Products/ProductLanding';
+import Profiles from '../../components/Products/Profiles';
 import ProductVariants from '../../components/Products/ProductVariants';
 import ProductCTA from '../../components/Products/ProductCTA';
 
@@ -13,6 +14,48 @@ const landingData = {
         'Pereţii cortină reprezintă cea mai elegantă, sigură şi accesibilă fațadă ce poate îmbrăca orice tip de construcţie. Se remarcă prin proprietăţile excepţionale de izolare termică şi fonică, prin posibilităţi infinite de design ce se adaptează oricărei viziuni arhitecturale, timp de execuţie şi montaj scurt şi o întreţinere uşoară.'
     ]
 };
+
+const profileData = [
+    {
+        manufacturer: 'Profilco',
+        manufacturerLogo: '/images/suppliers/profilco.webp',
+        model: 'PR50 Semi-Structural',
+        profile: '/images/products/perete-cortina/pr-semi.webp',
+        image: '/images/products/perete-cortina/highlight.webp',
+        tehnicalDetails: [
+            {
+                label: '',
+                value: ''
+            }
+        ]
+    },
+    {
+        manufacturer: 'Profilco',
+        manufacturerLogo: '/images/suppliers/profilco.webp',
+        model: 'PR50 Standard',
+        profile: '/images/products/perete-cortina/pr-standard.webp',
+        image: '/images/products/perete-cortina/highlight.webp',
+        tehnicalDetails: [
+            {
+                label: '',
+                value: ''
+            }
+        ]
+    },
+    {
+        manufacturer: 'Profilco',
+        manufacturerLogo: '/images/suppliers/profilco.webp',
+        model: 'PR50 Structural',
+        profile: '/images/products/perete-cortina/pr-struct.webp',
+        image: '/images/products/perete-cortina/highlight.webp',
+        tehnicalDetails: [
+            {
+                label: '',
+                value: ''
+            }
+        ]
+    }
+];
 
 const variantsData = [
     {
@@ -60,6 +103,10 @@ export default function PereteCortina() {
 
             <div className="container-padding">
                 <ProductLanding data={landingData} t={t} />
+
+                <div className="section-spacing" />
+
+                <Profiles data={profileData} />
 
                 <div className="section-spacing" />
 

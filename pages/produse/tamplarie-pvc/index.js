@@ -2,11 +2,11 @@ import React from 'react';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import Layout from '../../../components/General/Layout';
+import ProductLanding from '../../../components/Products/ProductLanding';
 import Profiles from '../../../components/Products/Profiles';
 import Atypics from '../../../components/Products/Atypics';
 import Colors from '../../../components/Products/Colors';
 import ProductCTA from '../../../components/Products/ProductCTA';
-import ProductLanding from '../../../components/Products/ProductLanding';
 
 const landingData = {
     src: '/images/products/tamplarie-pvc/highlight.webp',

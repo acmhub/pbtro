@@ -49,10 +49,15 @@ export default function CallToAction({ t }) {
                                 } w-full mx-auto items-center`}
                             >
                                 <div className={`w-full sm:w-1/2 ${i % 2 == 0 ? 'sm:pr-8' : 'sm:pl-8'}`}>
-                                    <div className="relative bg-white rounded shadow p-4 pt-8 lg:pt-4">
-                                        <h5 className="absolute top-2 right-2 text-theme1 tracking-widest font-bold opacity-80">
+                                    <div className="relative bg-white rounded shadow p-4">
+                                        <h5
+                                            className={`${
+                                                i % 2 ? 'text-left' : 'text-right'
+                                            } text-theme1 tracking-widest font-bold opacity-80`}
+                                        >
                                             0{i + 1}
                                         </h5>
+
                                         <h4>{e.title}</h4>
                                         <p>{e.description}</p>
                                     </div>

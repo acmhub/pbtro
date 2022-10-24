@@ -67,15 +67,17 @@ export default function Contact() {
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                     <div className="col-span-1 space-y-10 my-auto">
-                        <div>
-                            <h4>PROMOTION BUSINESS TEAM SRL</h4>
-                            <h6>Cod Unic de Inregistrare: RO19011272</h6>
+                        <div itemType="https://schema.org/Organization" itemScope>
+                            <h4 itemProp="legalName">PROMOTION BUSINESS TEAM SRL</h4>
+                            <h6>
+                                Cod Unic de Inregistrare: <span itemProp="taxID">RO19011272</span>
+                            </h6>
                             <h6>Nr. Înregistrare Registrul Comerțului: J40/14519/2006</h6>
                         </div>
 
-                        <div>
+                        <div itemType="https://schema.org/Organization" itemScope>
                             <div className="flex items-center space-x-2 mb-2">
-                                <div className="bg-theme2 w-fit p-2">
+                                <div className="bg-theme2 w-fit grid place-content-center p-2">
                                     <span className="material-symbols-outlined text-white">phone_in_talk</span>
                                 </div>
                                 <h4>Sună-ne</h4>
@@ -87,7 +89,9 @@ export default function Contact() {
                                 rel="noopener noreferrer"
                                 className="block w-fit opacity-100 hover:opacity-75"
                             >
-                                <p>+40 786 422 450 - Claudiu Miron</p>
+                                <p>
+                                    <span itemProp="telephone">+40 786 422 450</span> - Claudiu Miron
+                                </p>
                             </a>
                             <a
                                 href="tel:+40723391843"
@@ -95,13 +99,15 @@ export default function Contact() {
                                 rel="noopener noreferrer"
                                 className="block w-fit opacity-100 hover:opacity-75"
                             >
-                                <p>+40 723 391 843 - Ionut Nita</p>
+                                <p>
+                                    <span itemProp="telephone">+40 723 391 843</span> - Ionut Nita
+                                </p>
                             </a>
                         </div>
 
-                        <div>
+                        <div itemType="https://schema.org/Organization" itemScope>
                             <div className="flex items-center space-x-2 mb-2">
-                                <div className="bg-theme2 w-fit p-2">
+                                <div className="bg-theme2 w-fit grid place-content-center p-2">
                                     <span className="material-symbols-outlined text-white">mail</span>
                                 </div>
                                 <h4>Trimite-ne un mail</h4>
@@ -113,7 +119,7 @@ export default function Contact() {
                                 rel="noopener noreferrer"
                                 className="block w-fit opacity-100 hover:opacity-75"
                             >
-                                <p>pbtromania@gmail.com</p>
+                                <p itemProp="email">pbtromania@gmail.com</p>
                             </a>
                             <a
                                 href="mailto:ofertare@pbtromania.com"
@@ -121,27 +127,27 @@ export default function Contact() {
                                 rel="noopener noreferrer"
                                 className="block w-fit opacity-100 hover:opacity-75"
                             >
-                                <p>ofertare@pbtromania.com</p>
+                                <p itemProp="email">ofertare@pbtromania.com</p>
                             </a>
                         </div>
 
                         <div>
                             <div className="flex items-center space-x-2">
-                                <div className="bg-theme2 w-fit p-2 mb-2">
+                                <div className="bg-theme2 w-fit grid place-content-center p-2 mb-2">
                                     <span className="material-symbols-outlined text-white">map</span>
                                 </div>
                                 <h4>Vizitează-ne</h4>
                             </div>
 
-                            <div className="space-y-4">
+                            <div className="space-y-4" itemType="https://schema.org/Organization" itemScope>
                                 <a
                                     href="https://goo.gl/maps/MsJhkRS4S4CgE8zNA"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="block w-fit opacity-100 hover:opacity-75"
                                 >
-                                    <p>Soseaua Tudor Vladimirescu 393</p>
-                                    <p>Domnesti, Ilfov</p>
+                                    <p itemProp="location">Soseaua Tudor Vladimirescu 393</p>
+                                    <p itemProp="location">Domnesti, Ilfov</p>
                                 </a>
 
                                 <div className="flex items-center space-x-8">

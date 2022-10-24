@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function ProductLanding({ t, data }) {
     return (
-        <div className="relative h-[550px] lg:h-96 flex items-end p-4 shadow-xl">
+        <header className="relative h-[550px] lg:h-96 flex items-end p-4 shadow-xl">
             <div className="absolute top-0 left-0 h-full w-full pointer-events-none">
                 <Image src={data.src} alt={t(data.product)} layout="fill" objectFit="cover" priority />
             </div>
@@ -19,6 +19,6 @@ export default function ProductLanding({ t, data }) {
                     ))}
                 </div>
             </div>
-        </div>
+        </header>
     );
 }

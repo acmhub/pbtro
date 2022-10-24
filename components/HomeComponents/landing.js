@@ -3,12 +3,8 @@ import Image from 'next/image';
 
 export default function Landing({ t }) {
     return (
-        <div className="relative pt-[120px] pb-[80px]">
-            <div className="blur-background">
-                <div className="top-[40%] lg:top-[80%] left-2" id="color"></div>
-                <div className="top-[75%] lg:top-[80%] left-[100%]" id="color"></div>
-            </div>
-
+        <div className="relative">
+            <div className="section-spacing" />
             <div className="container-padding">
                 <div className="relative bg-gradient-to-tr from-[#1A62A5] to-[#5BA2D7] shadow-xl">
                     <div className="h-full grid grid-cols-1 lg:grid-cols-2 min-h-[480px]">

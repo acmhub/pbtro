@@ -47,7 +47,7 @@ export default function Colors({ t }) {
                         >
                             <div className="container absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-96 lg:w-[600px] bg-white shadow space-y-4 p-2">
                                 <div className="flex items-center justify-between">
-                                    <h4>Imitatie Lemn</h4>
+                                    <h4>Imitatii Lemn</h4>
 
                                     <span
                                         className="material-symbols-outlined cursor-pointer"
@@ -111,7 +111,7 @@ export default function Colors({ t }) {
                         >
                             <div className="container absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-96 lg:w-[600px] bg-white shadow space-y-4 p-2">
                                 <div className="flex items-center justify-between">
-                                    <h4>RAL</h4>
+                                    <h4>Paletar RAL</h4>
 
                                     <span
                                         className="material-symbols-outlined cursor-pointer"
@@ -124,9 +124,10 @@ export default function Colors({ t }) {
                                 <div className="relative h-[75vh] overflow-y-scroll scrollbar-thin grid grid-cols-2 gap-1">
                                     {RALColors.map((e, i) => (
                                         <div className="ral-card py-2" style={{ backgroundColor: e.HEX }} key={i}>
-                                            <h6 className="text-center mixblendmode-difference text-white">
-                                                {e.RAL} - {e.English}
-                                            </h6>
+                                            <div className="text-center mix-blend-difference text-white">
+                                                <h6>{e.RAL}</h6>
+                                                <h6>{e.English}</h6>
+                                            </div>
                                         </div>
                                     ))}
                                 </div>

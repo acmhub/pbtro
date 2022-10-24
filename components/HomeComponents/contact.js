@@ -94,11 +94,11 @@ export default function Contact({ t }) {
                     </FormStyles>
                 </div>
 
-                <div className="col-span-1 lg:col-span-8 space-y-10 my-auto">
+                <div className="col-span-1 lg:col-span-8 space-y-10 my-auto order-first lg:order-last">
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
-                        <div>
+                        <div itemType="https://schema.org/Organization" itemScope>
                             <div className="flex items-center space-x-2 mb-2">
-                                <div className="bg-theme2 w-fit p-2">
+                                <div className="bg-theme2 w-fit grid place-content-center p-2">
                                     <span className="material-symbols-outlined text-white">phone_in_talk</span>
                                 </div>
                                 <h4>Sună-ne</h4>
@@ -110,7 +110,9 @@ export default function Contact({ t }) {
                                 rel="noopener noreferrer"
                                 className="block w-fit opacity-100 hover:opacity-75"
                             >
-                                <p>+40 786 422 450 - Claudiu Miron</p>
+                                <p>
+                                    <span itemProp="telephone">+40 786 422 450</span> - Claudiu Miron
+                                </p>
                             </a>
                             <a
                                 href="tel:+40723391843"
@@ -118,13 +120,15 @@ export default function Contact({ t }) {
                                 rel="noopener noreferrer"
                                 className="block w-fit opacity-100 hover:opacity-75"
                             >
-                                <p>+40 723 391 843 - Ionut Nita</p>
+                                <p>
+                                    <span itemProp="telephone">+40 723 391 843</span> - Ionut Nita
+                                </p>
                             </a>
                         </div>
 
-                        <div>
+                        <div itemType="https://schema.org/Organization" itemScope>
                             <div className="flex items-center space-x-2 mb-2">
-                                <div className="bg-theme2 w-fit p-2">
+                                <div className="bg-theme2 w-fit grid place-content-center p-2">
                                     <span className="material-symbols-outlined text-white">mail</span>
                                 </div>
                                 <h4>Trimite-ne un mail</h4>
@@ -136,7 +140,7 @@ export default function Contact({ t }) {
                                 rel="noopener noreferrer"
                                 className="block w-fit opacity-100 hover:opacity-75"
                             >
-                                <p>pbtromania@gmail.com</p>
+                                <p itemProp="email">pbtromania@gmail.com</p>
                             </a>
                             <a
                                 href="mailto:ofertare@pbtromania.com"
@@ -144,13 +148,13 @@ export default function Contact({ t }) {
                                 rel="noopener noreferrer"
                                 className="block w-fit opacity-100 hover:opacity-75"
                             >
-                                <p>ofertare@pbtromania.com</p>
+                                <p itemProp="email">ofertare@pbtromania.com</p>
                             </a>
                         </div>
 
-                        <div>
+                        <div itemType="https://schema.org/Organization" itemScope>
                             <div className="flex items-center space-x-2">
-                                <div className="bg-theme2 w-fit p-2 mb-2">
+                                <div className="bg-theme2 w-fit grid place-content-center p-2 mb-2">
                                     <span className="material-symbols-outlined text-white">map</span>
                                 </div>
                                 <h4>Vizitează-ne</h4>
@@ -162,8 +166,8 @@ export default function Contact({ t }) {
                                 rel="noopener noreferrer"
                                 className="block w-fit opacity-100 hover:opacity-75"
                             >
-                                <p>Soseaua Tudor Vladimirescu 393</p>
-                                <p>Domnesti, Ilfov</p>
+                                <p itemProp="location">Soseaua Tudor Vladimirescu 393</p>
+                                <p itemProp="location">Domnesti, Ilfov</p>
                             </a>
                         </div>
                     </div>
@@ -172,6 +176,7 @@ export default function Contact({ t }) {
                         title="location"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2850.3339008248113!2d25.97047921552232!3d44.40579357910266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b200fc0e10d997%3A0x6ae5655545a9990d!2sDistribuitor%20Ferestre%20si%20Usi%20-%20Promotion%20Business%20Team!5e0!3m2!1sro!2sro!4v1644401679264!5m2!1sro!2sro"
                         className="block h-64 w-full"
+                        itemProp="location"
                     />
                 </div>
             </div>
