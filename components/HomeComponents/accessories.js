@@ -43,21 +43,21 @@ export default function Accessories({ t }) {
             <div className="grid grid-cols-1 lg:grid-cols-3 lg:row-auto gap-1">
                 {accessoriesData.map((e, i) => (
                     <div className={e.colClass} key={i}>
-                        <Link href="/accesorii" passHref>
-                            <a>
-                                <div className={`relative h-96 ${e.cardHeight} w-full overflow-hidden shadow`}>
-                                    <Image
-                                        src={e.src}
-                                        alt="Accesorii Tamplarie"
-                                        layout="fill"
-                                        objectFit="cover"
-                                        className="hover:scale-110 duration-200 ease-in-out"
-                                    />
-                                    <div className="absolute bottom-0 left-0 h-[50%] w-full bg-gradient-to-t from-[rgba(0,0,0,0.5)] via-transparent to-transparent pointer-events-none z-10" />
-                                    <h4 className="absolute bottom-2 left-2 text-white z-10">{e.name}</h4>
-                                </div>
-                            </a>
-                        </Link>
+                        {/* <Link href="/accesorii" passHref> */}
+                        {/* <a> */}
+                        <div className={`relative h-96 ${e.cardHeight} w-full overflow-hidden shadow`}>
+                            <Image
+                                src={e.src}
+                                alt="Accesorii Tamplarie"
+                                layout="fill"
+                                objectFit="cover"
+                                className="hover:scale-110 duration-200 ease-in-out"
+                            />
+                            <div className="absolute bottom-0 left-0 h-[50%] w-full bg-gradient-to-t from-[rgba(0,0,0,0.5)] via-transparent to-transparent pointer-events-none z-10" />
+                            <h4 className="absolute bottom-2 left-2 text-white z-10">{e.name}</h4>
+                        </div>
+                        {/* </a> */}
+                        {/* </Link> */}
                     </div>
                 ))}
             </div>

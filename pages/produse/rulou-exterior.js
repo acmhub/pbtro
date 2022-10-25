@@ -38,19 +38,19 @@ const accessoriesData = [
         tab: 'Actionare',
         items: [
             {
-                src: '/images/products/rulou-exterior/highlight.webp',
+                src: '/images/products/rulou-exterior/actionare_pamblica.webp',
                 name: 'Pamblica'
             },
             {
-                src: '/images/products/rulou-exterior/highlight.webp',
+                src: '/images/products/rulou-exterior/actionare_manivela.webp',
                 name: 'Manivela'
             },
             {
-                src: '/images/products/rulou-exterior/highlight.webp',
+                src: '/images/products/rulou-exterior/actionare_cu_buton.webp',
                 name: 'Buton'
             },
             {
-                src: '/images/products/rulou-exterior/highlight.webp',
+                src: '/images/products/rulou-exterior/actionare_cu_telecomanda.webp',
                 name: 'Telecomanda'
             }
         ]
@@ -59,15 +59,15 @@ const accessoriesData = [
         tab: 'Caseta',
         items: [
             {
-                src: '/images/products/rulou-exterior/highlight.webp',
+                src: '/images/products/rulou-exterior/caseta1.webp',
                 name: 'Casetă Tesita 45°'
             },
             {
-                src: '/images/products/rulou-exterior/highlight.webp',
+                src: '/images/products/rulou-exterior/caseta2.webp',
                 name: 'Casetă Tesita Semirotunda'
             },
             {
-                src: '/images/products/rulou-exterior/highlight.webp',
+                src: '/images/products/rulou-exterior/caseta3.webp',
                 name: 'Casetă Tesita 90°'
             }
         ]
@@ -76,19 +76,19 @@ const accessoriesData = [
         tab: 'Accesorii',
         items: [
             {
-                src: '/images/products/rulou-exterior/highlight.webp',
+                src: '/images/products/rulou-exterior/plasa-integrata.webp',
                 name: 'Plasa contra Insectelor'
             },
             {
-                src: '/images/products/rulou-exterior/highlight.webp',
+                src: '/images/products/rulou-exterior/lamela.webp',
                 name: 'Lamela (39mm, 43mm sau 55mm)'
             },
             {
-                src: '/images/products/rulou-exterior/highlight.webp',
+                src: '/images/products/rulou-exterior/yala.webp',
                 name: 'Yala'
             },
             {
-                src: '/images/products/rulou-exterior/highlight.webp',
+                src: '/images/products/rulou-exterior/anti-efractie.webp',
                 name: 'Cleme Anti-efractie'
             }
         ]

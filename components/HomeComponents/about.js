@@ -37,10 +37,12 @@ export default function About({ t }) {
                     </div>
 
                     <div className="col-span-1 lg:col-span-6 text-center">
-                        <h1 className="year-text h-56 grid place-content-center text-[14rem] font-bold">16</h1>
+                        <h1 className="year-text h-56 grid place-content-center text-[14rem] font-bold">
+                            {new Date().getFullYear() - 2006}
+                        </h1>
                         <div className="space-y-4 my-auto">
                             <h4 className="text-4xl uppercase">ani de experienta</h4>
-                            <p>
+                            <p className="lg:w-4/5 lg:mx-auto">
                                 Promotion Business Team este o companie la baza căreia se află o echipă tânără și
                                 dinamică, formată din specialiști în tâmplăria PVC și cea din aluminiu.
                             </p>
@@ -54,7 +56,7 @@ export default function About({ t }) {
                         </div>
 
                         <div className="absolute bottom-2 left-2 h-64 w-[50%] shadow-xl">
-                            <Image src="/images/portfolio/21.webp" alt=" " layout="fill" objectFit="cover" />
+                            <Image src="/images/portfolio/34.webp" alt=" " layout="fill" objectFit="cover" />
                         </div>
                     </div>
                 </div>

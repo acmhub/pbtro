@@ -108,7 +108,7 @@ export default function Contact({ t }) {
                                 href="tel:+40786422450"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="block w-fit opacity-100 hover:opacity-75"
+                                className="block w-fit opacity-100 hover:opacity-75 hover:text-theme1 hover:drop-shadow"
                             >
                                 <p>
                                     <span itemProp="telephone">+40 786 422 450</span> - Claudiu Miron
@@ -118,7 +118,7 @@ export default function Contact({ t }) {
                                 href="tel:+40723391843"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="block w-fit opacity-100 hover:opacity-75"
+                                className="block w-fit opacity-100 hover:opacity-75 hover:text-theme1 hover:drop-shadow"
                             >
                                 <p>
                                     <span itemProp="telephone">+40 723 391 843</span> - Ionut Nita
@@ -138,7 +138,7 @@ export default function Contact({ t }) {
                                 href="mailto:pbtromania@gmail.com"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="block w-fit opacity-100 hover:opacity-75"
+                                className="block w-fit opacity-100 hover:opacity-75 hover:text-theme1 hover:drop-shadow"
                             >
                                 <p itemProp="email">pbtromania@gmail.com</p>
                             </a>
@@ -146,7 +146,7 @@ export default function Contact({ t }) {
                                 href="mailto:ofertare@pbtromania.com"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="block w-fit opacity-100 hover:opacity-75"
+                                className="block w-fit opacity-100 hover:opacity-75 hover:text-theme1 hover:drop-shadow"
                             >
                                 <p itemProp="email">ofertare@pbtromania.com</p>
                             </a>
@@ -164,7 +164,7 @@ export default function Contact({ t }) {
                                 href="https://goo.gl/maps/MsJhkRS4S4CgE8zNA"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="block w-fit opacity-100 hover:opacity-75"
+                                className="block w-fit opacity-100 hover:opacity-75 hover:text-theme1 hover:drop-shadow"
                             >
                                 <p itemProp="location">Soseaua Tudor Vladimirescu 393</p>
                                 <p itemProp="location">Domnesti, Ilfov</p>

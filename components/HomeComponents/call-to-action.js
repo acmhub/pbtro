@@ -49,10 +49,10 @@ export default function CallToAction({ t }) {
                                 } w-full mx-auto items-center`}
                             >
                                 <div className={`w-full sm:w-1/2 ${i % 2 == 0 ? 'sm:pr-8' : 'sm:pl-8'}`}>
-                                    <div className="relative bg-white rounded shadow p-4">
+                                    <div className="relative bg-white rounded shadow space-y-1 pt-8 lg:pt-4 p-4">
                                         <h5
                                             className={`${
-                                                i % 2 ? 'text-left' : 'text-right'
+                                                i % 2 ? 'text-left' : 'lg:text-right'
                                             } text-theme1 tracking-widest font-bold opacity-80`}
                                         >
                                             0{i + 1}

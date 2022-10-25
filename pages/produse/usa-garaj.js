@@ -72,12 +72,12 @@ const accessoriesData = [
         tab: 'Vitrare',
         items: [
             {
-                src: '/images/products/usa-garaj/highlight.webp',
+                src: '/images/products/usa-garaj/vitrare-dreptunghi-640x340.webp',
                 name: 'Ferestre Dreptunghiulare 640x340'
             },
             {
-                src: '/images/products/usa-garaj/highlight.webp',
-                name: 'Ferestre Dreptunghiulare 640x140'
+                src: '/images/products/usa-garaj/vitrare-dreptunghi-610x140.webp',
+                name: 'Ferestre Dreptunghiulare 610x140'
             }
         ]
     },
@@ -85,11 +85,11 @@ const accessoriesData = [
         tab: 'Usa Pietonala',
         items: [
             {
-                src: '/images/products/usa-garaj/highlight.webp',
+                src: '/images/products/usa-garaj/usa-linii.webp',
                 name: 'Model Linii'
             },
             {
-                src: '/images/products/usa-garaj/highlight.webp',
+                src: '/images/products/usa-garaj/usa-bloc.webp',
                 name: 'Usa de Acces in Cladire'
             }
         ]
@@ -98,35 +98,35 @@ const accessoriesData = [
         tab: 'Accesorii',
         items: [
             {
-                src: '/images/products/usa-garaj/highlight.webp',
+                src: '/images/products/usa-garaj/buton-perete.webp',
                 name: 'Buton Perete'
             },
             {
-                src: '/images/products/usa-garaj/highlight.webp',
+                src: '/images/products/usa-garaj/fotocelule.webp',
                 name: 'Sistem de Fotocelule'
             },
             {
-                src: '/images/products/usa-garaj/highlight.webp',
+                src: '/images/products/usa-garaj/maner.webp',
                 name: 'Maner Simplu'
             },
             {
-                src: '/images/products/usa-garaj/highlight.webp',
+                src: '/images/products/usa-garaj/yala-blocare.webp',
                 name: 'Yala Blocare'
             },
             {
-                src: '/images/products/usa-garaj/highlight.webp',
+                src: '/images/products/usa-garaj/yala-motor.webp',
                 name: 'Yala Deblocare Motor'
             },
             {
-                src: '/images/products/usa-garaj/highlight.webp',
+                src: '/images/products/usa-garaj/sistem-blocare.webp',
                 name: 'Sistem Suplimentar Blocare'
             },
             {
-                src: '/images/products/usa-garaj/highlight.webp',
+                src: '/images/products/usa-garaj/bolt.webp',
                 name: 'Bolt'
             },
             {
-                src: '/images/products/usa-garaj/highlight.webp',
+                src: '/images/products/usa-garaj/telecomanda.webp',
                 name: 'Telecomanda 4 Canale'
             }
         ]

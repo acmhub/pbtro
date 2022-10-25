@@ -282,12 +282,15 @@ export default function About() {
                                     <button className="theme-button1">{t('common:getquote')}</button>
                                 </div>
                             </div>
-                            <div className="flex items-end justify-end">
-                                <img
-                                    src="/images/fillers/landing-image.webp"
-                                    alt=""
-                                    className="h-full lg:h-96 w-auto object-contain"
-                                />
+                            <div className="flex items-center justify-center">
+                                <div className="relative h-96 w-full">
+                                    <Image
+                                        src="/images/fillers/house-image.webp"
+                                        alt=""
+                                        layout="fill"
+                                        objectFit="contain"
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>

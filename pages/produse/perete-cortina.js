@@ -21,7 +21,7 @@ const profileData = [
         manufacturerLogo: '/images/suppliers/profilco.webp',
         model: 'PR50 Semi-Structural',
         profile: '/images/products/perete-cortina/pr-semi.webp',
-        image: '/images/products/perete-cortina/highlight.webp',
+        image: '/images/products/perete-cortina/semi-wall.webp',
         tehnicalDetails: [
             {
                 label: '',
@@ -34,7 +34,7 @@ const profileData = [
         manufacturerLogo: '/images/suppliers/profilco.webp',
         model: 'PR50 Standard',
         profile: '/images/products/perete-cortina/pr-standard.webp',
-        image: '/images/products/perete-cortina/highlight.webp',
+        image: '/images/products/perete-cortina/standard-wall.webp',
         tehnicalDetails: [
             {
                 label: '',
@@ -47,7 +47,7 @@ const profileData = [
         manufacturerLogo: '/images/suppliers/profilco.webp',
         model: 'PR50 Structural',
         profile: '/images/products/perete-cortina/pr-struct.webp',
-        image: '/images/products/perete-cortina/highlight.webp',
+        image: '/images/products/perete-cortina/structural-wall.webp',
         tehnicalDetails: [
             {
                 label: '',
@@ -88,10 +88,9 @@ const variantsData = [
 ];
 
 const ctaData = [
-    '/images/products/perete-cortina/highlight.webp',
-    '/images/products/perete-cortina/highlight.webp',
-    '/images/products/perete-cortina/highlight.webp',
-    '/images/products/perete-cortina/highlight.webp',
+    '/images/products/perete-cortina/semi-wall.webp',
+    '/images/products/perete-cortina/standard-wall.webp',
+    '/images/products/perete-cortina/structural-wall.webp',
     '/images/products/perete-cortina/highlight.webp'
 ];
 

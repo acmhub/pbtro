@@ -17,7 +17,7 @@ const landingData = {
 
 const variantsData = [
     {
-        src: '/images/products/plasa-insecte/highlight.webp',
+        src: '/images/products/plasa-insecte/plasa-plisse.webp',
         name: 'Plasa contra Insectelor tip Plisse',
         description: [
             'Plasele tip plisse sunt create în așa fel încât să se potrivească în orice spațiu, existând disponibilitate de montare atât pentru ferestre, cât și pentru uși, inclusiv pentru cele cu deschidere foarte mare.',
@@ -25,14 +25,14 @@ const variantsData = [
         ]
     },
     {
-        src: '/images/products/plasa-insecte/highlight.webp',
+        src: '/images/products/plasa-insecte/plasa-rulou.webp',
         name: 'Plasa contra Insectelor tip Rulou',
         description: [
             'Plasele tip rulou sunt o variantă modernă și sigură, fiind foarte ușor de manevrat și amplificând comoditatea utilizatorilor prin faptul că poate fi folosită pe toată perioada verii și nu este necesară demontarea acesteia la apariția anotimpului rece, deoarece plasa se poate strânge foarte ușor în interiorul casetei.'
         ]
     },
     {
-        src: '/images/products/plasa-insecte/highlight.webp',
+        src: '/images/products/plasa-insecte/plasa-balama.webp',
         name: 'Plasa contra Insectelor cu Balamale',
         description: [
             'Cele mai întâlnite plase anti-insecte sunt cele cu balamale. Ele sunt compuse dintr-o ramă de aluminiu, pe care sunt montate de obicei 2 balamale pentru deschiderea plasei către exterior. Inchiderea plasei este realizata cu clips magnetic. '
@@ -41,10 +41,9 @@ const variantsData = [
 ];
 
 const ctaData = [
-    '/images/products/plasa-insecte/highlight.webp',
-    '/images/products/plasa-insecte/highlight.webp',
-    '/images/products/plasa-insecte/highlight.webp',
-    '/images/products/plasa-insecte/highlight.webp',
+    '/images/products/plasa-insecte/plasa-plisse.webp',
+    '/images/products/plasa-insecte/plasa-rulou.webp',
+    '/images/products/plasa-insecte/plasa-balama.webp',
     '/images/products/plasa-insecte/highlight.webp'
 ];
 

@@ -16,7 +16,7 @@ const landingData = {
 
 const variantsData = [
     {
-        src: '/images/products/pergola/highlight.webp',
+        src: '/images/products/pergola/4season.webp',
         name: 'Pergolă Retractabilă 4Seasons',
         description: [
             'Sistemele de pergole cu acoperiș retractabil 4Seasons sunt sisteme de pergole din aluminiu care se deschid – închid protejând spațiul care îi este destinat să îl acopere în toate cele patru anotimpuri. Profilele ce formează stâlpii de susținere sunt proiectate astfel încât apa provenită din precipitații și acumulată pe acoperișul retractabil să fie dirijată cu ușurință.',
@@ -25,7 +25,7 @@ const variantsData = [
         ]
     },
     {
-        src: '/images/products/pergola/highlight.webp',
+        src: '/images/products/pergola/bioclimatica.webp',
         name: 'Pergolă Bioclimatică Retractabilă',
         description: [
             'Sistemele de pergole bioclimatice sunt pergole din aluminiu care se deschid – închid protejând spațiul care îi este destinat sa îl acopere în toate cele patru anotimpuri. Spre deosebire de pergola retractabilă 4Seasons, lamelele ce formează acoperișul pergolei bioclimatice pot fi reglabile astfel încât lumina pătrunsă în interior să fie perfect gestionată. Sistemele de pergole bioclimatice sunt proiectate să reziste la căderi masive de zăpadă.',
@@ -34,7 +34,7 @@ const variantsData = [
         ]
     },
     {
-        src: '/images/products/pergola/highlight.webp',
+        src: '/images/products/pergola/wintergarden.webp',
         name: 'Pergola Fixă Winter Garden',
         description: [
             'Sistemele de pergole fixe winter garden (gradină de iarnă) sunt pergole cu acoperiș fix din sticlă securizată protejând spațiul care îi este destinat să-l acopere în toate cele patru anotimpuri. Spre deosebire de pergola retractabilă 4Seasons, acoperișul acestui sistem este total transparent. Sticla ce formează acoperișul are o grosime de 32 mm, pachetul fiind format din sticlă laminată și sticlă securizată. În funcție de cerințe, această sticlă poate fi sablată / mată. Sistemele de pergole winter garden fixe sunt proiectate să reziste la căderi masive de zăpadă.',
@@ -45,10 +45,9 @@ const variantsData = [
 ];
 
 const ctaData = [
-    '/images/products/pergola/highlight.webp',
-    '/images/products/pergola/highlight.webp',
-    '/images/products/pergola/highlight.webp',
-    '/images/products/pergola/highlight.webp',
+    '/images/products/pergola/4season.webp',
+    '/images/products/pergola/bioclimatica.webp',
+    '/images/products/pergola/wintergarden.webp',
     '/images/products/pergola/highlight.webp'
 ];
 

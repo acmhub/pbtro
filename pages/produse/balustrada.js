@@ -16,7 +16,7 @@ const landingData = {
 
 const variantsData = [
     {
-        src: '/images/products/balustrada/highlight.webp',
+        src: '/images/products/balustrada/balustrada-sticla.webp',
         name: 'Balustradă din Sticlă',
         description: [
             'Nu există nici o îndoială că o balustradă de sticlă adaugă eleganță oricărei locuințe sau proprietăți comerciale și se îmbină cu orice design de interior. Oferim diferite forme de balustrade și accesorii.',
@@ -24,14 +24,14 @@ const variantsData = [
         ]
     },
     {
-        src: '/images/products/balustrada/highlight.webp',
+        src: '/images/products/balustrada/balustrada-aluminiu.webp',
         name: 'Balustradă din Aluminiu Eloxat',
         description: [
             'Balustradele din aluminiu eloxat se remarcă prin tehnicitate și facilitatea instalării. Printr-o adaptare constantă a design-ului la evoluția pieței, modelele diferite de balustrade din aluminiu permit numeroase configurații.'
         ]
     },
     {
-        src: '/images/products/balustrada/highlight.webp',
+        src: '/images/products/balustrada/balustrada-traforata.webp',
         name: 'Balustradă Traforată',
         description: [
             'Fie că vorbim despre terase sau balcon, balustrada traforată este răspunsul când vine vorba de un stil modern și design impresionant. Deși acestea impresionează prin eleganță și rafinamentul finisajului, punctul forte al balustradelor traforate este reprezentat de durabilitatea în timp și rezistența contra intemperiilor. Datorită vopsirii în câmp electrostatic acestea câștigă un grad ridicat de rezistență contra zgârieturilor și abraziunii.'
@@ -40,10 +40,9 @@ const variantsData = [
 ];
 
 const ctaData = [
-    '/images/products/balustrada/highlight.webp',
-    '/images/products/balustrada/highlight.webp',
-    '/images/products/balustrada/highlight.webp',
-    '/images/products/balustrada/highlight.webp',
+    '/images/products/balustrada/balustrada-sticla.webp',
+    '/images/products/balustrada/balustrada-aluminiu.webp',
+    '/images/products/balustrada/balustrada-traforata.webp',
     '/images/products/balustrada/highlight.webp'
 ];
 

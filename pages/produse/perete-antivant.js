@@ -14,7 +14,7 @@ const landingData = {
 
 const variantsData = [
     {
-        src: '/images/products/perete-antivant/highlight.webp',
+        src: '/images/products/perete-antivant/rulou-casetat.webp',
         name: 'Rulou de Folie Casetat',
         description: [
             'O alegere bună datorită raportului calitate/preț. Sunt uși de garaj ieftine datorită reducerii pierderilor de material, panourile fiind realizate la dimensiuni standard. Sunt dotate cu arcuri de tracțiune ce pot fi montate sub șină pe care culisează ușa sau pe lateralele ei.'
@@ -26,7 +26,7 @@ const variantsData = [
         ]
     },
     {
-        src: '/images/products/perete-antivant/highlight.webp',
+        src: '/images/products/perete-antivant/rulou-necasetat.webp',
         name: 'Rulou de Folie Necasetat',
         description: [
             'O alegere bună datorită raportului calitate/preț. Sunt uși de garaj ieftine datorită reducerii pierderilor de material, panourile fiind realizate la dimensiuni standard. Sunt dotate cu arcuri de tracțiune ce pot fi montate sub șină pe care culisează ușa sau pe lateralele ei.'
@@ -38,7 +38,7 @@ const variantsData = [
         ]
     },
     {
-        src: '/images/products/perete-antivant/highlight.webp',
+        src: '/images/products/perete-antivant/rulou-capse.webp',
         name: 'Capse si Bride',
         description: [
             'O alegere bună datorită raportului calitate/preț. Sunt uși de garaj ieftine datorită reducerii pierderilor de material, panourile fiind realizate la dimensiuni standard. Sunt dotate cu arcuri de tracțiune ce pot fi montate sub șină pe care culisează ușa sau pe lateralele ei.'
@@ -52,10 +52,9 @@ const variantsData = [
 ];
 
 const ctaData = [
-    '/images/products/perete-antivant/highlight.webp',
-    '/images/products/perete-antivant/highlight.webp',
-    '/images/products/perete-antivant/highlight.webp',
-    '/images/products/perete-antivant/highlight.webp',
+    '/images/products/perete-antivant/rulou-casetat.webp',
+    '/images/products/perete-antivant/rulou-necasetat.webp',
+    '/images/products/perete-antivant/rulou-capse.webp',
     '/images/products/perete-antivant/highlight.webp'
 ];
 

@@ -23,7 +23,7 @@ const profilesData = [
         model: 'COR60',
         profile: '/images/products/tamplarie-aluminiu/cor60.png',
         href: '/produse/tamplarie-aluminiu/cor60',
-        image: '/images/products/tamplarie-aluminiu/highlight.webp',
+        image: '/images/products/tamplarie-aluminiu/cor60_demo.webp',
         tehnicalDetails: [
             {
                 label: 'Toc',
@@ -53,7 +53,7 @@ const profilesData = [
         model: 'COR80',
         profile: '/images/products/tamplarie-aluminiu/cor80.png',
         href: '/produse/tamplarie-aluminiu/cor80',
-        image: '/images/products/tamplarie-aluminiu/highlight.webp',
+        image: '/images/products/tamplarie-aluminiu/cor80_demo.webp',
         tehnicalDetails: [
             {
                 label: 'Toc',
@@ -83,7 +83,7 @@ const profilesData = [
         model: 'Eskimos',
         profile: '/images/products/tamplarie-aluminiu/eskimos.png',
         href: '/produse/tamplarie-aluminiu/eskimos',
-        image: '/images/products/tamplarie-aluminiu/highlight.webp',
+        image: '/images/products/tamplarie-aluminiu/eskimos_demo.webp',
         tehnicalDetails: [
             {
                 label: 'Toc',
@@ -91,7 +91,7 @@ const profilesData = [
             },
             {
                 label: 'Izolare Termica',
-                value: '3.33 W/m2k'
+                value: '1.15 W/m2k'
             },
             {
                 label: 'Dimensiune Vitrare',
@@ -109,7 +109,7 @@ const profilesData = [
         model: 'PR26',
         profile: '/images/products/tamplarie-aluminiu/pr26.png',
         href: '/produse/tamplarie-aluminiu/pr26',
-        image: '/images/products/tamplarie-aluminiu/highlight.webp',
+        image: '/images/products/tamplarie-aluminiu/pr26_demo.webp',
         tehnicalDetails: [
             {
                 label: 'Latime Toc Glisare Dubla',
@@ -135,7 +135,7 @@ const profilesData = [
         model: 'PR50',
         profile: '/images/products/tamplarie-aluminiu/pr50.png',
         href: '/produse/tamplarie-aluminiu/pr50',
-        image: '/images/products/tamplarie-aluminiu/highlight.webp',
+        image: '/images/products/tamplarie-aluminiu/pr50_demo.webp',
         tehnicalDetails: [
             {
                 label: 'Latime Montant',
@@ -157,7 +157,7 @@ const profilesData = [
         model: 'PR52',
         profile: '/images/products/tamplarie-aluminiu/pr52.png',
         href: '/produse/tamplarie-aluminiu/pr52',
-        image: '/images/products/tamplarie-aluminiu/highlight.webp',
+        image: '/images/products/tamplarie-aluminiu/pr52_demo.webp',
         tehnicalDetails: [
             {
                 label: 'Latime Minima Toc',
@@ -183,7 +183,7 @@ const profilesData = [
         model: 'PR52',
         profile: '/images/products/tamplarie-aluminiu/pr52.png',
         href: '/produse/tamplarie-aluminiu/pr52',
-        image: '/images/products/tamplarie-aluminiu/highlight.webp',
+        image: '/images/products/tamplarie-aluminiu/pr52_demo.webp',
         tehnicalDetails: [
             {
                 label: 'Latime Minima Toc',
@@ -209,7 +209,7 @@ const profilesData = [
         model: 'Sliding',
         profile: '/images/products/tamplarie-aluminiu/sliding.png',
         href: '/produse/tamplarie-aluminiu/sliding',
-        image: '/images/products/tamplarie-aluminiu/highlight.webp',
+        image: '/images/products/tamplarie-aluminiu/sliding_demo.webp',
         tehnicalDetails: [
             {
                 label: 'Toc',
@@ -232,11 +232,13 @@ const profilesData = [
 ];
 
 const ctaData = [
-    '/images/products/tamplarie-aluminiu/highlight.webp',
-    '/images/products/tamplarie-aluminiu/highlight.webp',
-    '/images/products/tamplarie-aluminiu/highlight.webp',
-    '/images/products/tamplarie-aluminiu/highlight.webp',
-    '/images/products/tamplarie-aluminiu/highlight.webp'
+    '/images/products/tamplarie-aluminiu/cor60_demo.webp',
+    '/images/products/tamplarie-aluminiu/cor80_demo.webp',
+    '/images/products/tamplarie-aluminiu/eskimos_demo.webp',
+    '/images/products/tamplarie-aluminiu/pr26_demo.webp',
+    '/images/products/tamplarie-aluminiu/pr50_demo.webp',
+    '/images/products/tamplarie-aluminiu/pr52_demo.webp',
+    '/images/products/tamplarie-aluminiu/sliding_demo.webp'
 ];
 
 export default function TamplarieAluminiu() {

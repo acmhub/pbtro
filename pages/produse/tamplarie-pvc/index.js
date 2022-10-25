@@ -23,7 +23,7 @@ const profilesData = [
         model: 'K-600',
         profile: '/images/products/tamplarie-pvc/k600.webp',
         href: '/produse/tamplarie-pvc/klass600',
-        image: '/images/products/tamplarie-pvc/highlight.webp',
+        image: '/images/products/tamplarie-pvc/klass_demo.webp',
         tehnicalDetails: [
             {
                 label: 'Adancime Constructiva',
@@ -53,7 +53,7 @@ const profilesData = [
         model: 'Streamline 76',
         profile: '/images/products/tamplarie-pvc/sl76.webp',
         href: '/produse/tamplarie-pvc/streamline76',
-        image: '/images/products/tamplarie-pvc/highlight.webp',
+        image: '/images/products/tamplarie-pvc/streamline_demo.webp',
         tehnicalDetails: [
             {
                 label: 'Adancime Constructiva',
@@ -83,7 +83,7 @@ const profilesData = [
         model: 'bluEvolution 82',
         profile: '/images/products/tamplarie-pvc/bluevo82.webp',
         href: '/produse/tamplarie-pvc/bluevolution82',
-        image: '/images/products/tamplarie-pvc/highlight.webp',
+        image: '/images/products/tamplarie-pvc/evo82_demo.webp',
         tehnicalDetails: [
             {
                 label: 'Adancime Constructiva',
@@ -113,7 +113,7 @@ const profilesData = [
         model: 'bluEvolution 92',
         profile: '/images/products/tamplarie-pvc/bluevo92.webp',
         href: '/produse/tamplarie-pvc/bluevolution92',
-        image: '/images/products/tamplarie-pvc/highlight.webp',
+        image: '/images/products/tamplarie-pvc/evo92_demo.webp',
         tehnicalDetails: [
             {
                 label: 'Adancime Constructiva',
@@ -140,11 +140,10 @@ const profilesData = [
 ];
 
 const ctaData = [
-    '/images/products/tamplarie-pvc/highlight.webp',
-    '/images/products/tamplarie-pvc/highlight.webp',
-    '/images/products/tamplarie-pvc/highlight.webp',
-    '/images/products/tamplarie-pvc/highlight.webp',
-    '/images/products/tamplarie-pvc/highlight.webp'
+    '/images/products/tamplarie-pvc/klass_demo.webp',
+    '/images/products/tamplarie-pvc/streamline_demo.webp',
+    '/images/products/tamplarie-pvc/evo82_demo.webp',
+    '/images/products/tamplarie-pvc/evo92_demo.webp'
 ];
 
 export default function TamplariePVC() {
