@@ -11,25 +11,17 @@ import { zebraData, roleteData, jaluzeleData } from '../../components/Products/R
 const landingData = {
     src: '/images/products/roleta-textila/highlight.webp',
     product: 'common:product.roletatextila',
-    description: [
-        'Roletele textile adaugă stil și personalitate interiorului clădirilor, reprezentând o soluție simplă și economică pentru decorarea acestuia, în anumite situatii putând înlocui jaluzelele verticale. Roletele textile creează intimitate pe tot parcursul zilei fiind un element decorativ și în același timp funcțional al spațiilor interioare. '
-    ]
+    description: ['description']
 };
 
-const ctaData = [
-    '/images/products/roleta-textila/highlight.webp',
-    '/images/products/roleta-textila/highlight.webp',
-    '/images/products/roleta-textila/highlight.webp',
-    '/images/products/roleta-textila/highlight.webp',
-    '/images/products/roleta-textila/highlight.webp'
-];
+const ctaData = ['/images/products/roleta-textila/highlight.webp'];
 
 export default function RoletaTextila() {
     const { t } = useTranslation('roletatextila');
     const [modalState, setModalState] = useState({ state: false, index: null });
 
     return (
-        <Layout title={t('common:product.roletatextila')} description="">
+        <Layout title={t('common:product.roletatextila')} description={t('description')}>
             <div className="section-spacing" />
 
             <div className="container-padding">
@@ -38,7 +30,7 @@ export default function RoletaTextila() {
                 <div className="section-spacing" />
 
                 <section className="space-y-4" id="rolete">
-                    <h3 className="text-center">Modele Roleta Textila</h3>
+                    <h3 className="text-center">{t('modelsrolete')}</h3>
 
                     <div className="h-96 w-full overflow-y-scroll">
                         <div className="grid grid-cols-2 lg:grid-cols-6 gap-1">
@@ -83,7 +75,7 @@ export default function RoletaTextila() {
 
                 <section className="space-y-4" id="zebra">
                     <div>
-                        <h3 className="text-center">Modele Rolete Zebra</h3>
+                        <h3 className="text-center">{t('modelszebra')}</h3>
                         <h6 className="text-center">Day & Night</h6>
                     </div>
 
@@ -129,7 +121,7 @@ export default function RoletaTextila() {
                 <div className="section-spacing" />
 
                 <section className="space-y-4" id="jaluzele">
-                    <h3 className="text-center">Modele Jaluzele Verticale</h3>
+                    <h3 className="text-center">{t('modelsjaluzele')}</h3>
 
                     <div className="h-96 w-full overflow-y-scroll">
                         <div className="grid grid-cols-2 lg:grid-cols-6 gap-1">

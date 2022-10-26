@@ -9,33 +9,24 @@ import ProductCTA from '../../components/Products/ProductCTA';
 const landingData = {
     src: '/images/products/balustrada/highlight.webp',
     product: 'common:product.balustrada',
-    description: [
-        'Balustradele din aluminiu și sticlă, reprezintă un element arhitectural util și necesar, cu dublu scop, de protecție și estetic, care dau o notă de eleganță oricărei clădiri.'
-    ]
+    description: ['description']
 };
 
 const variantsData = [
     {
         src: '/images/products/balustrada/balustrada-sticla.webp',
-        name: 'Balustradă din Sticlă',
-        description: [
-            'Nu există nici o îndoială că o balustradă de sticlă adaugă eleganță oricărei locuințe sau proprietăți comerciale și se îmbină cu orice design de interior. Oferim diferite forme de balustrade și accesorii.',
-            'În tendințele moderne de design interior, sticla a luat locul celui mai versatil material, care arată la fel de coerent cu multe stiluri arhitecturale. Opțiunea de a personaliza balustrada este deosebit de atractivă pentru cei care doresc să aducă la viață ceva original și unic. Oferim o mare varietate de feronerie cu diverse finisaje, de la inox la opțiuni din lemn cu sau fără mână curentă.'
-        ]
+        name: 'variants.sticla',
+        description: ['variants.sticladesc1', 'variants.sticladesc2']
     },
     {
         src: '/images/products/balustrada/balustrada-aluminiu.webp',
-        name: 'Balustradă din Aluminiu Eloxat',
-        description: [
-            'Balustradele din aluminiu eloxat se remarcă prin tehnicitate și facilitatea instalării. Printr-o adaptare constantă a design-ului la evoluția pieței, modelele diferite de balustrade din aluminiu permit numeroase configurații.'
-        ]
+        name: 'variants.aluminiu',
+        description: ['variants.aluminiudesc']
     },
     {
         src: '/images/products/balustrada/balustrada-traforata.webp',
-        name: 'Balustradă Traforată',
-        description: [
-            'Fie că vorbim despre terase sau balcon, balustrada traforată este răspunsul când vine vorba de un stil modern și design impresionant. Deși acestea impresionează prin eleganță și rafinamentul finisajului, punctul forte al balustradelor traforate este reprezentat de durabilitatea în timp și rezistența contra intemperiilor. Datorită vopsirii în câmp electrostatic acestea câștigă un grad ridicat de rezistență contra zgârieturilor și abraziunii.'
-        ]
+        name: 'variants.traforata',
+        description: ['variants.traforatadesc']
     }
 ];
 
@@ -49,7 +40,7 @@ const ctaData = [
 export default function Balustrada() {
     const { t } = useTranslation('balustrada');
     return (
-        <Layout title={t('common:product.balustrada')} description="">
+        <Layout title={t('common:product.balustrada')} description={t('description')}>
             <div className="section-spacing" />
 
             <div className="container-padding">
@@ -72,7 +63,7 @@ export default function Balustrada() {
 export async function getStaticProps({ locale }) {
     return {
         props: {
-            ...(await serverSideTranslations(locale, ['common', 'usaantifoc']))
+            ...(await serverSideTranslations(locale, ['common', 'balustrada']))
         }
     };
 }

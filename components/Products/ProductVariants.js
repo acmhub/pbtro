@@ -15,7 +15,7 @@ export default function ProductVariants({ data, t }) {
                         <h3>{t(e.name)}</h3>
                         <div className="space-y-2">
                             {e.description.map((desc, idx) => (
-                                <p key={idx}>{desc}</p>
+                                <p key={idx}>{t(desc)}</p>
                             ))}
                         </div>
 
@@ -25,9 +25,9 @@ export default function ProductVariants({ data, t }) {
                                     <div className="space-y-2" key={id}>
                                         <div className="flex space-x-2 items-center">
                                             <span className="material-symbols-outlined text-theme1">{stat.icon}</span>
-                                            <h6>{stat.label}</h6>
+                                            <h6>{t(stat.label)}</h6>
                                         </div>
-                                        <h5>{stat.value}</h5>
+                                        <h5>{t(stat.value)}</h5>
                                     </div>
                                 ))}
                             </div>

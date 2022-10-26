@@ -5,19 +5,19 @@ import Link from 'next/link';
 const cardsData = [
     {
         name: 'common:product.tamplariepvc',
-        description: 'Ferestrele din tâmplărie PVC reprezintă o soluție modernă și confortabilă pentru căminul tău.',
+        description: 'windows.pvcdesc',
         image: '/images/fillers/pvcprofile.jpg',
         link: '/produse/tamplarie-pvc'
     },
     {
         name: 'common:product.tamplariealuminiu',
-        description: 'Ferestrele din tâmplărie PVC reprezintă o soluție modernă și confortabilă pentru căminul tău.',
+        description: 'windows.aludesc',
         image: '/images/fillers/aluprofile.jpg',
         link: '/produse/tamplarie-aluminiu'
     },
     {
         name: 'common:product.tamplarielemn',
-        description: 'Ferestrele din tâmplărie PVC reprezintă o soluție modernă și confortabilă pentru căminul tău.',
+        description: 'windows.wooddesc',
         image: '/images/fillers/woodprofile.jpg',
         link: '/produse/tamplarie-lemn'
     }
@@ -26,23 +26,23 @@ const cardsData = [
 const specsData = [
     {
         icon: 'volume_off',
-        name: 'Izolare Fonica'
+        name: 'windows.sound'
     },
     {
         icon: 'light_mode',
-        name: 'Control Solar'
+        name: 'windows.sun'
     },
     {
         icon: 'verified_user',
-        name: 'Durabilitate'
+        name: 'windows.durable'
     },
     {
         icon: 'recycling',
-        name: 'Eco-friendly'
+        name: 'windows.eco'
     },
     {
         icon: 'architecture',
-        name: 'Design Modern'
+        name: 'windows.design'
     }
 ];
 
@@ -53,20 +53,13 @@ export default function WindowDoor({ t }) {
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-0">
                     <div className="col-span-1 lg:col-span-4 space-y-10 my-auto">
                         <div className="space-y-2">
-                            <h6 className="text-gray-400 uppercase">alegerea potrivită</h6>
-                            <h2>Ferestre si Usi</h2>
+                            <h6 className="text-gray-400 uppercase">{t('windows.rightchoice')}</h6>
+                            <h2>{t('windows.windoor')}</h2>
                         </div>
 
                         <div className="text-justify space-y-2">
-                            <p>
-                                Vă punem la dispoziție o gamă variată de ferestre și uși, caracterizate de profile de
-                                clasă superioară și design unic pentru toate gusturile, ideale pentru amenajarea
-                                oricărui tip de spațiu.
-                            </p>
-                            <p>
-                                Tâmplăria noastră vă garantează o viață lipsita de griji deoarece folosim doar materiale
-                                de ultima generație, care nu necesita întreținere speciala.
-                            </p>
+                            <p>{t('windows.paragraph1')}</p>
+                            <p>{t('windows.paragraph2')}</p>
                         </div>
                     </div>
 
@@ -74,7 +67,7 @@ export default function WindowDoor({ t }) {
                         <div className="relative h-[400px] w-full">
                             <Image
                                 src="/images/fillers/windowplant.webp"
-                                alt="Fereastra"
+                                alt={t('common:fereastrapbt')}
                                 layout="fill"
                                 objectFit="contain"
                             />
@@ -82,32 +75,29 @@ export default function WindowDoor({ t }) {
                     </div>
 
                     <div className="col-span-1 lg:col-span-3 space-y-8 my-auto">
-                        {[
-                            'Productie Proprie',
-                            'Echipa Profesionista',
-                            'Materiale de Calitate',
-                            'Masuratori Gratuite'
-                        ].map((e, i) => (
-                            <div className="flex items-center space-x-2" key={i}>
-                                <div className="bg-theme1 h-8 w-8 grid place-content-center rounded-full">
-                                    <span className="material-icons block text-white">done</span>
+                        {['windows.production', 'windows.team', 'windows.quality', 'windows.measurements'].map(
+                            (e, i) => (
+                                <div className="flex items-center space-x-2" key={i}>
+                                    <div className="bg-theme1 h-8 w-8 grid place-content-center rounded-full">
+                                        <span className="material-icons block text-white">done</span>
+                                    </div>
+                                    <div>{t(e)}</div>
                                 </div>
-                                <div>{t(e)}</div>
-                            </div>
-                        ))}
+                            )
+                        )}
                     </div>
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 translate-y-8">
                     {cardsData.map((e, i) => (
-                        <div className="card divide-y" key={i}>
+                        <div className="card flex flex-col divide-y" key={i}>
                             <div className="grid grid-cols-1 xl:grid-cols-12 gap-4 pb-3">
                                 <div className="col-span-1 xl:col-span-8 space-y-2">
                                     <div>
                                         <h6 className="text-theme1">{t('common:fereastrapbt')}</h6>
                                         <h4>{t(e.name)}</h4>
                                     </div>
-                                    <p>{e.description}</p>
+                                    <p>{t(e.description)}</p>
                                 </div>
                                 <div className="col-span-1 xl:col-span-4 my-auto order-first xl:order-last">
                                     <div className="relative h-24 w-auto">
@@ -116,10 +106,10 @@ export default function WindowDoor({ t }) {
                                 </div>
                             </div>
 
-                            <div className="pt-3">
+                            <div className="mt-auto pt-3">
                                 <Link href={e.link} passhref>
                                     <a className="flex items-center space-x-2 w-fit mx-auto">
-                                        <span>Mai multe informatii</span>
+                                        <span>{t('common:moreinfo')}</span>
                                         <span className="material-symbols-outlined">trending_flat</span>
                                     </a>
                                 </Link>

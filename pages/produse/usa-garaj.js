@@ -11,140 +11,121 @@ import ProductCTA from '../../components/Products/ProductCTA';
 const landingData = {
     src: '/images/products/usa-garaj/highlight.webp',
     product: 'common:product.usagaraj',
-    description: [
-        'Sistemele de pergole retractabile respectiv pergole bioclimatice sunt un accesoriu important atât în construcțiile rezidențiale, cât și comerciale. Fie că vorbim de terasa unui restaurant sau hotel, ori cea de acasă, ele creează spațiul de relaxare perfect și oferă confort celor care se adăpostesc sub ele.'
-    ]
+    description: ['description']
 };
 
 const variantsData = [
     {
         src: '/images/products/usa-garaj/highlight.webp',
-        name: 'Usa de Garaj Benefit',
-        description: [
-            'O alegere bună datorită raportului calitate/preț. Sunt uși de garaj ieftine datorită reducerii pierderilor de material, panourile fiind realizate la dimensiuni standard. Sunt dotate cu arcuri de tracțiune ce pot fi montate sub șină pe care culisează ușa sau pe lateralele ei.',
-            'Avantajul principal al ușilor cu arcuri de tracțiune consta în faptul că instalarea șinei se poate face și când stâlpii laterali și grindă au dimensiuni reduse. Sunt garantate 15 000 de cicluri.'
-        ],
+        name: 'variants.benefit',
+        description: ['variants.benefitdesc1', 'variants.benefitdesc2'],
         stats: [
-            { icon: 'workspace_premium', label: 'Garantie', value: '5 ani' },
-            { icon: 'repeat', label: 'Cicluri de Utilizare', value: '15000' }
+            { icon: 'workspace_premium', label: 'warranty', value: '5ani' },
+            { icon: 'repeat', label: 'cicluri', value: '15000' }
         ]
     },
     {
         src: '/images/products/usa-garaj/highlight.webp',
-        name: 'Usa de Garaj Benefit XL',
-        description: [
-            'Ușile sectionale BeneFit XL sunt construite pentru garaje mici, cu lungime maxima de 3.2m și sunt echipate cu arcuri de tracțiune amplasate în stâlpii laterali. ',
-            'Datorită acestei soluții, spațiul necesar de grindă este redus până la 65mm, în cazul unei uși de garaj manuale, și 120mm în cazul unei uși de garaj electrice. BeneFit XL sunt garantate 15 000 de cicluri de funcționare.'
-        ],
+        name: 'variants.benefitxl',
+        description: ['variants.benefitxldesc1', 'variants.beneftixldesc2'],
         stats: [
-            { icon: 'workspace_premium', label: 'Garantie', value: '5 ani' },
-            { icon: 'settings_remote', label: 'Actionare', value: 'Electric sau Manual' },
-            { icon: 'repeat', label: 'Cicluri de Utilizare', value: '15000' }
+            { icon: 'workspace_premium', label: 'warranty', value: '5ani' },
+            { icon: 'settings_remote', label: 'actionare', value: 'elecmanual' },
+            { icon: 'repeat', label: 'cicluri', value: '15000' }
         ]
     },
     {
         src: '/images/products/usa-garaj/highlight.webp',
-        name: 'Usa de Garaj Optima',
-        description: [
-            'Ușile de garaj secționale Optima oferă cele mai flexibile variante constructive. Pot fi realizate la comandă, în orice dimensiune, și sunt dotate cu arcuri de torsiune ce pot fi montate atat pe grindă pe care se aplică ușă, cât și în spatele sinelor. ',
-            'Ușile Optima sunt garantate 25 000 de cicluri de funcționare. Dacă vom considera o utilizare medie zilnică de 3 cicluri, vom ajunge la o durată de folosință de peste 20 ani.'
-        ],
+        name: 'variants.optima',
+        description: ['variants.optimadesc1', 'variants.optimadesc2'],
         stats: [
-            { icon: 'workspace_premium', label: 'Garantie', value: '10 ani' },
-            { icon: 'repeat', label: 'Cicluri de Utilizare', value: '25000' }
+            { icon: 'workspace_premium', label: 'warranty', value: '10ani' },
+            { icon: 'repeat', label: 'cicluri', value: '25000' }
         ]
     },
     {
         src: '/images/products/usa-garaj/highlight.webp',
-        name: 'Usa de Garaj Vogue',
-        description: [
-            'La fel ca și Optima, ușa de garaj secțională Vogue se poate realiza pe comandă în orice dimensiune. În schimb, îți oferă posibilitatea personalizării cu inserții de inox. Sunt garantate 25 000 de cicluri de funcționare și o durată de folosință de peste 20 ani.'
-        ],
+        name: 'variants.vogue',
+        description: [''],
         stats: [
-            { icon: 'workspace_premium', label: 'Garantie', value: '15 ani' },
-            { icon: 'repeat', label: 'Cicluri de Utilizare', value: '25000' }
+            { icon: 'workspace_premium', label: 'warranty', value: '15ani' },
+            { icon: 'repeat', label: 'cicluri', value: '25000' }
         ]
     }
 ];
 
 const accessoriesData = [
     {
-        tab: 'Vitrare',
+        tab: 'accessories.vitrare',
         items: [
             {
                 src: '/images/products/usa-garaj/vitrare-dreptunghi-640x340.webp',
-                name: 'Ferestre Dreptunghiulare 640x340'
+                name: 'accessories.fer640'
             },
             {
                 src: '/images/products/usa-garaj/vitrare-dreptunghi-610x140.webp',
-                name: 'Ferestre Dreptunghiulare 610x140'
+                name: 'accessories.fer610'
             }
         ]
     },
     {
-        tab: 'Usa Pietonala',
+        tab: 'accessories.usa',
         items: [
             {
                 src: '/images/products/usa-garaj/usa-linii.webp',
-                name: 'Model Linii'
+                name: 'accessories.linii'
             },
             {
                 src: '/images/products/usa-garaj/usa-bloc.webp',
-                name: 'Usa de Acces in Cladire'
+                name: 'accessories.acces'
             }
         ]
     },
     {
-        tab: 'Accesorii',
+        tab: 'accessories.accesorii',
         items: [
             {
                 src: '/images/products/usa-garaj/buton-perete.webp',
-                name: 'Buton Perete'
+                name: 'accessories.buton'
             },
             {
                 src: '/images/products/usa-garaj/fotocelule.webp',
-                name: 'Sistem de Fotocelule'
+                name: 'accessories.fotocelule'
             },
             {
                 src: '/images/products/usa-garaj/maner.webp',
-                name: 'Maner Simplu'
+                name: 'accessories.maner'
             },
             {
                 src: '/images/products/usa-garaj/yala-blocare.webp',
-                name: 'Yala Blocare'
+                name: 'accessories.yalablocare'
             },
             {
                 src: '/images/products/usa-garaj/yala-motor.webp',
-                name: 'Yala Deblocare Motor'
+                name: 'accessories.yaladeblocare'
             },
             {
                 src: '/images/products/usa-garaj/sistem-blocare.webp',
-                name: 'Sistem Suplimentar Blocare'
+                name: 'accessories.sistemblocare'
             },
             {
                 src: '/images/products/usa-garaj/bolt.webp',
-                name: 'Bolt'
+                name: 'accessories.bolt'
             },
             {
                 src: '/images/products/usa-garaj/telecomanda.webp',
-                name: 'Telecomanda 4 Canale'
+                name: 'accessories.telecomanda'
             }
         ]
     }
 ];
 
-const ctaData = [
-    '/images/products/usa-garaj/highlight.webp',
-    '/images/products/usa-garaj/highlight.webp',
-    '/images/products/usa-garaj/highlight.webp',
-    '/images/products/usa-garaj/highlight.webp',
-    '/images/products/usa-garaj/highlight.webp'
-];
+const ctaData = ['/images/products/usa-garaj/highlight.webp'];
 
 export default function UsaGaraj() {
     const { t } = useTranslation('usagaraj');
     return (
-        <Layout title={t('common:product.usagaraj')} description="">
+        <Layout title={t('common:product.usagaraj')} description={t('description')}>
             <div className="section-spacing" />
 
             <div className="container-padding">

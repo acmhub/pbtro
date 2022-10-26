@@ -405,7 +405,7 @@ export default function Navigation() {
                                 `}
                                 >
                                     <div className="col-span-1 space-y-2">
-                                        <h5 className="lg:text-white">Ferestre si Usi</h5>
+                                        <h5 className="lg:text-white">{t('nav.windoor')}</h5>
 
                                         <div className="flex flex-col">
                                             {windoorProducts.map((e, i) => (
@@ -418,7 +418,7 @@ export default function Navigation() {
                                         </div>
                                     </div>
                                     <div className="col-span-1 space-y-2">
-                                        <h5 className="lg:text-white">Sticla</h5>
+                                        <h5 className="lg:text-white">{t('nav.glass')}</h5>
 
                                         <div className="flex flex-col">
                                             {glassProducts.map((e, i) => (
@@ -431,7 +431,7 @@ export default function Navigation() {
                                         </div>
                                     </div>
                                     <div className="col-span-1 space-y-2">
-                                        <h5 className="lg:text-white">Accesorii</h5>
+                                        <h5 className="lg:text-white">{t('nav.accessories')}</h5>
 
                                         <div className="flex flex-col">
                                             {accessoriesProducts.map((e, i) => (
@@ -444,7 +444,7 @@ export default function Navigation() {
                                         </div>
                                     </div>
                                     <div className="col-span-1 space-y-2">
-                                        <h5 className="lg:text-white">Exterior</h5>
+                                        <h5 className="lg:text-white">{t('nav.exterior')}</h5>
 
                                         <div className="flex flex-col">
                                             {exteriorProducts.map((e, i) => (

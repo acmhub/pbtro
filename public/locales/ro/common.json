@@ -8,9 +8,19 @@
     "portfolio": "Portofoliu",
     "contact": "Contact",
     "getquote": "Solicita Oferta",
+
+    "privacypolicy": "Politica de Confidențialitate",
+    "cookiespolicy": "Politica de Cookies",
+
     "fereastrapbt": "Fereastra PBT",
 
+    "seemore": "Vezi mai mult",
+    "moreinfo": "Mai multe informații",
+    "send": "Trimite",
+
     "product": {
+        "title": "Produsele Oferite de Noi",
+
         "balustrada": "Balustradă",
         "rulouexterior": "Rulou Exterior",
         "pergola": "Pergolă",
@@ -26,5 +36,53 @@
         "usaantifoc": "Ușă Antifoc",
         "plasainsecte": "Plasă contra Insectelor",
         "pereteantivant": "Perete Antivânt"
+    },
+
+    "nav": {
+        "windoor": "Ferestre și Uși",
+        "glass": "Sticlă",
+        "accessories": "Accesorii",
+        "exterior": "Exterior"
+    },
+
+    "footer": {
+        "about": "Suntem o companie la baza căreia se află o echipă tânără și dinamică, formată din specialiști în tâmplăria PVC și cea din aluminiu. Astfel, răspundem cerințelor dumneavoastră prin servicii excelente de fabricare și montare.",
+        "navigation": "Navigație"
+    },
+
+    "profilespecs": {
+        "adancime": "Adâncime Constructivă",
+        "structura": "Structură Camerală",
+        "izolare": "Izolare Termică",
+        "fonic": "Izolare Fonică",
+        "vitrare": "Dimensiune Vitrare",
+        "clasa": "Clasă Profil",
+        "toc": "Toc",
+        "latimetoc": "Lățime Toc",
+        "tocdublu": "Lățime Toc Glisare Dublă",
+        "canat": "Lățime Canat",
+        "cercevea": "Cercevea",
+        "montant": "Lățime Montant",
+        "variantaconstructiva": "Varianta Constructivă",
+        "cubariera": "Cu Barieră Termică",
+        "farabariera": "Fără Barieră Termică"
+    },
+
+    "atypics": {
+        "title": "Forme Atipice",
+        "description": "Puteți opta pentru ferestre în diferite forme atipice, precum arc de cerc, cerc, trapez, triunghi sau alte forme asimetrice."
+    },
+
+    "colors": {
+        "title": "Gamă excepţională de culori",
+        "available": "Culori Disponibile",
+        "description": "Putem furniza profile de interior şi exterior în aproape orice culoare pe care v-o puteţi imagina. Sunt disponibile peste 450 de nuanțe și finisaje diferite: culori metalice sau anodizate, mate sau RAL lucioase, sau chiar și o vopsea coatex specială rezistență la zgârieturi și cu o îngrijire minimă.",
+        "woodimitation": "Imitaţii Lemn",
+        "ral": "Paletar RAL"
+    },
+
+    "productcta": {
+        "title": "Lorem ipsum dolor sit.",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ad, voluptatem facilis nihil eaque impedit placeat unde suscipit iure dignissimos."
     }
 }

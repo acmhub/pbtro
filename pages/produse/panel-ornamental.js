@@ -12,18 +12,10 @@ import { aluminiuData, inoxData } from '../../components/Products/PanelOrnamenta
 const landingData = {
     src: '/images/products/panel-ornamental/highlight.webp',
     product: 'common:product.panelornamental',
-    description: [
-        'Primul lucru pe care îl vedeți dumneavoastră și oaspeții este ușa de la intrare, iar aceasta ar trebui să fie primitoare și reprezentativă. Ușa de la intrare determină semnificativ impresia generală a unei case și dezvăluie multe despre gustul personal. Vă oferim o gamă largă de sisteme de uși frontale în culori și modele diferite. Lasă-te surprins de numeroasele posibilități.'
-    ]
+    description: ['description']
 };
 
-const ctaData = [
-    '/images/products/panel-ornamental/highlight.webp',
-    '/images/products/panel-ornamental/highlight.webp',
-    '/images/products/panel-ornamental/highlight.webp',
-    '/images/products/panel-ornamental/highlight.webp',
-    '/images/products/panel-ornamental/highlight.webp'
-];
+const ctaData = ['/images/products/panel-ornamental/highlight.webp'];
 
 export default function PanelOrnamental() {
     const { t } = useTranslation('panelornamental');
@@ -31,7 +23,7 @@ export default function PanelOrnamental() {
     const [modalState, setModalState] = useState({ state: false, index: null });
 
     return (
-        <Layout title={t('common:product.panelornamental')} description="">
+        <Layout title={t('common:product.panelornamental')} description={t('description')}>
             <div className="section-spacing" />
 
             <div className="container-padding">
@@ -40,7 +32,7 @@ export default function PanelOrnamental() {
                 <div className="section-spacing" />
 
                 <section className="space-y-4" id="aluminiu">
-                    <h3 className="text-center">Modele Panel Ornamnental Aluminiu</h3>
+                    <h3 className="text-center">{t('alumodels')}</h3>
 
                     <div className="h-96 w-full overflow-y-scroll">
                         <div className="grid grid-cols-2 lg:grid-cols-6 gap-1">
@@ -84,7 +76,10 @@ export default function PanelOrnamental() {
                 <div className="section-spacing" />
 
                 <section className="space-y-4" id="inox">
-                    <h3 className="text-center">Cu Insertie de Inox</h3>
+                    <h3 className="text-center">
+                        {t('alumodels')} <br />
+                        {t('inoxmodels')}
+                    </h3>
 
                     <div className="h-96 w-full overflow-y-scroll">
                         <div className="grid grid-cols-2 lg:grid-cols-6 gap-1">

@@ -10,9 +10,7 @@ import ProductCTA from '../../components/Products/ProductCTA';
 const landingData = {
     src: '/images/products/perete-cortina/highlight.webp',
     product: 'common:product.peretecortina',
-    description: [
-        'Pereţii cortină reprezintă cea mai elegantă, sigură şi accesibilă fațadă ce poate îmbrăca orice tip de construcţie. Se remarcă prin proprietăţile excepţionale de izolare termică şi fonică, prin posibilităţi infinite de design ce se adaptează oricărei viziuni arhitecturale, timp de execuţie şi montaj scurt şi o întreţinere uşoară.'
-    ]
+    description: ['description']
 };
 
 const profileData = [
@@ -60,30 +58,18 @@ const profileData = [
 const variantsData = [
     {
         src: '/images/products/perete-cortina/highlight.webp',
-        name: 'Pereți Cortină Standard',
-        description: [
-            'Sunt denumiți pereți cortină clasici datorită caracteristicii sistemului prin care geamul termoizolant este fixat de cadrul din aluminiu cu ajutorul capacelor presoare, fixate, la rândul lor, de cadrul din aluminiu cu șuruburi. Capacele presoare pot fi de diverse forme, dimensiuni și nuanțe.',
-            'Sistemul de perete cortină standard permite montarea de geamuri termoizolante cu grosimi diferite, din 2 sau 3 foi de sticlă. Profilele, vizibile din exterior, pot fi adaptate oricărui tip de construcție. Peretele cortină standard reprezintă o soluție modernă de fațadă de sticlă cu o construcție articulată și este proiectat să facă față cutremurelor și vibrațiilor de intensitatea normală, dar și a dilatărilor sau contractărilor ale profilelor de aluminiu fără însă a-și pierde din rezistența la vânt sau la permeabilitatea apei.',
-            'Pot fi realizați pereți cortină cu dimensiuni mari, de complexitate ridicată din punct de vedere al materialelor utilizate. Profilele sunt înguste și sunt o soluție mai ieftină datorită sistemului clasic de pereți cortină.'
-        ]
+        name: 'variants.standard',
+        description: ['variants.standarddesc1', 'variants.standarddesc2', 'variants.standarddesc3']
     },
     {
         src: '/images/products/perete-cortina/highlight.webp',
-        name: 'Pereți Cortină Semistructurali',
-        description: [
-            'Sunt denumiți pereți cortină semistructurali datorită caracteristicii sistemului prin care geamul termoizolant este fixat de cadrul din aluminiu cu ajutorul capacelor presoare doar pe o dimensiune, verticală sau orizontală. Capacele presoare pot fi de diverse forme, dimensiuni și nuanțe.',
-            'Sistemul de perete cortină semistructural permite montarea de geamuri termoizolante cu grosimi diferite, din 2 sau 3 foi de sticlă. Profilele, vizibile din exterior, pot fi adaptate oricărui tip de construcție. Impermeabilitatea este asigurată în cazul sistemului semistructural de trei rânduri de garnituri EPDM și de un sistem de scurgere pentru orice fel de acumulare de apă.',
-            'Profilele sunt vizibile din interior, iar din exterior profilul este vizibil doar pe un sens. Pe celălalt sens este vizibilă o linie subțire ceea ce conferă sistemului continuitate. Pot fi realizați pereți cortină cu dimensiuni mari, de complexitate ridicată.'
-        ]
+        name: 'variants.semi',
+        description: ['variants.semidesc1', 'variants.semidesc2', 'variants.semidesc3']
     },
     {
         src: '/images/products/perete-cortina/highlight.webp',
-        name: 'Pereți Cortină Structurali',
-        description: [
-            'Pereții cortină structurali sunt realizați cu un sistem special din aluminiu ce oferă, la exterior, aspectul de sticlă continuă. Geamul termoizolant este lipit de rama din aluminiu cu ajutorul unui silicon structural.',
-            'Realizarea practică se transpune prin îmbinarea unui caroiaj de montanți verticali cu traverse (rigle) orizontale. Se pot integra cu usurință în astfel de pereți și căi de acces spectaculoase, scări, balustrade, lifturi exterioare, realizate tot din sticlă, ce satisfac dorința arhitecților pentru lumină, spații largi, linii moderne și viziune futuristă.',
-            'Sticla structurală poate avea un aspect îmbunătățit prin intermediul aplicării unor desene și forme geometrice sau se pot folosi tonalități coloristice diverse.'
-        ]
+        name: 'variants.structural',
+        description: ['variants.structuraldesc1', 'variants.structuraldesc2', 'variants.structuraldesc3']
     }
 ];
 
@@ -97,7 +83,7 @@ const ctaData = [
 export default function PereteCortina() {
     const { t } = useTranslation('peretecortina');
     return (
-        <Layout title={t('common:product.peretecortina')} description="">
+        <Layout title={t('common:product.peretecortina')} description={t('description')}>
             <div className="section-spacing" />
 
             <div className="container-padding">
@@ -105,7 +91,7 @@ export default function PereteCortina() {
 
                 <div className="section-spacing" />
 
-                <Profiles data={profileData} />
+                <Profiles data={profileData} t={t} />
 
                 <div className="section-spacing" />
 

@@ -4,30 +4,30 @@ import Link from 'next/link';
 const stepsData = [
     {
         icon: 'draft',
-        title: 'Trimite-ne o schita',
+        title: 'calltoaction.draft',
         description:
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit beatae in molestiae quasi tenetur a.'
     },
     {
         icon: 'support_agent',
-        title: 'Consultanta in baza ofertei',
+        title: 'calltoaction.support',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, corporis.'
     },
     {
         icon: 'straighten',
-        title: 'Plata si masuratori',
+        title: 'calltoaction.paymeasure',
         description:
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur blanditiis deleniti aut reprehenderit rerum aperiam neque iste delectus excepturi voluptatum!'
     },
     {
         icon: 'construction',
-        title: 'Productie si montaj',
+        title: 'calltoaction.production',
         description:
             'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint et non earum officiis reprehenderit eius pariatur eaque.'
     },
     {
         icon: 'mood',
-        title: 'Bucura-te de produsul tau',
+        title: 'calltoaction.happy',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, corporis.'
     }
 ];
@@ -35,7 +35,7 @@ const stepsData = [
 export default function CallToAction({ t }) {
     return (
         <div className="container-padding">
-            <h2 className="text-center mb-10">Procesul nostru</h2>
+            <h2 className="text-center mb-10">{t('calltoaction.title')}</h2>
 
             <div className="relative py-3 sm:max-w-5xl sm:mx-auto w-full px-2 sm:px-0">
                 <div className="hidden sm:block w-px bg-theme1 absolute h-full left-1/2 transform -translate-x-1/2"></div>
@@ -58,8 +58,8 @@ export default function CallToAction({ t }) {
                                             0{i + 1}
                                         </h5>
 
-                                        <h4>{e.title}</h4>
-                                        <p>{e.description}</p>
+                                        <h4>{t(e.title)}</h4>
+                                        <p>{t(e.description)}</p>
                                     </div>
                                 </div>
                             </div>

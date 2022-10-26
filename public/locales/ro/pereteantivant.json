@@ -1,0 +1,17 @@
+{
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, harum soluta maxime, tempora, fugit facere nostrum voluptatibus labore temporibus quas voluptas est aliquid fugiat qui?",
+
+    "variants": {
+        "casetat": "Rulou de Folie Casetat",
+        "casetatdesc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, harum soluta maxime, tempora, fugit facere nostrum voluptatibus labore temporibus quas voluptas est aliquid fugiat qui?",
+        "necasetat": "Rulou de Folie Necasetat",
+        "necasetatdesc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, harum soluta maxime, tempora, fugit facere nostrum voluptatibus labore temporibus quas voluptas est aliquid fugiat qui?",
+        "capse": "Capse și Bride",
+        "capsedesc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, harum soluta maxime, tempora, fugit facere nostrum voluptatibus labore temporibus quas voluptas est aliquid fugiat qui?",
+
+        "actionare": "Acționare",
+        "elecmanual": "Electric sau Manual",
+        "dimensiuni": "Dimensiuni maxime",
+        "rezistenta": "Rezistență"
+    }
+}

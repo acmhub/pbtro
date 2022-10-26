@@ -11,25 +11,17 @@ import Modal from '@mui/material/Modal';
 const landingData = {
     src: '/images/products/usa-antifoc/highlight.webp',
     product: 'common:product.usaantifoc',
-    description: [
-        'Ușile rezistente la foc sunt foarte importante pentru protecția ta, acestea formează o bariera în calea răspândirii focului și pot salva o mulțime de vieți. Au proprietăți care le fac să se transforme în adevărate bariere în calea focului. '
-    ]
+    description: ['description']
 };
 
-const ctaData = [
-    '/images/products/usa-antifoc/highlight.webp',
-    '/images/products/usa-antifoc/highlight.webp',
-    '/images/products/usa-antifoc/highlight.webp',
-    '/images/products/usa-antifoc/highlight.webp',
-    '/images/products/usa-antifoc/highlight.webp'
-];
+const ctaData = ['/images/products/usa-antifoc/highlight.webp'];
 
 export default function UsaAntifoc() {
     const { t } = useTranslation('usaantifoc');
     const [modalState, setModalState] = useState(null);
 
     return (
-        <Layout title={t('common:product.usaantifoc')} description="">
+        <Layout title={t('common:product.usaantifoc')} description={t('description')}>
             <div className="section-spacing" />
 
             <div className="container-padding">
@@ -42,14 +34,10 @@ export default function UsaAntifoc() {
                     <div className="relative grid grid-cols-1 lg:grid-cols-3 gap-8 z-10">
                         <div className="space-y-4 lg:text-white my-auto">
                             <h3>
-                                Ușa potrivită pentru <br />
-                                fiecare situație
+                                {t('details.title1')} <br />
+                                {t('details.title2')}
                             </h3>
-                            <p className="text-justify">
-                                Ușile trebuie să fie special echipate pentru fiecare sarcină. De la protecția împotriva
-                                zgomotului testată până la protecția împotriva fumului, la foc sau la radiații, oferim
-                                ușa potrivită, perfect adaptată cerințelor dumneavoastră.
-                            </p>
+                            <p className="text-justify">{t('details.paragraph')}</p>
                         </div>
 
                         <div className="order-first lg:order-2">
@@ -66,17 +54,12 @@ export default function UsaAntifoc() {
 
                         <div className="order-last my-auto">
                             <div className="space-y-8 w-fit mx-auto lg:w-full">
-                                {[
-                                    'Material de Înaltă Calitate',
-                                    'Foaie Galvanizată la Căldură',
-                                    'Proces de Acoperire în Relief',
-                                    'Finisaj și Estetică de Înaltă Calitate'
-                                ].map((e, i) => (
+                                {['details.quality', 'details.heat', 'details.cover', 'details.estetic'].map((e, i) => (
                                     <div className="flex items-center space-x-2" key={i}>
                                         <div className="bg-theme1 rounded-full h-8 w-8 grid place-content-center p-0.5">
                                             <span className="material-symbols-outlined text-white">done</span>
                                         </div>
-                                        <span>{e}</span>
+                                        <span>{t(e)}</span>
                                     </div>
                                 ))}
                             </div>
@@ -87,7 +70,7 @@ export default function UsaAntifoc() {
                 <div className="section-spacing" />
 
                 <section className="space-y-4" id="models">
-                    <h3 className="text-center">Modele Usa Antifoc</h3>
+                    <h3 className="text-center">{t('details.models')}</h3>
 
                     <div className="grid grid-cols-2 lg:grid-cols-6 gap-1">
                         {firedoorData.map((e, i) => (

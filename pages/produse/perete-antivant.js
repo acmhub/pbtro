@@ -9,44 +9,38 @@ import ProductCTA from '../../components/Products/ProductCTA';
 const landingData = {
     src: '/images/products/perete-antivant/highlight.webp',
     product: 'common:product.pereteantivant',
-    description: ['']
+    description: ['description']
 };
 
 const variantsData = [
     {
         src: '/images/products/perete-antivant/rulou-casetat.webp',
-        name: 'Rulou de Folie Casetat',
-        description: [
-            'O alegere bună datorită raportului calitate/preț. Sunt uși de garaj ieftine datorită reducerii pierderilor de material, panourile fiind realizate la dimensiuni standard. Sunt dotate cu arcuri de tracțiune ce pot fi montate sub șină pe care culisează ușa sau pe lateralele ei.'
-        ],
+        name: 'variants.casetat',
+        description: ['variants.casetatdesc'],
         stats: [
-            { icon: 'settings_remote', label: 'Actionare', value: 'Electric sau Manual' },
-            { icon: 'straighten', label: 'Dimensiuni maxime', value: '3m x 2.5m' },
-            { icon: 'thermostat', label: 'Rezistenta', value: '-22°C/+66°C' }
+            { icon: 'settings_remote', label: 'variants.actionare', value: 'variants.elecmanual' },
+            { icon: 'straighten', label: 'variants.dimensiuni', value: '3m x 2.5m' },
+            { icon: 'thermostat', label: 'variants.rezistenta', value: '-22°C/+66°C' }
         ]
     },
     {
         src: '/images/products/perete-antivant/rulou-necasetat.webp',
-        name: 'Rulou de Folie Necasetat',
-        description: [
-            'O alegere bună datorită raportului calitate/preț. Sunt uși de garaj ieftine datorită reducerii pierderilor de material, panourile fiind realizate la dimensiuni standard. Sunt dotate cu arcuri de tracțiune ce pot fi montate sub șină pe care culisează ușa sau pe lateralele ei.'
-        ],
+        name: 'variants.necasetat',
+        description: ['variants.necasetatdesc'],
         stats: [
-            { icon: 'settings_remote', label: 'Actionare', value: 'Electric sau Manual' },
-            { icon: 'straighten', label: 'Dimensiuni maxime', value: '6m x 3m' },
-            { icon: 'thermostat', label: 'Rezistenta', value: '-22°C/+66°C' }
+            { icon: 'settings_remote', label: 'variants.actionare', value: 'variants.elecmanual' },
+            { icon: 'straighten', label: 'variants.dimensiuni', value: '6m x 3m' },
+            { icon: 'thermostat', label: 'variants.rezistenta', value: '-22°C/+66°C' }
         ]
     },
     {
         src: '/images/products/perete-antivant/rulou-capse.webp',
-        name: 'Capse si Bride',
-        description: [
-            'O alegere bună datorită raportului calitate/preț. Sunt uși de garaj ieftine datorită reducerii pierderilor de material, panourile fiind realizate la dimensiuni standard. Sunt dotate cu arcuri de tracțiune ce pot fi montate sub șină pe care culisează ușa sau pe lateralele ei.'
-        ],
+        name: 'variants.capse',
+        description: ['variants.capsedesc'],
         stats: [
-            { icon: 'settings_remote', label: 'Actionare', value: 'Manual' },
-            { icon: 'straighten', label: 'Dimensiuni maxime', value: '4.5m x 3m' },
-            { icon: 'thermostat', label: 'Rezistenta', value: '-22°C/+66°C' }
+            { icon: 'settings_remote', label: 'variants.actionare', value: 'Manual' },
+            { icon: 'straighten', label: 'variants.dimensiuni', value: '4.5m x 3m' },
+            { icon: 'thermostat', label: 'variants.rezistenta', value: '-22°C/+66°C' }
         ]
     }
 ];
@@ -62,7 +56,7 @@ export default function PereteAntivant() {
     const { t } = useTranslation('pereteantivant');
 
     return (
-        <Layout title={t('common:product.pereteantivant')} description="">
+        <Layout title={t('common:product.pereteantivant')} description={t('description')}>
             <div className="section-spacing" />
 
             <div className="container-padding">

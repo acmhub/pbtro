@@ -11,9 +11,7 @@ import ProductCTA from '../../../components/Products/ProductCTA';
 const landingData = {
     src: '/images/products/tamplarie-pvc/highlight.webp',
     product: 'common:product.tamplariepvc',
-    description: [
-        'Siguranța și aspectul plăcut determină calitatea și confortul spațiului dumneavoastră. Profilele din PVC sunt cele mai frecvent utilizate în realizarea feroneriei ferestrelor și a ușilor. Izolația termică și costul accesibil tuturor sunt doar câteva dintre beneficiile acestui material.'
-    ]
+    description: ['description']
 };
 
 const profilesData = [
@@ -26,23 +24,23 @@ const profilesData = [
         image: '/images/products/tamplarie-pvc/klass_demo.webp',
         tehnicalDetails: [
             {
-                label: 'Adancime Constructiva',
+                label: 'common:profilespecs.adancime',
                 value: '70mm'
             },
             {
-                label: 'Structura Camerala',
+                label: 'common:profilespecs.structura',
                 value: '6'
             },
             {
-                label: 'Izolare Termica',
+                label: 'common:profilespecs.izolare',
                 value: '1.33 W/m2k'
             },
             {
-                label: 'Vitrare',
+                label: 'common:profilespecs.vitrare',
                 value: '24mm / 34mm'
             },
             {
-                label: 'Clasa Profil',
+                label: 'common:profilespecs.clasa',
                 value: 'A / B'
             }
         ]
@@ -56,23 +54,23 @@ const profilesData = [
         image: '/images/products/tamplarie-pvc/streamline_demo.webp',
         tehnicalDetails: [
             {
-                label: 'Adancime Constructiva',
+                label: 'common:profilespecs.adancime',
                 value: '76mm'
             },
             {
-                label: 'Structura Camerala',
+                label: 'common:profilespecs.structura',
                 value: '5 / 7'
             },
             {
-                label: 'Izolare Termica',
+                label: 'common:profilespecs.izolare',
                 value: '1.3 W/m2k'
             },
             {
-                label: 'Vitrare',
+                label: 'common:profilespecs.vitrare',
                 value: '24mm / 40mm'
             },
             {
-                label: 'Clasa Profil',
+                label: 'common:profilespecs.clasa',
                 value: 'A'
             }
         ]
@@ -86,23 +84,23 @@ const profilesData = [
         image: '/images/products/tamplarie-pvc/evo82_demo.webp',
         tehnicalDetails: [
             {
-                label: 'Adancime Constructiva',
+                label: 'common:profilespecs.adancime',
                 value: '82mm'
             },
             {
-                label: 'Structura Camerala',
+                label: 'common:profilespecs.structura',
                 value: '6'
             },
             {
-                label: 'Izolare Termica',
+                label: 'common:profilespecs.izolare',
                 value: '0.98 W/m2k'
             },
             {
-                label: 'Vitrare',
+                label: 'common:profilespecs.vitrare',
                 value: '24mm / 48mm'
             },
             {
-                label: 'Clasa Profil',
+                label: 'common:profilespecs.clasa',
                 value: 'A'
             }
         ]
@@ -116,23 +114,23 @@ const profilesData = [
         image: '/images/products/tamplarie-pvc/evo92_demo.webp',
         tehnicalDetails: [
             {
-                label: 'Adancime Constructiva',
+                label: 'common:profilespecs.adancime',
                 value: '92mm'
             },
             {
-                label: 'Structura Camerala',
+                label: 'common:profilespecs.structura',
                 value: '6'
             },
             {
-                label: 'Izolare Termica',
+                label: 'common:profilespecs.izolare',
                 value: '0.92 W/m2k'
             },
             {
-                label: 'Vitrare',
+                label: 'common:profilespecs.vitrare',
                 value: '52mm'
             },
             {
-                label: 'Clasa Profil',
+                label: 'common:profilespecs.clasa',
                 value: 'A'
             }
         ]
@@ -149,7 +147,7 @@ const ctaData = [
 export default function TamplariePVC() {
     const { t } = useTranslation('tamplariepvc');
     return (
-        <Layout title={t('common:product.tamplariepvc')} description="">
+        <Layout title={t('common:product.tamplariepvc')} description={t('description')}>
             <div className="container-padding">
                 <div className="section-spacing" />
                 <section id="landing">
@@ -160,7 +158,7 @@ export default function TamplariePVC() {
 
                 <section id="profiles">
                     <h3 className="text-center mb-10">{t('common:fereastrapbt')}</h3>
-                    <Profiles data={profilesData} />
+                    <Profiles data={profilesData} t={t} />
                 </section>
             </div>
 

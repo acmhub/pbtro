@@ -7,25 +7,25 @@ const accessoriesData = [
         colClass: 'col-span-1',
         cardHeight: 'lg:h-[200px]',
         src: '/images/accessories/glaf_pvc.webp',
-        name: 'Glaf'
+        name: 'accessories.glaf'
     },
     {
         colClass: 'col-span-1',
         cardHeight: 'lg:h-[200px]',
         src: '/images/accessories/pervaz_aluminiu.webp',
-        name: 'Pervaz'
+        name: 'accessories.pervaz'
     },
     {
         colClass: 'col-span-1 lg:row-span-2',
         cardHeight: 'lg:h-full',
         src: '/images/accessories/broasca_usa.webp',
-        name: 'Broasca Usa'
+        name: 'accessories.broasca'
     },
     {
         colClass: 'col-span-1 lg:col-span-2 lg:row-start-2',
         cardHeight: 'lg:h-[200px]',
         src: '/images/accessories/panel_pvc.webp',
-        name: 'Panel'
+        name: 'accessories.panel'
     }
 ];
 
@@ -33,11 +33,8 @@ export default function Accessories({ t }) {
     return (
         <div className="container-padding space-y-10">
             <div className="space-y-2">
-                <h1>Accesorii</h1>
-                <p className="lg:w-2/5">
-                    Un prim criteriu de selectare a unui producător de accesorii tâmplărie poate fi experiența acestuia
-                    și vechimea pe piața de producție.
-                </p>
+                <h1>{t('common:accessories')}</h1>
+                <p className="lg:w-2/5">{t('accessories.paragraph')}</p>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 lg:row-auto gap-1">
@@ -48,13 +45,13 @@ export default function Accessories({ t }) {
                         <div className={`relative h-96 ${e.cardHeight} w-full overflow-hidden shadow`}>
                             <Image
                                 src={e.src}
-                                alt="Accesorii Tamplarie"
+                                alt={t('common:accessories')}
                                 layout="fill"
                                 objectFit="cover"
                                 className="hover:scale-110 duration-200 ease-in-out"
                             />
                             <div className="absolute bottom-0 left-0 h-[50%] w-full bg-gradient-to-t from-[rgba(0,0,0,0.5)] via-transparent to-transparent pointer-events-none z-10" />
-                            <h4 className="absolute bottom-2 left-2 text-white z-10">{e.name}</h4>
+                            <h4 className="absolute bottom-2 left-2 text-white z-10">{t(e.name)}</h4>
                         </div>
                         {/* </a> */}
                         {/* </Link> */}

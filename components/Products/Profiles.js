@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectFade } from 'swiper';
 
-function Profiles({ data }) {
+function Profiles({ data, t }) {
     const [swiper, setSwiper] = useState();
     const [activeSlide, setActiveSlide] = useState(0);
 
@@ -80,15 +80,15 @@ function Profiles({ data }) {
                             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                                 {e.tehnicalDetails.map((detail, index) => (
                                     <div key={index}>
-                                        <div className="text-gray-400">{detail.label}</div>
-                                        <h5>{detail.value}</h5>
+                                        <div className="text-gray-400">{t(detail.label)}</div>
+                                        <h5>{t(detail.value)}</h5>
                                     </div>
                                 ))}
                             </div>
 
                             {e.href && (
                                 <Link href={e.href} passHref>
-                                    <a className="theme-button1 block w-fit mx-auto">Mai multe informatii</a>
+                                    <a className="theme-button1 block w-fit mx-auto">{t('common:moreinfo')}</a>
                                 </Link>
                             )}
                         </div>

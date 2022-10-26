@@ -42,8 +42,8 @@ export default function Contact({ t }) {
 
         toast.success(
             <div>
-                Iti multumim, {name}! <br />
-                Te vom contacta in cel mai scurt timp posibil.
+                {t('contact.thankyou')}, {name}! <br />
+                {t('contact.shortly')}
             </div>,
             {}
         );
@@ -57,13 +57,20 @@ export default function Contact({ t }) {
                 <div className="col-span-1 lg:col-span-4">
                     <FormStyles>
                         <form onSubmit={handleSubmit} className="card bg-theme2 text-white space-y-6">
-                            <TextField name="name" label="Nume" variant="standard" fullWidth />
+                            <TextField name="name" label={t('contact.name')} variant="standard" fullWidth />
 
                             <TextField name="email" label="Email" variant="standard" fullWidth />
-                            <TextField name="phone_number" label="Numar de telefon" variant="standard" fullWidth />
+                            <TextField name="phone_number" label={t('contact.phone')} variant="standard" fullWidth />
 
-                            <TextField name="subject" label="Subiect" variant="standard" fullWidth />
-                            <TextField name="message" label="Mesaj" variant="standard" rows={5} multiline fullWidth />
+                            <TextField name="subject" label={t('contact.subject')} variant="standard" fullWidth />
+                            <TextField
+                                name="message"
+                                label={t('contact.message')}
+                                variant="standard"
+                                rows={5}
+                                multiline
+                                fullWidth
+                            />
 
                             <div className="flex items-center justify-between space-x-4 pt-4">
                                 <div className="flex items-center space-x-2">
@@ -73,10 +80,10 @@ export default function Contact({ t }) {
                                         className="p-0"
                                     />
                                     <div>
-                                        Sunt de acord cu{' '}
+                                        {t('contact.agreewith')}{' '}
                                         <Link href="/" passHref>
                                             <a className="text-sky-400 underline opacity-100 hover:opacity-75">
-                                                politica de confidentialitate.
+                                                {t('common:privacypolicy')}
                                             </a>
                                         </Link>
                                     </div>
@@ -87,7 +94,7 @@ export default function Contact({ t }) {
                                     className={`theme-button1 ${!consent && 'opacity-50 cursor-not-allowed'}`}
                                     disabled={!consent}
                                 >
-                                    Trimite
+                                    {t('common:send')}
                                 </button>
                             </div>
                         </form>
@@ -101,7 +108,7 @@ export default function Contact({ t }) {
                                 <div className="bg-theme2 w-fit grid place-content-center p-2">
                                     <span className="material-symbols-outlined text-white">phone_in_talk</span>
                                 </div>
-                                <h4>Sună-ne</h4>
+                                <h4>{t('contact.callus')}</h4>
                             </div>
 
                             <a
@@ -131,7 +138,7 @@ export default function Contact({ t }) {
                                 <div className="bg-theme2 w-fit grid place-content-center p-2">
                                     <span className="material-symbols-outlined text-white">mail</span>
                                 </div>
-                                <h4>Trimite-ne un mail</h4>
+                                <h4>{t('contact.emailus')}</h4>
                             </div>
 
                             <a
@@ -157,7 +164,7 @@ export default function Contact({ t }) {
                                 <div className="bg-theme2 w-fit grid place-content-center p-2 mb-2">
                                     <span className="material-symbols-outlined text-white">map</span>
                                 </div>
-                                <h4>Vizitează-ne</h4>
+                                <h4>{t('contact.visitus')}</h4>
                             </div>
 
                             <a

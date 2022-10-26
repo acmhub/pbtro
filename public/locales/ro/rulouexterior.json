@@ -1,0 +1,25 @@
+{
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, beatae. Cumque omnis harum, autem at corrupti voluptas asperiores! Commodi vel ea eos incidunt, architecto odit?",
+
+    "aplicat": "Rulou Aplicat",
+    "aplicatdesc": "Sunt recomandate pentru construcții finalizate cu ferestre deja existente. Instalarea acestora, în funcție de tipul clădirii, se poate face atât pe zidărie cât și pe tâmplărie.",
+    "suprapus": "Rulou Suprapus",
+    "suprapusdesc": "Sunt destinate locuințelor noi sau atunci când se dorește schimbarea tâmplăriei în totalitate deoarece se montează împreună cu tâmplăria din PVC sau aluminiu. Caseta de protecție se montează împreună cu tâmplăria în golul ferestrei, fixându-se deasupra acesteia.",
+
+    "accessories": {
+        "actionare": "Acționare",
+        "pamblica": "Pamblică",
+        "manivela": "Manivelă",
+        "buton": "Buton",
+        "telecomanda": "Telecomandă",
+        "caseta": "Casetă",
+        "tesita45": "Casetă Tesită 45°",
+        "semirotunda": "Casetă Semirotundă",
+        "tesita90": "Casetă Tesită 90°",
+        "accesorii": "Accesorii",
+        "plasa": "Plasă contra Insectelor",
+        "lamela": "Lamelă (39mm, 43mm, 55mm)",
+        "yala": "Yală",
+        "cleme": "Cleme Anti-efracție"
+    }
+}

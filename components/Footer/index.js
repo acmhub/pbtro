@@ -78,11 +78,7 @@ export default function Footer() {
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 pb-5">
                     <div className="col-span-1 lg:col-span-4 space-y-4">
                         <h3>{t('about')}</h3>
-                        <p>
-                            Suntem o companie la baza căreia se află o echipă tânără și dinamică, formată din
-                            specialiști în tâmplăria PVC și cea din aluminiu. Astfel, răspundem cerințelor dumneavoastră
-                            prin servicii excelente de fabricare și montare.
-                        </p>
+                        <p>{t('footer.about')}</p>
 
                         <div className="space-y-2 pt-4">
                             <h5>Social media</h5>
@@ -102,7 +98,7 @@ export default function Footer() {
                         </div>
                     </div>
                     <div className="col-span-1 lg:col-span-2 space-y-4">
-                        <h3>Navigatie</h3>
+                        <h3>{t('footer.navigation')}</h3>
 
                         <div className="flex flex-col space-y-1">
                             <Link href="/" passHref>
@@ -192,10 +188,10 @@ export default function Footer() {
                     <div>
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
                             <Link href="/" passhref>
-                                <a className="w-fit hover:text-black">Politica de Confidentialitate</a>
+                                <a className="w-fit hover:text-black">{t('privacypolicy')}</a>
                             </Link>
                             <Link href="/" passhref>
-                                <a className="w-fit hover:text-black">Politica de Cookies</a>
+                                <a className="w-fit hover:text-black">{t('cookiespolicy')}</a>
                             </Link>
                         </div>
                     </div>

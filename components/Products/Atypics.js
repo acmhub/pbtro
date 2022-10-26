@@ -51,11 +51,8 @@ function Atypics({ t }) {
             <div className="py-5" />
 
             <div className="absolute top-0 left-0 h-full w-full flex flex-col justify-center text-center space-y-4  px-8 z-10">
-                <h2>Forme Atipice</h2>
-                <p className="lg:w-2/6 mx-auto">
-                    Puteți opta pentru ferestre în diferite forme atipice, precum arc de cerc, cerc, trapez, triunghi
-                    sau alte forme asimetrice.
-                </p>
+                <h2>{t('common:atypics.title')}</h2>
+                <p className="lg:w-2/6 mx-auto">{t('common:atypics.description')}</p>
             </div>
 
             <div className="py-5" />

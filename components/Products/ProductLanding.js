@@ -14,7 +14,7 @@ export default function ProductLanding({ t, data }) {
                 <div className="space-y-1">
                     {data.description.map((e, i) => (
                         <p className="lg:w-3/4" key={i}>
-                            {e}
+                            {t(e)}
                         </p>
                     ))}
                 </div>

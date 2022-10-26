@@ -11,11 +11,8 @@ function ProductCTA({ t, data }) {
             <div className="grid grid-cols-1 lg:grid-cols-2">
                 <div className="col-span-1 space-y-6 p-8 my-auto">
                     <div>
-                        <h3>Lorem ipsum dolor sit.</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ad, voluptatem facilis nihil
-                            eaque impedit placeat unde suscipit iure dignissimos.
-                        </p>
+                        <h3>{t('common:productcta.title')}</h3>
+                        <p>{t('common:productcta.description')}</p>
                     </div>
 
                     <Link href="/solicita-oferta" passHref>

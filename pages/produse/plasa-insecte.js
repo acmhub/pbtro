@@ -10,33 +10,24 @@ import ProductCTA from '../../components/Products/ProductCTA';
 const landingData = {
     src: '/images/products/plasa-insecte/highlight.webp',
     product: 'common:product.plasainsecte',
-    description: [
-        'Plasele de insecte reprezintă un accesoriu esențial în special în timpul anotimpului cald. Acestea au rolul de a proteja locuințele de diferite insecte principalul inamic fiind tânțarul. De aceea noi vă oferim soluția perfectă, prezentate în diferite moduri sau culori.'
-    ]
+    description: ['description']
 };
 
 const variantsData = [
     {
         src: '/images/products/plasa-insecte/plasa-plisse.webp',
-        name: 'Plasa contra Insectelor tip Plisse',
-        description: [
-            'Plasele tip plisse sunt create în așa fel încât să se potrivească în orice spațiu, existând disponibilitate de montare atât pentru ferestre, cât și pentru uși, inclusiv pentru cele cu deschidere foarte mare.',
-            'Datorită protecției deosebite pe care o conferă, dar și designului modern și elegant, plasele anti insecte tip plisse sunt varianta ideală pentru spațiile destinate clienților, mai ales în cazul industriei ospitalității, precum restaurante, unități de preparare a alimentelor sau hoteluri.'
-        ]
+        name: 'variants.plisse',
+        description: ['variants.plissedesc1', 'variants.plissedesc2']
     },
     {
         src: '/images/products/plasa-insecte/plasa-rulou.webp',
-        name: 'Plasa contra Insectelor tip Rulou',
-        description: [
-            'Plasele tip rulou sunt o variantă modernă și sigură, fiind foarte ușor de manevrat și amplificând comoditatea utilizatorilor prin faptul că poate fi folosită pe toată perioada verii și nu este necesară demontarea acesteia la apariția anotimpului rece, deoarece plasa se poate strânge foarte ușor în interiorul casetei.'
-        ]
+        name: 'variants.rulou',
+        description: ['variants.ruloudesc']
     },
     {
         src: '/images/products/plasa-insecte/plasa-balama.webp',
-        name: 'Plasa contra Insectelor cu Balamale',
-        description: [
-            'Cele mai întâlnite plase anti-insecte sunt cele cu balamale. Ele sunt compuse dintr-o ramă de aluminiu, pe care sunt montate de obicei 2 balamale pentru deschiderea plasei către exterior. Inchiderea plasei este realizata cu clips magnetic. '
-        ]
+        name: 'variants.balamale',
+        description: ['variants.balamaledesc']
     }
 ];
 
@@ -50,7 +41,7 @@ const ctaData = [
 export default function PlasaInsecte() {
     const { t } = useTranslation('plasainsecte');
     return (
-        <Layout title={t('common:product.plasainsecte')} description="">
+        <Layout title={t('common:product.plasainsecte')} description={t('description')}>
             <div className="section-spacing" />
 
             <div className="container-padding">

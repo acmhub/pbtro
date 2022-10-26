@@ -5,19 +5,19 @@ import Suppliers from '../General/Suppliers';
 const statsData = [
     {
         count: '1874+',
-        name: 'proiecte realizate'
+        name: 'about.projects'
     },
     {
         count: '1452+',
-        name: 'clienti satisfacuti'
+        name: 'about.clients'
     },
     {
         count: '32',
-        name: 'servicii oferite'
+        name: 'about.services'
     },
     {
         count: '42',
-        name: 'angajati'
+        name: 'about.employees'
     }
 ];
 
@@ -41,12 +41,9 @@ export default function About({ t }) {
                             {new Date().getFullYear() - 2006}
                         </h1>
                         <div className="space-y-4 my-auto">
-                            <h4 className="text-4xl uppercase">ani de experienta</h4>
-                            <p className="lg:w-4/5 lg:mx-auto">
-                                Promotion Business Team este o companie la baza căreia se află o echipă tânără și
-                                dinamică, formată din specialiști în tâmplăria PVC și cea din aluminiu.
-                            </p>
-                            <button className="theme-button1 block mx-auto">Vezi mai mult</button>
+                            <h4 className="text-4xl uppercase">{t('about.experience')}</h4>
+                            <p className="lg:w-4/5 lg:mx-auto">{t('about.description')}</p>
+                            <button className="theme-button1 block mx-auto">{t('common:seemore')}</button>
                         </div>
                     </div>
 
@@ -71,7 +68,7 @@ export default function About({ t }) {
                     {statsData.map((e, i) => (
                         <div className="text-center p-2" key={i}>
                             <h4>{e.count}</h4>
-                            <p className="uppercase">{e.name}</p>
+                            <p className="uppercase">{t(e.name)}</p>
                         </div>
                     ))}
                 </div>

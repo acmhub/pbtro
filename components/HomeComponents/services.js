@@ -4,37 +4,33 @@ import Link from 'next/link';
 const servicesData = [
     {
         icon: 'support_agent',
-        title: 'Consultanta',
-        description: 'Specialiștii noștri sunt mereu la dispoziția clienților cu recomandări și informații.'
+        title: 'services.consult',
+        description: 'services.consultdesc'
     },
     {
         icon: 'verified',
-        title: 'Calitate',
-        description:
-            'Nu doar arhitectura și stilul amenajării interioare și exterioare contează, ci și materialele utilizate, dar mai ales calitatea acestora.'
+        title: 'services.quality',
+        description: 'services.qualitydesc'
     },
     {
         icon: 'precision_manufacturing',
-        title: 'Productie',
-        description:
-            'Folosim materii prime și accesorii de cea mai bună calitate, cu aparatură mânuită de experți în producția de tâmplărie.'
+        title: 'services.production',
+        description: 'services.productiondesc'
     },
     {
         icon: 'square_foot',
-        title: 'Masuratori',
-        description:
-            'Măsuratorile corecte sunt extrem de importante. Noi realizăm această etapă cu cea mai mare atenție, în orice tip de clădire sau încăpere.'
+        title: 'services.measurements',
+        description: 'services.measurementsdesc'
     },
     {
         icon: 'local_shipping',
-        title: 'Livrare',
-        description: 'Grație flotei noastre proprii, putem programa și transporta orice tip de tâmplarie sau sticlă.'
+        title: 'services.delivery',
+        description: 'services.deliverydesc'
     },
     {
         icon: 'tools_power_drill',
-        title: 'Montaj',
-        description:
-            'Montăm și verificăm după realizare, cu mare atenție. Totul pentru siguranța și confortul clienților noștri!'
+        title: 'services.fitting',
+        description: 'services.fittingdesc'
     }
 ];
 
@@ -50,8 +46,8 @@ export default function Services({ t }) {
                             <span className="material-symbols-outlined m-icon-30">{e.icon}</span>
                         </div>
                         <div className="p-4">
-                            <h4>{e.title}</h4>
-                            <p>{e.description}</p>
+                            <h4>{t(e.title)}</h4>
+                            <p>{t(e.description)}</p>
                         </div>
                     </div>
                 ))}
@@ -59,7 +55,7 @@ export default function Services({ t }) {
 
             <Link href="/servicii" passhref>
                 <a className="theme-button2 flex items-center space-x-2 w-fit mx-auto">
-                    <span>Mai multe informatii</span>
+                    <span>{t('common:moreinfo')}</span>
                     <span className="material-symbols-outlined">trending_flat</span>
                 </a>
             </Link>

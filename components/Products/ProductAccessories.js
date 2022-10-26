@@ -7,10 +7,10 @@ export default function ProductAccessories({ data, t }) {
     const [activeTab, setActiveTab] = useState(0);
     return (
         <div className="space-y-4">
-            <h2 className="text-center">Accesorizare</h2>
+            <h2 className="text-center">{t('common:accessories')}</h2>
             <Tabs value={activeTab} centered={true} aria-label="basic tabs example">
                 {data.map((e, i) => (
-                    <Tab label={e.tab} onClick={() => setActiveTab(i)} key={i} />
+                    <Tab label={t(e.tab)} onClick={() => setActiveTab(i)} key={i} />
                 ))}
             </Tabs>
             {data.map(
@@ -26,9 +26,9 @@ export default function ProductAccessories({ data, t }) {
                                     key={index}
                                 >
                                     <div className="relative h-40 w-auto">
-                                        <Image src={item.src} alt={item.name} layout="fill" objectFit="contain" />
+                                        <Image src={item.src} alt={t(item.name)} layout="fill" objectFit="contain" />
                                     </div>
-                                    <div className="text-center">{item.name}</div>
+                                    <div className="text-center">{t(item.name)}</div>
                                 </div>
                             ))}
                         </div>

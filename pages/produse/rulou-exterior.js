@@ -11,102 +11,90 @@ import ProductCTA from '../../components/Products/ProductCTA';
 const landingData = {
     src: '/images/products/rulou-exterior/highlight.webp',
     product: 'common:product.rulouexterior',
-    description: [
-        'Pereţii cortină reprezintă cea mai elegantă, sigură şi accesibilă fațadă ce poate îmbrăca orice tip de construcţie. Se remarcă prin proprietăţile excepţionale de izolare termică şi fonică, prin posibilităţi infinite de design ce se adaptează oricărei viziuni arhitecturale, timp de execuţie şi montaj scurt şi o întreţinere uşoară.'
-    ]
+    description: ['description']
 };
 
 const variantsData = [
     {
         src: '/images/products/rulou-exterior/highlight.webp',
-        name: 'Rulou Aplicat',
-        description: [
-            'Sunt recomandate pentru construcții finalizate cu ferestre deja existente. Instalarea acestora, în funcție de tipul clădirii, se poate face atât pe zidărie cât și pe tâmplărie.'
-        ]
+        name: 'aplicat',
+        description: ['aplicatdesc']
     },
     {
         src: '/images/products/rulou-exterior/highlight.webp',
-        name: 'Rulou Suprapus',
-        description: [
-            'Sunt destinate locuințelor noi sau atunci când se dorește schimbarea tâmplăriei în totalitate deoarece se montează împreună cu tâmplăria din PVC sau aluminiu. Caseta de protecție se montează împreună cu tâmplăria în golul ferestrei, fixându-se deasupra acesteia.'
-        ]
+        name: 'suprapus',
+        description: ['suprapusdesc']
     }
 ];
 
 const accessoriesData = [
     {
-        tab: 'Actionare',
+        tab: 'accessories.actionare',
         items: [
             {
                 src: '/images/products/rulou-exterior/actionare_pamblica.webp',
-                name: 'Pamblica'
+                name: 'accessories.pamblica'
             },
             {
                 src: '/images/products/rulou-exterior/actionare_manivela.webp',
-                name: 'Manivela'
+                name: 'accessories.manivela'
             },
             {
                 src: '/images/products/rulou-exterior/actionare_cu_buton.webp',
-                name: 'Buton'
+                name: 'accessories.buton'
             },
             {
                 src: '/images/products/rulou-exterior/actionare_cu_telecomanda.webp',
-                name: 'Telecomanda'
+                name: 'accessories.telecomanda'
             }
         ]
     },
     {
-        tab: 'Caseta',
+        tab: 'accessories.caseta',
         items: [
             {
                 src: '/images/products/rulou-exterior/caseta1.webp',
-                name: 'Casetă Tesita 45°'
+                name: 'accessories.tesita45'
             },
             {
                 src: '/images/products/rulou-exterior/caseta2.webp',
-                name: 'Casetă Tesita Semirotunda'
+                name: 'accessories.semirotunda'
             },
             {
                 src: '/images/products/rulou-exterior/caseta3.webp',
-                name: 'Casetă Tesita 90°'
+                name: 'accessories.tesita90'
             }
         ]
     },
     {
-        tab: 'Accesorii',
+        tab: 'accessories.accesorii',
         items: [
             {
                 src: '/images/products/rulou-exterior/plasa-integrata.webp',
-                name: 'Plasa contra Insectelor'
+                name: 'accessories.plasa'
             },
             {
                 src: '/images/products/rulou-exterior/lamela.webp',
-                name: 'Lamela (39mm, 43mm sau 55mm)'
+                name: 'accessories.lamela'
             },
             {
                 src: '/images/products/rulou-exterior/yala.webp',
-                name: 'Yala'
+                name: 'accessories.yala'
             },
             {
                 src: '/images/products/rulou-exterior/anti-efractie.webp',
-                name: 'Cleme Anti-efractie'
+                name: 'accessories.cleme'
             }
         ]
     }
 ];
 
-const ctaData = [
-    '/images/products/rulou-exterior/highlight.webp',
-    '/images/products/rulou-exterior/highlight.webp',
-    '/images/products/rulou-exterior/highlight.webp',
-    '/images/products/rulou-exterior/highlight.webp',
-    '/images/products/rulou-exterior/highlight.webp'
-];
+const ctaData = ['/images/products/rulou-exterior/highlight.webp'];
 
 export default function RulouExterior() {
     const { t } = useTranslation('rulouexterior');
     return (
-        <Layout title={t('common:product.rulouexterior')} description="">
+        <Layout title={t('common:product.rulouexterior')} description={t('description')}>
             <div className="section-spacing" />
 
             <div className="container-padding">

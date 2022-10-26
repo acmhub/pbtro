@@ -1,0 +1,46 @@
+{
+    "title": "Producem pentru confort",
+    "paragraph": "Promotion Business Team este o companie la baza căreia se află o echipă tânără și dinamică, formată din specialiști în tâmplăria PVC și cea din aluminiu. Astfel, răspundem cerințelor dumneavoastră prin servicii excelente de fabricare și montare a sistemelor de tâmplărie cu geam termopan sau tripan, indiferent de tipul acestora.",
+
+    "stats": {
+        "projects": "proiecte realizate",
+        "clients": "clienți satisfăcuți",
+        "services": "servicii oferite",
+        "employees": "angajați"
+    },
+
+    "services": {
+        "title": "Serviciile oferite de noi",
+        "consult": "Consultanță",
+        "consultdesc": "Specialiștii noștri sunt mereu la dispoziția clienților cu recomandări și informații.",
+        "quality": "Calitate",
+        "qualitydesc": "Nu doar arhitectura și stilul amenajării interioare și exterioare contează, ci și materialele utilizate, dar mai ales calitatea acestora.",
+        "production": "Producție",
+        "productiondesc": "Folosim materii prime și accesorii de cea mai bună calitate, cu aparatură mânuită de experți în producția de tâmplărie.",
+        "measurements": "Măsurători",
+        "measurementsdesc": "Măsuratorile corecte sunt extrem de importante. Noi realizăm această etapă cu cea mai mare atenție, în orice tip de clădire sau încăpere.",
+        "delivery": "Livrare",
+        "deliverydesc": "Grație flotei noastre proprii, putem programa și transporta orice tip de tâmplarie sau sticlă.",
+        "fitting": "Montaj",
+        "fittingdesc": "Montăm și verificăm după realizare, cu mare atenție. Totul pentru siguranța și confortul clienților noștri!"
+    },
+
+    "timeline": {
+        "title": "Evoluția Noastră",
+        "2006p1": "În 2006 s-au pus bazele fabricii de ferestre Promotion Business Team, care avea un singur obiectiv: să ofere o alternativă calitativă de tâmplărie în contextul creșterii numărului de comercianți orientați doar către profit.",
+        "2006p2": "De-a lungul timpului, fabrica a evoluat, echipa s-a mărit, tehnologiile s-au îmbunătățit dar focusul este același: să îmbunătățim calitatea vieții clienților noștri prin cele mai bune produse și servicii de tâmplărie.",
+        "2006p3": "De la înființarea companiei până în 2010, ne-am ocupat cu distribuția de tâmplărie PVC și aluminiu, dar și cu accesorii pentru acestea.",
+        "2010p1": "Am lărgit spectrul de activitate, începând să producem și să comercializăm tâmplăria PVC și cea de aluminiu.",
+        "2020p1": "Pentru a putea satisface volumul de cereri ne-am mutat la o nouă locație aflată pe Șoseaua Tudor Vladimirescu 393, Domnești Business Park, Ilfov.",
+        "2020p2": "Noua hală de producție având o suprafață de 1500m2, față de cei 600m2 din locul anterior.",
+        "2021p1": "Am achiziționat o nouă linie de producție pentru tamplaria PVC si cea din aluminiu, compusă din mai multe echipamente moderne. Cu ajutorul acestor echipamente, am putut reduce consumul de curent electric și, concomitent, crește producția.",
+        "2021p2": "De asemenea calitatea produselor a crescut, prin eliminarea erorilor umane, contribuind, de asemenea, la competitivitatea companiei Promotion Business Team pe piața în care activează. Mai mult, producția a devenit mai eficientă. Putem produce acum o cantitate dublă de produse și putem astfel susține mai bine cererea pe care o înregistrăm, aflată în continuă creștere.",
+        "2021p3": "Am implementat un management inteligent al activităților de producție.",
+        "2021p4": "Astfel activitatea din fabrică poate fi planificată, executată și monitorizată mult mai ușor cu soluția de management al producției. Sistemul acoperă patru zone principale: producție, materiale, calitate și mentenanță.",
+        "2021p5": "Am investit într-o linie de producţie de sticlă modernă, toată producţia fiind optimizată și operată cu ajutorul celor mai performante softuri și utilaje.",
+        "prezp1": "Experiența acumulată în confecționarea tâmplăriei, precum și buna calitate a montajului dobândită în timp, ne recomandă ca fiind o firmă eficientă și întotdeauna o alegere inspirată pentru clienții noștrii, datorită seriozității de care dăm dovadă și a prețurilor practicate.",
+        "prezp2": "Suntem recunoscători să avem alături peste 40 de angajați care împărtășesc viziunea PBT: crearea celor mai bune produse din tâmplărie PVC și aluminiu. Specialiștii companiei noastre sunt mereu dornici să lucreze cu cele mai noi materiale și tehnici inovatoare pentru a satisface dorințele clienților.",
+
+        "prezent": "Prezent"
+    }
+}

@@ -47,8 +47,8 @@ export default function Contact() {
 
         toast.success(
             <div>
-                Iti multumim, {name}! <br />
-                Te vom contacta in cel mai scurt timp posibil.
+                {t('thankyou')}, {name}! <br />
+                {t('shortly')}
             </div>,
             {}
         );
@@ -63,16 +63,16 @@ export default function Contact() {
             <div className="section-spacing-lg" />
 
             <div className="container-padding space-y-20">
-                <h1 className="text-center">{t('common:contact')}</h1>
+                <h1 className="text-center">{t('title')}</h1>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                     <div className="col-span-1 space-y-10 my-auto">
                         <div itemType="https://schema.org/Organization" itemScope>
                             <h4 itemProp="legalName">PROMOTION BUSINESS TEAM SRL</h4>
                             <h6>
-                                Cod Unic de Inregistrare: <span itemProp="taxID">RO19011272</span>
+                                {t('cui')}: <span itemProp="taxID">RO19011272</span>
                             </h6>
-                            <h6>Nr. Înregistrare Registrul Comerțului: J40/14519/2006</h6>
+                            <h6>{t('rc')}: J40/14519/2006</h6>
                         </div>
 
                         <div itemType="https://schema.org/Organization" itemScope>
@@ -80,7 +80,7 @@ export default function Contact() {
                                 <div className="bg-theme2 w-fit grid place-content-center p-2">
                                     <span className="material-symbols-outlined text-white">phone_in_talk</span>
                                 </div>
-                                <h4>Sună-ne</h4>
+                                <h4>{t('callus')}</h4>
                             </div>
 
                             <a
@@ -110,7 +110,7 @@ export default function Contact() {
                                 <div className="bg-theme2 w-fit grid place-content-center p-2">
                                     <span className="material-symbols-outlined text-white">mail</span>
                                 </div>
-                                <h4>Trimite-ne un mail</h4>
+                                <h4>{t('emailus')}</h4>
                             </div>
 
                             <a
@@ -136,7 +136,7 @@ export default function Contact() {
                                 <div className="bg-theme2 w-fit grid place-content-center p-2 mb-2">
                                     <span className="material-symbols-outlined text-white">map</span>
                                 </div>
-                                <h4>Vizitează-ne</h4>
+                                <h4>{t('visitus')}</h4>
                             </div>
 
                             <div className="space-y-4" itemType="https://schema.org/Organization" itemScope>
@@ -160,7 +160,8 @@ export default function Contact() {
                                         <div className="relative h-6 w-6">
                                             <Image
                                                 src="/images/icons/waze-icon.svg"
-                                                alt=""
+                                                alt="Waze"
+                                                title="Waze"
                                                 layout="fill"
                                                 objectFit="contain"
                                             />
@@ -175,7 +176,8 @@ export default function Contact() {
                                         <div className="relative h-6 w-6">
                                             <Image
                                                 src="/images/icons/gmaps-icon.svg"
-                                                alt=""
+                                                alt="Google Maps"
+                                                title="Google Maps"
                                                 layout="fill"
                                                 objectFit="contain"
                                             />
@@ -192,15 +194,15 @@ export default function Contact() {
                                 onSubmit={handleSubmit}
                                 className="card bg-theme2 text-white col-span-1 lg:col-span-4 space-y-6"
                             >
-                                <TextField name="name" label="Nume" variant="standard" fullWidth />
+                                <TextField name="name" label={t('name')} variant="standard" fullWidth />
 
                                 <TextField name="email" label="Email" variant="standard" fullWidth />
-                                <TextField name="phone_number" label="Numar de telefon" variant="standard" fullWidth />
+                                <TextField name="phone_number" label={t('phone')} variant="standard" fullWidth />
 
-                                <TextField name="subject" label="Subiect" variant="standard" fullWidth />
+                                <TextField name="subject" label={t('subject')} variant="standard" fullWidth />
                                 <TextField
                                     name="message"
-                                    label="Mesaj"
+                                    label={t('message')}
                                     variant="standard"
                                     rows={5}
                                     multiline
@@ -215,10 +217,10 @@ export default function Contact() {
                                             className="p-0"
                                         />
                                         <div>
-                                            Sunt de acord cu{' '}
+                                            {t('agreewith')}{' '}
                                             <Link href="/" passHref>
                                                 <a className="text-sky-400 underline opacity-100 hover:opacity-75">
-                                                    politica de confidentialitate.
+                                                    {t('common:privacypolicy')}.
                                                 </a>
                                             </Link>
                                         </div>
@@ -229,7 +231,7 @@ export default function Contact() {
                                         className={`theme-button1 ${!consent && 'opacity-50 cursor-not-allowed'}`}
                                         disabled={!consent}
                                     >
-                                        Trimite
+                                        {t('common:send')}
                                     </button>
                                 </div>
                             </form>

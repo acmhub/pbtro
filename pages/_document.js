@@ -48,7 +48,6 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
-                    <title>Promotion Business Team - Producător Tâmplărie PVC și Aluminiu</title>
                     {/* Meta */}
                     <meta name="robots" content="index, follow" />
                     <meta

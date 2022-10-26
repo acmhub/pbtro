@@ -11,9 +11,7 @@ import ProductLanding from '../../../components/Products/ProductLanding';
 const landingData = {
     src: '/images/products/tamplarie-aluminiu/highlight.webp',
     product: 'common:product.tamplariealuminiu',
-    description: [
-        'Tâmplaria de aluminiu aduce un grad ridicat de stabilitate, eficiență energetică, valoare crescută, cadru îngust și modern, funcționare bună, întreținere minimă și durată lungă de viață.'
-    ]
+    description: ['description']
 };
 
 const profilesData = [
@@ -26,24 +24,24 @@ const profilesData = [
         image: '/images/products/tamplarie-aluminiu/cor60_demo.webp',
         tehnicalDetails: [
             {
-                label: 'Toc',
+                label: 'common:profilespecs.toc',
                 value: '60mm'
             },
             {
-                label: 'Cercevea',
+                label: 'common:profilespecs.cercevea',
                 value: '70mm'
             },
             {
-                label: 'Dimensiune Vitrare',
+                label: 'common:profilespecs.vitrare',
                 value: '48mm'
             },
             {
-                label: 'Izolare Termica',
-                value: 'Pana la 0.9 W/m2k'
+                label: 'common:profilespecs.izolare',
+                value: '0.9 W/m2k'
             },
             {
-                label: 'Varianta Constructiva',
-                value: 'Cu Rupere Termica'
+                label: 'common:profilespecs.variantaconstructiva',
+                value: 'common:profilespecs.cubariera'
             }
         ]
     },
@@ -56,24 +54,24 @@ const profilesData = [
         image: '/images/products/tamplarie-aluminiu/cor80_demo.webp',
         tehnicalDetails: [
             {
-                label: 'Toc',
+                label: 'common:profilespecs.toc',
                 value: '80mm'
             },
             {
-                label: 'Cercevea',
+                label: 'common:profilespecs.cercevea',
                 value: '88mm'
             },
             {
-                label: 'Dimensiune Vitrare',
+                label: 'common:profilespecs.vitrare',
                 value: 'max 65mm'
             },
             {
-                label: 'Izolare Termica',
-                value: 'Pana la 0.8 W/m2k'
+                label: 'common:profilespecs.izolare',
+                value: '0.8 W/m2k'
             },
             {
-                label: 'Varianta Constructiva',
-                value: 'Cu Rupere Termica'
+                label: 'common:profilespecs.variantaconstructiva',
+                value: 'common:profilespecs.cubariera'
             }
         ]
     },
@@ -86,20 +84,20 @@ const profilesData = [
         image: '/images/products/tamplarie-aluminiu/eskimos_demo.webp',
         tehnicalDetails: [
             {
-                label: 'Toc',
+                label: 'common:profilespecs.toc',
                 value: '53mm'
             },
             {
-                label: 'Izolare Termica',
+                label: 'common:profilespecs.izolare',
                 value: '1.15 W/m2k'
             },
             {
-                label: 'Dimensiune Vitrare',
+                label: 'common:profilespecs.vitrare',
                 value: '18mm / 38mm'
             },
             {
-                label: 'Izolare Fonica',
-                value: 'Pana la 48dB'
+                label: 'common:profilespecs.fonica',
+                value: '48dB'
             }
         ]
     },
@@ -112,20 +110,20 @@ const profilesData = [
         image: '/images/products/tamplarie-aluminiu/pr26_demo.webp',
         tehnicalDetails: [
             {
-                label: 'Latime Toc Glisare Dubla',
+                label: 'common:profilespecs.tocdublu',
                 value: '52mm'
             },
             {
-                label: 'Latime Canat',
+                label: 'common:profilespecs.canat',
                 value: '28mm'
             },
             {
-                label: 'Dimensiune Vitrare',
+                label: 'common:profilespecs.vitrare',
                 value: '26mm'
             },
             {
-                label: 'Varianta Constructiva',
-                value: 'Fara Rupere Termica'
+                label: 'common:profilespecs.variantaconstructiva',
+                value: 'common:profilespecs.farabariera'
             }
         ]
     },
@@ -138,16 +136,16 @@ const profilesData = [
         image: '/images/products/tamplarie-aluminiu/pr50_demo.webp',
         tehnicalDetails: [
             {
-                label: 'Latime Montant',
+                label: 'common:profilespecs.montant',
                 value: '50mm'
             },
             {
-                label: 'Dimensiune Vitrare',
+                label: 'common:profilespecs.vitrare',
                 value: '24mm / 40mm'
             },
             {
-                label: 'Varianta Constructiva',
-                value: 'Cu Bariera Termica'
+                label: 'common:profilespecs.variantaconstructiva',
+                value: 'common:profilespecs.cubariera'
             }
         ]
     },
@@ -160,20 +158,20 @@ const profilesData = [
         image: '/images/products/tamplarie-aluminiu/pr52_demo.webp',
         tehnicalDetails: [
             {
-                label: 'Latime Minima Toc',
+                label: 'common:profilespecs.latimetoc',
                 value: '44.8mm'
             },
             {
-                label: 'Latime Canat',
+                label: 'common:profilespecs.canat',
                 value: '52mm'
             },
             {
-                label: 'Dimensiune Vitrare',
+                label: 'common:profilespecs.vitrare',
                 value: '32mm'
             },
             {
-                label: 'Varianta Constructiva',
-                value: 'Fara Rupere Termica'
+                label: 'common:profilespecs.variantaconstructiva',
+                value: 'common:profilespecs.farabariera'
             }
         ]
     },
@@ -186,20 +184,20 @@ const profilesData = [
         image: '/images/products/tamplarie-aluminiu/pr52_demo.webp',
         tehnicalDetails: [
             {
-                label: 'Latime Minima Toc',
+                label: 'common:profilespecs.latimetoc',
                 value: '44.8mm'
             },
             {
-                label: 'Latime Canat',
+                label: 'common:profilespecs.canat',
                 value: '52mm'
             },
             {
-                label: 'Dimensiune Vitrare',
+                label: 'common:profilespecs.vitrare',
                 value: '32mm'
             },
             {
-                label: 'Varianta Constructiva',
-                value: 'Fara Rupere Termica'
+                label: 'common:profilespecs.variantaconstructiva',
+                value: 'common:profilespecs.farabariera'
             }
         ]
     },
@@ -212,20 +210,20 @@ const profilesData = [
         image: '/images/products/tamplarie-aluminiu/sliding_demo.webp',
         tehnicalDetails: [
             {
-                label: 'Toc',
+                label: 'common:profilespecs.toc',
                 value: '45mm'
             },
             {
-                label: 'Izolare Termica',
+                label: 'common:profilespecs.izolare',
                 value: '9.3 W/m2k'
             },
             {
-                label: 'Dimensiune Vitrare',
-                value: '22mm'
+                label: 'common:profilespecs.vitrare',
+                value: '18mm'
             },
             {
-                label: 'Varianta Constructiva',
-                value: 'Fara Rupere Termica'
+                label: 'common:profilespecs.variantaconstructiva',
+                value: 'common:profilespecs.farabariera'
             }
         ]
     }
@@ -244,7 +242,7 @@ const ctaData = [
 export default function TamplarieAluminiu() {
     const { t } = useTranslation('tamplariealuminiu');
     return (
-        <Layout title={t('common:product.tamplariealuminiu')} description="">
+        <Layout title={t('common:product.tamplariealuminiu')} description={t('description')}>
             <div className="container-padding">
                 <div className="section-spacing" />
                 <ProductLanding data={landingData} t={t} />
@@ -252,8 +250,8 @@ export default function TamplarieAluminiu() {
                 <div className="section-spacing" />
 
                 <section id="profiles">
-                    <h3 className="text-center mb-10">Fereastra PBT</h3>
-                    <Profiles data={profilesData} />
+                    <h3 className="text-center mb-10">{t('common:fereastrapbt')}</h3>
+                    <Profiles data={profilesData} t={t} />
                 </section>
             </div>
 
@@ -270,7 +268,7 @@ export default function TamplarieAluminiu() {
 
                 <div className="section-spacing" />
 
-                <ProductCTA t={t} data={ctaData} />
+                <ProductCTA data={ctaData} t={t} />
             </div>
 
             <div className="section-spacing" />

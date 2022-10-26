@@ -10,23 +10,15 @@ import Atypics from '../../components/Products/Atypics';
 const landingData = {
     src: '/images/products/tamplarie-lemn/highlight.webp',
     product: 'common:product.tamplarielemn',
-    description: [
-        'Tâmplăria din lemn stratificat nu doar că arată elegant, ci oferă și o remarcabilă fiabilitate. De punctat că este și o soluție prietenoasă cu mediul. Lemnul procesat este selectat atent și bine uscat, nu prezintă noduri, iar adezivul este rezistent la apă. Rezultatul obținut este un profil uniform, rigid și cu o portanță excelentă.'
-    ]
+    description: ['description']
 };
 
-const ctaData = [
-    '/images/products/tamplarie-lemn/highlight.webp',
-    '/images/products/tamplarie-lemn/highlight.webp',
-    '/images/products/tamplarie-lemn/highlight.webp',
-    '/images/products/tamplarie-lemn/highlight.webp',
-    '/images/products/tamplarie-lemn/highlight.webp'
-];
+const ctaData = ['/images/products/tamplarie-lemn/highlight.webp'];
 
 export default function TamplarieLemn() {
     const { t } = useTranslation('tamplarielemn');
     return (
-        <Layout title={t('common:product.tamplarielemn')} description="">
+        <Layout title={t('common:product.tamplarielemn')} description={t('description')}>
             <div className="section-spacing" />
 
             <div className="container-padding">
@@ -39,14 +31,10 @@ export default function TamplarieLemn() {
                     <div className="relative grid grid-cols-1 lg:grid-cols-3 gap-8 z-10">
                         <div className="space-y-4 lg:text-white my-auto">
                             <h3>
-                                Tâmplărie Lemn <br />
-                                Placată cu Aluminiu
+                                {t('common:product.tamplarielemn')} <br />
+                                {t('aluplating')}
                             </h3>
-                            <p className="text-justify">
-                                Aluminiul la exterior nu necesită întreținere și asigură etanșarea optimă pentru
-                                intemperii, oferind de asemenea proiectantului posibilitatea de a se exprima prin forme
-                                și culori inedite
-                            </p>
+                            <p className="text-justify">{t('aluplatingdesc')}</p>
                         </div>
 
                         <div className="order-first lg:order-2">
@@ -63,16 +51,14 @@ export default function TamplarieLemn() {
 
                         <div className="order-last my-auto">
                             <div className="space-y-8 w-fit mx-auto lg:w-full">
-                                {['Durabilitate Ecologica', 'Izolatie Termica', 'Izolatie Fonica', 'Estetica'].map(
-                                    (e, i) => (
-                                        <div className="flex items-center space-x-2" key={i}>
-                                            <div className="bg-theme1 rounded-full h-8 w-8 grid place-content-center p-0.5">
-                                                <span className="material-symbols-outlined text-white">done</span>
-                                            </div>
-                                            <span>{e}</span>
+                                {['durabil', 'termic', 'fonic', 'estetic'].map((e, i) => (
+                                    <div className="flex items-center space-x-2" key={i}>
+                                        <div className="bg-theme1 rounded-full h-8 w-8 grid place-content-center p-0.5">
+                                            <span className="material-symbols-outlined text-white">done</span>
                                         </div>
-                                    )
-                                )}
+                                        <span>{t(e)}</span>
+                                    </div>
+                                ))}
                             </div>
                         </div>
                     </div>
@@ -87,7 +73,7 @@ export default function TamplarieLemn() {
 
             <div className="container-padding">
                 <section className="space-y-10" id="colors">
-                    <h2 className="text-center">Culori disponibile</h2>
+                    <h2 className="text-center">{t('common:colors.available')}</h2>
 
                     <div className="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 gap-2">
                         {[

@@ -10,7 +10,7 @@ function Products({ t }) {
     return (
         <div className="container-padding space-y-6">
             <div className="flex items-center justify-between">
-                <h2>Produsele Oferite de Noi</h2>
+                <h2>{t('common:product.title')}</h2>
 
                 <div className="hidden lg:flex space-x-4">
                     <span className="material-symbols-outlined cursor-pointer arrow-left rotate-180 m-icon-30">

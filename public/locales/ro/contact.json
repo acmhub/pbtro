@@ -1,0 +1,18 @@
+{
+    "title": "Contactează-ne",
+    "cui": "Cod Unic de Înregistrare",
+    "rc": "Nr. de Îregistrare Registrul Comerțului",
+
+    "name": "Nume",
+    "phone": "Număr de telefon",
+    "subject": "Subiect",
+    "message": "Mesaj",
+    "agreewith": "Sunt de acord cu",
+
+    "callus": "Sună-ne",
+    "emailus": "Trimite-ne un mail",
+    "visitus": "Vizitează-ne",
+
+    "thankyou": "Îți mulțumim",
+    "shortly": "Te vom contacta în cel mai scurt timp posibil."
+}

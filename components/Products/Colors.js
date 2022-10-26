@@ -27,17 +27,12 @@ export default function Colors({ t }) {
         <div className="space-y-10">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
                 <div className="col-span-1 lg:col-span-8 space-y-8 my-auto">
-                    <h2>Gamă excepţională de culori</h2>
-                    <p>
-                        Putem furniza profile de interior şi exterior în aproape orice culoare pe care v-o puteţi
-                        imagina. Sunt disponibile peste 450 de nuanțe și finisaje diferite: culori metalice sau
-                        anodizate, mate sau RAL lucioase, sau chiar și o vopsea coatex specială rezistență la zgârieturi
-                        și cu o îngrijire minimă.
-                    </p>
+                    <h2>{t('common:colors.title')}</h2>
+                    <p>{t('common:colors.description')}</p>
 
                     <div className="flex space-x-8">
                         <button className="theme-button1" onClick={() => setWood(true)}>
-                            Imitatii Lemn
+                            {t('common:colors.woodimitation')}
                         </button>
                         <Modal
                             open={wood}
@@ -47,7 +42,7 @@ export default function Colors({ t }) {
                         >
                             <div className="container absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-96 lg:w-[600px] bg-white shadow space-y-4 p-2">
                                 <div className="flex items-center justify-between">
-                                    <h4>Imitatii Lemn</h4>
+                                    <h4>{t('common:colors.woodimitation')}</h4>
 
                                     <span
                                         className="material-symbols-outlined cursor-pointer"
@@ -101,7 +96,7 @@ export default function Colors({ t }) {
                         </Modal>
 
                         <button className="theme-button1" onClick={() => setRAL(true)}>
-                            Paletar RAL
+                            {t('common:colors.ral')}
                         </button>
                         <Modal
                             open={ral}
@@ -111,7 +106,7 @@ export default function Colors({ t }) {
                         >
                             <div className="container absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-96 lg:w-[600px] bg-white shadow space-y-4 p-2">
                                 <div className="flex items-center justify-between">
-                                    <h4>Paletar RAL</h4>
+                                    <h4>{t('common:colors.ral')}</h4>
 
                                     <span
                                         className="material-symbols-outlined cursor-pointer"

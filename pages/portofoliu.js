@@ -143,7 +143,7 @@ export default function Portfolio() {
 export async function getStaticProps({ locale }) {
     return {
         props: {
-            ...(await serverSideTranslations(locale, ['common', 'portfolio']))
+            ...(await serverSideTranslations(locale, ['common']))
         }
     };
 }
