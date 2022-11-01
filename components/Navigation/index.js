@@ -266,7 +266,7 @@ export default function Navigation() {
                             itemProp="location"
                         >
                             <span className="material-symbols-outlined text-theme1">location_on</span>
-                            <p className="hidden lg:inline">Domnesti, IF</p>
+                            <p className="hidden lg:inline">Domnești, IF</p>
                         </a>
                     </div>
 
@@ -524,7 +524,7 @@ export default function Navigation() {
                                 className="nav-link text-center"
                             >
                                 <span className="material-symbols-outlined text-theme1">location_on</span>
-                                <p>Domnesti, IF</p>
+                                <p>Domnești, IF</p>
                             </a>
 
                             <div className="flex justify-center items-center space-x-8 pt-8">

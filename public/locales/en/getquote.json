@@ -1,0 +1,80 @@
+{
+    "description": "A first step in obtaining the offer is the measurement of the space. You can make the estimated measurements yourself, which will be a starting point in our collaboration. Based on these details and the chosen design, we will calculate a price as close as possible to the final one.",
+    "emptyorder": "Your order doesn't contain any products.",
+
+    "Inaltime": "Height",
+    "Latime": "Width",
+    "Lungime": "Length",
+
+    "chooseprofile": "Choose profile",
+    "Profil": "Profile",
+    "Termopan": "Double glazing",
+    "Tripan": "Triple glazing",
+    "Panel": "Panel",
+    "Fara sticla": "No glass",
+
+    "Culoare": "Color",
+    "Alb": "White",
+    "Imitatie Lemn": "Wood Imitation",
+    "Oak": "Oak",
+    "Northern Pine": "Northern Pine",
+
+    "Placare cu Aluminiu": "Aluminium Plating",
+    "Model": "Model",
+    "Tip": "Type",
+
+    "Balustrada Aluminiu": "Aluminium Railing",
+    "Balustrada Sticla": "Glass Railing",
+    "Balustrada Traforata": "Fretted Railing",
+    "Stalp": "Post",
+    "Prindere laterala": "Side",
+    "Sina": "Rail",
+    "Spighoti": "Spigots",
+
+    "Ares": "Ares Awning",
+    "Hera": "Hera Awning",
+    "Artemis": "Artemis Retractable Awning",
+    "Pallas": "Pallas Retractable Awning",
+    "Metis": "Metis Retractable Awning",
+    "Bora": "Bora Side Retractable Awning",
+    "Brate": "Articulated Arms Retractable Awning",
+    "Carlige": "Retractable Balcony Awning with Hooks",
+    "Marchize": "Marchize Retractable Awning",
+
+    "Aplicat": "Aplicated",
+    "Suprapus": "Overlaped",
+
+    "Actionare": "Action type",
+    "Electric": "Electric",
+    "Manual": "Manual",
+    "Plasa integrata": "Insect Net",
+
+    "Jaluzele": "Vertical Blinds",
+
+    "Vitrare": "Glazing",
+    "Control Termic": "Thermic Control",
+    "Control Solar": "Solar Control",
+    "Opac": "Opaque / Mat",
+    "Decorativ": "Decorative",
+    "Ornamental": "Ornamental",
+    "Grosime": "Thickness",
+
+    "Rulou": "Roller",
+    "Balamale": "Hinge",
+
+    "Necasetat": "Uncased Foil Roll",
+    "Casetat": "Cased Foil Roll",
+    "Capse si bride": "Foil with Staples and Clamps",
+
+    "Da": "Yes",
+    "Nu": "No",
+
+    "Cantitate": "Quantity",
+    "Mesaj": "Aditional info",
+    "modifica": "Modify",
+    "adauga": "Add",
+
+    "Nume": "Name",
+    "Numar de telefon": "Phone number",
+    "Locatie": "Location"
+}

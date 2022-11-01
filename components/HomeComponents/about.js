@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Suppliers from '../General/Suppliers';
+import Link from 'next/link';
 
 const statsData = [
     {
@@ -43,7 +44,11 @@ export default function About({ t }) {
                         <div className="space-y-4 my-auto">
                             <h4 className="text-4xl uppercase">{t('about.experience')}</h4>
                             <p className="lg:w-4/5 lg:mx-auto">{t('about.description')}</p>
-                            <button className="theme-button1 block mx-auto">{t('common:seemore')}</button>
+                            <Link href="/despre-noi" passHref>
+                                <a className="block mx-auto w-fit">
+                                    <button className="theme-button1">{t('common:seemore')}</button>
+                                </a>
+                            </Link>
                         </div>
                     </div>
 

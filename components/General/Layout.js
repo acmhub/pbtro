@@ -18,7 +18,7 @@ export default function Layout({ title, description, pageID, children }) {
 
             <div className={`${pageID}-page`}>
                 <Navigation />
-                <React.Fragment>{children}</React.Fragment>
+                <main>{children}</main>
                 <Footer />
 
                 <BackToTop />

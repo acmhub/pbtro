@@ -173,8 +173,8 @@ export default function Contact({ t }) {
                                 rel="noopener noreferrer"
                                 className="block w-fit opacity-100 hover:opacity-75 hover:text-theme1 hover:drop-shadow"
                             >
-                                <p itemProp="location">Soseaua Tudor Vladimirescu 393</p>
-                                <p itemProp="location">Domnesti, Ilfov</p>
+                                <p itemProp="location">Șoseaua Tudor Vladimirescu 393</p>
+                                <p itemProp="location">Domnești, Ilfov</p>
                             </a>
                         </div>
                     </div>

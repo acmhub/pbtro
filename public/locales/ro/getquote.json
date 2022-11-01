@@ -1,0 +1,80 @@
+{
+    "description": "Un prim pas al ofertării îl constituie măsurarea spațiului. Puteți realiza dumneavoastră măsuratorile estimative, care vor constitui un punct de pornire în colaborarea noastră. În baza acestor detalii și a designului ales vom calcula un preț cât mai apropiat de cel final.",
+    "emptyorder": "Comanda dumneavoastră nu conține niciun produs.",
+
+    "Inaltime": "Înălțime",
+    "Latime": "Lățime",
+    "Lungime": "Lungime",
+
+    "chooseprofile": "Alege profilul",
+    "Profil": "Profil",
+    "Termopan": "Termopan",
+    "Tripan": "Tripan",
+    "Panel": "Panel",
+    "Fara sticla": "Fără sticlă",
+
+    "Culoare": "Culoare",
+    "Alb": "Alb",
+    "Imitatie Lemn": "Imitație Lemn",
+    "Oak": "Stejar",
+    "Northern Pine": "Pin Nordic",
+
+    "Placare cu Aluminiu": "Placare cu Aluminiu",
+    "Model": "Model",
+    "Tip": "Tip",
+
+    "Balustrada Aluminiu": "Balustradă Aluminiu",
+    "Balustrada Sticla": "Balustradă Sticlă",
+    "Balustrada Traforata": "Balustradă Traforată",
+    "Stalp": "Stâlp",
+    "Prindere laterala": "Prindere Laterală",
+    "Sina": "Șină",
+    "Spighoti": "Spighoți",
+
+    "Ares": "Copertina Ares",
+    "Hera": "Copertina Hera",
+    "Artemis": "Copertina Retractabilă Artemis",
+    "Pallas": "Copertina Retractabilă Pallas",
+    "Metis": "Copertina Retractabilă Metis",
+    "Bora": "Copertina Retractabilă Laterală Bora",
+    "Brate": "Copertina Retractabilă Brațe Articulate",
+    "Carlige": "Copertina Retractabilă de Balcon cu Carlige",
+    "Marchize": "Copertina Retractabilă Tip Marchize",
+
+    "Aplicat": "Aplicat",
+    "Suprapus": "Suprapus",
+
+    "Actionare": "Acționare",
+    "Electric": "Electric",
+    "Manual": "Manual",
+    "Plasa integrata": "Plasă contra Insectelor",
+
+    "Jaluzele": "Jaluzele Verticale",
+
+    "Vitrare": "Vitrare",
+    "Control Termic": "Control Termic",
+    "Control Solar": "Control Solar",
+    "Opac": "Opac / Mat",
+    "Decorativ": "Decorativ",
+    "Ornamental": "Ornamental",
+    "Grosime": "Grosime",
+
+    "Rulou": "Rulou",
+    "Balamale": "Balamale",
+
+    "Necasetat": "Rulou de Folie Necasetat",
+    "Casetat": "Rulou de Folie Casetat",
+    "Capse si bride": "Folie cu Capse si Bride",
+
+    "Da": "Da",
+    "Nu": "Nu",
+
+    "Cantitate": "Cantitate",
+    "Mesaj": "Informații suplimentare",
+    "modifica": "Modifică",
+    "adauga": "Adaugă",
+
+    "Nume": "Nume",
+    "Numar de telefon": "Număr de telefon",
+    "Locatie": "Locație"
+}

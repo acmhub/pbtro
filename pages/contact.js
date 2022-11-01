@@ -147,7 +147,7 @@ export default function Contact() {
                                     className="block w-fit opacity-100 hover:opacity-75"
                                 >
                                     <p itemProp="location">Soseaua Tudor Vladimirescu 393</p>
-                                    <p itemProp="location">Domnesti, Ilfov</p>
+                                    <p itemProp="location">Domnești, Ilfov</p>
                                 </a>
 
                                 <div className="flex items-center space-x-8">
