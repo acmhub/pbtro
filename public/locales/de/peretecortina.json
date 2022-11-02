@@ -1,0 +1,18 @@
+{
+    "description": "Vorhangfassaden stellen die eleganteste, sicherste und zugänglichste Fassade dar, die jede Art von Konstruktion abdecken kann. Es zeichnet sich durch außergewöhnliche Wärme- und Schalldämmeigenschaften aus, für unendliche Gestaltungsmöglichkeiten, die sich jeder architektonischen Vision anpassen, kurze Ausführungs- und Montagezeiten und einfache Wartung.",
+
+    "variants": {
+        "standard": "Standardfassaden",
+        "standarddesc1": "Sie werden aufgrund der Eigenschaft des Systems, bei dem das Isolierglas mit Hilfe von Druckkappen am Aluminiumrahmen befestigt wird, die wiederum mit Schrauben am Aluminiumrahmen befestigt werden, als klassische Vorhangfassaden bezeichnet. Druckkappen können verschiedene Formen, Größen und Farbtöne haben.",
+        "standarddesc2": "Das Standard-Fassadensystem ermöglicht den Einbau von wärmedämmenden Fenstern unterschiedlicher Dicke aus 2 oder 3 Glasscheiben. Die von außen sichtbaren Profile können jeder Konstruktion angepasst werden. Die Standard-Vorhangfassade ist eine moderne Glasfassadenlösung mit Gelenkkonstruktion und wurde entwickelt, um Erdbeben und Vibrationen normaler Intensität sowie Ausdehnungen oder Kontraktionen von Aluminiumprofilen standzuhalten, ohne ihre Widerstandsfähigkeit gegen Wind oder Wasserdurchlässigkeit zu verlieren.",
+        "standarddesc3": "Es können Vorhangfassaden mit großen Abmessungen und hoher Komplexität in Bezug auf die verwendeten Materialien hergestellt werden. Die Profile sind schmal und dank des klassischen Vorhangfassadensystems eine kostengünstigere Lösung.",
+        "semi": "Halbstrukturelle Vorhangfassaden",
+        "semidesc1": "Sie werden aufgrund der Eigenschaft des Systems, bei dem das Wärmedämmglas mit Hilfe von Druckkappen nur in einer Dimension, vertikal oder horizontal, am Aluminiumrahmen befestigt wird, halbstrukturelle Vorhangfassaden genannt. Druckkappen können verschiedene Formen, Größen und Farbtöne haben.",
+        "semidesc2": "Das halbstrukturelle Vorhangfassadensystem ermöglicht den Einbau von wärmedämmenden Fenstern unterschiedlicher Dicke aus 2 oder 3 Glasscheiben. Die von außen sichtbaren Profile können jeder Konstruktion angepasst werden. Die Wasserdichtheit ist im Fall des halbstrukturellen Systems aus drei Reihen EPDM-Dichtungen und einem Drainagesystem für jede Art von Wasseransammlung gewährleistet.",
+        "semidesc3": "Die Profile sind von innen sichtbar, und von außen ist das Profil nur in einer Richtung sichtbar. Auf der anderen Seite ist eine dünne Linie sichtbar, die dem System Kontinuität verleiht. Es können große, hochkomplexe Vorhangfassaden hergestellt werden.",
+        "structural": "Strukturelle Vorhangfassaden",
+        "structuraldesc1": "Die strukturellen Vorhangfassaden bestehen aus einem speziellen Aluminiumsystem, das auf der Außenseite das Aussehen von durchgehendem Glas verleiht. Das Wärmeschutzglas wird mit Hilfe eines Struktursilikons auf den Aluminiumrahmen geklebt.",
+        "structuraldesc2": "Die praktische Umsetzung erfolgt durch die Verbindung eines Rasters aus vertikalen Pfosten mit horizontalen Querbalken (Lineale). Sie lassen sich problemlos in so spektakuläre Wände und Zugänge, Treppen, Balustraden, Außenaufzüge, auch aus Glas, integrieren, die den Wunsch der Architekten nach Licht, weiten Räumen, modernen Linien und futuristischen Visionen erfüllen.",
+        "structuraldesc3": "Strukturglas kann durch die Anwendung von geometrischen Mustern und Formen ein verbessertes Aussehen erhalten oder es können verschiedene Farbtöne verwendet werden."
+    }
+}

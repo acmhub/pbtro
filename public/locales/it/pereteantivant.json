@@ -1,0 +1,17 @@
+{
+    "description": "Se vuoi che la tua terrazza sia protetta dalle intemperie, questi sistemi di chiusura sono tra i più consigliati.",
+
+    "variants": {
+        "casetat": "Rotolo di Pellicola per Cassette",
+        "casetatdesc": "I rotoli di pellicola trasparente a cassetta sono composti da un rotolo di pellicola trasparente ricoperto da una cassetta di alluminio. La pellicola trasparente scorre attraverso guide in alluminio ed è fissata nella parte inferiore da 2 bulloni di bloccaggio. L'azionamento può essere eseguito manualmente con una manovella o con l'aiuto di un motore del telecomando.",
+        "necasetat": "Rotolo di Alluminio Senza Custodia",
+        "necasetatdesc": "Le tende trasparenti senza involucro possono essere azionate manualmente con una manovella o elettricamente per mezzo di un interruttore o telecomando. Più tende trasparenti possono essere installate sullo stesso telecomando e in questo modo eliminiamo il rischio di perdere i telecomandi.",
+        "capse": "Graffette e Morsetti",
+        "capsedesc": "Le chiusure per terrazze con graffette e morsetti, con pellicola trasparente (foglio di cristallo 0,8 mm), sono le soluzioni di chiusura per terrazze più economiche, ma allo stesso tempo molto efficaci.",
+
+        "actionare": "Operazione",
+        "elecmanual": "Elettrico o Manuale",
+        "dimensiuni": "Dimensioni massime",
+        "rezistenta": "Resistenza"
+    }
+}

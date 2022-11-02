@@ -1,0 +1,84 @@
+{
+    "description": "Ein erster Schritt beim Bieten ist das Ausmessen der Fläche. Sie können die geschätzten Messungen selbst vornehmen, was ein Ausgangspunkt für unsere Zusammenarbeit sein wird. Basierend auf diesen Angaben und dem gewählten Design kalkulieren wir einen Preis, der dem Endpreis so nahe wie möglich kommt.",
+    "emptyorder": "Ihre Bestellung enthält keine Produkte.",
+    "addedtoquote": "es wurde hinzugefügt.",
+    "modifieditem": "es wurde geändert.",
+    "removeditem": "es wurde gelöscht.",
+    "sentquote": "Ihre Anfrage wurde registriert. Wir werden uns schnellstmöglich mit Ihnen in Verbindung setzen!",
+
+    "Inaltime": "Höhe",
+    "Latime": "Breite",
+    "Lungime": "Länge",
+
+    "chooseprofile": "Wählen Sie das Profil",
+    "Profil": "Profil",
+    "Termopan": "Doppelverglasung",
+    "Tripan": "Dreifachverglasung",
+    "Panel": "Tafel",
+    "Fara sticla": "Kein Glas",
+
+    "Culoare": "Farbe",
+    "Alb": "Weiß",
+    "Imitatie Lemn": "Holzimitat",
+    "Oak": "Eiche",
+    "Northern Pine": "Nordische Kiefer",
+
+    "Placare cu Aluminiu": "Aluminiumbeschichtung",
+    "Model": "Modell",
+    "Tip": "Typ",
+
+    "Balustrada Aluminiu": "Geländer aus Aluminium",
+    "Balustrada Sticla": "Geländer aus Glas",
+    "Balustrada Traforata": "Perforiertes Geländer",
+    "Stalp": "Säule",
+    "Prindere laterala": "Seitlicher Griff",
+    "Sina": "Schiene",
+    "Spighoti": "Zapfen",
+
+    "Ares": "Ares Baldachin",
+    "Hera": "Hera Baldachin",
+    "Artemis": "Artemis Einziehbare Markise",
+    "Pallas": "Pallas Einziehbare Markise",
+    "Metis": "Metis Einziehbare Markise",
+    "Bora": "Bora Side Retractable Baldachin",
+    "Brate": "Einziehbare Markise mit Gelenkarmen",
+    "Carlige": "Einziehbare Balkonmarkise mit Haken",
+    "Marchize": "Marchize Einziehbare Markise",
+
+    "Aplicat": "Angewandt",
+    "Suprapus": "Uberlagert",
+
+    "Actionare": "Betrieb",
+    "Electric": "Elektrisch",
+    "Manual": "Handbuch",
+    "Plasa integrata": "Insektennetz",
+
+    "Jaluzele": "Vertikale Jalousien",
+
+    "Vitrare": "Verglasung",
+    "Control Termic": "Thermische Kontrolle",
+    "Control Solar": "Solarkontrolle",
+    "Opac": "Blickdicht / Matt",
+    "Decorativ": "Dekorativ",
+    "Ornamental": "Zierlich",
+    "Grosime": "Dicke",
+
+    "Rulou": "Rollen",
+    "Balamale": "Scharniere",
+
+    "Necasetat": "Unverpackte Folienrolle",
+    "Casetat": "Kassettenfolienrolle",
+    "Capse si bride": "Folie mit Klammern und Klammern",
+
+    "Da": "Ja",
+    "Nu": "Nein",
+
+    "Cantitate": "Menge",
+    "Mesaj": "Mehr Informationen",
+    "modifica": "Ändern",
+    "adauga": "Hinzufügen",
+
+    "Nume": "Name",
+    "Numar de telefon": "Telefonnummer",
+    "Locatie": "Ort"
+}

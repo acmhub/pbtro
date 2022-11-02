@@ -1,10 +1,88 @@
 {
-    "title": "der Titel",
-    "home": "Heimat",
-    "about": "über uns",
+    "title": "Promotion Business Team - Hersteller von PVC- und Aluminium-Tischlerei",
+    "home": "Zuhause",
+    "about": "Über uns",
     "services": "Dienstleistungen",
     "products": "Produkte",
+    "accessories": "Zubehörteil",
     "portfolio": "Portfolio",
     "contact": "Kontakt",
-    "getquote": "Erhalten Sie Zitat"
+    "getquote": "Anfrage Angebot",
+
+    "privacypolicy": "Datenschutz-Bestimmungen",
+    "cookiespolicy": "Cookie-Richtlinie",
+
+    "fereastrapbt": "PBT Fenster",
+
+    "seemore": "Mehr sehen",
+    "moreinfo": "Mehr Informationen",
+    "send": "Senden",
+
+    "product": {
+        "title": "Von uns angebotene Produkte",
+
+        "balustrada": "Geländer",
+        "rulouexterior": "Äußere Walze",
+        "pergola": "Pergola",
+        "copertina": "Carport",
+        "panelornamental": "Zierplatte aus Aluminium",
+        "usagaraj": "Garagentor",
+        "roletatextila": "Textilrollo",
+        "tamplariepvc": "Tischlerei aus PVC",
+        "tamplariealuminiu": "Tischlerei aus Aluminium",
+        "tamplarielemn": "Tischlerei aus Schichtholz",
+        "sticla": "Glas",
+        "peretecortina": "Vorhangfassade",
+        "usaantifoc": "Feuerfeste Tür",
+        "plasainsecte": "Insektennetz",
+        "pereteantivant": "Windwand"
+    },
+
+    "nav": {
+        "windoor": "Fenster und Türen",
+        "glass": "Glas",
+        "accessories": "Zubehörteil",
+        "exterior": "Außere"
+    },
+
+    "footer": {
+        "about": "Wir sind ein Unternehmen, das auf einem jungen und dynamischen Team basiert, das sich aus Spezialisten für PVC- und Aluminiumzimmerei zusammensetzt. So erfüllen wir Ihre Anforderungen mit exzellenten Fertigungs- und Montageleistungen.",
+        "navigation": "Navigation"
+    },
+
+    "profilespecs": {
+        "adancime": "Konstruktive Tiefe",
+        "structura": "Kammerstruktur",
+        "izolare": "Wärmeisolierung",
+        "fonic": "Schalldämmung",
+        "vitrare": "Größe Verglasung",
+        "clasa": "Profilklasse",
+        "toc": "Hacke",
+        "latimetoc": "Weite Ferse",
+        "tocdublu": "Fersenbreite Double Slide",
+        "canat": "Flügelbreite",
+        "cercevea": "Schärpe",
+        "montant": "Breite Menge",
+        "variantaconstructiva": "Konstruktive Variante",
+        "cubariera": "Mit Wärmesperre",
+        "farabariera": "Keine thermische Barriere"
+    },
+
+    "atypics": {
+        "title": "Atypische Formen",
+        "description": "Sie können sich für Fenster in verschiedenen atypischen Formen entscheiden, wie zum Beispiel Kreisbogen, Kreis, Trapez, Dreieck oder andere asymmetrische Formen."
+    },
+
+    "colors": {
+        "title": "Außergewöhnliche Farbpalette",
+        "available": "Farben erhältlich",
+        "description": "Wir können Innen- und Außenprofile in fast jeder erdenklichen Farbe liefern. Mehr als 450 verschiedene Farbtöne und Oberflächen stehen zur Auswahl: Metallic- oder Eloxalfarben, matt oder RAL-Glanz oder auch eine spezielle kratzfeste und pflegeleichte Coatex-Lackierung.",
+        "woodimitation": "Holzimitat",
+        "ral": "RAL Palette"
+    },
+
+    "productcta": {
+        "title": "Wir sind immer an neuen, herausfordernden und interessanten Projekten interessiert.",
+        "description": "Kontaktieren Sie uns und senden Sie uns Ihre Projektanforderungen und wir kümmern uns um den Rest!"
+    }
 }

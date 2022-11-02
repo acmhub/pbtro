@@ -1,10 +1,88 @@
 {
-    "title": "El Titulo",
-    "home": "La Casa",
+    "title": "Promotion Business Team - Fabricante de Carpintería de PVC y Aluminio",
+    "home": "El hogar",
     "about": "Sobre nosotros",
     "services": "Servicios",
     "products": "Productos",
+    "accessories": "Accesorio",
     "portfolio": "Portafolio",
     "contact": "Contacto",
-    "getquote": "Obtener Cotización"
+    "getquote": "Solicitar Oferta",
+
+    "privacypolicy": "Política de Privacidad",
+    "cookiespolicy": "Política de Cookies",
+
+    "fereastrapbt": "Ventana PBT",
+
+    "seemore": "Ver más",
+    "moreinfo": "Más información",
+    "send": "Enviar",
+
+    "product": {
+        "title": "Productos ofrecidos por Nosotros",
+
+        "balustrada": "Barandilla",
+        "rulouexterior": "Rodillo Exterior",
+        "pergola": "Pérgola",
+        "copertina": "Cochera",
+        "panelornamental": "Panel Ornamental Aluminio",
+        "usagaraj": "Puerta de la Cochera",
+        "roletatextila": "Estor Enrollable Textil",
+        "tamplariepvc": "Carpinteria de PVC",
+        "tamplariealuminiu": "Carpintería de Aluminio",
+        "tamplarielemn": "Carpintería de Madera Laminada",
+        "sticla": "Vidrio",
+        "peretecortina": "Muro cortina",
+        "usaantifoc": "Puerta a Prueba de Fuego",
+        "plasainsecte": "Red de Insectos",
+        "pereteantivant": "Muro de Viento"
+    },
+
+    "nav": {
+        "windoor": "Ventanas y Puertas",
+        "glass": "Vidrio",
+        "accessories": "Accesorio",
+        "exterior": "Exterior"
+    },
+
+    "footer": {
+        "about": "Somos una empresa basada en un equipo joven y dinámico, formado por especialistas en carpintería de PVC y aluminio. Por lo tanto, cumplimos con sus requisitos con excelentes servicios de fabricación e instalación.",
+        "navigation": "Navegación"
+    },
+
+    "profilespecs": {
+        "adancime": "Profundidad Constructiva",
+        "structura": "Estructura de la Cámara",
+        "izolare": "Aislamiento Térmico",
+        "fonic": "Insonorización",
+        "vitrare": "Tamaño Acristalamiento",
+        "clasa": "Clase de Perfil",
+        "toc": "Tacón",
+        "latimetoc": "Tacón Ancho",
+        "tocdublu": "Ancho del tacón Doble Deslizamiento",
+        "canat": "Ancho del ala",
+        "cercevea": "Faja",
+        "montant": "Cantidad de Ancho",
+        "variantaconstructiva": "Variante Constructiva",
+        "cubariera": "Con Barrera Térmica",
+        "farabariera": "Sin Barrera Térmica"
+    },
+
+    "atypics": {
+        "title": "Formas Atípicas",
+        "description": "Puede optar por ventanas en varias formas atípicas, como arco circular, círculo, trapezoide, triángulo u otras formas asimétricas."
+    },
+
+    "colors": {
+        "title": "Gama de colores excepcional",
+        "available": "Colores Disponibles",
+        "description": "Podemos suministrar perfiles interiores y exteriores en casi cualquier color que pueda imaginar. Están disponibles más de 450 tonalidades y acabados diferentes: colores metalizados o anodizados, mate o brillo RAL, o incluso una pintura especial coatex resistente a los arañazos y de bajo mantenimiento.",
+        "woodimitation": "Imitación Madera",
+        "ral": "Paleta RAL"
+    },
+
+    "productcta": {
+        "title": "Siempre estamos interesados ​​en proyectos nuevos, desafiantes e interesantes.",
+        "description": "Entonces, ¿por qué no contactarnos y enviarnos los requisitos de su proyecto y nosotros nos encargamos del resto?"
+    }
 }

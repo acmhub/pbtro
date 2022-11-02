@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
+import VisibilitySensor from 'react-visibility-sensor';
+import CountUp from 'react-countup';
 import Image from 'next/image';
 import Link from 'next/link';
 import Layout from '../components/General/Layout';
@@ -8,11 +10,11 @@ import Suppliers from '../components/General/Suppliers';
 
 const statsData = [
     {
-        count: '1874+',
+        count: '1874',
         name: 'stats.projects'
     },
     {
-        count: '1452+',
+        count: '1452',
         name: 'stats.clients'
     },
     {
@@ -109,6 +111,7 @@ const timelineData = [
 
 export default function About() {
     const { t } = useTranslation('about');
+    const [statsCount, setStatsCount] = useState(false);
 
     return (
         <Layout pageID="about" title={t('common:about')} description={t('paragraph')}>
@@ -142,7 +145,21 @@ export default function About() {
                             <div className="grid grid-cols-2 z-10">
                                 {statsData.map((e, i) => (
                                     <div className="text-center p-2" key={i}>
-                                        <h4>{e.count}</h4>
+                                        <h4>
+                                            <VisibilitySensor
+                                                onChange={(visible) => visible && setStatsCount(true)}
+                                                partialVisibility={false}
+                                                delayedCall
+                                            >
+                                                <CountUp
+                                                    start={0}
+                                                    end={statsCount ? e.count : 0}
+                                                    suffix={i <= 1 ? '+' : ''}
+                                                    duration={(i + 1) * 1.2}
+                                                    decimals={0}
+                                                />
+                                            </VisibilitySensor>
+                                        </h4>
                                         <p className="uppercase">{t(e.name)}</p>
                                     </div>
                                 ))}
@@ -164,13 +181,7 @@ export default function About() {
                 <div className="section-spacing" />
 
                 <section className="relative space-y-10" id="services">
-                    <div>
-                        <h2 className="text-center">{t('services.title')}</h2>
-                        <p className="text-center lg:mx-auto lg:w-1/2">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dicta perspiciatis quas
-                            velit porro pariatur veritatis, tempora aspernatur quasi nesciunt?
-                        </p>
-                    </div>
+                    <h2 className="text-center">{t('services.title')}</h2>
 
                     <div className="py-1" />
 
@@ -204,13 +215,13 @@ export default function About() {
                     <div className="relative mt-5 md:w-2/3 md:mx-auto">
                         {timelineData.map((e, i) => (
                             <div className="relative flex items-center" key={i}>
-                                <h5 className="hidden md:block w-[10%] mb-auto">{t(e.year)}</h5>
+                                <h5 className="hidden md:block w-[12%] mb-auto">{t(e.year)}</h5>
 
-                                <div className="border-r-2 border-theme1 absolute h-full left-1 md:left-20 top-2 z-10">
+                                <div className="border-r-2 border-theme1 absolute h-full left-1 md:ml-6 md:left-20 top-3 z-10">
                                     <i className="fas fa-circle -top-1 -ml-2 absolute text-theme2"></i>
                                 </div>
 
-                                <div className="basis-[80%] ml-10 md:ml-16 lg:ml-10 xl:ml-5">
+                                <div className="basis-[78%] ml-10 md:ml-16 lg:ml-10 xl:ml-4">
                                     <div className="mb-4 lg:mt-2 md:hidden">
                                         <div className="font-bold">{t(e.year)}</div>
                                     </div>
@@ -235,28 +246,22 @@ export default function About() {
                 <section id="cta">
                     <div className="relative bg-gradient-to-tr from-[#bb9031] to-[#f4b632] shadow-xl">
                         <div className="grid grid-cols-1 lg:grid-cols-2">
-                            <div className="space-y-10 px-8 py-8 lg:py-4 text-white my-auto">
+                            <div className="space-y-10 px-8 py-8 lg:py-16 text-white my-auto">
                                 <div className="space-y-4">
-                                    <h2>Lorem ipsum dolor sit amet.</h2>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex qui omnis, error
-                                        quasi ea molestias? Earum, possimus vero. Eveniet, libero.
-                                    </p>
+                                    <h2>{t('cta.title')}</h2>
+                                    <p>{t('cta.description')}</p>
                                 </div>
 
                                 <div className="flex space-x-4">
                                     <button className="theme-button1">{t('common:getquote')}</button>
                                 </div>
                             </div>
-                            <div className="flex items-center justify-center">
-                                <div className="relative h-96 w-full">
-                                    <Image
-                                        src="/images/fillers/house-image.webp"
-                                        alt=" "
-                                        layout="fill"
-                                        objectFit="contain"
-                                    />
-                                </div>
+                            <div className="flex items-end justify-end">
+                                <img
+                                    src="/images/fillers/house-image.webp"
+                                    alt={t('common:getquote')}
+                                    className="relative h-auto w-auto object-contain"
+                                />
                             </div>
                         </div>
                     </div>

@@ -1,0 +1,17 @@
+{
+    "description": "Si quieres que tu terraza esté protegida de las inclemencias del tiempo, estos sistemas de cierre son de los más recomendados.",
+
+    "variants": {
+        "casetat": "Rollo de Papel de Casete",
+        "casetatdesc": "Los rollos de película transparente en cassette se componen de un rollo de película transparente cubierto con un cassette de aluminio. La película transparente se desliza a través de guías de aluminio y se fija en la parte inferior mediante 2 pernos de bloqueo. El accionamiento se puede realizar manualmente con una manivela o con la ayuda de un motor de control remoto.",
+        "necasetat": "Rollo de Papel de Aluminio sin Caja",
+        "necasetatdesc": "Las persianas transparentes sin marco se pueden operar manualmente con una manivela o eléctricamente por medio de un interruptor o control remoto. Se pueden instalar varias persianas transparentes en un mismo mando a distancia y de esta forma nos deshacemos del riesgo de perder los mandos a distancia.",
+        "capse": "Grapas y Abrazaderas",
+        "capsedesc": "Los cerramientos de terrazas con grapas y abrazaderas, con film transparente (lámina de cristal de 0,8 mm), son las soluciones de cerramiento de terrazas más económicas, pero a la vez muy eficaces.",
+
+        "actionare": "Operación",
+        "elecmanual": "Eléctrico o Manual",
+        "dimensiuni": "Dimensiones máximas",
+        "rezistenta": "Resistencia"
+    }
+}

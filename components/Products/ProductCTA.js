@@ -10,10 +10,8 @@ function ProductCTA({ t, data }) {
         <div className="card p-0 bg-white">
             <div className="grid grid-cols-1 lg:grid-cols-2">
                 <div className="col-span-1 space-y-6 p-8 my-auto">
-                    <div>
-                        <h3>{t('common:productcta.title')}</h3>
-                        <p>{t('common:productcta.description')}</p>
-                    </div>
+                    <h3>{t('common:productcta.title')}</h3>
+                    <p>{t('common:productcta.description')}</p>
 
                     <Link href="/solicita-oferta" passHref>
                         <a className="block w-fit">

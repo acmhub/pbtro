@@ -1,0 +1,26 @@
+{
+    "description": "The quality, price and degree of protection of a window are not only determined by the profile used, although this is often the most discussed aspect. Glass has an extremely important role, providing sound and thermal protection.",
+
+    "float": "Clear Glass",
+    "floatdesc": "Float glass is manufactured by floating a continuous strip of glass on a metal bath (float technology). It is made of high-quality chalcosodic glass, having parallel plane faces, natural surface and undistorted transparency.",
+    "lowe": "Low-E Glass",
+    "lowedesc": "Low-e glass refers to glass with low emissivity. It is designed to reflect heat back into the building to improve the heat transfer coefficient Uf. Low-E glass is neutral in appearance so it can be used for both residential and commercial buildings. Low-e glass is obtained through a process called magnetron sputtering, when a mixture of invisible metals is applied to one of the surfaces.",
+    "colorata": "Colored Glass",
+    "coloratadesc": "Colored glass is obtained by adding metal oxides during glass melting. The mass tinted glass absorbs a large amount of solar energy, thus preventing its excessive penetration into the interior. The range of colors includes bronze, grey, green, blue, in different intensities depending on the thickness of the glass.",
+    "decorativa": "Decorative Glass",
+    "decorativadesc": "Colored or painted glass is similar to printed (printed) glass, except that it is made on a single color. In order to be able to offer a wide range of shades, we use the RAL palette, everything to satisfy your wishes.",
+    "emailata": "Enameled Glass",
+    "emailatadesc": "This process consists in the uniform application (usually with the help of specific equipment) of a special ceramic paint, immediately followed by the process of securing the glass. Thus, the applied paint layer becomes much more resistant and has a uniform appearance. Also, through the glass securing process, increased mechanical resistance is given in the event of breakage and guaranteed color stability is ensured.",
+    "print": "Glass with Ceramic Print",
+    "printdesc": "The latest technology for processing glass is glass printing with ceramic ink. Ceramic ink printing is done in a temperature and humidity controlled environment. After printing, the glass is inserted at a temperature of 650-700 degrees (depending on the thickness of the support glass). Once the glass is secured, the ceramic ink practically fuses with the glass and the printed image remains at the same quality for at least 15 years, unaltered by external factors. The colors are resistant to ultraviolet radiation and the ceramic printed surface is very resistant to scratches.",
+    "laminata": "Laminated Glass",
+    "laminatadesc": "It consists of two or more sheets of glass bonded by a layer of transparent resin. The advantages of this type of glass are: increasing the degree of safety against burglary, superior sound insulation, reducing the risk of accidents (does not allow shards to come off in case of breakage), in addition, this glass offers the best sound insulation compared to other types of glass.",
+    "sablata": "Sandblasted Glass",
+    "sablatadesc": "It is a matte surface, obtained from a transparent or colored glass, over which a jet of fine sand is blown with the help of compressed air. Patterned sandblasted glass is made using a template with a design placed on the clear glass that is being sandblasted.",
+    "ornamentala": "Ornamental Glass",
+    "ornamentaladesc": "Ornamental glass is mainly used as an ornament or to preserve privacy. It has a good light transmission factor and allows better illumination of the room than when using reflective glass.",
+    "reflexiva": "Reflective Glass",
+    "reflexivadesc": "It is the reflective monolithic glass, sunshade with a film of metal oxides, deposited by the pyrolytic process. The film is deposited on clear or colored glass in mass, which is very resistant, especially to extreme environmental conditions. The orientation of the film influences the amount of reflection as well as the final tint of the glass color.",
+    "securizata": "Secure Glass",
+    "securizatadesc": "It is 3-4 times more resistant to mechanical and thermal stress than untreated glass. In case of breakage, it breaks down into very small pieces eliminating the risk of injuries. Mass tinted glass Due to its filtering properties, depending on the color and thickness, mass tinted glass reduces the strain on the eye in strong sunlight."
+}

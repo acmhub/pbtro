@@ -1,6 +1,10 @@
 {
     "description": "Un prim pas al ofertării îl constituie măsurarea spațiului. Puteți realiza dumneavoastră măsuratorile estimative, care vor constitui un punct de pornire în colaborarea noastră. În baza acestor detalii și a designului ales vom calcula un preț cât mai apropiat de cel final.",
     "emptyorder": "Comanda dumneavoastră nu conține niciun produs.",
+    "addedtoquote": "a fost adaugat.",
+    "modifieditem": "a fost modificat.",
+    "removeditem": "a fost șters.",
+    "sentquote": "Cererea dumneavoastră a fost înregistrată. Vă vom contacta în cel mai scurt timp posibil!",
 
     "Inaltime": "Înălțime",
     "Latime": "Lățime",

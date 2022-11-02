@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
-import Image from 'next/image';
 import Layout from '../../components/General/Layout';
-import Modal from '@mui/material/Modal';
 import ProductLanding from '../../components/Products/ProductLanding';
+import ModelsGallery from '../../components/Products/ModelsGallery';
 import Colors from '../../components/Products/Colors';
 import ProductCTA from '../../components/Products/ProductCTA';
 import { aluminiuData, inoxData } from '../../components/Products/PanelOrnamental';
@@ -20,8 +19,6 @@ const ctaData = ['/images/products/panel-ornamental/highlight.webp'];
 export default function PanelOrnamental() {
     const { t } = useTranslation('panelornamental');
 
-    const [modalState, setModalState] = useState({ state: false, index: null });
-
     return (
         <Layout title={t('common:product.panelornamental')} description={t('description')}>
             <div className="section-spacing" />
@@ -34,43 +31,7 @@ export default function PanelOrnamental() {
                 <section className="space-y-4" id="aluminiu">
                     <h3 className="text-center">{t('alumodels')}</h3>
 
-                    <div className="h-96 w-full overflow-y-scroll">
-                        <div className="grid grid-cols-2 lg:grid-cols-6 gap-1">
-                            {aluminiuData.map((e, i) => (
-                                <div key={i}>
-                                    <div
-                                        className="cursor-zoom-in"
-                                        onClick={() => setModalState({ state: true, index: i })}
-                                    >
-                                        <div className="relative h-40 w-auto">
-                                            <Image src={e.source} alt={e.name} layout="fill" objectFit="contain" />
-                                        </div>
-                                        <h6 className="text-center">{e.name}</h6>
-                                    </div>
-                                    <Modal
-                                        open={modalState.index === i ? true : false}
-                                        onClose={() => setModalState({ state: false, index: null })}
-                                        aria-labelledby="aluminium-model"
-                                        aria-describedby="aluminium-model-details"
-                                        sx={{ paper: { outline: 'none' } }}
-                                    >
-                                        <div className="container absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-96 lg:w-[600px] bg-white shadow space-y-2 p-2">
-                                            <div
-                                                className="absolute top-1 right-1 cursor-pointer z-10"
-                                                onClick={() => setModalState({ state: false, index: null })}
-                                            >
-                                                <span className="material-symbols-outlined">close</span>
-                                            </div>
-                                            <div className="relative h-[80vh] w-full">
-                                                <Image src={e.source} alt={e.name} layout="fill" objectFit="contain" />
-                                            </div>
-                                            <h5>{e.name}</h5>
-                                        </div>
-                                    </Modal>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
+                    <ModelsGallery data={aluminiuData} />
                 </section>
 
                 <div className="section-spacing" />
@@ -81,43 +42,7 @@ export default function PanelOrnamental() {
                         {t('inoxmodels')}
                     </h3>
 
-                    <div className="h-96 w-full overflow-y-scroll">
-                        <div className="grid grid-cols-2 lg:grid-cols-6 gap-1">
-                            {inoxData.map((e, i) => (
-                                <div key={i}>
-                                    <div
-                                        className="cursor-zoom-in"
-                                        onClick={() => setModalState({ state: true, index: i })}
-                                    >
-                                        <div className="relative h-40 w-auto">
-                                            <Image src={e.source} alt={e.name} layout="fill" objectFit="contain" />
-                                        </div>
-                                        <h6 className="text-center">{e.name}</h6>
-                                    </div>
-                                    <Modal
-                                        open={modalState.index === i ? true : false}
-                                        onClose={() => setModalState({ state: false, index: null })}
-                                        aria-labelledby="aluminium-model"
-                                        aria-describedby="aluminium-model-details"
-                                        sx={{ paper: { outline: 'none' } }}
-                                    >
-                                        <div className="container absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-96 lg:w-[600px] bg-white shadow space-y-2 p-2">
-                                            <div
-                                                className="absolute top-1 right-1 cursor-pointer z-10"
-                                                onClick={() => setModalState({ state: false, index: null })}
-                                            >
-                                                <span className="material-symbols-outlined">close</span>
-                                            </div>
-                                            <div className="relative h-[80vh] w-full">
-                                                <Image src={e.source} alt={e.name} layout="fill" objectFit="contain" />
-                                            </div>
-                                            <h5>{e.name}</h5>
-                                        </div>
-                                    </Modal>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
+                    <ModelsGallery data={inoxData} />
                 </section>
 
                 <div className="section-spacing" />

@@ -46,7 +46,7 @@ const variantsData = [
     {
         src: '/images/products/usa-garaj/highlight.webp',
         name: 'variants.vogue',
-        description: [''],
+        description: ['variants.voguedesc1'],
         stats: [
             { icon: 'workspace_premium', label: 'warranty', value: '15ani' },
             { icon: 'repeat', label: 'cicluri', value: '25000' }

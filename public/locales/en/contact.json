@@ -1,0 +1,18 @@
+{
+    "title": "Contact us",
+    "cui": "Unique registration code",
+    "rc": "No. of Trade Register Registration",
+
+    "name": "Name",
+    "phone": "Phone number",
+    "subject": "Subject",
+    "message": "Message",
+    "agreewith": "I agree with the",
+
+    "callus": "Call us",
+    "emailus": "Email us",
+    "visitus": "Visit us",
+
+    "thankyou": "Thank you",
+    "shortly": "We will get back to you as soon as possible."
+}

@@ -1,13 +1,13 @@
 {
-    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, harum soluta maxime, tempora, fugit facere nostrum voluptatibus labore temporibus quas voluptas est aliquid fugiat qui?",
+    "description": "Dacă doriți ca terasa dumneavoastră să fie protejată împotriva vremii capricioase, aceste sisteme de închidere sunt printre cele mai recomandate.",
 
     "variants": {
         "casetat": "Rulou de Folie Casetat",
-        "casetatdesc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, harum soluta maxime, tempora, fugit facere nostrum voluptatibus labore temporibus quas voluptas est aliquid fugiat qui?",
+        "casetatdesc": "Rulourile cu folie transparentă casetate sunt compuse din rulou de folie transparentă acoperit cu o casetă de aluminiu. Folia transparentă glisează prin ghidaje de aluminiu și se prind în partea de jos în 2 bolturi de blocare. Acționarea se poate face manual cu manivelă sau cu ajutorul unui motor cu telecomandă.",
         "necasetat": "Rulou de Folie Necasetat",
-        "necasetatdesc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, harum soluta maxime, tempora, fugit facere nostrum voluptatibus labore temporibus quas voluptas est aliquid fugiat qui?",
+        "necasetatdesc": "Rulourile transparente necasetate pot fi acționate manual, cu ajutorul unei manivele sau electric prin intermediul unui întrerupător sau a unei telecomenzi. Pot fi instalate mai multe rulouri transparente pe aceeași telecomanda și în acest mod scăpăm de riscul de a pierde telecomenzi.",
         "capse": "Capse și Bride",
-        "capsedesc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, harum soluta maxime, tempora, fugit facere nostrum voluptatibus labore temporibus quas voluptas est aliquid fugiat qui?",
+        "capsedesc": "Închiderile de terase cu capse și bride, cu folie transparentă (folie cristal 0.8mm), sunt cele mai ieftine soluții de închideri terase, dar în același timp și foarte eficiente.",
 
         "actionare": "Acționare",
         "elecmanual": "Electric sau Manual",

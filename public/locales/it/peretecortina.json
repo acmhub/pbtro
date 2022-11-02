@@ -1,0 +1,18 @@
+{
+    "description": "Le facciate continue rappresentano la facciata più elegante, sicura e accessibile in grado di coprire qualsiasi tipo di costruzione. Si distingue per le eccezionali proprietà di isolamento termico e acustico, per infinite possibilità progettuali che si adattano a qualsiasi visione architettonica, tempi brevi di esecuzione e montaggio e facile manutenzione.",
+
+    "variants": {
+        "standard": "Facciate Continue Standard",
+        "standarddesc1": "Sono dette facciate continue classiche per la caratteristica del sistema con cui il vetro isolante viene fissato al telaio in alluminio mediante l'ausilio di tappi a pressione, fissati, a loro volta, al telaio in alluminio con viti. I tappi a pressione possono essere di varie forme, dimensioni e sfumature.",
+        "standarddesc2": "Il sistema di facciata continua standard consente l'installazione di finestre termoisolanti di diverso spessore, realizzate con 2 o 3 lastre di vetro. I profili, visibili dall'esterno, si adattano a qualsiasi tipo di costruzione. La facciata continua standard è una moderna soluzione di facciata in vetro con una costruzione articolata ed è progettata per resistere a terremoti e vibrazioni di intensità normale, nonché dilatazioni o contrazioni dei profili in alluminio senza perdere la sua resistenza al vento o alla permeabilità all'acqua.",
+        "standarddesc3": "Si possono realizzare facciate continue di grandi dimensioni, di elevata complessità in termini di materiali utilizzati. I profili sono stretti e rappresentano una soluzione più economica grazie al classico sistema di facciata continua.",
+        "semi": "Facciate Continue Semistrutturali",
+        "semidesc1": "Sono denominate facciate continue semistrutturali per la caratteristica del sistema mediante il quale il vetro termoisolante viene fissato al telaio in alluminio con l'ausilio di tappi a pressione solo su una dimensione, verticale o orizzontale. I tappi a pressione possono essere di varie forme, dimensioni e sfumature.",
+        "semidesc2": "Il sistema di facciata continua semistrutturale permette l'installazione di serramenti termoisolanti di diverso spessore, realizzati con 2 o 3 lastre di vetro. I profili, visibili dall'esterno, si adattano a qualsiasi tipo di costruzione. La tenuta stagna è assicurata nel caso del sistema semistrutturale di tre file di guarnizioni in EPDM e di un sistema di drenaggio per ogni tipo di accumulo di acqua.",
+        "semidesc3": "I profili sono visibili dall'interno e dall'esterno il profilo è visibile solo in una direzione. Dall'altro lato è visibile una linea sottile che dà continuità al sistema. Si possono realizzare facciate continue di grandi dimensioni e molto complesse.",
+        "structural": "Facciate Continue Strutturali",
+        "structuraldesc1": "Le facciate continue strutturali sono realizzate con uno speciale sistema di alluminio che conferisce, all'esterno, l'aspetto del vetro continuo. Il vetro termoisolante è incollato al telaio in alluminio con l'ausilio di un silicone strutturale.",
+        "structuraldesc2": "La realizzazione pratica è trasposta unendo una griglia di montanti verticali con traverse orizzontali (righelli). Possono essere facilmente integrati in pareti così spettacolari e accessi, scale, balaustre, ascensori esterni, anche in vetro, che soddisfano il desiderio degli architetti di luce, ampi spazi, linee moderne e visione futuristica.",
+        "structuraldesc3": "Il vetro strutturale può avere un aspetto migliore attraverso l'applicazione di disegni e forme geometriche o possono essere utilizzate diverse tonalità di colore."
+    }
+}

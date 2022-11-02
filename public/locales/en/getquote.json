@@ -1,6 +1,10 @@
 {
     "description": "A first step in obtaining the offer is the measurement of the space. You can make the estimated measurements yourself, which will be a starting point in our collaboration. Based on these details and the chosen design, we will calculate a price as close as possible to the final one.",
     "emptyorder": "Your order doesn't contain any products.",
+    "addedtoquote": "has been added.",
+    "modifieditem": "has been modified.",
+    "removeditem": "has been deleted.",
+    "sentquote": "Your request has been registered. We will contact you as soon as possible!",
 
     "Inaltime": "Height",
     "Latime": "Width",

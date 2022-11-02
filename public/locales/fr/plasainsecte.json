@@ -1,0 +1,12 @@
+{
+    "description": "Les moustiquaires sont un accessoire indispensable surtout pendant la saison chaude. Ils ont pour rôle de protéger les habitations de divers insectes, l'ennemi principal étant le moustique. C'est pourquoi nous vous proposons la solution parfaite, présentée de différentes manières ou couleurs.",
+    "variants": {
+        "plisse": "Filet Anti-Insectes Plisse",
+        "plissedesc1": "Les filets plissés sont créés de telle manière qu'ils s'intègrent dans n'importe quel espace, étant disponibles pour l'installation pour les fenêtres et les portes, y compris celles avec de très grandes ouvertures.",
+        "plissedesc2": "Grâce à la protection spéciale qu'ils offrent, mais aussi au design moderne et élégant, les filets anti-insectes de type plisse sont l'option idéale pour les espaces destinés aux clients, en particulier dans le cas de l'industrie hôtelière, tels que les restaurants, les unités de préparation des aliments ou hôtels.",
+        "rulou": "Filet Anti-Insectes Roll",
+        "ruloudesc": "Les filets enroulables sont une option moderne et sûre, étant très faciles à manipuler et augmentant le confort des utilisateurs du fait qu'ils peuvent être utilisés tout l'été et qu'il n'est pas nécessaire de les démonter lorsque la saison froide arrive, car le filet se resserre très facilement à l'intérieur de la boîte.",
+        "balamale": "Moustiquaire à Charnière",
+        "balamaledesc": "Les filets anti-insectes les plus courants sont ceux à charnières. Ils sont composés d'un cadre en aluminium, sur lequel sont généralement montées 2 charnières pour ouvrir le filet vers l'extérieur. Le filet est fermé par un clip magnétique."
+    }
+}

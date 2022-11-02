@@ -1,0 +1,51 @@
+{
+    "title": "Producimos para la comodidad",
+    "paragraph": "Promotion Business Team es una empresa basada en un equipo joven y dinámico, formado por especialistas en carpintería de PVC y aluminio. Así, respondemos a sus requerimientos con excelentes servicios de fabricación e instalación de sistemas de carpintería con doble o triple vidrio, independientemente de su tipología.",
+
+    "stats": {
+        "projects": "proyectos completados",
+        "clients": "clientes satisfechos",
+        "services": "servicios ofrecidos",
+        "employees": "personal"
+    },
+
+    "services": {
+        "title": "Los servicios que ofrecemos",
+        "consult": "Consultor",
+        "consultdesc": "Nuestros especialistas están siempre disponibles para los clientes con recomendaciones e información.",
+        "quality": "Calidad",
+        "qualitydesc": "No solo importa la arquitectura y el estilo del diseño interior y exterior, sino también los materiales utilizados, pero sobre todo su calidad.",
+        "production": "Producción",
+        "productiondesc": "Utilizamos materias primas y accesorios de la mejor calidad, con equipos manejados por expertos en producción de carpintería.",
+        "measurements": "Medida",
+        "measurementsdesc": "Las medidas correctas son extremadamente importantes. Realizamos esta etapa con el mayor cuidado, en cualquier tipo de edificio o estancia.",
+        "delivery": "Entrega",
+        "deliverydesc": "Gracias a nuestra propia flota, podemos programar y transportar cualquier tipo de carpintería o vidrio.",
+        "fitting": "Adecuado",
+        "fittingdesc": "Montamos y comprobamos después de la finalización, con mucho cuidado. Todo para la seguridad y comodidad de nuestros clientes!"
+    },
+
+    "timeline": {
+        "title": "Nuestra Evolución",
+        "2006p1": "En 2006, se sentaron las bases de la fábrica de ventanas Promotion Business Team, que tenía un solo objetivo: ofrecer una alternativa de carpintería cualitativa en el contexto del aumento del número de comerciantes con fines lucrativos.",
+        "2006p2": "Con el tiempo, la fábrica ha evolucionado, el equipo ha crecido, las tecnologías han mejorado, pero el enfoque es el mismo: mejorar la calidad de vida de nuestros clientes a través de los mejores productos y servicios de carpintería.",
+        "2006p3": "Desde la constitución de la empresa hasta 2010, nos ocupamos de la distribución de carpintería de PVC y aluminio, pero también de los complementos para las mismas.",
+        "2010p1": "Ampliamos el espectro de actividad, pasando a producir y comercializar carpintería de PVC y aluminio.",
+        "2020p1": "Para poder satisfacer el volumen de solicitudes, nos mudamos a una nueva ubicación ubicada en 393 Tudor Vladimirescu Street, Domnești Business Park, Ilfov.",
+        "2020p2": "La nueva nave de producción tiene una superficie de 1500m2, frente a los 600m2 del local anterior.",
+        "2021p1": "Adquirimos una nueva línea de producción para carpintería de PVC y aluminio, compuesta por varios equipos modernos. Con la ayuda de estos equipos, pudimos reducir el consumo de energía eléctrica y, al mismo tiempo, aumentar la producción.",
+        "2021p2": "También se incrementó la calidad de los productos, al eliminar los errores humanos, contribuyendo también a la competitividad de la empresa Equipo de Promoción Empresarial en el mercado en el que actúa. Además, la producción se ha vuelto más eficiente. Ahora podemos producir el doble de la cantidad de productos y, por lo tanto, podemos soportar mejor la demanda que estamos experimentando, que está en constante aumento.",
+        "2021p3": "Hemos implementado una gestión inteligente de las actividades productivas.",
+        "2021p4": "Por lo tanto, la actividad de la fábrica se puede planificar, ejecutar y monitorear mucho más fácilmente con la solución de gestión de producción. El sistema cubre cuatro áreas principales: producción, materiales, calidad y mantenimiento.",
+        "2021p5": "Hemos invertido en una línea de producción de vidrio moderna, toda la producción está optimizada y operada con la ayuda del software y el equipo de mejor rendimiento.",
+        "prezp1": "La experiencia acumulada en la fabricación de carpintería, así como la buena calidad de montaje adquirida a lo largo del tiempo, nos recomiendan como una empresa eficiente y siempre una elección inspirada para nuestros clientes, gracias a la seriedad que mostramos y los precios cobrados.",
+        "prezp2": "Estamos agradecidos de tener más de 40 empleados que comparten la visión de PBT: crear los mejores productos de carpintería de PVC y aluminio. Los especialistas de nuestra empresa siempre están ansiosos por trabajar con los materiales más nuevos y técnicas innovadoras para satisfacer los deseos de los clientes.",
+
+        "prezent": "Presente"
+    },
+
+    "cta": {
+        "title": "Siempre estamos interesados ​​en proyectos nuevos, desafiantes e interesantes.",
+        "description": "Entonces, ¿por qué no contactarnos y enviarnos los requisitos de su proyecto y nosotros nos encargamos del resto?"
+    }
+}

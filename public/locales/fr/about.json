@@ -1,0 +1,51 @@
+{
+    "title": "Nous produisons pour le confort",
+    "paragraph": "Promotion Business Team est une entreprise qui s'appuie sur une équipe jeune et dynamique, composée de spécialistes de la menuiserie PVC et aluminium. Ainsi, nous répondons à vos exigences avec d'excellents services de fabrication et d'installation de systèmes de menuiserie avec double vitrage ou triple vitrage, quel que soit leur type.",
+
+    "stats": {
+        "projects": "projets achevés",
+        "clients": "clients satisfaits",
+        "services": "services offerts",
+        "employees": "personnel"
+    },
+
+    "services": {
+        "title": "Les services que nous proposons",
+        "consult": "Consultant",
+        "consultdesc": "Nos spécialistes sont toujours à la disposition des clients avec des recommandations et des informations.",
+        "quality": "Qualité",
+        "qualitydesc": "Non seulement l'architecture et le style du design intérieur et extérieur comptent, mais aussi les matériaux utilisés, mais surtout leur qualité.",
+        "production": "Production",
+        "productiondesc": "Nous utilisons les meilleures matières premières et accessoires de qualité, avec des équipements gérés par des experts en production de menuiserie.",
+        "measurements": "Mesure",
+        "measurementsdesc": "Des mesures correctes sont extrêmement importantes. Nous réalisons cette étape avec le plus grand soin, dans tout type de bâtiment ou de pièce.",
+        "delivery": "Livraison",
+        "deliverydesc": "Grâce à notre propre flotte, nous pouvons programmer et transporter tout type de menuiserie ou de verre.",
+        "fitting": "Raccord",
+        "fittingdesc": "Nous assemblons et vérifions après l'achèvement, très soigneusement. Tout pour la sécurité et le confort de nos clients !"
+    },
+
+    "timeline": {
+        "title": "Notre Evolution",
+        "2006p1": "En 2006, les fondations de l'usine de fenêtres Promotion Business Team sont posées, qui n'ont qu'un seul objectif : proposer une alternative de menuiserie qualitative dans le cadre de l'augmentation du nombre de commerçants à but lucratif.",
+        "2006p2": "Au fil du temps, l'usine a évolué, l'équipe s'est agrandie, les technologies se sont améliorées, mais l'objectif est le même : améliorer la qualité de vie de nos clients grâce aux meilleurs produits et services de menuiserie.",
+        "2006p3": "Depuis la création de l'entreprise jusqu'en 2010, nous nous sommes occupés de la distribution de menuiseries PVC et aluminium, mais aussi de leurs accessoires.",
+        "2010p1": "Nous avons élargi le spectre d'activité en commençant à produire et à vendre des menuiseries en PVC et en aluminium.",
+        "2020p1": "Pour pouvoir satisfaire le volume de demandes, nous avons déménagé dans un nouvel emplacement situé au 393, rue Tudor Vladimirescu, Domnești Business Park, Ilfov.",
+        "2020p2": "Le nouveau hall de production a une superficie de 1500m2, contre 600m2 à l'endroit précédent.",
+        "2021p1": "Nous avons acheté une nouvelle ligne de production de menuiserie PVC et aluminium, composée de plusieurs équipements modernes. Grâce à ces équipements, nous avons pu réduire la consommation d'électricité et, en même temps, augmenter la production.",
+        "2021p2": "La qualité des produits a également augmenté, en éliminant les erreurs humaines, contribuant également à la compétitivité de la société Promotion Business Team sur le marché dans lequel elle opère. De plus, la production est devenue plus efficace. Nous pouvons désormais produire le double de produits et ainsi mieux répondre à la demande que nous connaissons et qui ne cesse d'augmenter.",
+        "2021p3": "Nous avons mis en place une gestion intelligente des activités de production.",
+        "2021p4": "Ainsi, l'activité de l'usine peut être planifiée, exécutée et surveillée beaucoup plus facilement avec la solution de gestion de la production. Le système couvre quatre domaines principaux : la production, les matériaux, la qualité et la maintenance.",
+        "2021p5": "Nous avons investi dans une ligne de production de verre moderne, toute la production étant optimisée et exploitée à l'aide des logiciels et équipements les plus performants.",
+        "prezp1": "L'expérience accumulée dans la fabrication de menuiserie, ainsi que la bonne qualité d'assemblage acquise au fil du temps, nous recommandent comme une entreprise efficace et toujours un choix inspiré pour nos clients, grâce au sérieux dont nous faisons preuve et aux prix pratiqués.",
+        "prezp2": "Nous sommes reconnaissants d'avoir plus de 40 employés qui partagent la vision de PBT : créer les meilleurs produits de menuiserie en PVC et en aluminium. Les spécialistes de notre entreprise sont toujours désireux de travailler avec les matériaux les plus récents et les techniques innovantes pour satisfaire les souhaits des clients.",
+
+        "prezent": "Cadeau"
+    },
+
+    "cta": {
+        "title": "Nous sommes toujours intéressés par de nouveaux projets stimulants et intéressants.",
+        "description": "Alors pourquoi ne pas nous contacter et nous envoyer vos exigences de projet et nous nous occuperons du reste !"
+    }
+}

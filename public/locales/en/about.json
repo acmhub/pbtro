@@ -1,0 +1,51 @@
+{
+    "title": "We produce for comfort",
+    "paragraph": "Promotion Business Team is a company based on a young and dynamic team, made up of specialists in PVC and aluminum carpentry. Thus, we respond to your requirements with excellent manufacturing and installation services of carpentry systems with double-pane or triple-pane glass, regardless of their type.",
+
+    "stats": {
+        "projects": "completed projects",
+        "clients": "satisfied clients",
+        "services": "services offered",
+        "employees": "employees"
+    },
+
+    "services": {
+        "title": "Services offered by us",
+        "consult": "Consulting",
+        "consultdesc": "Our specialists are always available to customers with recommendations and information.",
+        "quality": "Quality",
+        "qualitydesc": "Not only the architecture and style of the interior and exterior design matter, but also the materials used, but especially their quality.",
+        "production": "Producion",
+        "productiondesc": "We use the best quality raw materials and accessories, with equipment handled by experts in carpentry production.",
+        "measurements": "Measurements",
+        "measurementsdesc": "Correct measurements are extremely important. We carry out this stage with the greatest care, in any type of building or room.",
+        "delivery": "Delivery",
+        "deliverydesc": "Grație flotei noastre proprii, putem programa și transporta orice tip de tâmplarie sau sticlă.",
+        "fitting": "Fitting",
+        "fittingdesc": "We assemble and check after completion, very carefully. Everything for the safety and comfort of our customers!"
+    },
+
+    "timeline": {
+        "title": "Our Evolution",
+        "2006p1": "In 2006, the foundations of the Promotion Business Team window factory were laid, which had only one goal: to offer a qualitative carpentry alternative in the context of the increase in the number of profit-oriented traders.",
+        "2006p2": "Over time, the factory has evolved, the team has grown, the technologies have improved, but the focus is the same: to improve the quality of life of our customers through the best carpentry products and services.",
+        "2006p3": "From the establishment of the company until 2010, we dealt with the distribution of PVC and aluminum carpentry, but also with accessories for them.",
+        "2010p1": "We expanded the spectrum of activity, starting to produce and sell PVC and aluminum carpentry.",
+        "2020p1": "To be able to satisfy the volume of requests, we moved to a new location located on 393 Tudor Vladimirescu Street, Domnești Business Park, Ilfov.",
+        "2020p2": "The new production hall has an area of 1500m2, compared to the 600m2 in the previous place.",
+        "2021p1": "We purchased a new production line for PVC and aluminum carpentry, composed of several modern equipment. With the help of these equipments, we were able to reduce electricity consumption and, at the same time, increase production.",
+        "2021p2": "The quality of the products has also increased, by eliminating human errors, also contributing to the competitiveness of the Promotion Business Team company on the market in which it operates. Moreover, production has become more efficient. We can now produce double the amount of products and can thus better support the demand we are experiencing, which is constantly increasing.",
+        "2021p3": "We have implemented intelligent management of production activities.",
+        "2021p4": "Thus factory activity can be planned, executed and monitored much more easily with the production management solution. The system covers four main areas: production, materials, quality and maintenance.",
+        "2021p5": "We have invested in a modern glass production line, all production being optimized and operated with the help of the best performing software and equipment.",
+        "prezp1": "The experience accumulated in the manufacture of carpentry, as well as the good quality of assembly acquired over time, recommend us as an efficient company and always an inspired choice for our customers, thanks to the seriousness we show and the prices charged.",
+        "prezp2": "We are grateful to have over 40 employees who share PBT's vision: creating the best PVC and aluminum carpentry products. The specialists of our company are always eager to work with the newest materials and innovative techniques to satisfy the wishes of customers.",
+
+        "prezent": "Present"
+    },
+
+    "cta": {
+        "title": "We are always interested in new, challenging and interesting projects.",
+        "description": "So why not contact us and send us your project requirements and we'll take care of the rest!"
+    }
+}

@@ -3,6 +3,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import Layout from '../../../components/General/Layout';
 import ProductLanding from '../../../components/Products/ProductLanding';
+import ConstructiveOptions from '../../../components/Products/ConstructiveOptions';
 import Profiles from '../../../components/Products/Profiles';
 import Atypics from '../../../components/Products/Atypics';
 import Colors from '../../../components/Products/Colors';
@@ -13,6 +14,24 @@ const landingData = {
     product: 'common:product.tamplariepvc',
     description: ['description']
 };
+
+const constructiveData = [
+    {
+        source: '/images/products/tamplarie-pvc/fereastra.webp',
+        title: 'constructive.fereastra',
+        description: ['constructive.fereastradesc1', 'constructive.fereastradesc2']
+    },
+    {
+        source: '/images/products/tamplarie-pvc/usa.webp',
+        title: 'constructive.usa',
+        description: ['constructive.usadesc1', 'constructive.usadesc2']
+    },
+    {
+        source: '/images/products/tamplarie-pvc/culisanta.webp',
+        title: 'constructive.culisanta',
+        description: ['constructive.culisantadesc']
+    }
+];
 
 const profilesData = [
     {
@@ -156,8 +175,14 @@ export default function TamplariePVC() {
 
                 <div className="section-spacing" />
 
+                <section id="constructive">
+                    <ConstructiveOptions data={constructiveData} t={t} />
+                </section>
+
+                <div className="section-spacing" />
+
                 <section id="profiles">
-                    <h3 className="text-center mb-10">{t('common:fereastrapbt')}</h3>
+                    <h2 className="text-center mb-10">{t('common:fereastrapbt')}</h2>
                     <Profiles data={profilesData} t={t} />
                 </section>
             </div>

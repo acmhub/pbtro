@@ -1,0 +1,18 @@
+{
+    "description": "Los muros cortina representan la fachada más elegante, segura y accesible que puede cubrir cualquier tipo de construcción. Destaca por sus excepcionales propiedades de aislamiento térmico y acústico, por infinitas posibilidades de diseño que se adaptan a cualquier visión arquitectónica, cortos tiempos de ejecución y montaje y fácil mantenimiento.",
+
+    "variants": {
+        "standard": "Muros Cortina Estándar",
+        "standarddesc1": "Se denominan muros cortina clásicos debido a la característica del sistema por el cual el vidrio aislante se fija al marco de aluminio con la ayuda de casquillos a presión, fijados, a su vez, al marco de aluminio con tornillos. Las tapas de presión pueden ser de varias formas, tamaños y tonos.",
+        "standarddesc2": "El sistema de muro cortina estándar permite la instalación de ventanas termoaislantes de diferentes espesores, de 2 o 3 hojas de vidrio. Los perfiles, visibles desde el exterior, se pueden adaptar a cualquier tipo de construcción. El muro cortina estándar es una solución moderna de fachada de vidrio con una construcción articulada y está diseñado para resistir terremotos y vibraciones de intensidad normal, así como dilataciones o contracciones de perfiles de aluminio sin perder su resistencia al viento o permeabilidad al agua.",
+        "standarddesc3": "Se pueden realizar muros cortina de grandes dimensiones, de alta complejidad en cuanto a los materiales utilizados. Los perfiles son estrechos y son una solución más económica gracias al clásico sistema de muro cortina.",
+        "semi": "Muros Cortina Semiestructurales",
+        "semidesc1": "Se denominan muros cortina semiestructurales debido a la característica del sistema por el cual el vidrio termoaislante se fija al marco de aluminio con la ayuda de tapas de presión en una sola dimensión, vertical u horizontal. Las tapas de presión pueden ser de varias formas, tamaños y tonos.",
+        "semidesc2": "El sistema de muro cortina semiestructural permite la instalación de ventanas termoaislantes de diferentes espesores, de 2 o 3 hojas de vidrio. Los perfiles, visibles desde el exterior, se pueden adaptar a cualquier tipo de construcción. La estanqueidad está asegurada en el caso del sistema semiestructural de tres filas de juntas de EPDM y un sistema de drenaje para cualquier tipo de acumulación de agua.",
+        "semidesc3": "Los perfiles son visibles desde el interior, y desde el exterior el perfil es visible solo en una dirección. Por otro lado, se ve una línea delgada que le da continuidad al sistema. Se pueden realizar grandes muros cortina de gran complejidad.",
+        "structural": "Muros Cortina Estructurales",
+        "structuraldesc1": "Los muros cortina estructurales están realizados con un sistema especial de aluminio que da, al exterior, la apariencia de vidrio continuo. El vidrio aislante térmico se pega al marco de aluminio con la ayuda de una silicona estructural.",
+        "structuraldesc2": "La realización práctica se transpone uniendo una cuadrícula de montantes verticales con travesaños horizontales (reglas). Pueden integrarse fácilmente en tan espectaculares muros y accesos, escaleras, balaustradas, ascensores exteriores, también de cristal, que satisfacen el anhelo de los arquitectos por la luz, los espacios amplios, las líneas modernas y la visión futurista.",
+        "structuraldesc3": "El vidrio estructural puede tener una apariencia mejorada mediante la aplicación de diseños y formas geométricas o se pueden usar diferentes tonos de color."
+    }
+}

@@ -75,11 +75,7 @@ export default function Services() {
                     <div className="relative grid grid-cols-1 lg:grid-cols-3 gap-10 z-10">
                         <div className="space-y-4 lg:text-white my-auto">
                             <h2>{t('export.title')}</h2>
-                            <p className="text-justify">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum incidunt aut
-                                exercitationem laborum reiciendis, dolorem dignissimos asperiores, expedita praesentium
-                                illo consectetur. Quidem enim saepe dolores?
-                            </p>
+                            <p className="text-justify">{t('export.description')}</p>
                         </div>
 
                         <div className="order-first lg:order-last lg:col-span-2">

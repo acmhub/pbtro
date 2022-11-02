@@ -37,7 +37,7 @@ const servicesData = [
 export default function Services({ t }) {
     return (
         <div className="container-padding space-y-10">
-            <h1 className="text-center">Servicii oferite de noi</h1>
+            <h1 className="text-center">{t('services.title')}</h1>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
                 {servicesData.map((e, i) => (

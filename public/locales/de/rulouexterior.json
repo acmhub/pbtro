@@ -1,0 +1,25 @@
+{
+    "description": "Außenrollläden aus Aluminium sind das beste Wärme- und Schallschutzsystem für Fenster, mit hochwertigen Aluminiumelementen, die ihnen eine lange Lebensdauer verleihen.",
+
+    "aplicat": "Angewandte Rolle",
+    "aplicatdesc": "Sie werden für fertige Konstruktionen mit bereits vorhandenen Fenstern empfohlen. Ihre Installation kann je nach Gebäudetyp sowohl auf Mauerwerk als auch auf Zimmerei erfolgen.",
+    "suprapus": "Überlappende Rolle",
+    "suprapusdesc": "Sie sind für neue Häuser gedacht oder wenn Sie die Schreinerei komplett ändern möchten, da sie zusammen mit der PVC- oder Aluminiumschreinerei installiert werden. Der Schutzkasten wird zusammen mit der Zimmerei in den Fensterspalt montiert und darüber befestigt.",
+
+    "accessories": {
+        "actionare": "Betrieb",
+        "pamblica": "Schleife",
+        "manivela": "Kurbel",
+        "buton": "Taste",
+        "telecomanda": "Fernbedienung",
+        "caseta": "Kasten",
+        "tesita45": "Konische 45°-Kassette",
+        "semirotunda": "Halbrunde Dose",
+        "tesita90": "Konische 90°-Kassette",
+        "accesorii": "Zubehörteil",
+        "plasa": "Insektennetz",
+        "lamela": "Lamelle (39mm, 43mm, 55mm)",
+        "yala": "Jala",
+        "cleme": "Anti-Einbruch-Klemmen"
+    }
+}

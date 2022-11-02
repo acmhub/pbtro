@@ -1,0 +1,17 @@
+{
+    "description": "If you want your terrace to be protected against the capricious weather, these closing systems are among the most recommended.",
+
+    "variants": {
+        "casetat": "Cassetted Foil Roll",
+        "casetatdesc": "Cassetted transparent film rolls are composed of a roll of transparent film covered with an aluminum cassette. The transparent film slides through aluminum guides and is fastened at the bottom by 2 locking bolts. Actuation can be done manually with a hand crank or with the help of a remote control motor.",
+        "necasetat": "Uncased Foil Roll",
+        "necasetatdesc": "Uncased transparent blinds can be operated manually with a hand crank or electrically by means of a switch or remote control. Several transparent blinds can be installed on the same remote control and in this way we get rid of the risk of losing remote controls.",
+        "capse": "Staples and Clamps",
+        "capsedesc": "Terrace closures with staples and clamps, with transparent film (crystal foil 0.8mm), are the cheapest terrace closure solutions, but at the same time very effective.",
+
+        "actionare": "Action type",
+        "elecmanual": "Electric or Manual",
+        "dimensiuni": "Maximum dimensions",
+        "rezistenta": "Resistance"
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "description": "Un primer paso en la licitación es medir el espacio. Puede realizar usted mismo las medidas estimadas, que serán un punto de partida en nuestra colaboración. En base a estos detalles y al diseño elegido, calcularemos un precio lo más cercano posible al final.",
+    "emptyorder": "Su pedido no contiene ningún producto.",
+    "addedtoquote": "fue agregado",
+    "modifieditem": "fue cambiado.",
+    "removeditem": "ha sido eliminado.",
+    "sentquote": "Su solicitud ha sido registrada. ¡Nos pondremos en contacto con usted tan pronto como sea posible!",
+
+    "Inaltime": "Altura",
+    "Latime": "Ancho",
+    "Lungime": "Longitud",
+
+    "chooseprofile": "Elige el perfil",
+    "Profil": "Perfil",
+    "Termopan": "Doble Acristalamiento",
+    "Tripan": "Triple Acristalamiento",
+    "Panel": "Panel",
+    "Fara sticla": "Sin vidrio",
+
+    "Culoare": "Color",
+    "Alb": "Blanco",
+    "Imitatie Lemn": "Imitación Madera",
+    "Oak": "Roble",
+    "Northern Pine": "Pino Nórdico",
+
+    "Placare cu Aluminiu": "Revestimiento de Aluminio",
+    "Model": "Modelo",
+    "Tip": "Escribe",
+
+    "Balustrada Aluminiu": "Barandilla de Aluminio",
+    "Balustrada Sticla": "Barandilla de Vidrio",
+    "Balustrada Traforata": "Barandilla Perforada",
+    "Stalp": "Pilar",
+    "Prindere laterala": "Agarre lateral",
+    "Sina": "Carril",
+    "Spighoti": "Espiga",
+
+    "Ares": "Dosel de Ares",
+    "Hera": "Dosel de Hera",
+    "Artemis": "Toldo Retráctil Artemis",
+    "Pallas": "Toldo Retráctil Pallas",
+    "Metis": "Toldo Retráctil Metis",
+    "Bora": "Toldo retráctil Lateral Bora",
+    "Brate": "Toldo Retractable Brazos Articulados",
+    "Carlige": "Toldo de Balcón Retráctil con Ganchos",
+    "Marchize": "Toldo Retráctil Marchize",
+
+    "Aplicat": "Aplicado",
+    "Suprapus": "Superpuesto",
+
+    "Actionare": "Operación",
+    "Electric": "Eléctrico",
+    "Manual": "Manual",
+    "Plasa integrata": "Red de Insectos",
+
+    "Jaluzele": "Persianas Verticales",
+
+    "Vitrare": "Acristalamiento",
+    "Control Termic": "Control Térmico",
+    "Control Solar": "Controles Solares",
+    "Opac": "Opaco / Mate",
+    "Decorativ": "Decorativo",
+    "Ornamental": "Ornamental",
+    "Grosime": "Espesor",
+
+    "Rulou": "Rodar",
+    "Balamale": "Bisagras",
+
+    "Necasetat": "Rollo de Papel de Aluminio sin Caja",
+    "Casetat": "Rollo de Papel de Casete",
+    "Capse si bride": "Lámina con Grapas y Abrazaderas",
+
+    "Da": "Sí",
+    "Nu": "No",
+
+    "Cantitate": "Monto",
+    "Mesaj": "Más información",
+    "modifica": "Enmendar",
+    "adauga": "Agregar",
+
+    "Nume": "Nombre",
+    "Numar de telefon": "Número de teléfono",
+    "Locatie": "Ubicación"
+}

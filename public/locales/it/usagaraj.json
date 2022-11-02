@@ -1,0 +1,43 @@
+{
+    "description": "La praticità e la sicurezza d'uso, l'eleganza del design, l'integrazione delle ultime tecnologie in conformità con le norme europee in materia di sicurezza operativa, nonché la disponibilità di una gamma di dotazioni opzionali, rendono le nostre porte da garage la soluzione ideale per voi.",
+
+    "variants": {
+        "benefit": "Porta del Garage Benefit",
+        "benefitdesc1": "Una buona scelta per il rapporto qualità/prezzo. Sono porte da garage economiche grazie alla riduzione delle perdite di materiale, i pannelli sono realizzati su dimensioni standard. Sono dotati di molle di trazione che possono essere montate sotto il binario su cui scorre la porta o lateralmente.",
+        "benefitdesc2": "Il principale vantaggio delle porte con molle di trazione risiede nel fatto che l'installazione del binario può essere eseguita anche quando i montanti laterali e la trave sono di piccole dimensioni. 15.000 cicli sono garantiti.",
+        "benefitxl": "Porta del Garage Benefit XL",
+        "benefitxldesc1": "I portoni sezionali BeneFit XL sono costruiti per piccoli garage, con una lunghezza massima di 3,2 m e sono dotati di molle di trazione poste nei montanti laterali.",
+        "benefitxldesc2": "Grazie a questa soluzione, lo spazio necessario per il fascio si riduce a 65 mm, nel caso di un portone da garage manuale, e 120 mm, nel caso di un portone da garage elettrico. BeneFit XL è garantito per 15.000 cicli operativi.",
+        "optima": "Porta del Garage Optima",
+        "optimadesc1": "I portoni sezionali da garage Optima offrono le opzioni di costruzione più flessibili. Possono essere realizzati su ordinazione, di qualsiasi dimensione, e sono dotati di molle di torsione che possono essere montate sia sulla trave su cui è applicata la porta che dietro le guide.",
+        "optimadesc2": "Le porte Optima sono garantite per 25.000 cicli di manovra. Se consideriamo un utilizzo medio giornaliero di 3 cicli, arriveremo a una vita utile di oltre 20 anni.",
+        "vogue": "Porta del Garage Vogue",
+        "voguedesc1": "Come l'Optima, il portone sezionale da garage Vogue può essere realizzato su ordinazione in qualsiasi dimensione. Ti offre invece la possibilità di personalizzazione con inserti in acciaio inox. Sono garantiti 25.000 cicli di funzionamento e una vita utile di oltre 20 anni."
+    },
+
+    "accessories": {
+        "vitrare": "Vetri",
+        "fer640": "Finestre rettangolari 640x340",
+        "fer610": "Finestre rettangolari 610x140",
+        "usa": "Porta Pedonale",
+        "linii": "Linee del Modello",
+        "acces": "Porta di Accesso nell'edificio",
+        "accesorii": "Accessorio",
+        "buton": "Pulsante a Muro",
+        "fotocelule": "Sistema di Fotocellule",
+        "maner": "Manico Semplice",
+        "yalablocare": "Serratura di Yala",
+        "yaladeblocare": "Motore di sblocco Yala",
+        "sistemblocare": "Sistema di Chiusura Aggiuntivo",
+        "bolt": "Bullone",
+        "telecomanda": "Telecomando 4 Canali"
+    },
+
+    "warranty": "Garanzia",
+    "5ani": "5 anni",
+    "10ani": "10 anni",
+    "15ani": "15 anni",
+    "cicluri": "Cicli di Utilizzo",
+    "actionare": "operazione",
+    "elecmanual": "Elettrico o Manuale"
+}

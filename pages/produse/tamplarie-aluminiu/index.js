@@ -2,17 +2,41 @@ import React from 'react';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import Layout from '../../../components/General/Layout';
+import ProductLanding from '../../../components/Products/ProductLanding';
+import ConstructiveOptions from '../../../components/Products/ConstructiveOptions';
 import Profiles from '../../../components/Products/Profiles';
 import Atypics from '../../../components/Products/Atypics';
 import Colors from '../../../components/Products/Colors';
 import ProductCTA from '../../../components/Products/ProductCTA';
-import ProductLanding from '../../../components/Products/ProductLanding';
 
 const landingData = {
     src: '/images/products/tamplarie-aluminiu/highlight.webp',
     product: 'common:product.tamplariealuminiu',
     description: ['description']
 };
+
+const constructiveData = [
+    {
+        source: '/images/products/tamplarie-aluminiu/fereastra.webp',
+        title: 'constructive.fereastra',
+        description: ['constructive.fereastradesc1', 'constructive.fereastradesc2']
+    },
+    {
+        source: '/images/products/tamplarie-aluminiu/usa.webp',
+        title: 'constructive.usa',
+        description: ['constructive.usadesc1', 'constructive.usadesc2']
+    },
+    {
+        source: '/images/products/tamplarie-aluminiu/glisanta.webp',
+        title: 'constructive.glisanta',
+        description: ['constructive.glisantadesc']
+    },
+    {
+        source: '/images/products/tamplarie-aluminiu/obloane.webp',
+        title: 'constructive.obloane',
+        description: ['constructive.obloanedesc1', 'constructive.obloanedesc2']
+    }
+];
 
 const profilesData = [
     {
@@ -176,32 +200,6 @@ const profilesData = [
         ]
     },
     {
-        manufacturer: 'Profilco',
-        manufacturerLogo: '/images/suppliers/profilco.webp',
-        model: 'PR52',
-        profile: '/images/products/tamplarie-aluminiu/pr52.png',
-        href: '/produse/tamplarie-aluminiu/pr52',
-        image: '/images/products/tamplarie-aluminiu/pr52_demo.webp',
-        tehnicalDetails: [
-            {
-                label: 'common:profilespecs.latimetoc',
-                value: '44.8mm'
-            },
-            {
-                label: 'common:profilespecs.canat',
-                value: '52mm'
-            },
-            {
-                label: 'common:profilespecs.vitrare',
-                value: '32mm'
-            },
-            {
-                label: 'common:profilespecs.variantaconstructiva',
-                value: 'common:profilespecs.farabariera'
-            }
-        ]
-    },
-    {
         manufacturer: 'Altest',
         manufacturerLogo: '/images/suppliers/altest.webp',
         model: 'Sliding',
@@ -249,8 +247,14 @@ export default function TamplarieAluminiu() {
 
                 <div className="section-spacing" />
 
+                <section id="constructive">
+                    <ConstructiveOptions data={constructiveData} t={t} />
+                </section>
+
+                <div className="section-spacing" />
+
                 <section id="profiles">
-                    <h3 className="text-center mb-10">{t('common:fereastrapbt')}</h3>
+                    <h2 className="text-center mb-10">{t('common:fereastrapbt')}</h2>
                     <Profiles data={profilesData} t={t} />
                 </section>
             </div>

@@ -1,0 +1,22 @@
+{
+    "services": {
+        "title": "Die von uns angebotenen Dienstleistungen",
+        "consult": "Berater",
+        "consultdesc": "Wir bieten Beratung an, sodass unsere Spezialisten den Kunden immer mit Empfehlungen und Informationen zur Verfügung stehen. Wir möchten, dass Sie in Bezug auf das Preis-Leistungs-Verhältnis, aber auch in Bezug auf die Ästhetik eine hervorragende Wahl treffen. Daher ist Promotion Business Team für die besten technischen Lösungen in Bezug auf Türen, Fenster und Balkone die beste Lösung!",
+        "quality": "Qualität",
+        "qualitydesc": "Um den perfekten Grundriss für Ihr Zuhause zu entwerfen, müssen Sie auf jedes Detail achten. Natürlich kommt es nicht nur auf die Architektur und den Stil der Innen- und Außengestaltung an, sondern auch auf die verwendeten Materialien, vor allem aber auf deren Qualität. Deshalb müssen die Anforderungen hoch sein, da diese Komponenten wichtige Funktionen haben.",
+        "production": "Ausgang",
+        "productiondesc": "Wir verwenden Rohstoffe und Zubehör von bester Qualität, mit Geräten, die von Experten in der Tischlerei-Produktion bedient werden. Wir halten Fristen ein und übertreffen Erwartungen! Fabrikaktivitäten können mit einer Produktionsmanagementlösung viel einfacher geplant, ausgeführt und überwacht werden. Das System umfasst vier Hauptbereiche: Produktion, Materialien, Qualität und Wartung.",
+        "measurements": "Messen",
+        "measurementsdesc": "Korrekte Messungen sind extrem wichtig. Wir führen diese Phase mit größter Sorgfalt durch, in jeder Art von Gebäude oder Raum.",
+        "delivery": "Lieferung",
+        "deliverydesc": "Um den Ansprüchen unserer Kunden stets gerecht zu werden, achten wir bei Bestellungen, Lieferzeiten, partnerschaftlichen Beziehungen und allen Verträgen auf Seriosität, Vertrauen und Respekt.",
+        "fitting": "Passend zu",
+        "fittingdesc": "Wir montieren und prüfen nach Fertigstellung sehr sorgfältig. Alles für die Sicherheit und den Komfort unserer Kunden!"
+    },
+
+    "export": {
+        "title": "Palettierung Exportieren",
+        "description": "Wir bieten auch die Möglichkeit, alle Produkte aus unserem Portfolio für den Export zu palettieren!"
+    }
+}

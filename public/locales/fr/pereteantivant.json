@@ -1,0 +1,17 @@
+{
+    "description": "Si vous souhaitez que votre terrasse soit protégée contre les intempéries capricieuses, ces systèmes de fermeture sont parmi les plus recommandés.",
+
+    "variants": {
+        "casetat": "Rouleau de feuille de cassette",
+        "casetatdesc": "Les rouleaux de film transparent en cassette sont composés d'un rouleau de film transparent recouvert d'une cassette en aluminium. Le film transparent glisse à travers des guides en aluminium et est fixé en bas par 2 boulons de verrouillage. L'actionnement peut être effectué manuellement à l'aide d'une manivelle ou à l'aide d'un moteur à télécommande.",
+        "necasetat": "Rouleau d'Aluminium non Emballé",
+        "necasetatdesc": "Les stores transparents sans caisson peuvent être actionnés manuellement avec une manivelle ou électriquement au moyen d'un interrupteur ou d'une télécommande. Plusieurs stores transparents peuvent être installés sur la même télécommande et on élimine ainsi le risque de perdre les télécommandes.",
+        "capse": "Agrafes et Pinces",
+        "capsedesc": "Les fermetures de terrasse avec agrafes et pinces, avec film transparent (feuille de cristal 0,8 mm), sont les solutions de fermeture de terrasse les moins chères, mais en même temps très efficaces.",
+
+        "actionare": "Opération",
+        "elecmanual": "Electrique ou Manuel",
+        "dimensiuni": "Dimensions maximales",
+        "rezistenta": "La résistance"
+    }
+}

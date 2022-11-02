@@ -1,0 +1,26 @@
+{
+    "description": "La qualità, il prezzo e il grado di protezione di una finestra non sono determinati solo dal profilo utilizzato, anche se questo è spesso l'aspetto più discusso. Il vetro ha un ruolo estremamente importante, fornendo protezione acustica e termica.",
+
+    "float": "Vetro Trasparente",
+    "floatdesc": "Il vetro float viene prodotto facendo galleggiare una striscia continua di vetro su un bagno di metallo (tecnologia float). È realizzato in vetro calcosodico di alta qualità, con facce piane parallele, superficie naturale e trasparenza non distorta.",
+    "lowe": "Vetro Basso Emissivo",
+    "lowedesc": "Il vetro basso emissivo si riferisce al vetro a bassa emissività. È progettato per riflettere il calore nell'edificio per migliorare il coefficiente di scambio termico Uf. Il vetro Low-E ha un aspetto neutro, quindi può essere utilizzato sia per edifici residenziali che commerciali. Il vetro low-e si ottiene attraverso un processo chiamato magnetron sputtering, quando una miscela di metalli invisibili viene applicata su una delle superfici.",
+    "colorata": "Vetro Colorato in Tavola",
+    "coloratadesc": "Il vetro colorato si ottiene aggiungendo ossidi metallici durante la fusione del vetro. Il vetro colorato in massa assorbe una grande quantità di energia solare, impedendo così la sua eccessiva penetrazione all'interno. La gamma di colori comprende bronzo, grigio, verde, blu, in diverse intensità a seconda dello spessore del vetro.",
+    "decorativa": "Vetro Decorativo",
+    "decorativadesc": "Il vetro colorato o dipinto è simile al vetro stampato (stampato), tranne per il fatto che è realizzato su un unico colore. Per poter offrire una vasta gamma di tonalità, utilizziamo la tavolozza RAL, tutto per soddisfare i tuoi desideri.",
+    "emailata": "Vetro Smaltato",
+    "emailatadesc": "Questo processo consiste nell'applicazione uniforme (solitamente con l'ausilio di attrezzature specifiche) di una speciale vernice ceramica, seguita immediatamente dal processo di fissaggio del vetro. Pertanto, lo strato di vernice applicato diventa molto più resistente e ha un aspetto uniforme. Inoltre, attraverso il processo di fissaggio del vetro, viene data una maggiore resistenza meccanica in caso di rottura e viene garantita la stabilità del colore.",
+    "print": "Vetro con Stampa su Ceramica",
+    "printdesc": "L'ultima tecnologia per la lavorazione del vetro è la stampa del vetro con inchiostro ceramico. La stampa con inchiostro ceramico viene eseguita in un ambiente a temperatura e umidità controllate. Dopo la stampa, il vetro viene inserito ad una temperatura di 650-700 gradi (a seconda dello spessore del vetro di supporto). Una volta fissato il vetro, l'inchiostro ceramico si fonde praticamente con il vetro e l'immagine stampata rimane della stessa qualità per almeno 15 anni, inalterata da fattori esterni. I colori sono resistenti ai raggi ultravioletti e la superficie in ceramica stampata è molto resistente ai graffi.",
+    "laminata": "Vetro Stratificato",
+    "laminatadesc": "È costituito da due o più lastre di vetro legate da uno strato di resina trasparente. I vantaggi di questo tipo di vetro sono: aumentare il grado di sicurezza contro le effrazioni, un isolamento acustico superiore, ridurre il rischio di incidenti (non permette la caduta di schegge in caso di rottura), inoltre questo vetro offre il miglior isolamento acustico rispetto ad altri tipi di vetro.",
+    "sablata": "Vetro Sabbiato",
+    "sablatadesc": "Si tratta di una superficie opaca, ottenuta da un vetro trasparente o colorato, su cui viene soffiato un getto di sabbia fine con l'ausilio di aria compressa. Il vetro sabbiato modellato è realizzato utilizzando una sagoma con un disegno posizionato sul vetro trasparente che viene sabbiato.",
+    "ornamentala": "Vetro Ornamentale",
+    "ornamentaladesc": "Il vetro ornamentale viene utilizzato principalmente come ornamento o per preservare la privacy. Ha un buon fattore di trasmissione della luce e consente una migliore illuminazione della stanza rispetto a quando si utilizza il vetro riflettente.",
+    "reflexiva": "Vetro Riflettente",
+    "reflexivadesc": "È il vetro monolitico riflettente, parasole con una pellicola di ossidi metallici, depositati dal processo pirolitico. Il film viene depositato su vetro trasparente o colorato in massa, molto resistente, soprattutto a condizioni ambientali estreme. L'orientamento della pellicola influenza la quantità di riflessione e la tinta finale del colore del vetro.",
+    "securizata": "Vetro Sicuro",
+    "securizatadesc": "È 3-4 volte più resistente alle sollecitazioni meccaniche e termiche rispetto al vetro non trattato. In caso di rottura si scompone in piccolissimi pezzi eliminando il rischio di lesioni. Vetro colorato in massa Grazie alle sue proprietà filtranti, a seconda del colore e dello spessore, il vetro colorato in massa riduce lo sforzo per gli occhi in caso di forte luce solare."
+}

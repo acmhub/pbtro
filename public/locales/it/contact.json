@@ -1,0 +1,18 @@
+{
+    "title": "Contattaci",
+    "cui": "Codice di Registrazione Univoco",
+    "rc": "No. di Iscrizione Registro Imprese",
+
+    "name": "Nome",
+    "phone": "Numero di telefono",
+    "subject": "Argomento",
+    "message": "Messaggio",
+    "agreewith": "Sono d'accordo con",
+
+    "callus": "Chiamaci",
+    "emailus": "Mandaci un email",
+    "visitus": "Visitateci",
+
+    "thankyou": "Ti ringraziamo",
+    "shortly": "Ti contatteremo al più presto."
+}

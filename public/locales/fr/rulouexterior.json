@@ -1,0 +1,25 @@
+{
+    "description": "Les volets roulants extérieurs en aluminium sont le meilleur système d'isolation thermique et phonique pour les fenêtres, avec des éléments en aluminium de haute qualité qui leur confèrent une résistance durable.",
+
+    "aplicat": "Rouleau Appliqué",
+    "aplicatdesc": "Ils sont recommandés pour les constructions terminées avec des fenêtres déjà existantes. Leur pose, selon le type de bâtiment, peut se faire aussi bien sur la maçonnerie que sur la menuiserie.",
+    "suprapus": "Rouleau Superposé",
+    "suprapusdesc": "Ils sont destinés aux maisons neuves ou lorsque vous souhaitez changer complètement la menuiserie car ils sont installés avec la menuiserie en PVC ou en aluminium. Le boîtier de protection est monté avec la menuiserie dans l'espace de la fenêtre, en le fixant au-dessus.",
+
+    "accessories": {
+        "actionare": "Opération",
+        "pamblica": "Ruban",
+        "manivela": "Manivelle",
+        "buton": "Bouton",
+        "telecomanda": "Télécommande",
+        "caseta": "Boîte",
+        "tesita45": "Cassette Conique à 45°",
+        "semirotunda": "Boîte Semi-Ronde",
+        "tesita90": "Cassette à 90°",
+        "accesorii": "Accessoire",
+        "plasa": "Filet à Insectes",
+        "lamela": "Lamelle (39mm, 43mm, 55mm)",
+        "yala": "Yala",
+        "cleme": "Pinces anti-effraction"
+    }
+}

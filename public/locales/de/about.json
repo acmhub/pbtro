@@ -1,0 +1,51 @@
+{
+    "title": "Wir produzieren für Komfort",
+    "paragraph": "Promotion Business Team ist ein Unternehmen, das auf einem jungen und dynamischen Team basiert, das sich aus Spezialisten für PVC- und Aluminiumtischlerei zusammensetzt. So reagieren wir auf Ihre Anforderungen mit exzellenten Fertigungs- und Montageleistungen von Schreinersystemen mit Doppel- oder Dreifachverglasung, unabhängig von ihrer Art.",
+
+    "stats": {
+        "projects": "fertige projekte",
+        "clients": "zufriedene kunden",
+        "services": "dienstleistungen angeboten",
+        "employees": "mitarbeiter"
+    },
+
+    "services": {
+        "title": "Die von uns angebotenen Dienstleistungen",
+        "consult": "Berater",
+        "consultdesc": "Unsere Spezialisten stehen den Kunden jederzeit mit Empfehlungen und Informationen zur Verfügung.",
+        "quality": "Qualität",
+        "qualitydesc": "Nicht nur Architektur und Stil der Innen- und Außengestaltung spielen eine Rolle, sondern auch die verwendeten Materialien, vor allem aber deren Qualität.",
+        "production": "Ausgang",
+        "productiondesc": "Wir verwenden Rohstoffe und Zubehör von bester Qualität, mit Geräten, die von Experten in der Tischlerei-Produktion bedient werden.",
+        "measurements": "Messen",
+        "measurementsdesc": "Korrekte Messungen sind extrem wichtig. Wir führen diese Phase mit größter Sorgfalt durch, in jeder Art von Gebäude oder Raum.",
+        "delivery": "Lieferung",
+        "deliverydesc": "Dank unseres eigenen Fuhrparks können wir jede Art von Tischlerei oder Glas disponieren und transportieren.",
+        "fitting": "Passend zu",
+        "fittingdesc": "Wir montieren und prüfen nach Fertigstellung sehr sorgfältig. Alles für die Sicherheit und den Komfort unserer Kunden!"
+    },
+
+    "timeline": {
+        "title": "Unsere Entwicklung",
+        "2006p1": "2006 wurde der Grundstein für das Promotion Business Team Fensterfabrik gelegt, das nur ein Ziel hatte: eine qualitative Schreiner-Alternative im Rahmen der steigenden Zahl gewinnorientierter Gewerbetreibender anzubieten.",
+        "2006p2": "Im Laufe der Zeit hat sich die Fabrik weiterentwickelt, das Team ist gewachsen, die Technologien haben sich verbessert, aber der Fokus ist derselbe: die Lebensqualität unserer Kunden durch die besten Tischlerprodukte und -dienstleistungen zu verbessern.",
+        "2006p3": "Von der Gründung des Unternehmens bis 2010 befassten wir uns mit dem Vertrieb von PVC- und Aluminiumschreinereien, aber auch mit Zubehör dafür.",
+        "2010p1": "Wir erweiterten das Tätigkeitsspektrum und begannen mit der Herstellung und dem Verkauf von PVC- und Aluminiumtischlerei.",
+        "2020p1": "Um dem Volumen der Anfragen gerecht zu werden, sind wir an einen neuen Standort in der Tudor Vladimirescu Straße 393, Domnești Business Park, Ilfov, umgezogen.",
+        "2020p2": "Die neue Produktionshalle hat eine Fläche von 1500m2 gegenüber 600m2 am bisherigen Standort.",
+        "2021p1": "Wir haben eine neue Produktionslinie für PVC- und Aluminiumzimmerei erworben, die aus mehreren modernen Anlagen besteht. Mit Hilfe dieser Geräte konnten wir den Stromverbrauch senken und gleichzeitig die Produktion steigern.",
+        "2021p2": "Die Qualität der Produkte hat sich ebenfalls erhöht, indem menschliche Fehler beseitigt wurden, was ebenfalls zur Wettbewerbsfähigkeit des Unternehmens Promotion Business Team auf dem Markt beiträgt, auf dem es tätig ist. Zudem ist die Produktion effizienter geworden. Wir können jetzt die doppelte Menge an Produkten produzieren und können so die Nachfrage, die wir erleben und die ständig steigt, besser bedienen.",
+        "2021p3": "Wir haben ein intelligentes Management der Produktionsaktivitäten implementiert.",
+        "2021p4": "So lassen sich Fabrikaktivitäten mit der Produktionsmanagementlösung viel einfacher planen, ausführen und überwachen. Das System umfasst vier Hauptbereiche: Produktion, Materialien, Qualität und Wartung.",
+        "2021p5": "Wir haben in eine moderne Glasproduktionslinie investiert, wobei die gesamte Produktion mit Hilfe der leistungsstärksten Software und Ausrüstung optimiert und betrieben wird.",
+        "prezp1": "Die in der Tischlerei gesammelte Erfahrung sowie die im Laufe der Zeit erworbene gute Qualität der Montage empfehlen uns als effizientes Unternehmen und immer eine inspirierte Wahl für unsere Kunden, dank der Seriosität, die wir zeigen, und der berechneten Preise.",
+        "prezp2": "Wir sind dankbar, über 40 Mitarbeiter zu haben, die die Vision von PBT teilen: die Herstellung der besten PVC- und Aluminium-Zimmereiprodukte. Die Spezialisten unseres Unternehmens sind stets bestrebt, mit den neuesten Materialien und innovativen Techniken zu arbeiten, um die Wünsche der Kunden zu erfüllen.",
+
+        "prezent": "Gegenwärtig"
+    },
+
+    "cta": {
+        "title": "Wir sind immer an neuen, herausfordernden und interessanten Projekten interessiert.",
+        "description": "Kontaktieren Sie uns und senden Sie uns Ihre Projektanforderungen und wir kümmern uns um den Rest!"
+    }
+}

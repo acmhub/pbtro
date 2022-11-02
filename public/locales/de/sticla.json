@@ -1,0 +1,26 @@
+{
+    "description": "Qualität, Preis und Schutzgrad eines Fensters werden nicht nur durch das verwendete Profil bestimmt, obwohl dies oft der am meisten diskutierte Aspekt ist. Glas spielt eine äußerst wichtige Rolle, da es Schall- und Wärmeschutz bietet.",
+
+    "float": "Sauberes Glas",
+    "floatdesc": "Floatglas wird durch Floaten eines kontinuierlichen Glasstreifens auf einem Metallbad (Float-Technologie) hergestellt. Es besteht aus hochwertigem Chalkosodglas mit parallelen ebenen Flächen, natürlicher Oberfläche und unverzerrter Transparenz.",
+    "lowe": "Low-E-Glas",
+    "lowedesc": "Low-E-Glas bezieht sich auf Glas mit niedrigem Emissionsgrad. Es ist so konzipiert, dass es die Wärme zurück in das Gebäude reflektiert, um den Wärmedurchgangskoeffizienten Uf zu verbessern. Low-E-Glas hat ein neutrales Erscheinungsbild, sodass es sowohl für Wohn- als auch für Gewerbegebäude verwendet werden kann. Low-E-Glas wird durch einen Prozess namens Magnetron-Sputtern erhalten, bei dem eine Mischung aus unsichtbaren Metallen auf eine der Oberflächen aufgetragen wird.",
+    "colorata": "Farbiges Glas",
+    "coloratadesc": "Farbiges Glas wird durch Zugabe von Metalloxiden während der Glasschmelze erhalten. Das massegetönte Glas absorbiert eine große Menge an Sonnenenergie und verhindert so ein übermäßiges Eindringen in den Innenraum. Die Farbpalette umfasst Bronze, Grau, Grün, Blau, je nach Glasstärke in unterschiedlichen Intensitäten.",
+    "decorativa": "Dekoratives Glas",
+    "decorativadesc": "Farbiges oder bemaltes Glas ähnelt bedrucktem (bedrucktem) Glas, außer dass es in einer einzigen Farbe hergestellt wird. Um eine breite Farbpalette anbieten zu können, verwenden wir die RAL-Palette, alles um Ihren Wünschen gerecht zu werden.",
+    "emailata": "Emailliertes Glas",
+    "emailatadesc": "Dieser Prozess besteht aus dem gleichmäßigen Auftragen (normalerweise mit Hilfe spezieller Geräte) einer speziellen Keramikfarbe, unmittelbar gefolgt von der Fixierung des Glases. Dadurch wird die aufgetragene Lackschicht deutlich widerstandsfähiger und erhält ein gleichmäßiges Erscheinungsbild. Außerdem ist durch die Glassicherung eine erhöhte mechanische Widerstandsfähigkeit bei Bruch gegeben und eine garantierte Farbstabilität gewährleistet.",
+    "print": "Glas mit Keramikdruck",
+    "printdesc": "Die neueste Technologie zur Verarbeitung von Glas ist der Glasdruck mit keramischer Tinte. Das Drucken mit keramischer Tinte erfolgt in einer temperatur- und feuchtigkeitskontrollierten Umgebung. Nach dem Druck wird das Glas bei einer Temperatur von 650-700 Grad (je nach Dicke des Trägerglases) eingelegt. Sobald das Glas befestigt ist, verschmilzt die keramische Tinte praktisch mit dem Glas und das Druckbild bleibt mindestens 15 Jahre in gleicher Qualität, unbeeinflusst von äußeren Einflüssen. Die Farben sind UV-beständig und die keramikbedruckte Oberfläche ist sehr kratzfest.",
+    "laminata": "Verbundglas",
+    "laminatadesc": "Es besteht aus zwei oder mehr Glasscheiben, die durch eine transparente Harzschicht verbunden sind. Die Vorteile dieser Glasart sind: Erhöhung der Einbruchsicherheit, überlegener Schallschutz, Verringerung des Unfallrisikos (keine Scherbenbildung bei Bruch möglich), außerdem bietet dieses Glas den besten Schallschutz im Vergleich zu anderen Glasarten.",
+    "sablata": "Sandgestrahltes Glas",
+    "sablatadesc": "Es ist eine matte Oberfläche, die aus einem transparenten oder farbigen Glas erhalten wird, über das mit Hilfe von Druckluft ein feiner Sandstrahl geblasen wird. Gemustertes sandgestrahltes Glas wird unter Verwendung einer Schablone mit einem Design hergestellt, das auf dem sandgestrahlten klaren Glas platziert wird.",
+    "ornamentala": "Zierglas",
+    "ornamentaladesc": "Ornamentglas wird hauptsächlich als Schmuck oder zur Wahrung der Privatsphäre verwendet. Es hat einen guten Lichttransmissionsgrad und ermöglicht eine bessere Ausleuchtung des Raumes als bei der Verwendung von Spiegelglas.",
+    "reflexiva": "Reflektierendes Glas",
+    "reflexivadesc": "Es ist das reflektierende monolithische Glas, Sonnenschirm mit einem Film aus Metalloxiden, der durch den Pyrolyseprozess abgeschieden wird. Der Film wird in Masse auf klarem oder farbigem Glas abgeschieden, das sehr widerstandsfähig ist, insbesondere gegenüber extremen Umweltbedingungen. Die Ausrichtung der Folie beeinflusst den Reflexionsgrad sowie den endgültigen Farbton der Glasfarbe.",
+    "securizata": "Sicheres Glas",
+    "securizatadesc": "Es ist 3-4 mal widerstandsfähiger gegen mechanische und thermische Beanspruchung als unbehandeltes Glas. Im Falle eines Bruchs zerfällt es in sehr kleine Stücke, wodurch das Verletzungsrisiko eliminiert wird. Massiv getöntes Glas Massiv getöntes Glas entlastet das Auge bei starker Sonneneinstrahlung durch seine je nach Farbe und Dicke filternden Eigenschaften."
+}

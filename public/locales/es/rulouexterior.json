@@ -1,0 +1,25 @@
+{
+    "description": "Las persianas enrollables exteriores de aluminio son el mejor sistema de aislamiento térmico y acústico de las ventanas, con elementos de aluminio de alta calidad que les confieren una resistencia duradera.",
+
+    "aplicat": "Rollo Aplicado",
+    "aplicatdesc": "Se recomiendan para construcciones terminadas con ventanas ya existentes. Su instalación, según el tipo de edificación, se puede realizar tanto en mampostería como en carpintería.",
+    "suprapus": "Rollo Superpuesto",
+    "suprapusdesc": "Están pensadas para viviendas nuevas o cuando se quiere cambiar la carpintería por completo porque se instalan junto con la carpintería de PVC o aluminio. La caja protectora se monta junto con la carpintería en el hueco de la ventana, fijándose encima de ella.",
+
+    "accessories": {
+        "actionare": "Operación",
+        "pamblica": "Cinta",
+        "manivela": "Manivela",
+        "buton": "Botón",
+        "telecomanda": "Remoto",
+        "caseta": "Caja",
+        "tesita45": "Casete cónico de 45°",
+        "semirotunda": "Caja Semicircular",
+        "tesita90": "Casete Cónico de 90°",
+        "accesorii": "Accesorio",
+        "plasa": "Red de Insectos",
+        "lamela": "Lámina (39mm, 43mm, 55mm)",
+        "yala": "Yala",
+        "cleme": "Pinzas Antirrobo"
+    }
+}

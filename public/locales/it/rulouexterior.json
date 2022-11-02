@@ -1,0 +1,25 @@
+{
+    "description": "Le tapparelle esterne in alluminio sono il miglior sistema di isolamento termico e acustico per finestre, con elementi in alluminio di alta qualità che conferiscono loro una resistenza nel tempo.",
+
+    "aplicat": "Tapparella Applicato",
+    "aplicatdesc": "Sono consigliati per costruzioni completate con finestre già esistenti. La loro installazione, a seconda della tipologia di edificio, può essere effettuata sia su muratura che su carpenteria.",
+    "suprapus": "Taparella Sovrapposto",
+    "suprapusdesc": "Sono destinati alle nuove abitazioni o quando si vuole cambiare completamente la carpenteria perché vengono installati insieme alla carpenteria in PVC o alluminio. La scatola di protezione è montata insieme alla carpenteria nella fessura della finestra, fissandola sopra.",
+
+    "accessories": {
+        "actionare": "Operazione",
+        "pamblica": "Nastro",
+        "manivela": "Manovella",
+        "buton": "Pulsante",
+        "telecomanda": "A distanza",
+        "caseta": "Scatola",
+        "tesita45": "Scatola 45°",
+        "semirotunda": "Scatola Semitonda",
+        "tesita90": "Scatola 90°",
+        "accesorii": "Accessorio",
+        "plasa": "Zanzariere",
+        "lamela": "Lamella (39mm, 43mm, 55mm)",
+        "yala": "Yala",
+        "cleme": "Morsetti antieffrazione"
+    }
+}

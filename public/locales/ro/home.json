@@ -9,7 +9,7 @@
     },
     "about": {
         "experience": "ani de experiență",
-        "description": "Promotion Business Team este o companie la baza căreia se află o echipă tânără și dinamică, formată din specialiști în tâmplăria PVC și cea din aluminiu.",
+        "description": "Promotion Business Team este o companie la baza căreia se află o echipă tânără și dinamică, formată din specialiști în tâmplăria termopan si tripan din PVC și aluminiu.",
         "projects": "proiecte realizate",
         "clients": "clienți satisfăcuți",
         "services": "servicii oferite",
@@ -18,7 +18,7 @@
     "windows": {
         "rightchoice": "Alegerea potrivită",
         "windoor": "Ferestre și Uși",
-        "paragraph1": "Vă punem la dispoziție o gamă variată de ferestre și uși, caracterizate de profile de clasă superioară și design unic pentru toate gusturile, ideale pentru amenajarea oricărui tip de spațiu.",
+        "paragraph1": "Vă punem la dispoziție o gamă variată de ferestre și uși, caracterizate de profile de clasă superioară, vitrare tip termopan sau tripan și design unic pentru toate gusturile, ideale pentru amenajarea oricărui tip de spațiu.",
         "paragraph2": "Tâmplăria noastră vă garantează o viață lipsita de griji deoarece folosim doar materiale de ultima generație, care nu necesita întreținere speciala.",
         "production": "Producție Proprie",
         "team": "Echipă Profesionistă",
@@ -34,6 +34,7 @@
         "design": "Design Modern"
     },
     "services": {
+        "title": "Servicii oferite de noi",
         "consult": "Consultanță",
         "consultdesc": "Specialiștii noștri sunt mereu la dispoziția clienților cu recomandări și informații.",
         "quality": "Calitate",
@@ -50,15 +51,15 @@
     "calltoaction": {
         "title": "Procesul nostru",
         "draft": "Trimite-ne o schiță",
-        "draftdesc": "",
-        "suppport": "Consultanță în baza ofertei",
-        "suppportdesc": "",
+        "draftdesc": "Pentru a putea realiza o ofertă de preț estimativă.",
+        "support": "Consultanță în baza ofertei",
+        "supportdesc": "Oferim suport gratuit în baza ofertei pentru a putea stabili detaliile finale.",
         "paymeasure": "Plată și măsurători",
-        "paymeasuredesc": "",
+        "paymeasuredesc": "După efectuarea plății vom realiza măsuratorile finale.",
         "production": "Producție și montaj",
-        "productiondesc": "",
+        "productiondesc": "Odată ce producția este finalizată te vom contacta pentru executarea montajului.",
         "happy": "Bucură-te de produsul tău",
-        "happydesc": ""
+        "happydesc": "Iar noi vom aștepta următoarea ta comandă!"
     },
     "accessories": {
         "paragraph": "Un prim criteriu de selectare a unui producător de accesorii tâmplărie poate fi experiența acestuia și vechimea pe piața de producție.",

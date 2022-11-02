@@ -1,0 +1,22 @@
+{
+    "services": {
+        "title": "Services offered by us",
+        "consult": "Consulting",
+        "consultdesc": "We offer consultancy, so our specialists are always available to clients with recommendations and information. We want you to make an excellent choice in terms of value for money, but also in terms of aesthetics. Thus, for the best technical solutions in terms of doors, windows and balconies, Promotion Business Team is the best solution!",
+        "quality": "Quality",
+        "qualitydesc": "To design the perfect floor plan for your home, you need to pay attention to every detail. Of course, not only the architecture and style of the interior and exterior design matters, but also the materials used, but especially their quality. That is why the standards must be high, as these components have important functions.",
+        "production": "Production",
+        "productiondesc": "We use the best quality raw materials and accessories, with equipment handled by experts in carpentry production. We meet deadlines and exceed expectations! Factory activity can be planned, executed and monitored much easier with production management solution. The system covers four main areas: production, materials, quality and maintenance.",
+        "measurements": "Measurements",
+        "measurementsdesc": "Correct measurements are extremely important. We carry out this stage with the greatest care, in any type of building or room.",
+        "delivery": "Delivery",
+        "deliverydesc": "In order to always live up to our customers' demands, we pay special attention to orders, delivery times, partnership relations and all contracts based on seriousness, trust and respect.",
+        "fitting": "Fitting",
+        "fittingdesc": "We assemble and check after completion, very carefully. Everything for the safety and comfort of our customers!"
+    },
+
+    "export": {
+        "title": "Export Palletizing",
+        "description": "We also offer the possibility of palletizing for export all the products in our portfolio!"
+    }
+}

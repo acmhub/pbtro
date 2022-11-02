@@ -1,0 +1,26 @@
+{
+    "description": "La qualité, le prix et le degré de protection d'une fenêtre ne sont pas seulement déterminés par le profil utilisé, même si c'est souvent l'aspect le plus discuté. Le verre a un rôle extrêmement important, assurant une protection phonique et thermique.",
+
+    "float": "Verre Propre",
+    "floatdesc": "Le verre flotté est fabriqué en faisant flotter une bande continue de verre sur un bain métallique (technologie float). Il est fait de verre chalcosodique de haute qualité, avec des faces planes parallèles, une surface naturelle et une transparence non déformée.",
+    "lowe": "Verre à Faible Emissivité",
+    "lowedesc": "Le verre à faible émissivité fait référence au verre à faible émissivité. Il est conçu pour renvoyer la chaleur dans le bâtiment afin d'améliorer le coefficient de transfert de chaleur Uf. Le verre Low-E est d'apparence neutre et peut donc être utilisé pour les bâtiments résidentiels et commerciaux. Le verre à faible émissivité est obtenu par un processus appelé pulvérisation magnétron, lorsqu'un mélange de métaux invisibles est appliqué sur l'une des surfaces.",
+    "colorata": "Verre Coloré",
+    "coloratadesc": "Le verre coloré est obtenu en ajoutant des oxydes métalliques lors de la fusion du verre. Le verre teinté dans la masse absorbe une grande quantité d'énergie solaire, empêchant ainsi sa pénétration excessive à l'intérieur. La gamme de couleurs comprend le bronze, le gris, le vert, le bleu, dans différentes intensités selon l'épaisseur du verre.",
+    "decorativa": "Verre Décoratif",
+    "decorativadesc": "Le verre coloré ou peint est similaire au verre imprimé (imprimé), sauf qu'il est fabriqué sur une seule couleur. Afin de pouvoir proposer une large gamme de teintes, nous utilisons la palette RAL, tout pour satisfaire vos souhaits.",
+    "emailata": "Verre emaillé",
+    "emailatadesc": "Ce processus consiste en l'application uniforme (généralement à l'aide d'un équipement spécifique) d'une peinture céramique spéciale, immédiatement suivie du processus de fixation du verre. Ainsi, la couche de peinture appliquée devient beaucoup plus résistante et a un aspect uniforme. De plus, grâce au processus de fixation du verre, une résistance mécanique accrue est donnée en cas de rupture et une stabilité de couleur garantie est assurée.",
+    "print": "Verre avec Impression Céramique",
+    "printdesc": "La dernière technologie de traitement du verre est l'impression sur verre avec de l'encre céramique. L'impression à l'encre céramique se fait dans un environnement à température et humidité contrôlées. Après impression, le verre est inséré à une température de 650-700 degrés (selon l'épaisseur du verre support). Une fois le verre fixé, l'encre céramique fusionne pratiquement avec le verre et l'image imprimée reste de la même qualité pendant au moins 15 ans, non altérée par des facteurs externes. Les couleurs sont résistantes aux rayons ultraviolets et la surface imprimée en céramique est très résistante aux rayures.",
+    "laminata": "Verre Feuilleté",
+    "laminatadesc": "Il se compose de deux ou plusieurs feuilles de verre liées par une couche de résine transparente. Les avantages de ce type de verre sont : augmentation du degré de sécurité contre l'effraction, isolation phonique supérieure, réduction des risques d'accidents (ne permet pas aux éclats de se détacher en cas de casse), de plus, ce verre offre la meilleure isolation phonique par rapport aux autres types de verre.",
+    "sablata": "Verre Sablé",
+    "sablatadesc": "C'est une surface mate, obtenue à partir d'un verre transparent ou coloré, sur laquelle un jet de sable fin est soufflé à l'aide d'air comprimé. Le verre sablé à motifs est fabriqué à l'aide d'un gabarit avec un dessin placé sur le verre clair qui est sablé.",
+    "ornamentala": "Verre Ornemental",
+    "ornamentaladesc": "Le verre ornemental est principalement utilisé comme ornement ou pour préserver l'intimité. Il a un bon facteur de transmission lumineuse et permet un meilleur éclairage de la pièce que lors de l'utilisation de verre réfléchissant.",
+    "reflexiva": "Verre Réfléchissant",
+    "reflexivadesc": "C'est le verre monolithique réfléchissant, pare-soleil avec un film d'oxydes métalliques, déposé par le procédé pyrolytique. Le film est déposé sur du verre clair ou coloré en masse, très résistant, notamment aux conditions environnementales extrêmes. L'orientation du film influence la quantité de réflexion ainsi que la teinte finale de la couleur du verre.",
+    "securizata": "Verre Sécurisé",
+    "securizatadesc": "Il est 3 à 4 fois plus résistant aux contraintes mécaniques et thermiques que le verre non traité. En cas de casse, il se décompose en très petits morceaux éliminant le risque de blessures. Verre teinté dans la masse De par ses propriétés filtrantes, selon la couleur et l'épaisseur, le verre teinté dans la masse réduit la fatigue oculaire en cas de fort ensoleillement."
+}

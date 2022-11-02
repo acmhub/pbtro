@@ -1,0 +1,22 @@
+{
+    "services": {
+        "title": "Los servicios que ofrecemos",
+        "consult": "Consultor",
+        "consultdesc": "Ofrecemos consultoría, por lo que nuestros especialistas están siempre disponibles para los clientes con recomendaciones e información. Queremos que hagas una excelente elección en términos de relación calidad-precio, pero también en términos de estética. Por lo tanto, para las mejores soluciones técnicas en términos de puertas, ventanas y balcones, Promotion Business Team es la mejor solución.",
+        "quality": "Calidad",
+        "qualitydesc": "Para diseñar el plano de planta perfecto para su hogar, debe prestar atención a cada detalle. Por supuesto, no solo importa la arquitectura y el estilo del diseño interior y exterior, sino también los materiales utilizados, pero sobre todo su calidad. Es por eso que los estándares deben ser altos, ya que estos componentes tienen funciones importantes.",
+        "production": "Producción",
+        "productiondesc": "Utilizamos materias primas y accesorios de la mejor calidad, con equipos manejados por expertos en producción de carpintería. ¡Cumplimos los plazos y superamos las expectativas! La actividad de la fábrica se puede planificar, ejecutar y monitorear mucho más fácilmente con la solución de gestión de producción. El sistema cubre cuatro áreas principales: producción, materiales, calidad y mantenimiento.",
+        "measurements": "Medida",
+        "measurementsdesc": "Las medidas correctas son extremadamente importantes. Realizamos esta etapa con el mayor cuidado, en cualquier tipo de edificio o estancia.",
+        "delivery": "Entrega",
+        "deliverydesc": "Para estar siempre a la altura de las exigencias de nuestros clientes, prestamos especial atención a los pedidos, los plazos de entrega, las relaciones de colaboración y todos los contratos basados ​​en la seriedad, la confianza y el respeto.",
+        "fitting": "Adecuado",
+        "fittingdesc": "Montamos y comprobamos después de la finalización, con mucho cuidado. Todo para la seguridad y comodidad de nuestros clientes!"
+    },
+
+    "export": {
+        "title": "Paletizado de Exportación",
+        "description": "¡También ofrecemos la posibilidad de paletizar para exportación todos los productos de nuestro portafolio!"
+    }
+}

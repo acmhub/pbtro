@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import { toast } from 'react-toastify';
 import { Store } from '../../utils/StateProvider';
 import {
     TamplariePVC,
@@ -42,7 +43,14 @@ export default function ProductRequirements({ selectedProduct, t }) {
             }
         });
 
-        document.querySelector('#quote-details').scrollIntoView();
+        toast.success(
+            <div>
+                {t(`common:${state.selectedProduct}`)} {t('addedtoquote')}
+            </div>,
+            {}
+        );
+
+        document.querySelector('#quote-details').scrollIntoView({ behavior: 'smooth' });
         return false;
     };
 

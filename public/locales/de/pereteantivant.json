@@ -1,0 +1,17 @@
+{
+    "description": "Wenn Sie möchten, dass Ihre Terrasse vor Wetterkapriolen geschützt ist, gehören diese Schließsysteme zu den empfehlenswertesten.",
+
+    "variants": {
+        "casetat": "Kassettenfolienrolle",
+        "casetatdesc": "Kassetten-Klarsichtfolienrollen bestehen aus einer Rolle Klarsichtfolie, die mit einer Aluminiumkassette bedeckt ist. Die transparente Folie gleitet durch Aluminiumführungen und wird unten durch 2 Verriegelungsbolzen befestigt. Die Betätigung kann manuell mit einer Handkurbel oder mit Hilfe eines ferngesteuerten Motors erfolgen.",
+        "necasetat": "Unverpackte Folienrolle",
+        "necasetatdesc": "Offene Klarsicht-Jalousien können manuell mit einer Handkurbel oder elektrisch über einen Schalter oder eine Fernbedienung bedient werden. Mehrere transparente Jalousien können auf derselben Fernbedienung installiert werden, und auf diese Weise vermeiden wir das Risiko, Fernbedienungen zu verlieren.",
+        "capse": "Klammern und Klammern",
+        "capsedesc": "Terrassenverschlüsse mit Klammern und Klammern, mit transparenter Folie (Kristallfolie 0,8 mm), sind die günstigsten Terrassenverschlusslösungen, aber gleichzeitig sehr effektiv.",
+
+        "actionare": "Betrieb",
+        "elecmanual": "Elektrisch oder Manuell",
+        "dimensiuni": "Maximale Abmessungen",
+        "rezistenta": "Widerstand"
+    }
+}

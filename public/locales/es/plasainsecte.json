@@ -1,0 +1,12 @@
+{
+    "description": "Las mosquiteras son un accesorio esencial, especialmente durante la estación cálida. Tienen la función de proteger los hogares de diversos insectos, siendo el principal enemigo el mosquito. Por eso te ofrecemos la solución perfecta, presentada en diferentes formas o colores.",
+    "variants": {
+        "plisse": "Red de Insectos Plisse",
+        "plissedesc1": "Las redes plisadas están creadas de tal forma que encajan en cualquier espacio, estando disponibles para su instalación tanto en ventanas como en puertas, incluidas aquellas con aperturas muy amplias.",
+        "plissedesc2": "Gracias a la especial protección que aportan, pero también al diseño moderno y elegante, las mosquiteras antiinsectos tipo plisado son la opción ideal para espacios destinados a los clientes, especialmente en el caso de la hostelería, como restaurantes, unidades de preparación de alimentos o hoteles",
+        "rulou": "Red de Insectos Rollo",
+        "ruloudesc": "Las mosquiteras enrollables son una opción moderna y segura, siendo muy fáciles de manejar y aumentando la comodidad de los usuarios por el hecho de que se puede utilizar durante todo el verano y no es necesario desmontarla cuando llega la época de frío, ya que la mosquitera se puede apretar muy fácilmente dentro de la caja.",
+        "balamale": "Red de Insectos con Bisagras",
+        "balamaledesc": "Las redes anti-insectos más comunes son las que tienen bisagras. Están compuestos por un marco de aluminio, sobre el que se suelen montar 2 bisagras para abrir la red al exterior. La red se cierra con un clip magnético."
+    }
+}

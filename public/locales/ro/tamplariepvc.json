@@ -1,3 +1,13 @@
 {
-    "description": "Siguranța și aspectul plăcut determină calitatea și confortul spațiului dumneavoastră. Profilele din PVC sunt cele mai frecvent utilizate în realizarea feroneriei ferestrelor și a ușilor. Izolația termică și costul accesibil tuturor sunt doar câteva dintre beneficiile acestui material."
+    "description": "Siguranța și aspectul plăcut determină calitatea și confortul spațiului dumneavoastră. Profilele din PVC sunt cele mai frecvent utilizate în realizarea feroneriei ferestrelor și a ușilor. Izolația termică și costul accesibil tuturor sunt doar câteva dintre beneficiile acestui material.",
+    "constructive": {
+        "fereastra": "Fereastră",
+        "fereastradesc1": "Ferestrele noastre din PVC oferă calitate și confort în același timp. Rezistența acestui material, combinată cu izolația noastră termică de înaltă performanță, creează un mediu de viață confortabil.",
+        "fereastradesc2": "Alegerea vitrajului adecvat este foarte importanta, avand in vedere ca geamul reprezinta 80% din suprafata unei ferestre. Astfel, consilierii nostri tehnici si de vanzari, va vor oferi intotdeauna solutia optima.",
+        "usa": "Ușă",
+        "usadesc1": "Alegerea usilor pentru locuinta noastra reprezinta o decizie importanta, care repercuteaza atat asupra aspectului final al locuintei cat si asupra confortului termic.",
+        "usadesc2": "Acum avem o serie de criterii dupa care putem alege usile PVC: in functie de culoare, design, siguranta, eficienta energetica sau pur si simplu dupa un anumit model.",
+        "culisanta": "Culisantă cu Ridicare",
+        "culisantadesc": "Ușile culisante cu ridicare sunt soluţia ideală pentru cei care doresc spaţii mari vitrate ce oferă luminozitate și un caracter aparte locuinței."
+    }
 }

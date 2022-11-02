@@ -1,0 +1,43 @@
+{
+    "description": "La commodité et la sécurité d'utilisation, l'élégance du design, l'incorporation des dernières technologies conformes aux normes européennes en matière de sécurité de fonctionnement, ainsi que la disponibilité d'une gamme d'équipements optionnels font de nos portes de garage la solution idéale pour vous.",
+
+    "variants": {
+        "benefit": "Porte De Garage Benefit",
+        "benefitdesc1": "Un bon choix en raison du rapport qualité/prix. Ce sont des portes de garage bon marché en raison de la réduction des pertes de matière, les panneaux étant fabriqués aux dimensions standard. Ils sont équipés de ressorts de traction qui peuvent être montés sous le rail sur lequel la porte coulisse ou sur ses côtés.",
+        "benefitdesc2": "Le principal avantage des portes à ressorts de tension réside dans le fait que l'installation du rail peut se faire même lorsque les montants latéraux et la poutre sont de petite taille. 15 000 cycles sont garantis.",
+        "benefitxl": "Porte De Garage Benefit XL",
+        "benefitxldesc1": "Les portes sectionnelles BeneFit XL sont conçues pour les petits garages, d'une longueur maximale de 3,2 m et sont équipées de ressorts de tension situés dans les montants latéraux.",
+        "benefitxldesc2": "Grâce à cette solution, l'espace de faisceau requis est réduit à 65 mm dans le cas d'une porte de garage manuelle et à 120 mm dans le cas d'une porte de garage électrique. BeneFit XL est garanti pour 15 000 cycles de fonctionnement.",
+        "optima": "Porte De Garage Optima",
+        "optimadesc1": "Les portes de garage sectionnelles Optima offrent les options de construction les plus flexibles. Ils peuvent être fabriqués sur commande, dans n'importe quelle taille, et sont équipés de ressorts de torsion qui peuvent être montés à la fois sur la poutre sur laquelle la porte est appliquée et derrière les rails.",
+        "optimadesc2": "Les portes Optima sont garanties pour 25 000 cycles de manœuvres. Si l'on considère une utilisation quotidienne moyenne de 3 cycles, on arrivera à une durée de vie de plus de 20 ans.",
+        "vogue": "Porte De Garage Vogue",
+        "voguedesc1": "Comme l'Optima, la porte de garage sectionnelle Vogue peut être fabriquée sur commande dans n'importe quelle taille. Au lieu de cela, il vous offre la possibilité de personnalisation avec des inserts en acier inoxydable. 25 000 cycles de fonctionnement et une durée de vie de plus de 20 ans sont garantis."
+    },
+
+    "accessories": {
+        "vitrare": "Vitrage",
+        "fer640": "Fenêtres Rectangulaires 640x340",
+        "fer610": "Fenêtres Rectangulaires 610x140",
+        "usa": "Porte Piétonne",
+        "linii": "Lignes de Modèle",
+        "acces": "Porte d'accès Dans le Bâtiment",
+        "accesorii": "Accessoire",
+        "buton": "Bouton mural",
+        "fotocelule": "Système de Cellule Photoélectrique",
+        "maner": "Poignée Simple",
+        "yalablocare": "Serrure de Yala",
+        "yaladeblocare": "Moteur de déverrouillage Yală",
+        "sistemblocare": "Système de Verrouillage Supplémentaire",
+        "bolt": "Verrouiller",
+        "telecomanda": "Télécommande 4 Canaux"
+    },
+
+    "warranty": "Garantie",
+    "5ani": "5 années",
+    "10ani": "10 années",
+    "15ani": "15 années",
+    "cicluri": "Cycles d'Utilisation",
+    "actionare": "Opération",
+    "elecmanual": "Electrique ou Manuel"
+}

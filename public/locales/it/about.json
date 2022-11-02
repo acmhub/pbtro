@@ -1,0 +1,51 @@
+{
+    "title": "Produciamo per il comfort",
+    "paragraph": "Promotion Business Team è un'azienda basata su un team giovane e dinamico, formato da specialisti in carpenteria PVC e alluminio. Pertanto, rispondiamo alle vostre esigenze con eccellenti servizi di produzione e installazione di sistemi di carpenteria con vetro a doppia o tripla lastra, indipendentemente dalla loro tipologia.",
+
+    "stats": {
+        "projects": "progetti completati",
+        "clients": "clienti soddisfatti",
+        "services": "servizi offerti",
+        "employees": "personale"
+    },
+
+    "services": {
+        "title": "I servizi da noi offerti",
+        "consult": "Consulente",
+        "consultdesc": "I nostri specialisti sono sempre a disposizione dei clienti con consigli e informazioni.",
+        "quality": "Qualità",
+        "qualitydesc": "Non contano solo l'architettura e lo stile del design di interni ed esterni, ma anche i materiali utilizzati, ma soprattutto la loro qualità.",
+        "production": "Produzione",
+        "productiondesc": "Utilizziamo materie prime e accessori della migliore qualità, con attrezzature gestite da esperti nella produzione di falegnameria.",
+        "measurements": "Misurare",
+        "measurementsdesc": "Le misurazioni corrette sono estremamente importanti. Eseguiamo questa fase con la massima cura, in qualsiasi tipologia di edificio o locale.",
+        "delivery": "Consegna",
+        "deliverydesc": "Grazie alla nostra flotta siamo in grado di programmare e trasportare qualsiasi tipo di falegnameria o vetro.",
+        "fitting": "Raccordo",
+        "fittingdesc": "Montiamo e controlliamo dopo il completamento, con molta attenzione. Tutto per la sicurezza e il comfort dei nostri clienti!"
+    },
+
+    "timeline": {
+        "title": "La Nostra Evoluzione",
+        "2006p1": "Nel 2006 sono state poste le basi del serramentifici Promotion Business Team, che aveva un solo obiettivo: offrire un'alternativa di carpenteria qualitativa nel contesto dell'aumento del numero di commercianti orientati al profitto.",
+        "2006p2": "Nel tempo la fabbrica si è evoluta, il team è cresciuto, le tecnologie sono migliorate, ma l'obiettivo è lo stesso: migliorare la qualità della vita dei nostri clienti attraverso i migliori prodotti e servizi di falegnameria.",
+        "2006p3": "Dalla costituzione dell'azienda fino al 2010, ci siamo occupati della distribuzione di carpenteria in PVC e alluminio, ma anche di accessori per loro.",
+        "2010p1": "Abbiamo ampliato lo spettro di attività, iniziando a produrre e vendere carpenteria in PVC e alluminio.",
+        "2020p1": "Per poter soddisfare il volume di richieste, ci siamo trasferiti in una nuova sede situata in via Tudor Vladimirescu 393, Domnești Business Park, Ilfov.",
+        "2020p2": "Il nuovo capannone di produzione ha una superficie di 1500 mq, rispetto ai 600 mq del luogo precedente.",
+        "2021p1": "Abbiamo acquistato una nuova linea di produzione per carpenteria in PVC e alluminio, composta da diverse moderne attrezzature. Con l'aiuto di queste apparecchiature, siamo stati in grado di ridurre il consumo di energia elettrica e, allo stesso tempo, aumentare la produzione.",
+        "2021p2": "Anche la qualità dei prodotti è aumentata, eliminando gli errori umani, contribuendo anche alla competitività dell'azienda Promotion Business Team sul mercato in cui opera. Inoltre, la produzione è diventata più efficiente. Ora possiamo produrre il doppio della quantità di prodotti e quindi supportare meglio la domanda che stiamo vivendo, che è in costante aumento.",
+        "2021p3": "Abbiamo implementato una gestione intelligente delle attività produttive.",
+        "2021p4": "Così l'attività di fabbrica può essere pianificata, eseguita e monitorata molto più facilmente con la soluzione di gestione della produzione. Il sistema copre quattro aree principali: produzione, materiali, qualità e manutenzione.",
+        "2021p5": "Abbiamo investito in una moderna linea di produzione del vetro, tutta la produzione è stata ottimizzata e gestita con l'aiuto del software e delle apparecchiature più performanti.",
+        "prezp1": "L'esperienza accumulata nella realizzazione di carpenteria, nonché la buona qualità di montaggio acquisita nel tempo, ci raccomandano come un'azienda efficiente e sempre una scelta ispirata per i nostri clienti, grazie alla serietà che dimostriamo e ai prezzi praticati.",
+        "prezp2": "Siamo grati di avere oltre 40 dipendenti che condividono la visione di PBT: creare i migliori prodotti di carpenteria in PVC e alluminio. Gli specialisti della nostra azienda sono sempre desiderosi di lavorare con i materiali più recenti e le tecniche innovative per soddisfare i desideri dei clienti.",
+
+        "prezent": "Regalo"
+    },
+
+    "cta": {
+        "title": "Siamo sempre interessati a progetti nuovi, stimolanti e interessanti.",
+        "description": "Allora perché non contattarci e inviarci i requisiti del tuo progetto e al resto pensiamo noi!"
+    }
+}

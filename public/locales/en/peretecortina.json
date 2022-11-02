@@ -1,0 +1,18 @@
+{
+    "description": "Curtain walls represent the most elegant, safe and accessible facade that can cover any type of construction. It stands out for its exceptional thermal and sound insulation properties, for infinite design possibilities that adapt to any architectural vision, short execution and assembly time and easy maintenance.",
+
+    "variants": {
+        "standard": "Standard Curtain Wall",
+        "standarddesc1": "They are called classic curtain walls due to the characteristic of the system by which the insulating glass is fixed to the aluminum frame with the help of pressure caps, fixed, in turn, to the aluminum frame with screws. Pressure caps can be of various shapes, sizes and shades.",
+        "standarddesc2": "The standard curtain wall system allows the installation of heat-insulating windows of different thicknesses, made of 2 or 3 sheets of glass. The profiles, visible from the outside, can be adapted to any type of construction. The standard curtain wall is a modern glass facade solution with an articulated construction and is designed to withstand earthquakes and vibrations of normal intensity, as well as expansions or contractions of aluminum profiles without losing its resistance to wind or water permeability.",
+        "standarddesc3": "Curtain walls with large dimensions can be made, of high complexity in terms of the materials used. The profiles are narrow and are a cheaper solution thanks to the classic curtain wall system.",
+        "semi": "Semistructural Curtain Wall",
+        "semidesc1": "They are called semi-structural curtain walls due to the characteristic of the system by which the thermal insulating glass is fixed to the aluminum frame with the help of pressure caps only on one dimension, vertical or horizontal. Pressure caps can be of various shapes, sizes and shades.",
+        "semidesc2": "The semi-structural curtain wall system allows the installation of heat-insulating windows of different thicknesses, made of 2 or 3 sheets of glass. The profiles, visible from the outside, can be adapted to any type of construction. Watertightness is ensured in the case of the semi-structural system of three rows of EPDM gaskets and a drainage system for any kind of water accumulation.",
+        "semidesc3": "The profiles are visible from the inside, and from the outside the profile is visible only in one direction. On the other side, a thin line is visible which gives the system continuity. Large, highly complex curtain walls can be made.",
+        "structural": "Structural Curtain Wall",
+        "structuraldesc1": "The structural curtain walls are made with a special aluminum system that gives, on the outside, the appearance of continuous glass. The thermal insulating glass is glued to the aluminum frame with the help of a structural silicone.",
+        "structuraldesc2": "The practical realization is transposed by joining a grid of vertical uprights with horizontal crossbars (rulers). They can be easily integrated into such spectacular walls and access ways, stairs, balustrades, exterior elevators, also made of glass, which satisfy the architects' desire for light, wide spaces, modern lines and futuristic vision.",
+        "structuraldesc3": "Structural glass can have an improved appearance through the application of geometric designs and shapes or different color tones can be used."
+    }
+}

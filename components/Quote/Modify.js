@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import { toast } from 'react-toastify';
 import { Store } from '../../utils/StateProvider';
 import {
     TamplariePVC,
@@ -47,6 +48,12 @@ export default function ModifyProduct({ data, modalState, setModalState, t }) {
             }
         });
 
+        toast.success(
+            <div>
+                {t(`common:${state.selectedProduct}`)} {t('modifieditem')}
+            </div>,
+            {}
+        );
         setModalState({ state: false, product: null });
         return false;
     };

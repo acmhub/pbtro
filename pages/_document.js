@@ -56,7 +56,7 @@ class MyDocument extends Document {
                     />
                     <meta
                         property="og:description"
-                        content="Produsele noastre constituie o investitie pe termen lung sigura, fara costuri suplimentare de intretinere, reparatii , reconditionare etc. Montajul este executat de catre specialistii echipei noastre, la care se adauga si servicii de consultanta disponibile oricand pentru clientii nostri."
+                        content="Produsele noastre constituie o investiție pe termen lung sigură, fără costuri suplimentare de întreținere, reparații , recondiționare etc. Montajul este executat de către specialiștii echipei noastre, la care se adaugă și servicii de consultanță disponibile oricând pentru clienții nostri."
                     />
                     <meta property="og:image" content="/images/logos/logo.svg" />
 
@@ -64,7 +64,7 @@ class MyDocument extends Document {
 
                     {/* Google Font */}
                     <link rel="preconnect" href="https://fonts.googleapis.com" />
-                    <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+                    <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
                     <link
                         href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap"
                         rel="stylesheet"

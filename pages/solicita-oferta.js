@@ -11,6 +11,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Tooltip from '@mui/material/Tooltip';
 import Modal from '@mui/material/Modal';
+import { toast } from 'react-toastify';
 import ProductRequirements from '../components/Quote';
 import ModifyProduct from '../components/Quote/Modify';
 
@@ -34,7 +35,7 @@ export default function GetQuote() {
             payload: e
         });
 
-        document.querySelector('#product-requirements').scrollIntoView();
+        document.querySelector('#product-requirements').scrollIntoView({ behavior: 'smooth' });
     };
 
     const handleQuoteSubmit = (e) => {
@@ -47,7 +48,8 @@ export default function GetQuote() {
             dataArr.push([pair[0], pair[1]]);
         }
 
-        console.log(dataArr);
+        toast.success(<div>{t('sentquote')}</div>, {});
+
         return false;
     };
 
@@ -162,7 +164,15 @@ export default function GetQuote() {
                                             <Tooltip title={<h6>{t('delete')}</h6>} placement="top">
                                                 <button
                                                     className="p-1"
-                                                    onClick={() => dispatch({ type: 'REMOVE_ITEM', payload: e.key })}
+                                                    onClick={() => {
+                                                        dispatch({ type: 'REMOVE_ITEM', payload: e.key });
+                                                        toast.success(
+                                                            <div>
+                                                                {t(`common:${e.translation_key}`)} {t('removeditem')}
+                                                            </div>,
+                                                            {}
+                                                        );
+                                                    }}
                                                 >
                                                     <span className="material-symbols-outlined text-red-600">
                                                         delete

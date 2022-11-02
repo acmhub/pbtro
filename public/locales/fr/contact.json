@@ -1,0 +1,18 @@
+{
+    "title": "Contactez-nous",
+    "cui": "Code d'enregistrement unique",
+    "rc": "Non. d'immatriculation Registre du Commerce",
+
+    "name": "Nom",
+    "phone": "Numéro de téléphone",
+    "subject": "Sujet",
+    "message": "Message",
+    "agreewith": "Je suis d'accord avec",
+
+    "callus": "Appelez-nous",
+    "emailus": "Envoyez-nous un e-mail",
+    "visitus": "Rendez nous visite",
+
+    "thankyou": "Nous te remercions",
+    "shortly": "Nous vous contacterons dès que possible."
+}

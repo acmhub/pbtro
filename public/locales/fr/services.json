@@ -1,0 +1,22 @@
+{
+    "services": {
+        "title": "Les services que nous proposons",
+        "consult": "consultant",
+        "consultdesc": "Nous proposons des conseils, de sorte que nos spécialistes sont toujours à la disposition des clients avec des recommandations et des informations. Nous voulons que vous fassiez un excellent choix en termes de rapport qualité-prix, mais aussi en termes d'esthétique. Ainsi, pour les meilleures solutions techniques en matière de portes, fenêtres et balcons, Promotion Business Team est la meilleure solution !",
+        "quality": "Qualité",
+        "qualitydesc": "Pour concevoir le plan d'étage parfait pour votre maison, vous devez faire attention à chaque détail. Bien sûr, non seulement l'architecture et le style du design intérieur et extérieur comptent, mais aussi les matériaux utilisés, mais surtout leur qualité. C'est pourquoi les normes doivent être élevées, car ces composants ont des fonctions importantes.",
+        "production": "Production",
+        "productiondesc": "Nous utilisons les meilleures matières premières et accessoires de qualité, avec des équipements gérés par des experts en production de menuiserie. Nous respectons les délais et dépassons les attentes! L'activité de l'usine peut être planifiée, exécutée et surveillée beaucoup plus facilement grâce à la solution de gestion de la production. Le système couvre quatre domaines principaux : la production, les matériaux, la qualité et la maintenance.",
+        "measurements": "Mesure",
+        "measurementsdesc": "Des mesures correctes sont extrêmement importantes. Nous réalisons cette étape avec le plus grand soin, dans tout type de bâtiment ou de pièce.",
+        "delivery": "Livraison",
+        "deliverydesc": "Afin de toujours être à la hauteur des exigences de nos clients, nous portons une attention particulière aux commandes, aux délais de livraison, aux relations de partenariat et à tous les contrats basés sur le sérieux, la confiance et le respect.",
+        "fitting": "Raccord",
+        "fittingdesc": "Nous assemblons et vérifions après l'achèvement, très soigneusement. Tout pour la sécurité et le confort de nos clients !"
+    },
+
+    "export": {
+        "title": "Palettisation Export",
+        "description": "Nous offrons également la possibilité de palettiser pour l'export tous les produits de notre portefeuille !"
+    }
+}

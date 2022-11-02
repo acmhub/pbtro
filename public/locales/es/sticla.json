@@ -1,0 +1,26 @@
+{
+    "description": "La calidad, el precio y el grado de protección de una ventana no vienen determinados únicamente por el perfil utilizado, aunque este suele ser el aspecto más discutido. El vidrio tiene un papel muy importante, proporcionando protección acústica y térmica.",
+
+    "float": "Vaso Transparente",
+    "floatdesc": "El vidrio flotado se fabrica flotando una tira continua de vidrio sobre un baño de metal (tecnología float). Está hecho de vidrio calcosódico de alta calidad, con caras planas paralelas, superficie natural y transparencia sin distorsiones.",
+    "lowe": "Vidrio de Baja Emisividad",
+    "lowedesc": "El vidrio de baja emisividad se refiere al vidrio con baja emisividad. Está diseñado para reflejar el calor de regreso al edificio para mejorar el coeficiente de transferencia de calor Uf. El vidrio de baja emisividad tiene una apariencia neutra, por lo que puede usarse tanto en edificios residenciales como comerciales. El vidrio de baja emisividad se obtiene a través de un proceso llamado pulverización magnetrónica, cuando se aplica una mezcla de metales invisibles a una de las superficies.",
+    "colorata": "Vidrio Coloreado",
+    "coloratadesc": "El vidrio coloreado se obtiene agregando óxidos metálicos durante la fusión del vidrio. El vidrio tintado en masa absorbe gran cantidad de energía solar, impidiendo así su excesiva penetración en el interior. La gama de colores incluye bronce, gris, verde, azul, en diferentes intensidades según el espesor del vidrio.",
+    "decorativa": "Vidrio Decorativo",
+    "decorativadesc": "El vidrio coloreado o pintado es similar al vidrio impreso (impreso), excepto que está hecho en un solo color. Para poder ofrecer una amplia gama de tonalidades utilizamos la paleta RAL, todo para satisfacer sus deseos.",
+    "emailata": "Vidrio Esmaltado",
+    "emailatadesc": "Este proceso consiste en la aplicación uniforme (generalmente con la ayuda de equipos específicos) de una pintura especial para cerámica, seguida inmediatamente por el proceso de fijación del vidrio. Así, la capa de pintura aplicada se vuelve mucho más resistente y tiene un aspecto uniforme. Además, mediante el proceso de fijación del vidrio, se otorga una mayor resistencia mecánica en caso de rotura y se asegura una estabilidad de color garantizada.",
+    "print": "Vidrio con Impresión Cerámica",
+    "printdesc": "La última tecnología para el procesamiento de vidrio es la impresión de vidrio con tinta cerámica. La impresión con tinta cerámica se realiza en un ambiente con temperatura y humedad controladas. Después de la impresión, el vidrio se inserta a una temperatura de 650-700 grados (dependiendo del grosor del vidrio de soporte). Una vez fijado el cristal, la tinta cerámica prácticamente se fusiona con el cristal y la imagen impresa se mantiene con la misma calidad durante al menos 15 años, inalterable por factores externos. Los colores son resistentes a la radiación ultravioleta y la superficie cerámica impresa es muy resistente a los arañazos.",
+    "laminata": "Vidrio Laminado",
+    "laminatadesc": "Consiste en dos o más láminas de vidrio unidas por una capa de resina transparente. Las ventajas de este tipo de vidrio son: aumentar el grado de seguridad contra robos, aislamiento acústico superior, reducir el riesgo de accidentes (no permite que se desprendan fragmentos en caso de rotura), además, este vidrio ofrece el mejor aislamiento acústico en comparación con otros tipos de vidrio.",
+    "sablata": "Vidrio Arenado",
+    "sablatadesc": "Es una superficie mate, obtenida a partir de un vidrio transparente o coloreado, sobre la que se sopla un chorro de arena fina con la ayuda de aire comprimido. El vidrio pulido con chorro de arena estampado se fabrica utilizando una plantilla con un diseño colocado en el vidrio transparente que se está puliendo con chorro de arena.",
+    "ornamentala": "Vidrio Ornamental",
+    "ornamentaladesc": "El vidrio ornamental se utiliza principalmente como adorno o para preservar la privacidad. Tiene un buen factor de transmisión de luz y permite una mejor iluminación de la habitación que cuando se usa un vidrio reflectante.",
+    "reflexiva": "Vidrio Reflectante",
+    "reflexivadesc": "Es el vidrio monolítico reflectante, parasol con una película de óxidos metálicos, depositada por el proceso pirolítico. La película se deposita en masa sobre vidrio transparente o coloreado, que es muy resistente, especialmente a condiciones ambientales extremas. La orientación de la película influye en la cantidad de reflexión, así como en el tinte final del color del vidrio.",
+    "securizata": "Vidrio Seguro",
+    "securizatadesc": "Es 3-4 veces más resistente al estrés mecánico y térmico que el vidrio sin tratar. En caso de rotura, se descompone en pedazos muy pequeños eliminando el riesgo de lesiones. Vidrio tintado en masa Debido a sus propiedades filtrantes, según el color y el grosor, el vidrio tintado en masa reduce la tensión ocular en la luz solar intensa."
+}

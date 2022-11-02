@@ -157,7 +157,7 @@ export default function Footer() {
                                 className="w-fit opacity-75 hover:opacity-100 flex items-center space-x-2"
                             >
                                 <span className="material-symbols-outlined text-theme1">phone_in_talk</span>
-                                <div itemProp="telephone">+40 786 422 450</div>
+                                <div itemProp="telephone">+40 723 391 843</div>
                             </a>
                             <a
                                 href="mailto:pbtromania@gmail"

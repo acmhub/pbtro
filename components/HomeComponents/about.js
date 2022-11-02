@@ -1,15 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
+import VisibilitySensor from 'react-visibility-sensor';
+import CountUp from 'react-countup';
+import Link from 'next/link';
 import Image from 'next/image';
 import Suppliers from '../General/Suppliers';
-import Link from 'next/link';
 
 const statsData = [
     {
-        count: '1874+',
+        count: '1874',
         name: 'about.projects'
     },
     {
-        count: '1452+',
+        count: '1452',
         name: 'about.clients'
     },
     {
@@ -23,6 +25,9 @@ const statsData = [
 ];
 
 export default function About({ t }) {
+    const [yearCount, setYearCount] = useState(false);
+    const [statsCount, setStatsCount] = useState(false);
+
     return (
         <div className="space-y-10">
             <div className="container-padding relative space-y-20">
@@ -39,7 +44,18 @@ export default function About({ t }) {
 
                     <div className="col-span-1 lg:col-span-6 text-center">
                         <h1 className="year-text h-56 grid place-content-center text-[14rem] font-bold">
-                            {new Date().getFullYear() - 2006}
+                            <VisibilitySensor
+                                onChange={(visible) => visible && setYearCount(true)}
+                                partialVisibility={false}
+                                delayedCall
+                            >
+                                <CountUp
+                                    start={0}
+                                    end={yearCount ? new Date().getFullYear() - 2006 : 0}
+                                    duration={3}
+                                    decimals={0}
+                                />
+                            </VisibilitySensor>
                         </h1>
                         <div className="space-y-4 my-auto">
                             <h4 className="text-4xl uppercase">{t('about.experience')}</h4>
@@ -72,7 +88,21 @@ export default function About({ t }) {
                 <div className="grid grid-cols-2 xl:grid-cols-4 lg:divide-x">
                     {statsData.map((e, i) => (
                         <div className="text-center p-2" key={i}>
-                            <h4>{e.count}</h4>
+                            <h4>
+                                <VisibilitySensor
+                                    onChange={(visible) => visible && setStatsCount(true)}
+                                    partialVisibility={false}
+                                    delayedCall
+                                >
+                                    <CountUp
+                                        start={0}
+                                        end={statsCount ? e.count : 0}
+                                        suffix={i <= 1 ? '+' : ''}
+                                        duration={(i + 1) * 1.2}
+                                        decimals={0}
+                                    />
+                                </VisibilitySensor>
+                            </h4>
                             <p className="uppercase">{t(e.name)}</p>
                         </div>
                     ))}

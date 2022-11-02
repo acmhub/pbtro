@@ -1,0 +1,22 @@
+{
+    "services": {
+        "title": "I servizi da noi offerti",
+        "consult": "Consulente",
+        "consultdesc": "Offriamo consulenza, quindi i nostri specialisti sono sempre a disposizione dei clienti con consigli e informazioni. Vogliamo che tu faccia una scelta eccellente in termini di rapporto qualità-prezzo, ma anche in termini di estetica. Quindi, per le migliori soluzioni tecniche in termini di porte, finestre e balconi, Promotion Business Team è la soluzione migliore!",
+        "quality": "Qualità",
+        "qualitydesc": "Per progettare la planimetria perfetta per la tua casa, devi prestare attenzione a ogni dettaglio. Naturalmente, non conta solo l'architettura e lo stile del design degli interni e degli esterni, ma anche i materiali utilizzati, ma soprattutto la loro qualità. Ecco perché gli standard devono essere elevati, poiché questi componenti hanno funzioni importanti.",
+        "production": "Produzione",
+        "productiondesc": "Utilizziamo materie prime e accessori della migliore qualità, con attrezzature gestite da esperti nella produzione di falegnameria. Rispettiamo le scadenze e superiamo le aspettative! L'attività di fabbrica può essere pianificata, eseguita e monitorata molto più facilmente con la soluzione di gestione della produzione. Il sistema copre quattro aree principali: produzione, materiali, qualità e manutenzione.",
+        "measurements": "Misurare",
+        "measurementsdesc": "Le misurazioni corrette sono estremamente importanti. Eseguiamo questa fase con la massima cura, in qualsiasi tipologia di edificio o locale.",
+        "delivery": "Consegna",
+        "deliverydesc": "Per essere sempre all'altezza delle richieste dei nostri clienti, prestiamo particolare attenzione agli ordini, ai tempi di consegna, ai rapporti di partnership ea tutti i contratti improntati a serietà, fiducia e rispetto.",
+        "fitting": "Raccordo",
+        "fittingdesc": "Montiamo e controlliamo dopo il completamento, con molta attenzione. Tutto per la sicurezza e il comfort dei nostri clienti!"
+    },
+
+    "export": {
+        "title": "Esportazione della Pallettizzazione",
+        "description": "Offriamo inoltre la possibilità di pallettizzare per l'esportazione tutti i prodotti del nostro portafoglio!"
+    }
+}

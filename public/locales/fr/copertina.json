@@ -1,0 +1,28 @@
+{
+    "description": "Idéaux pour couvrir les espaces commerciaux et privés, tels que les terrasses, les balcons et les maisons, les systèmes de stores à bras rétractables éloignent la chaleur et ajoutent une touche esthétique à tout bâtiment.",
+    "variants": {
+        "ares": "Auvent d'Arès",
+        "aresdesc1": "Le store Ares est un store très résistant mais en même temps relativement léger avec des bras rétractables. Ce modèle d'auvent est l'un des produits les plus vendus de notre gamme en raison de son utilité et de son prix abordable. La structure de cette verrière est toujours blanche.",
+        "aresdesc2": "L'auvent rétractable Ares a le prix le plus bas de tous les modèles d'auvents rétractables. Les matériaux textiles peuvent être personnalisés selon vos besoins. La garantie pour le système complet, le service d'installation, les moteurs Somfy et les accessoires est de 3 ans. Notre fournisseur de tissus est Sauleda Fabrics.",
+        "hera": "Auvent d'Héra",
+        "heradesc1": "L'auvent Hera est un auvent à bras rétractables et est fabriqué en aluminium extrudé. Comparé aux auvents Ares, l'auvent rétractable Hera a des bras plus solides et un profil avant plus résistant. Ce modèle de store est particulièrement recommandé pour les espaces commerciaux (terrasses, restaurants) car ils peuvent supporter un usage quotidien intensif.",
+        "artemis": "Auvent rétractable Artemis",
+        "artemisdesc1": "L'auvent Artemis est un auvent à bras rétractables appelé Hera avec la mention qu'Artemis est muni d'un caisson en aluminium qui recouvre le matériel lorsque l'auvent est fermé (tiré au mur). Les bras de la verrière rétractable restent à l'extérieur de la boîte. Ce demi-coffre en aluminium protège le matériel les jours où le store n'est pas utilisé, notamment en saison froide.",
+        "pallas": "Auvent rétractable Pallas",
+        "pallasdesc2": "L'auvent Pallas est un auvent entièrement caissonné avec des bras rétractables. Les bras rétractables se rétractent dans un boîtier en aluminium. Il a un aspect très élégant, recommandé pour ombrager des terrasses luxueusement construites ou des restaurants haut de gamme. Le boîtier en aluminium est complètement fermé lorsque la verrière est fermée, de sorte que le matériau, les bras et le reste des composants sont parfaitement protégés contre les intempéries atmosphériques. Ce modèle de store est le plus cher en termes de prix.",
+        "metis": "Auvent rétractable Métis",
+        "metisdesc1": "Les systèmes d'auvents avec bras d'ombrage rétractables sont des auvents rétractables doubles autoportants destinés à l'ombrage saisonnier de grandes surfaces, terrasses de restaurants ou cafés. L'avantage de ce type d'auvent rétractable est qu'il n'a pas besoin d'être fixé au mur, mais peut être utilisé si nécessaire.",
+        "metisdesc2": "Pour une meilleure stabilité de la verrière, les pieds de support peuvent être fixés dans le béton avec des tiges filetées et des écrous expansibles ou des ancrages chimiques. Les dimensions maximales de la verrière sont données par le type de verrière rétractable (Ares, Hera, Artemis, Pallas) montée sur la structure métallique.",
+        "bora": "Auvent rétractable latéral Bora",
+        "boradesc1": "Le store latéral Bora est un store qui peut être monté verticalement. Il a un aspect élégant, étant recommandé pour l'ombrage latéral des terrasses, lorsque pour diverses raisons l'auvent classique ne peut pas suffisamment ombrager la zone ou un surplus d'intimité est nécessaire.",
+        "boradesc2": "Le boîtier en aluminium est complètement fermé lorsque la verrière est fermée, de sorte que le matériau et le reste des composants sont parfaitement protégés contre les dommages ou les intempéries. L'actionnement de la verrière latérale se fait par traction, la poignée mobile se verrouillant dans le support de fermeture.",
+        "brate": "Auvent rétractable à bras articulés",
+        "bratedesc1": "Le store à bras articulé est un modèle très simple et fiable utilisé pour ombrager les balcons, les fenêtres, les terrasses ou les petites vérandas, là où les stores rétractables ne peuvent pas être installés. Ce modèle de canopée est équipé de deux bras articulés qui assurent le parfait étirement de la toile.",
+        "carlige": "Auvent de balcon rétractable avec crochets",
+        "carligedesc1": "Les stores à crochets sont des modèles très simples et fiables de stores rétractables utilisés pour ombrager les balcons, les fenêtres, les terrasses ou les petites vérandas. Ce modèle d'auvent est équipé de crochets et de bras qui peuvent être fixés à la balustrade du balcon. Les bras peuvent mesurer 50 cm ou 70 cm de long. Le modèle de store à bras de 50 cm est le produit le plus vendu pour ombrager les petits balcons.",
+        "marchize": "Auvent rétractable Marchize",
+        "marchizedesc1": "Les auvents sont construits sur une structure légère en aluminium, actionnés à l'aide d'un cordon textile. Ces verrières peuvent avoir 3 formes : ronde, rectangulaire ou ovale. Ce type d'auvents est spécialement conçu pour leur installation sur les fenêtres des habitations, mais surtout au-dessus des entrées de commerces ou de restaurants.",
+
+        "warranty": "La garantie pour le système complet, le service d'installation, les moteurs Somfy et les accessoires est de 3 ans. Notre fournisseur de tissus est Sauleda Fabrics."
+    }
+}

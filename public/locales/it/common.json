@@ -1,10 +1,88 @@
 {
-    "title": "Il Titolo",
+    "title": "Promotion Business Team - Produttore di carpenteria in PVC e alluminio",
     "home": "Casa",
-    "about": "Chi Siamo",
+    "about": "Chi siamo",
     "services": "Servizi",
-    "products": "Prodotto",
-    "portfolio": "Portofoliu",
+    "products": "Prodotti",
+    "accessories": "Accessorio",
+    "portfolio": "Portafoglio",
     "contact": "Contatto",
-    "getquote": "Ottenere Preventivo"
+    "getquote": "Richiedi Offerta",
+
+    "privacypolicy": "Politica Sulla Riservatezza",
+    "cookiespolicy": "Politica sui Cookie",
+
+    "fereastrapbt": "Finestra PBT",
+
+    "seemore": "Vedi altro",
+    "moreinfo": "Maggiori informazioni",
+    "send": "Inviare",
+
+    "product": {
+        "title": "Prodotti Offerti da Noi",
+
+        "balustrada": "Ringhiera",
+        "rulouexterior": "Rullo Esterno",
+        "pergola": "Pergola",
+        "copertina": "Baldacchino",
+        "panelornamental": "Pannello ornamentale alluminio",
+        "usagaraj": "Porta del Garage",
+        "roletatextila": "Tenda a Rullo in Tessuto",
+        "tamplariepvc": "Carpenteria PVC",
+        "tamplariealuminiu": "Carpenteria Alluminio",
+        "tamplarielemn": "Carpenteria in Legno Laminato",
+        "sticla": "Vetri",
+        "peretecortina": "Parete Divisoria",
+        "usaantifoc": "Porta Ignifuga",
+        "plasainsecte": "Zanzariere",
+        "pereteantivant": "Muro del Vento"
+    },
+
+    "nav": {
+        "windoor": "Finestre e Porte",
+        "glass": "Vetri",
+        "accessories": "Accessorio",
+        "exterior": "Esterno"
+    },
+
+    "footer": {
+        "about": "Siamo un'azienda basata su un team giovane e dinamico, composto da specialisti in carpenteria PVC e alluminio. Pertanto, soddisfiamo le vostre esigenze con eccellenti servizi di produzione e installazione.",
+        "navigation": "Navigazione"
+    },
+
+    "profilespecs": {
+        "adancime": "Profondità Costruttiva",
+        "structura": "Struttura della Camera",
+        "izolare": "Isolamento Termico",
+        "fonic": "Insonorizzazione",
+        "vitrare": "Vetri di Dimensioni",
+        "clasa": "Classe di Profilo",
+        "toc": "Tacco",
+        "latimetoc": "Larghezza Tacco",
+        "tocdublu": "Larghezza Tacco Doppio Cursore",
+        "canat": "Larghezza dell'ala",
+        "cercevea": "Fascia",
+        "montant": "Ammontare della Larghezza",
+        "variantaconstructiva": "Variante Costruttiva",
+        "cubariera": "Con Barriera Termica",
+        "farabariera": "Nessuna Barriera Termica"
+    },
+
+    "atypics": {
+        "title": "Forme Atipiche",
+        "description": "Puoi optare per finestre di varie forme atipiche, come arco circolare, cerchio, trapezio, triangolo o altre forme asimmetriche."
+    },
+
+    "colors": {
+        "title": "Eccezionale gamma di colori",
+        "available": "Colori Disponibili",
+        "description": "Siamo in grado di fornire profili per interni ed esterni in quasi tutti i colori che puoi immaginare. Sono disponibili più di 450 diverse tonalità e finiture: colori metallizzati o anodizzati, opachi o lucidi RAL, o anche una speciale vernice coatex antigraffio e a bassa manutenzione.",
+        "woodimitation": "Imitazione di Legno",
+        "ral": "Tavolozza RAL"
+    },
+
+    "productcta": {
+        "title": "Siamo sempre interessati a progetti nuovi, stimolanti e interessanti.",
+        "description": "Allora perché non contattarci e inviarci i requisiti del tuo progetto e al resto pensiamo noi!"
+    }
 }

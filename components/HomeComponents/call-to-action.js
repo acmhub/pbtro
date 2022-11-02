@@ -5,30 +5,27 @@ const stepsData = [
     {
         icon: 'draft',
         title: 'calltoaction.draft',
-        description:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit beatae in molestiae quasi tenetur a.'
+        description: 'calltoaction.draftdesc'
     },
     {
         icon: 'support_agent',
         title: 'calltoaction.support',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, corporis.'
+        description: 'calltoaction.supportdesc'
     },
     {
         icon: 'straighten',
         title: 'calltoaction.paymeasure',
-        description:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur blanditiis deleniti aut reprehenderit rerum aperiam neque iste delectus excepturi voluptatum!'
+        description: 'calltoaction.paymeasuredesc'
     },
     {
         icon: 'construction',
         title: 'calltoaction.production',
-        description:
-            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint et non earum officiis reprehenderit eius pariatur eaque.'
+        description: 'calltoaction.productiondesc'
     },
     {
         icon: 'mood',
         title: 'calltoaction.happy',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, corporis.'
+        description: 'calltoaction.happydesc'
     }
 ];
 
@@ -49,10 +46,10 @@ export default function CallToAction({ t }) {
                                 } w-full mx-auto items-center`}
                             >
                                 <div className={`w-full sm:w-1/2 ${i % 2 == 0 ? 'sm:pr-8' : 'sm:pl-8'}`}>
-                                    <div className="relative bg-white rounded shadow space-y-1 pt-8 lg:pt-4 p-4">
+                                    <div className="relative bg-white rounded shadow space-y-1 pt-8 sm:pt-4 p-4">
                                         <h5
                                             className={`${
-                                                i % 2 ? 'text-left' : 'lg:text-right'
+                                                i % 2 ? 'text-left' : 'sm:text-right'
                                             } text-theme1 tracking-widest font-bold opacity-80`}
                                         >
                                             0{i + 1}

@@ -1,0 +1,18 @@
+{
+    "description": "Les murs-rideaux représentent la façade la plus élégante, la plus sûre et la plus accessible qui puisse couvrir tout type de construction. Il se distingue par ses propriétés d'isolation thermique et acoustique exceptionnelles, par des possibilités de conception infinies qui s'adaptent à toute vision architecturale, des temps d'exécution et de montage courts et un entretien facile.",
+
+    "variants": {
+        "standard": "Murs-rideaux Standards",
+        "standarddesc1": "Ils sont appelés murs-rideaux classiques en raison de la caractéristique du système par lequel le verre isolant est fixé au cadre en aluminium à l'aide de bouchons à pression, fixés à leur tour au cadre en aluminium avec des vis. Les bouchons à pression peuvent être de différentes formes, tailles et nuances.",
+        "standarddesc2": "Le système de mur-rideau standard permet l'installation de fenêtres thermo-isolantes d'épaisseurs différentes, composées de 2 ou 3 feuilles de verre. Les profilés, visibles de l'extérieur, s'adaptent à tout type de construction. Le mur-rideau standard est une solution de façade en verre moderne avec une construction articulée et est conçu pour résister aux tremblements de terre et aux vibrations d'intensité normale, ainsi qu'aux dilatations ou contractions des profilés en aluminium sans perdre sa résistance au vent ou à la perméabilité à l'eau.",
+        "standarddesc3": "Des murs-rideaux de grandes dimensions peuvent être réalisés, d'une grande complexité en termes de matériaux utilisés. Les profilés sont étroits et constituent une solution moins chère grâce au système de mur-rideau classique.",
+        "semi": "Murs-rideaux Semi-Structurels",
+        "semidesc1": "Ils sont appelés murs-rideaux semi-structuraux en raison de la caractéristique du système par lequel le verre isolant thermique est fixé au cadre en aluminium à l'aide de bouchons à pression uniquement sur une dimension, verticale ou horizontale. Les bouchons à pression peuvent être de différentes formes, tailles et nuances.",
+        "semidesc2": "Le système de mur-rideau semi-structurel permet l'installation de fenêtres thermo-isolantes d'épaisseurs différentes, composées de 2 ou 3 feuilles de verre. Les profilés, visibles de l'extérieur, s'adaptent à tout type de construction. L'étanchéité est assurée dans le cas du système semi-structurel de trois rangées de joints EPDM et d'un système de drainage pour tout type d'accumulation d'eau.",
+        "semidesc3": "Les profils sont visibles de l'intérieur et de l'extérieur, le profil n'est visible que dans une seule direction. De l'autre côté, une fine ligne est visible qui donne la continuité du système. De grands murs-rideaux très complexes peuvent être réalisés.",
+        "structural": "Murs-rideaux Structurels",
+        "structuraldesc1": "Les murs-rideaux structuraux sont réalisés avec un système spécial en aluminium qui donne, à l'extérieur, l'apparence d'un verre continu. Le verre isolant thermique est collé au cadre en aluminium à l'aide d'un silicone structurel.",
+        "structuraldesc2": "La réalisation pratique est transposée en joignant une grille de montants verticaux à des traverses horizontales (règles). Ils s'intègrent facilement dans des murs et des voies d'accès spectaculaires, des escaliers, des balustrades, des ascenseurs extérieurs, également en verre, qui satisfont le désir des architectes pour la lumière, les grands espaces, les lignes modernes et la vision futuriste.",
+        "structuraldesc3": "Le verre structurel peut avoir une apparence améliorée grâce à l'application de motifs et de formes géométriques ou à l'utilisation de différents tons de couleur."
+    }
+}

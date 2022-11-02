@@ -1,0 +1,18 @@
+{
+    "title": "Kontaktiere uns",
+    "cui": "Eindeutiger Registrierungscode",
+    "rc": "Nein. der Eintragung im Handelsregister",
+
+    "name": "Name",
+    "phone": "Telefonnummer",
+    "subject": "Thema",
+    "message": "Nachricht",
+    "agreewith": "Ich bin einverstanden mit",
+
+    "callus": "Rufen Sie uns an",
+    "emailus": "senden Sie uns eine Email",
+    "visitus": "Besuchen Sie uns",
+
+    "thankyou": "Wir danken Ihnen",
+    "shortly": "Wir werden uns schnellstmöglich mit Ihnen in Verbindung setzen."
+}

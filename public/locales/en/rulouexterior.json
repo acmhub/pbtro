@@ -1,0 +1,25 @@
+{
+    "description": "External aluminum roller shutters are the best thermal and sound insulation system for windows, with high-quality aluminum elements that give them long-lasting resistance.",
+
+    "aplicat": "Applied Roller",
+    "aplicatdesc": "They are recommended for completed constructions with already existing windows. Their installation, depending on the type of building, can be done both on masonry and carpentry.",
+    "suprapus": "Overlapping Roller",
+    "suprapusdesc": "They are intended for new homes or when you want to change the carpentry completely because they are installed together with the PVC or aluminum carpentry. The protective box is mounted together with the carpentry in the window gap, fixing above it.",
+
+    "accessories": {
+        "actionare": "Action type",
+        "pamblica": "Ribbon",
+        "manivela": "Crank",
+        "buton": "Button",
+        "telecomanda": "Remote",
+        "caseta": "Box",
+        "tesita45": "Box 45°",
+        "semirotunda": "Semiround Box",
+        "tesita90": "Box 90°",
+        "accesorii": "Accessories",
+        "plasa": "Insect Net",
+        "lamela": "Lamella (39mm, 43mm, 55mm)",
+        "yala": "Yala",
+        "cleme": "Anti-burglary Clamps"
+    }
+}

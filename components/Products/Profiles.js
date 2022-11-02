@@ -26,7 +26,7 @@ function Profiles({ data, t }) {
                     <div
                         className={`${
                             activeSlide == i ? 'bg-theme1 text-white' : 'hover:text-theme1 opacity-50'
-                        } inline-block lg:w-full text-center font-bold whitespace-nowrap px-4 py-1 cursor-pointer duration-200 ease-in-out`}
+                        } inline-block w-full text-center font-bold whitespace-nowrap px-4 py-1 cursor-pointer duration-200 ease-in-out`}
                         onClick={() => {
                             swiper.slideTo(i + 1);
                             setActiveSlide(i);
