@@ -1,0 +1,46 @@
+{
+    "intro": "Introduction",
+    "introdesc": "This Cookie Policy applies to all users of the www.pbtromania.ro website. The information presented below aims to inform the users of this website about the placement, use and administration of cookies by Promotion Business Team SRL in the context of browsing users on this website.",
+
+    "what": "What is a cookie?",
+    "whatdesc1": "We use the term 'cookies' to refer to cookies and similar technologies through which information can be collected or stored automatically.",
+    "whatdesc2": "An 'Internet Cookie' (also known as a 'browser cookie' or 'HTTP cookie' or 'cookie') is a small file, consisting of letters and numbers, that will be stored on your computer, mobile terminal, or other equipment of a user through which the Internet is accessed.",
+    "whatdesc3": "Cookies are installed by request from a web server to a browser (eg Internet Explorer, Firefox, Chrome). Once installed, cookies have a definite lifespan, remaining 'passive' in the sense that they do not contain software, viruses or spyware and will not access the information on the hard drive of the user on whose equipment they were installed.",
+    "whatdesc4": "A cookie consists of: the name of the cookie and its content / value. From a technical point of view, only the web server that sent the cookie can access it again when a user returns to the web page associated with that web server.",
+
+    "usage": "How we use cookies?",
+    "usagedesc1": "Cookies are used to provide users of this website with a better browsing experience and services tailored to the needs and interests of each user, namely:",
+    "usagedesc2": "→ improving the use of this website, including by identifying any errors that occur during the visit / use of it by users;",
+    "usagedesc3": "→ providing anonymous statistics on how this website is used to Promotion Business Team SRL, as the owner of this website;",
+    "usagedesc4": "Based on the feedback sent by cookies in connection with the use of this website, Promotion Business Team SRL may take measures to make this website more efficient and more accessible to users.",
+    "usagedesc5": "Thus, the use of cookies allows the storage of certain settings / preferences set by the users of this website.",
+
+    "duration": "How long do cookies last?",
+    "durationdesc1": "The lifetime of cookies can vary significantly, depending on the purpose for which they are placed. There are the following categories of cookies that also determine their lifespan:",
+    "durationdesc2": "→ Session cookies - A 'session cookie' is a cookie that is automatically deleted when the user closes their browser.",
+    "durationdesc3": "→ Persistent or fixed cookies - A 'persistent' or 'fixed' cookie is a cookie that remains stored in the user's terminal until it reaches a certain expiration date (which may be in a few minutes, days or several years in the future) or until the user deletes it at any time through the browser settings.",
+
+    "terti": "What are third-party cookies?",
+    "tertidesc1": "Certain sections of the content on the website may be provided by third parties, ie not by Promotion Business Team SRL, in which case these cookies are called third party cookies ('third party cookies').",
+    "tertidesc2": "Third-party cookie providers must also comply with the data protection rules and Privacy Policy available on this website.",
+    "tertidesc3": "These cookies may come from the following third parties: Google Analytics",
+
+    "used": "What cookies are used through this website?",
+    "useddesc1": "By using / visiting the website, the following cookies can be placed:",
+    "useddesc2": "→ Cookies for cookie consent",
+    "useddesc3": "→ User analysis cookies",
+    "useddesc4": "→ Geotargetting cookies",
+
+    "type": "What kind of information is stored and accessed through cookies?",
+    "typedesc1": "Cookies store information in a small text file that allows browser recognition. This website recognizes the browser until cookies expire or are deleted.",
+
+    "part": "Customize your browser settings for cookies",
+    "partdesc1": "If the use of cookies is not annoying and the computer or technical equipment used to browse this website is used only by you, long expiration dates may be set for storing your browsing history.",
+    "partdesc2": "If the computer or technical equipment used to browse this webpage is used by more than one person, the setting for deleting individual browsing data each time the browser is closed may be considered.",
+
+    "disable": "How can cookies be stopped?",
+    "disabledesc1": "Disabling and refusing to receive cookies strictly for this website can be done at the beginning of this page.",
+    "disabledesc2": "Users can configure their browser to reject cookies or to accept cookies from a specific website.",
+    "disabledesc3": "All modern browsers offer the ability to change cookie settings. These settings can be accessed, as a rule, in the 'options' section or in the 'preferences' menu of your browser.",
+    "disabledesc4": "However, refusing or disabling cookies does not mean that you will no longer receive online advertising - only that it will not be tailored to your preferences and interests, as evidenced by your browsing behavior."
+}

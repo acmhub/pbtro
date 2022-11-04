@@ -84,5 +84,10 @@
     "productcta": {
         "title": "Siempre estamos interesados ​​en proyectos nuevos, desafiantes e interesantes.",
         "description": "Entonces, ¿por qué no contactarnos y enviarnos los requisitos de su proyecto y nosotros nos encargamos del resto?"
+    },
+
+    "cookies": {
+        "title": "Usamos Cookies",
+        "description": "Este sitio web utiliza cookies para mejorar su experiencia. Al utilizar nuestro sitio web, acepta el uso de cookies y otros métodos de seguimiento utilizados. Para obtener más información, siga leyendo"
     }
 }

@@ -1,0 +1,62 @@
+{
+    "general": {
+        "title": "Informații generale",
+        "desc1": "Confidențialitatea datelor dumneavoastră cu caracter personal reprezintă una dintre preocupările principale ale Promotion Business Team SRL, cu sediul în Domnești, Strada Tudor Vladimirescu 077090.",
+        "desc2": "Acest document are rolul de a vă informa cu privire la prelucrarea datelor dumneavoastră cu caracter personal, în contextul utilizării paginii de internet www.pbtromania.ro"
+    },
+    "categories": {
+        "title": "Categoriile de date cu caracter personal prelucrate",
+        "desc": "Dacă sunteți vizitator al Site-ului, Promotion Business Team SRL va prelucra datele dumneavoastră cu caracter personal pe care le furnizați în mod direct în contextul utilizării Site-ului, cum ar fi datele pe care le furnizați în cadrul secțiunii de contact / ofertare, în măsura în care ne contactați în acest fel."
+    },
+    "purpose": {
+        "title": "Scopurile și temeiurile prelucrării",
+        "desc1": "Dacă sunteți vizitator al Site-ului, Promotion Business Team SRL prelucrează datele dumneavoastră cu caracter personal astfel:",
+        "desc2": "→ pentru rezolvarea plângerilor, reclamaţiilor",
+        "desc3": "→ realizarea ofertarii",
+        "desc4": "→ pentru a monitoriza traficul și a îmbunătăţii experiența dumneavoastră oferită pe Site.",
+        "desc5": "Furnizarea datelor dumneavoastră în acest scop este voluntară. Refuzul furnizării datelor pentru acest scop nu va avea urmări negative pentru dumneavoastră."
+    },
+    "duration": {
+        "title": "Durata pentru care vă prelucrăm datele",
+        "desc": "Ca principiu, Promotion Business Team SRL va prelucra datele dumneavoastră cu caracter personal atât cât este necesar pentru realizarea scopurilor de prelucrare menționate mai sus."
+    },
+    "reveal": {
+        "title": "Dezvăluirea datelor cu caracter personal",
+        "desc1": "Pentru îndeplinirea scopurilor de prelucrare, Promotion Business Team SRL poate dezvălui datele dumneavoastră către parteneri, către terțe persoane sau entități care sprijină Promotion Business Team SRL în desfășurarea activității prin intermediul Site-ului (de exemplu firme de curierat, furnizori de servicii IT), ori către autoritățile publice centrale/locale, în următoarele cazuri exemplificativ enumerate:",
+        "desc2": "→ pentru administrarea Site-ului",
+        "desc3": "→ pentru efectuarea analizei datelor, testarea și cercetarea, monitorizarea tendințelor de utilizare și activitate, dezvoltarea caracteristicilor de siguranță și autentificarea utilizatorilor;",
+        "desc4": "→ atunci când dezvăluirea datelor cu caracter personal este prevăzută de lege etc."
+    },
+    "rights": {
+        "title": "Drepturile de care beneficiați",
+        "desc1": "În condițiile prevăzute de legislația în materia prelucrării datelor cu caracter personal, în calitate de persoane vizate, beneficiați de următoarele drepturi:",
+        "desc2": "→ dreptul la informare, respectiv dreptul de a primi detalii privind activitățile de prelucrare efectuate de către Promotion Business Team SRL, conform celor descrise în prezentul document;",
+        "desc3": "→ dreptul de acces la date, respectiv dreptul de a obține confirmarea din partea Promotion Business Team SRL cu privire la prelucrarea datelor cu caracter personal, precum și detalii privind activitățile de prelucrare precum modalitatea în care sunt prelucrate datele, scopul în care se face prelucrarea, destinatarii sau categoriile de destinatari ai datelor, etc;",
+        "desc4": "→ dreptul la rectificare, respectiv dreptul de a obține corectarea, fără întârzieri justificate, de către Promotion Business Team SRL a datelor cu caracter personal inexacte/ nejustificate, precum și completarea datelor incomplete; Rectificarea/ completarea va fi comunicată fiecărui destinatar la care au fost transmise datele, cu excepția cazului în care acest lucru se dovedește imposibil sau presupune eforturi disproporționate.",
+
+        "desc5": "→ dreptul la ștergerea datelor, fără întârzieri nejustificate, („dreptul de a fi uitat”)",
+        "extradesc6": "• acestea nu mai sunt necesare pentru îndeplinirea scopurilor pentru care au fost colectate sau prelucrate;",
+        "extradesc7": "• în cazul în care este retras consimțământul și nu există niciun alt temei juridic pentru prelucrare;",
+        "extradesc8": "• în cazul în care persoana vizată se opune prelucrării și nu există motive legitime care să prevaleze;",
+        "extradesc9": "• în cazul în care datele cu caracter personal au fost prelucrate ilegal;",
+        "extradesc10": "• în cazul în care datele cu caracter personal trebuie șterse pentru respectarea unei obligații legale;",
+        "extradesc11": "• datele cu caracter personal au fost colectate în legătură cu oferirea de servicii ale societății informaționale conform dreptului Uniunii sau al dreptului intern sub incidenta căruia se află operatorul.",
+
+        "desc12": "Este posibil ca, în urma solicitării de ștergere a datelor, Promotion Business Team SRL să anonimizeze aceste date (lipsindu-le astfel de caracterul personal) și să continue în aceste condiții prelucrarea pentru scopuri statistice;",
+        "desc13": "→ dreptul la restricționarea prelucrării în măsura în care",
+        "extradesc14": "• persoana contestă exactitatea datelor, pe o perioadă care ne permite verificarea corectitudinii datelor;",
+        "extradesc15": "• prelucrarea este ilegală, iar persoana vizată se opune ștergerii datelor cu caracter personal, solicitând în schimb restricționarea utilizării lor;",
+        "extradesc16": "• operatorul nu mai are nevoie de datele cu caracter personal în scopul prelucrării, dar persoana vizată i le solicită pentru constatarea, exercitarea sau apărarea unui drept în instanță; sau",
+        "extradesc17": "• persoana vizată s-a opus prelucrării (altele decât cele de marketing direct), pentru intervalul de timp în care se verifică dacă drepturile legitime ale operatorului prevalează asupra celor ale persoanei vizate.",
+
+        "desc18": "→ dreptul la portabilitatea datelor, respectiv (i) dreptul de a primi datele cu caracter personal într-o modalitate structurată, folosită în mod obișnuit și într-un format ușor de citit, precum și (ii) dreptul ca aceste date să fie transmise de către Promotion Business Team SRL către alt operator de date, în măsura în care sunt îndeplinite condițiile prevăzute de lege;",
+
+        "desc19": "→ dreptul la opoziție, în ceea ce privește activitățile de prelucrare se poate exercita prin transmiterea unei solicitări conform celor indicate mai jos;",
+        "extradesc20": "• în orice moment, din motive legate de situația particulară în care se află persoana vizată, ca datele care o vizează să fie prelucrate în temeiul interesului legitim al Promotion Business Team SRL sau în temeiul interesului public, cu excepția cazurilor în care Promotion Business Team SRL poate demonstra că are motive legitime și imperioase care justifică prelucarea și care prevalează asupra intereselor, drepturilor și libertăților persoanelor vizate sau că scopul este constatarea, exercitarea sau apararea unui drept în instanță;",
+        "extradesc21": "• în orice moment, în mod gratuit și fără nicio justificare, că datele care o vizează să fie prelucrate în scop de marketing direct.",
+
+        "desc22": "→ dreptul de a nu fi supus unei decizii individuale automate, respectiv dreptul de a nu fi subiectul unei decizii luate numai pe baza unor activități de prelucrare automate, inclusiv crearea de profile, care produce efecte juridice care privesc persoana vizată sau o afectează în mod similar într-o măsură semnificativă;",
+        "desc23": "→ dreptul de a vă adresa Autorităţii Naţionale de Supraveghere a Prelucrării Datelor cu Caracter Personal sau instanțelor competente, în măsura în care considerați necesar."
+    },
+    "finaldisclaimer": "Pentru orice întrebări suplimentare cu privire la modul în care datele cu caracter personal sunt prelucrate și pentru a vă exercita drepturile menționate mai sus, vă rugăm să vă adresați la adresa de email: pbtromania@gmail.com"
+}

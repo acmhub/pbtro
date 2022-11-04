@@ -1,0 +1,46 @@
+{
+    "intro": "Introduction",
+    "introdesc": "Cette politique relative aux cookies s'applique à tous les utilisateurs du site Web www.pbtromania.ro. Les informations présentées ci-dessous visent à informer les utilisateurs de ce site Web sur le placement, l'utilisation et l'administration de cookies par Promotion Business Team SRL dans le cadre de la navigation des utilisateurs sur ce site Web.",
+
+    "what": "Qu'est-ce qu'un cookie ?",
+    "whatdesc1": "Nous utilisons le terme cookies pour désigner les cookies et technologies similaires par lesquels des informations peuvent être collectées ou stockées automatiquement.",
+    "whatdesc2": "Un cookie Internet (également appelé cookie de navigateur ou cookie HTTP ou cookie) est un petit fichier composé de lettres et de chiffres, qui sera stocké sur votre ordinateur, votre terminal mobile ou tout autre équipement de un utilisateur par lequel Internet est accessible.",
+    "whatdesc3": "Les cookies sont installés à la demande d'un serveur Web sur un navigateur (par exemple Internet Explorer, Firefox, Chrome). Une fois installés, les cookies ont une durée de vie définie, restant passifs dans le sens où ils ne contiennent pas de logiciel, de virus ou de spyware et n'accéderont pas aux informations présentes sur le disque dur de l'utilisateur sur l'équipement duquel ils ont été installés.",
+    "whatdesc4": "Un cookie est constitué : du nom du cookie et de son contenu/valeur. D'un point de vue technique, seul le serveur Web qui a envoyé le cookie peut y accéder à nouveau lorsqu'un utilisateur revient sur la page Web associée à ce serveur Web.",
+
+    "usage": "Comment utilisons-nous les cookies ?",
+    "usagedesc1": "Les cookies sont utilisés pour offrir aux utilisateurs de ce site une meilleure expérience de navigation et des services adaptés aux besoins et intérêts de chaque utilisateur, à savoir :",
+    "usagedesc2": "→ améliorer l'utilisation de ce site Web, y compris en identifiant les erreurs qui se produisent lors de la visite / utilisation de celui-ci par les utilisateurs;",
+    "usagedesc3": "→ fournir des statistiques anonymes sur l'utilisation de ce site Web à Promotion Business Team SRL, en tant que propriétaire de ce site Web ;",
+    "usagedesc4": "Sur la base des commentaires envoyés par les cookies dans le cadre de l'utilisation de ce site Web, Promotion Business Team SRL peut prendre des mesures pour rendre ce site Web plus efficace et plus accessible aux utilisateurs.",
+    "usagedesc5": "Ainsi, l'utilisation de cookies permet le stockage de certains paramètres / préférences définis par les utilisateurs de ce site Web.",
+
+    "duration": "Combien de temps durent les cookies ?",
+    "durationdesc1": "La durée de vie des cookies peut varier considérablement en fonction de la finalité pour laquelle ils sont déposés. Il existe les catégories de cookies suivantes qui déterminent également leur durée de vie :",
+    "durationdesc2": "→ Cookies de session - Un « cookie de session » est un cookie qui est automatiquement supprimé lorsque l'utilisateur ferme son navigateur.",
+    "durationdesc3": "→ Cookies persistants ou fixes - Un cookie 'persistant' ou 'fixe' est un cookie qui reste stocké dans le terminal de l'utilisateur jusqu'à ce qu'il atteigne une certaine date d'expiration (qui peut être dans quelques minutes, jours ou plusieurs années dans le futur) ou jusqu'à ce que l'utilisateur le supprime à tout moment via les paramètres du navigateur.",
+
+    "terti": "Que sont les cookies tiers ?",
+    "tertidesc1": "Certaines sections du contenu du site Web peuvent être fournies par des tiers, c'est-à-dire non par Promotion Business Team SRL, auquel cas ces cookies sont appelés cookies tiers (cookies tiers).",
+    "tertidesc2": "Les fournisseurs de cookies tiers doivent également respecter les règles de protection des données et la politique de confidentialité disponibles sur ce site Web.",
+    "tertidesc3": "Ces cookies peuvent provenir des tiers suivants : Google Analytics",
+
+    "used": "Quels cookies sont utilisés sur ce site Web ?",
+    "useddesc1": "En utilisant/visitant le site Web, les cookies suivants peuvent être placés :",
+    "useddesc2": "→ Cookies pour le consentement aux cookies",
+    "useddesc3": "→ Cookies d'analyse des utilisateurs",
+    "useddesc4": "→ Cookies de géociblage",
+
+    "type": "Quel type d'informations est stocké et accessible via les cookies?",
+    "typedesc1": "Les cookies stockent des informations dans un petit fichier texte qui permet la reconnaissance du navigateur. Ce site Web reconnaît le navigateur jusqu'à ce que les cookies expirent ou soient supprimés.",
+
+    "part": "Personnalisez les paramètres de votre navigateur pour les cookies",
+    "partdesc1": "Si l'utilisation de cookies n'est pas gênante et que l'équipement informatique ou technique utilisé pour naviguer sur ce site est utilisé uniquement par vous, des dates d'expiration longues peuvent être fixées pour stocker votre historique de navigation.",
+    "partdesc2": "Si l'équipement informatique ou technique utilisé pour naviguer sur cette page web est utilisé par plusieurs personnes, le paramétrage de la suppression des données individuelles de navigation à chaque fermeture du navigateur peut être envisagé.",
+
+    "disable": "Comment arrêter les cookies ?",
+    "disabledesc1": "La désactivation et le refus de recevoir des cookies strictement pour ce site Web peuvent être effectués au début de cette page.",
+    "disabledesc2": "Les utilisateurs peuvent configurer leur navigateur pour refuser les cookies ou pour accepter les cookies d'un site Web spécifique.",
+    "disabledesc3": "Tous les navigateurs modernes offrent la possibilité de modifier les paramètres des cookies. Ces paramètres sont accessibles, en règle générale, dans la section 'options' ou dans le menu 'préférences' de votre navigateur.",
+    "disabledesc4": "Cependant, refuser ou désactiver les cookies ne signifie pas que vous ne recevrez plus de publicité en ligne, mais seulement qu'elle ne sera plus adaptée à vos préférences et centres d'intérêt, comme en témoigne votre comportement de navigation."
+}

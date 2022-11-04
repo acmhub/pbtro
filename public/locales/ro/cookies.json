@@ -1,0 +1,46 @@
+{
+    "intro": "Introducere",
+    "introdesc": "Prezenta Politică privind fișierele cookies se aplică tuturor utilizatorilor paginii de internet www.pbtromania.ro. Informațiile prezentate în continuare au ca scop informarea utilizatorilor acestei pagini de internet cu privire la plasarea, utilizarea și administrarea cookie-urilor de către Promotion Business Team SRL în contextul navigării utilizatorilor pe această pagină de internet.",
+
+    "what": "Ce este un cookie?",
+    "whatdesc1": "Folosim termenul „cookie”-uri pentru a ne referi la modulele cookie și la tehnologiile similare prin intermediul cărora pot fi colectate sau stocate informații în mod automat.",
+    "whatdesc2": "Un „Internet Cookie” (termen cunoscut și sub denumirea de „browser cookie” sau „HTTP cookie” ori „cookie”) reprezintă un fișier de mici dimensiuni, format din litere și numere, care va fi stocat pe computerul, terminalul mobil sau pe alte echipamente ale unui utilizator prin intermediul cărora se accesează internetul.",
+    "whatdesc3": "Cookie-urile sunt instalate prin solicitarea emisă de un web-server către un browser (de ex.: Internet Explorer, Firefox, Chrome). Cookie-urile odată instalate au o durată de existență determinată, rămânând „pasive”, în sensul că nu conțin programe software, viruși sau spyware și nu vor accesa informațiile de pe hard driverul utilizatorului pe al cărui echipament au fost instalate.",
+    "whatdesc4": "Un cookie este format din: numele cookie-ului si continutul/valoarea acestuia. Din punct de vedere tehnic, doar web-serverul care a trimis cookie-ul îl poate accesa din nou în momentul în care un utilizator se întoarce pe pagina de internet asociată web-serverului respectiv.",
+
+    "usage": "Cum utilizăm cookies?",
+    "usagedesc1": "Cookie-urile sunt utilizate pentru a furniza utilizatorilor acestei pagini de internet o experiență mai bună de navigare și servicii adaptate nevoilor și interesului fiecărui utilizator în parte și anume pentru:",
+    "usagedesc2": "→ îmbunătățirea utilizării acestei pagini de internet, inclusiv prin identificarea oricăror erori care apar în timpul vizitării/utilizării acesteia de către utilizatori;",
+    "usagedesc3": "→ furnizarea de statistici anonime cu privire la modul în care este utilizată această pagină de internet către Promotion Business Team SRL, în calitate de deținător al acestei pagini de internet;",
+    "usagedesc4": "Pe baza feedback-ului transmis prin cookie-uri în legătură cu modul în care se utilizează această pagină de internet, Promotion Business Team SRL poate adopta măsuri pentru ca această pagină de internet să fie mai eficientă și mai accesibilă pentru utilizatori.",
+    "usagedesc5": "Astfel, utilizarea cookie-urilor permite memorarea anumitor setări/preferințe stabilite de către utilizatorii acestei pagini de internet.",
+
+    "duration": "Care este durata de existență a cookie-urilor?",
+    "durationdesc1": "Durata de viață a cookie-urilor poate varia semnificativ, depinzând de scopul pentru care este plasat. Există următoarele categorii de cookie-uri care determină și durata de viață a acestora:",
+    "durationdesc2": "→ Cookie-uri de sesiune – Un „cookie de sesiune” este un cookie care este șters automat când utilizatorul își închide browserul.",
+    "durationdesc3": "→ Cookie-uri persistente sau fixe – Un „cookie persistent” sau „fix” este un cookie care rămâne stocat în terminalul utilizatorului până când atinge o anumită dată de expirare (care poate fi în câteva minute, zile sau câțiva ani în viitor) sau până la ștegerea acestuia de către utilizator în orice moment prin intermediul setărilor browserului.",
+
+    "terti": "Ce sunt cookie-urile plasate de terți?",
+    "tertidesc1": "Anumite secțiuni de conținut de pe pagina de internet pot fi furnizate prin intermediul unor terți, adică nu de către Promotion Business Team SRL, caz în care aceste cookie-uri sunt denumite cookie-uri plasate de terți („third party cookie-uri”).",
+    "tertidesc2": "Terții furnizori ai cookie-urilor trebuie să respecte, de asemenea, regulile în materie de protecție a datelor și Politica de Confidențialitate disponibilă pe această pagină de internet.",
+    "tertidesc3": "Aceste cookie-uri pot proveni de la urmatorii terți: Google Analytics",
+
+    "used": "Ce cookie-uri sunt folosite prin intermediul acestei pagini de internet?",
+    "useddesc1": "Prin utilizarea/vizitarea paginii de internet pot fi plasate următoarele cookie-uri:",
+    "useddesc2": "→ Cookie-uri pentru consintamantul la cookies",
+    "useddesc3": "→ Cookie-uri de analiză a utilizatorilor",
+    "useddesc4": "→ Cookie-uri pentru geotargetting",
+
+    "type": "Ce tip de informații sunt stocate și accesate prin intermediul cookie-urilor?",
+    "typedesc1": "Cookie-urile păstrează informații într-un fișier text de mici dimensiuni care permit recunoașterea browserului. Această pagină de internet recunoaște browserul până când cookie-urile expiră sau sunt șterse.",
+
+    "part": "Particularizarea setările browserului în ceea ce privește cookie-urile",
+    "partdesc1": "În cazul în care utilizarea cookie-urilor nu este deranjantă iar calculatorul sau echipamentul tehnic utilizat pentru navigarea pe această pagină de internet este folosit doar de către dumneavoastră, pot fi setate termene lungi de expirare pentru stocrarea istoricului de navigare.",
+    "partdesc2": "În cazul în care calculatorul sau echipamentul tehnic utilizat pentru navigarea pe această pagină de internet este folosit de mai multe persoane, poate fi luată în considerare setarea pentru ștergerea datelor individuale de navigare de fiecare dată când browserul este închis.",
+
+    "disable": "Cum pot fi oprite cookie-urile?",
+    "disabledesc1": "Dezactivarea și refuzul de a primi cookie-uri strict pentru acest website se poate realiza la inceputul acestei pagini.",
+    "disabledesc2": "Utilizatorii își pot configura browserul să respingă fișierele cookie sau să fie acceptate cookie-uri de la o pagină de internet anume.",
+    "disabledesc3": "Toate browserele moderne oferă posibilitatea de a schimba setările cookie-urilor. Aceste setări pot fi accesate, ca regulă, în secțiunea „opțiuni” sau în meniul de „preferințe” al browserului tău.",
+    "disabledesc4": "Totuși, refuzarea sau dezactivarea cookie-urilor nu înseamnă că nu veți mai primi publicitate online – ci doar ca aceasta nu va fi adaptată preferințelor și interesele dumneavoastră, evidențiate prin comportamentul de navigare."
+}

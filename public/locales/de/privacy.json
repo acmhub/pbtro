@@ -1,0 +1,62 @@
+{
+    "general": {
+        "title": "Allgemeine Information",
+        "desc1": "Die Vertraulichkeit Ihrer persönlichen Daten ist eines der Hauptanliegen von Promotion Business Team SRL mit Sitz in Domnești, Strada Tudor Vladimirescu 077090.",
+        "desc2": "Dieses Dokument soll Sie über die Verarbeitung Ihrer personenbezogenen Daten im Zusammenhang mit der Nutzung der Website www.pbtromania.ro informieren"
+    },
+    "categories": {
+        "title": "Kategorien der verarbeiteten personenbezogenen Daten",
+        "desc": "Wenn Sie ein Besucher der Website sind, verarbeitet Promotion Business Team SRL Ihre personenbezogenen Daten, die Sie direkt im Zusammenhang mit der Nutzung der Website angeben, wie z. B. die Daten, die Sie im Abschnitt Kontakt / Angebot angeben, in dem Umfang, in dem Sie kontaktieren Sie uns auf diesem Weg."
+    },
+    "purpose": {
+        "title": "Zwecke und Gründe der Verarbeitung",
+        "desc1": "Wenn Sie ein Besucher der Website sind, verarbeitet Promotion Business Team SRL Ihre personenbezogenen Daten wie folgt:",
+        "desc2": "→ zur Lösung von Beschwerden, Beschwerden",
+        "desc3": "→ Angebot machen",
+        "desc4": "→ um den Datenverkehr zu überwachen und Ihre Erfahrung auf der Website zu verbessern.",
+        "desc5": "Die Angabe Ihrer Daten zu diesem Zweck ist freiwillig. Die Verweigerung der Bereitstellung von Daten zu diesem Zweck hat für Sie keine negativen Folgen."
+    },
+    "duration": {
+        "title": "Die Dauer, für die wir Ihre Daten verarbeiten",
+        "desc": "Grundsätzlich verarbeitet Promotion Business Team SRL Ihre personenbezogenen Daten in dem Umfang, der zur Erreichung der oben genannten Verarbeitungszwecke erforderlich ist."
+    },
+    "reveal": {
+        "title": "Offenlegung personenbezogener Daten",
+        "desc1": "Um die Verarbeitungszwecke zu erfüllen, kann Promotion Business Team SRL Ihre Daten an Partner, Dritte oder Einrichtungen weitergeben, die Promotion Business Team SRL bei der Durchführung seiner Aktivitäten über die Website unterstützen (z. B. Kurierunternehmen, IT-Dienstleister), oder an die zentralen/lokalen Behörden in den folgenden beispielhaften Fällen:",
+        "desc2": "→ für die Verwaltung der Website",
+        "desc3": "→ zur Durchführung von Datenanalysen, Tests und Forschung, Überwachung von Nutzungs- und Aktivitätstrends, Entwicklung von Sicherheitsfunktionen und Benutzerauthentifizierung;",
+        "desc4": "→ wenn die Offenlegung personenbezogener Daten gesetzlich vorgeschrieben ist etc."
+    },
+    "rights": {
+        "title": "Deine Rechte",
+        "desc1": "Unter den von den Rechtsvorschriften zur Verarbeitung personenbezogener Daten vorgesehenen Bedingungen haben Sie als betroffene Person folgende Rechte:",
+        "desc2": "→ das Recht auf Auskunft bzw. das Recht, Einzelheiten zu den von Promotion Business Team SRL durchgeführten Verarbeitungstätigkeiten gemäß den Angaben in diesem Dokument zu erhalten;",
+        "desc3": "→ das Recht auf Zugang zu den Daten bzw. das Recht, von Promotion Business Team SRL eine Bestätigung bezüglich der Verarbeitung personenbezogener Daten zu erhalten, sowie Einzelheiten zu den Verarbeitungstätigkeiten, wie z Verarbeitung erfolgt, Empfänger oder Kategorien von Datenempfängern usw.;",
+        "desc4": "→ das Recht auf Berichtigung bzw. das Recht auf unverzügliche Berichtigung unrichtiger/ungerechtfertigter personenbezogener Daten durch Promotion Business Team SRL sowie auf Vervollständigung unvollständiger Daten; Die Berichtigung/Vervollständigung wird jedem Empfänger mitgeteilt, an den die Daten übermittelt wurden, es sei denn, dies erweist sich als unmöglich oder ist mit einem unverhältnismäßigen Aufwand verbunden.",
+
+        "desc5": "→ das Recht auf unverzügliche Löschung von Daten („das Recht auf Vergessenwerden“)",
+        "extradesc6": "• Sie sind für die Erfüllung der Zwecke, für die sie erhoben oder verarbeitet wurden, nicht mehr erforderlich;",
+        "extradesc7": "• wenn die Einwilligung widerrufen wird und es keine andere Rechtsgrundlage für die Verarbeitung gibt;",
+        "extradesc8": "• wenn die betroffene Person der Verarbeitung widerspricht und keine berechtigten Gründe entgegenstehen;",
+        "extradesc9": "• wenn die personenbezogenen Daten rechtswidrig verarbeitet wurden;",
+        "extradesc10": "• wenn personenbezogene Daten gelöscht werden müssen, um einer gesetzlichen Verpflichtung nachzukommen;",
+        "extradesc11": "• personenbezogene Daten wurden im Zusammenhang mit der Erbringung von Diensten der Informationsgesellschaft gemäß Unionsrecht oder innerstaatlichem Recht, dem der Betreiber unterliegt, erhoben.",
+
+        "desc12": "Es ist möglich, dass Promotion Business Team SRL diese Daten nach dem Antrag auf Löschung der Daten anonymisiert (und ihnen somit ihren persönlichen Charakter nimmt) und die Verarbeitung für statistische Zwecke unter diesen Bedingungen fortsetzt;",
+        "desc13": "→ das Recht auf Einschränkung der Verarbeitung, soweit",
+        "extradesc14": "• die Person bestreitet die Richtigkeit der Daten für eine Dauer, die es uns ermöglicht, die Richtigkeit der Daten zu überprüfen;",
+        "extradesc15": "• die Verarbeitung unrechtmäßig ist und die betroffene Person die Löschung personenbezogener Daten ablehnt und stattdessen die Einschränkung ihrer Nutzung verlangt;",
+        "extradesc16": "• der Betreiber benötigt die personenbezogenen Daten für die Zwecke der Verarbeitung nicht länger, die betroffene Person fordert sie jedoch zur Geltendmachung, Ausübung oder Verteidigung eines Rechts vor Gericht an; oder",
+        "extradesc17": "• die betroffene Person Widerspruch gegen die Verarbeitung eingelegt hat (außer für Direktmarketing), für das Zeitintervall, in dem geprüft wird, ob die berechtigten Rechte des Betreibers gegenüber denen der betroffenen Person überwiegen.",
+
+        "desc18": "→ das Recht auf Datenübertragbarkeit bzw. (i) das Recht, personenbezogene Daten in strukturierter Form, allgemein verwendet und in einem leicht lesbaren Format zu erhalten, sowie (ii) das Recht, diese Daten an Promotion übermitteln zu lassen Business Team SRL an einen anderen Datenverwalter, soweit die gesetzlich vorgesehenen Bedingungen erfüllt sind;",
+
+        "desc19": "→ Das Widerspruchsrecht in Bezug auf Verarbeitungstätigkeiten kann ausgeübt werden, indem Sie einen Antrag wie unten angegeben stellen;",
+        "extradesc20": "• jederzeit aus Gründen, die sich aus der besonderen Situation der betroffenen Person ergeben, dass die sie betreffenden Daten aufgrund des berechtigten Interesses von Promotion Business Team SRL oder aufgrund des öffentlichen Interesses verarbeitet werden, außer in Fällen, in denen Promotion Business Team SRL nachweisen kann, dass es berechtigte und zwingende Gründe hat, die die Verarbeitung rechtfertigen und die die Interessen, Rechte und Freiheiten der betroffenen Personen überwiegen, oder dass der Zweck darin besteht, ein Recht vor Gericht zu begründen, auszuüben oder zu verteidigen;",
+        "extradesc21": "• jederzeit unentgeltlich und ohne Angabe von Gründen, dass die sie betreffenden Daten für Direktmarketingzwecke verarbeitet werden.",
+
+        "desc22": "→ das Recht, keiner automatisierten Einzelentscheidung unterworfen zu werden, d. h. das Recht, nicht Gegenstand einer Entscheidung zu sein, die ausschließlich auf Grundlage automatisierter Verarbeitungsvorgänge getroffen wird, einschließlich der Erstellung von Profilen, die für die betroffene Person rechtliche Wirkung entfaltet, oder ihn in ähnlicher Weise in erheblichem Umfang beeinträchtigen;",
+        "desc23": "→ das Recht, sich an die nationale Aufsichtsbehörde für die Verarbeitung personenbezogener Daten oder die zuständigen Gerichte zu wenden, soweit Sie dies für erforderlich halten."
+    },
+    "finaldisclaimer": "Bei weiteren Fragen zur Verarbeitung personenbezogener Daten und zur Ausübung Ihrer oben genannten Rechte wenden Sie sich bitte an die E-Mail-Adresse: pbtromania@gmail.com"
+}

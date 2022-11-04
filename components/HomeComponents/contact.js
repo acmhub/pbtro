@@ -81,7 +81,7 @@ export default function Contact({ t }) {
                                     />
                                     <div>
                                         {t('contact.agreewith')}{' '}
-                                        <Link href="/" passHref>
+                                        <Link href="/politica-confidentialitate" passHref>
                                             <a className="text-sky-400 underline opacity-100 hover:opacity-75">
                                                 {t('common:privacypolicy')}
                                             </a>

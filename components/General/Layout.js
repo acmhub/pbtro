@@ -6,6 +6,7 @@ import { useTranslation } from 'next-i18next';
 import Navigation from '../Navigation';
 import Footer from '../Footer';
 import BackToTop from './BackToTop';
+import CookiesBanner from './CookiesBanner';
 
 export default function Layout({ title, description, pageID, children }) {
     const { t } = useTranslation('');
@@ -17,6 +18,7 @@ export default function Layout({ title, description, pageID, children }) {
             </Head>
 
             <div className={`${pageID}-page`}>
+                <CookiesBanner t={t} />
                 <Navigation />
                 <main>{children}</main>
                 <Footer />

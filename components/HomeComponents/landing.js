@@ -47,7 +47,7 @@ export default function Landing({ t }) {
                                     <h6 className="uppercase text-sm">{t('landing.subtitle')}</h6>
                                     <h4 className="capitalize">{t('landing.title')}</h4>
                                 </div>
-                                <div className="relative h-8">
+                                <div className="relative h-20 lg:h-8">
                                     <AnimatePresence>
                                         <motion.div
                                             initial={{

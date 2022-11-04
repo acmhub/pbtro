@@ -84,5 +84,10 @@
     "productcta": {
         "title": "Suntem întotdeauna interesați de proiecte noi, provocatoare și interesante.",
         "description": "Așadar, de ce nu ne contactați și ne trimiteți cerințele proiectului dumneavoastră, iar noi ne ocupăm de restul!"
+    },
+
+    "cookies": {
+        "title": "Folosim Cookies",
+        "description": "Acest website utilizează cookies pentru a vă îmbunătății experiența. Utilizând website-ul nostru, ești de acord cu utilizarea cookie-urilor, cât și a altor metode de urmărire folosite. Pentru mai multe informații vă rugăm să citiți"
     }
 }

@@ -84,5 +84,10 @@
     "productcta": {
         "title": "We are always interested in new, challenging and interesting projects.",
         "description": "So why not contact us and send us your project requirements and we'll take care of the rest!"
+    },
+
+    "cookies": {
+        "title": "We use Cookies",
+        "description": "This website uses cookies to improve your experience. By using our website, you agree to the use of cookies and other tracking methods used. For more information please read on"
     }
 }

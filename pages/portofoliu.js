@@ -81,7 +81,7 @@ export default function Portfolio() {
 
     return (
         <Layout
-            pageID="about"
+            pageID="portfolio"
             title={t('common:portfolio')}
             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ex quidem perspiciatis architecto? Quam, voluptas aliquid laboriosam officiis corrupti esse."
         >

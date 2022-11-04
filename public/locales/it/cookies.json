@@ -1,0 +1,46 @@
+{
+    "intro": "Introduzione",
+    "introdesc": "La presente Cookie Policy si applica a tutti gli utenti del sito web www.pbtromania.ro. Le informazioni presentate di seguito hanno lo scopo di informare gli utenti di questo sito Web in merito al posizionamento, utilizzo e amministrazione di cookie da parte di Promotion Business Team SRL nell'ambito della navigazione degli utenti su questo sito Web.",
+
+    "what": "Cos'è un cookie?",
+    "whatdesc1": "Utilizziamo il termine cookie per fare riferimento a cookie e tecnologie simili attraverso le quali le informazioni possono essere raccolte o archiviate automaticamente.",
+    "whatdesc2": "Un cookie Internet (noto anche come cookie del browser o cookie HTTP o cookie) è un piccolo file, composto da lettere e numeri, che verrà memorizzato sul tuo computer, terminale mobile o altra apparecchiatura di un utente attraverso il quale si accede a Internet.",
+    "whatdesc3": "I cookie vengono installati su richiesta da un server web a un browser (es. Internet Explorer, Firefox, Chrome). Una volta installati, i cookie hanno una durata definita, rimanendo 'passivi' nel senso che non contengono software, virus o spyware e non accederanno alle informazioni presenti sul disco rigido dell'utente sul cui dispositivo sono stati installati.",
+    "whatdesc4": "Un cookie è composto da: il nome del cookie e il suo contenuto/valore. Da un punto di vista tecnico, solo il web server che ha inviato il cookie può accedervi nuovamente quando un utente torna alla pagina web associata a quel web server.",
+
+    "usage": "Come utilizziamo i cookie?",
+    "usagedesc1": "I cookie vengono utilizzati per fornire agli utenti di questo sito Web una migliore esperienza di navigazione e servizi adeguati alle esigenze e agli interessi di ciascun utente, ovvero:",
+    "usagedesc2": "→ migliorare l'utilizzo di questo sito web, anche individuando eventuali errori che si verificano durante la visita/utilizzo dello stesso da parte degli utenti;",
+    "usagedesc3": "→ fornire a Promotion Business Team SRL, in qualità di titolare di questo sito, statistiche anonime sull'utilizzo di questo sito web;",
+    "usagedesc4": "Sulla base dei feedback inviati dai cookie in relazione all'uso di questo sito Web, Promotion Business Team SRL potrebbe adottare misure per rendere questo sito Web più efficiente e più accessibile agli utenti.",
+    "usagedesc5": "Pertanto, l'uso dei cookie consente la memorizzazione di determinate impostazioni/preferenze impostate dagli utenti di questo sito web.",
+
+    "duration": "Quanto durano i cookie?",
+    "durationdesc1": "La durata dei cookie può variare in modo significativo, a seconda dello scopo per cui sono inseriti. Esistono le seguenti categorie di cookie che ne determinano anche la durata:",
+    "durationdesc2": "→ Cookie di sessione - Un 'cookie di sessione' è un cookie che viene eliminato automaticamente quando l'utente chiude il browser.",
+    "durationdesc3": "→ Cookie persistenti o fissi - Un cookie 'persistente' o 'fisso' è un cookie che rimane memorizzato nel terminale dell'utente fino al raggiungimento di una certa data di scadenza (che può essere tra pochi minuti, giorni o diversi anni nel futuro) oppure fino a quando l'utente non lo elimina in qualsiasi momento tramite le impostazioni del browser.",
+
+    "terti": "What are third-party cookies?",
+    "tertidesc1": "Alcune sezioni dei contenuti del sito web possono essere fornite da terze parti, ovvero non da Promotion Business Team SRL, nel qual caso questi cookie sono detti cookie di terze parti ('cookie di terze parti').",
+    "tertidesc2": "I fornitori di cookie di terze parti devono inoltre rispettare le norme sulla protezione dei dati e l'Informativa sulla privacy disponibili su questo sito Web.",
+    "tertidesc3": "Questi cookie possono provenire dalle seguenti terze parti: Google Analytics",
+
+    "used": "Quali cookie vengono utilizzati attraverso questo sito?",
+    "useddesc1": "Utilizzando/visitando il sito web, possono essere inseriti i seguenti cookie:",
+    "useddesc2": "→ Cookie per il consenso ai cookie",
+    "useddesc3": "→ Cookie di analisi dell'utente",
+    "useddesc4": "→ Cookie di targeting geografico",
+
+    "type": "Che tipo di informazioni vengono memorizzate e accessibili tramite i cookie?",
+    "typedesc1": "I cookie memorizzano le informazioni in un piccolo file di testo che consente il riconoscimento del browser. Questo sito Web riconosce il browser fino alla scadenza o all'eliminazione dei cookie.",
+
+    "part": "Personalizza le impostazioni del tuo browser per i cookie",
+    "partdesc1": "Se l'uso dei cookie non è fastidioso e il computer o le apparecchiature tecniche utilizzate per navigare in questo sito web sono utilizzati solo da te, è possibile che vengano impostate date di scadenza lunghe per la memorizzazione della cronologia di navigazione.",
+    "partdesc2": "Qualora il computer o le apparecchiature tecniche utilizzate per navigare in questa pagina web siano utilizzati da più persone, può essere presa in considerazione l'impostazione per la cancellazione dei singoli dati di navigazione ad ogni chiusura del browser.",
+
+    "disable": "Come si possono bloccare i cookie?",
+    "disabledesc1": "La disabilitazione e il rifiuto di ricevere i cookie strettamente per questo sito Web possono essere effettuati all'inizio di questa pagina.",
+    "disabledesc2": "Gli utenti possono configurare il proprio browser per rifiutare i cookie o per accettare i cookie da un sito Web specifico.",
+    "disabledesc3": "Tutti i browser moderni offrono la possibilità di modificare le impostazioni dei cookie. Queste impostazioni sono accessibili, di norma, nella sezione 'opzioni' o nel menu 'preferenze' del tuo browser.",
+    "disabledesc4": "Tuttavia, rifiutare o disabilitare i cookie non significa che non riceverai più pubblicità online, ma solo che non sarà adattata alle tue preferenze e ai tuoi interessi, come evidenziato dal tuo comportamento di navigazione."
+}

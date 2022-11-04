@@ -16,7 +16,7 @@ const landingData = {
 
 const variantsData = [
     {
-        src: '/images/products/rulou-exterior/highlight.webp',
+        src: '/images/products/rulou-exterior/rulou-aplicat.webp',
         name: 'aplicat',
         description: ['aplicatdesc']
     },
@@ -89,7 +89,10 @@ const accessoriesData = [
     }
 ];
 
-const ctaData = ['/images/products/rulou-exterior/highlight.webp'];
+const ctaData = [
+    '/images/products/rulou-exterior/rulou-aplicat.webp',
+    '/images/products/rulou-exterior/highlight.webp'
+];
 
 export default function RulouExterior() {
     const { t } = useTranslation('rulouexterior');

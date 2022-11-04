@@ -1,0 +1,46 @@
+{
+    "intro": "Introducción",
+    "introdesc": "Esta Política de cookies se aplica a todos los usuarios del sitio web www.pbtromania.ro. La información que se presenta a continuación tiene como objetivo informar a los usuarios de este sitio web sobre la colocación, el uso y la administración de cookies por parte de Promotion Business Team SRL en el contexto de la navegación de los usuarios en este sitio web.",
+
+    "what": "¿Qué es una cookie?",
+    "whatdesc1": "Usamos el término 'cookies' para referirnos a cookies y tecnologías similares a través de las cuales se puede recopilar o almacenar información automáticamente.",
+    "whatdesc2": "Una 'Cookie de Internet' (también conocida como 'cookie del navegador' o 'cookie HTTP' o 'cookie') es un pequeño archivo, formado por letras y números, que se almacenará en su ordenador, terminal móvil u otro equipo de un usuario a través del cual se accede a Internet.",
+    "whatdesc3": "Las cookies se instalan a petición de un servidor web a un navegador (por ejemplo, Internet Explorer, Firefox, Chrome). Una vez instaladas, las cookies tienen una vida útil definida, siendo 'pasivas' en el sentido de que no contienen software, virus o spyware y no accederán a la información del disco duro del usuario en cuyo equipo fueron instaladas.",
+    "whatdesc4": "Una cookie consta de: el nombre de la cookie y su contenido/valor. Desde un punto de vista técnico, solo el servidor web que envió la cookie puede volver a acceder a ella cuando un usuario vuelve a la página web asociada a ese servidor web.",
+
+    "usage": "¿Cómo usamos las cookies?",
+    "usagedesc1": "Las cookies se utilizan para proporcionar a los usuarios de este sitio web una mejor experiencia de navegación y servicios adaptados a las necesidades e intereses de cada usuario, a saber:",
+    "usagedesc2": "→ mejorar el uso de este sitio web, incluso identificando cualquier error que ocurra durante la visita / uso del mismo por parte de los usuarios;",
+    "usagedesc3": "→ proporcionar estadísticas anónimas sobre cómo se utiliza este sitio web a Promotion Business Team SRL, como propietario de este sitio web;",
+    "usagedesc4": "Con base en los comentarios enviados por las cookies en relación con el uso de este sitio web, Promotion Business Team SRL puede tomar medidas para hacer que este sitio web sea más eficiente y más accesible para los usuarios.",
+    "usagedesc5": "Así, el uso de cookies permite el almacenamiento de ciertas configuraciones/preferencias establecidas por los usuarios de este sitio web.",
+
+    "duration": "¿Cuánto tiempo duran las cookies?",
+    "durationdesc1": "La vida útil de las cookies puede variar significativamente, según el propósito para el que se colocan. Existen las siguientes categorías de cookies que también determinan su vida útil:",
+    "durationdesc2": "→ Cookies de sesión: una 'cookie de sesión' es una cookie que se elimina automáticamente cuando el usuario cierra su navegador.",
+    "durationdesc3": "→ Cookies persistentes o fijas - Una cookie 'persistente' o 'fija' es una cookie que permanece almacenada en el terminal del usuario hasta que alcanza una determinada fecha de caducidad (que puede ser en unos minutos, días o varios años en el futuro) o hasta que el usuario la elimine en cualquier momento a través de la configuración del navegador.",
+
+    "terti": "¿Qué son las cookies de terceros?",
+    "tertidesc1": "Ciertas secciones del contenido del sitio web pueden ser proporcionadas por terceros, es decir, no por Promotion Business Team SRL, en cuyo caso estas cookies se denominan cookies de terceros ('cookies de terceros').",
+    "tertidesc2": "Los proveedores de cookies de terceros también deben cumplir con las normas de protección de datos y la Política de privacidad disponibles en este sitio web.",
+    "tertidesc3": "Estas cookies pueden proceder de los siguientes terceros: Google Analytics",
+
+    "used": "¿Qué cookies se utilizan a través de este sitio web?",
+    "useddesc1": "Al usar/visitar el sitio web, se pueden colocar las siguientes cookies:",
+    "useddesc2": "→ Cookies de consentimiento de cookies",
+    "useddesc3": "→ Cookies de análisis de usuarios",
+    "useddesc4": "→ Cookies de orientación geográfica",
+
+    "type": "¿Qué tipo de información se almacena y se accede a través de las cookies?",
+    "typedesc1": "Las cookies almacenan información en un pequeño archivo de texto que permite el reconocimiento del navegador. Este sitio web reconoce el navegador hasta que las cookies caducan o se eliminan.",
+
+    "part": "Personaliza la configuración de tu navegador para las cookies",
+    "partdesc1": "Si el uso de cookies no resulta molesto y el ordenador o equipo técnico utilizado para navegar por este sitio web es utilizado únicamente por usted, es posible que se establezcan fechas de caducidad prolongadas para almacenar su historial de navegación.",
+    "partdesc2": "Si el ordenador o equipo técnico utilizado para navegar por esta página web es utilizado por más de una persona, se puede considerar la configuración para eliminar los datos de navegación individuales cada vez que se cierra el navegador.",
+
+    "disable": "¿Cómo se pueden detener las cookies?",
+    "disabledesc1": "La desactivación y el rechazo a recibir cookies estrictamente para este sitio web se pueden realizar al comienzo de esta página.",
+    "disabledesc2": "Los usuarios pueden configurar su navegador para rechazar las cookies o para aceptar las cookies de un sitio web específico.",
+    "disabledesc3": "Todos los navegadores modernos ofrecen la posibilidad de cambiar la configuración de las cookies. Se puede acceder a estas configuraciones, por regla general, en la sección 'opciones' o en el menú 'preferencias' de su navegador.",
+    "disabledesc4": "Sin embargo, rechazar o deshabilitar las cookies no significa que ya no recibirá publicidad en línea, solo que no se adaptará a sus preferencias e intereses, como lo demuestra su comportamiento de navegación."
+}

@@ -187,10 +187,10 @@ export default function Footer() {
                     </div>
                     <div>
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
-                            <Link href="/" passhref>
+                            <Link href="/politica-confidentialitate" passhref>
                                 <a className="w-fit hover:text-black">{t('privacypolicy')}</a>
                             </Link>
-                            <Link href="/" passhref>
+                            <Link href="/politica-cookies" passhref>
                                 <a className="w-fit hover:text-black">{t('cookiespolicy')}</a>
                             </Link>
                         </div>

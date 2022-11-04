@@ -56,7 +56,7 @@ export default function Contact() {
 
     return (
         <Layout
-            pageID="about"
+            pageID="contact"
             title={t('common:contact')}
             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ex quidem perspiciatis architecto? Quam, voluptas aliquid laboriosam officiis corrupti esse."
         >
@@ -218,7 +218,7 @@ export default function Contact() {
                                         />
                                         <div>
                                             {t('agreewith')}{' '}
-                                            <Link href="/" passHref>
+                                            <Link href="/politica-confidentialitate" passHref>
                                                 <a className="text-sky-400 underline opacity-100 hover:opacity-75">
                                                     {t('common:privacypolicy')}.
                                                 </a>

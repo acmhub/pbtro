@@ -1,0 +1,62 @@
+{
+    "general": {
+        "title": "General informations",
+        "desc1": "The confidentiality of your personal data is one of the main concerns of Promotion Business Team SRL, based in Domnești, 077090 Tudor Vladimirescu Street.",
+        "desc2": "This document has the role of informing you about the processing of your personal data, in the context of using the website www.pbtromania.ro"
+    },
+    "categories": {
+        "title": "Categories of personal data processed",
+        "desc": "If you are a visitor to the Site, Promotion Business Team SRL will process your personal data that you provide directly in the context of using the Site, such as the data that you provide in the contact / offer section, in the extent to which you contact us in this way."
+    },
+    "purpose": {
+        "title": "Purposes and grounds for processing",
+        "desc1": "If you are a visitor to the Site, Promotion Business Team SRL processes your personal data as follows:",
+        "desc2": "→ for resolving complaints and grievances",
+        "desc3": "→ making the offer",
+        "desc4": "→ to monitor traffic and improve your experience on the Site.",
+        "desc5": "Providing your data for this purpose is voluntary. Refusal to provide data for this purpose will not have a negative effect on you."
+    },
+    "duration": {
+        "title": "The length of time we process your data",
+        "desc": "In principle, Promotion Business Team SRL will process your personal data as long as necessary to achieve the processing purposes mentioned above."
+    },
+    "reveal": {
+        "title": "Disclosure of personal data",
+        "desc1": "In order to fulfill the processing purposes, Promotion Business Team SRL may disclose your data to partners, third parties or entities that support Promotion Business Team SRL in carrying out the activity through the Site (eg courier companies, IT service providers), or to the central / local public authorities, in the following exemplary cases listed:",
+        "desc2": "→ for the administration of the Site",
+        "desc3": "→ for data analysis, testing and research, monitoring of usage and activity trends, development of security features and user authentication;",
+        "desc4": "→ when the disclosure of personal data is provided by law, etc."
+    },
+    "rights": {
+        "title": "Your rights",
+        "desc1": "Under the conditions provided for by the legislation on the processing of personal data, as data subjects, you enjoy the following rights:",
+        "desc2": "→ the right to information, respectively the right to receive details regarding the processing activities performed by Promotion Business Team SRL, according to those described in this document;",
+        "desc3": "→ the right to access data, respectively the right to obtain confirmation from Promotion Business Team SRL regarding the processing of personal data, as well as details on the processing activities such as the way in which the data are processed, the purpose for which the processing is done, recipients or categories of data recipients, etc .;",
+        "desc4": "→ the right to rectification, respectively the right to obtain the correction, without justified delays, by Promotion Business Team SRL of inaccurate / unjustified personal data, as well as the completion of incomplete data; The rectification / completion will be communicated to each recipient to whom the data were transmitted, unless this proves impossible or involves disproportionate effort.",
+        "desc5": "→ the right to have data deleted without undue delay ('right to be forgotten')",
+
+        "desc6": "• they are no longer necessary for the purposes for which they were collected or processed;",
+        "desc7": "• if the consent is withdrawn and there is no other legal basis for processing;",
+        "desc8": "• if the data subject opposes the processing and there are no legitimate reasons prevailing;",
+        "desc9": "• if personal data have been processed illegally;",
+        "desc10": "• if personal data must be deleted in order to comply with a legal obligation;",
+        "desc11": "• personal data have been collected in connection with the provision of information society services in accordance with Union or national law under the control of the controller.",
+
+        "desc12": "It is possible that, following the request to delete the data, Promotion Business Team SRL to anonymize these data (thus depriving them of personal character) and to continue in these conditions the processing for statistical purposes;",
+        "desc13": "→ the right to restrict processing to the extent that",
+        "desc14": "• the person disputes the accuracy of the data, for a period that allows us to verify the correctness of the data;",
+        "desc15": "• the processing is illegal, and the data subject opposes the deletion of personal data, instead requesting the restriction of their use;",
+        "desc16": "• the controller no longer needs the personal data for the purpose of processing, but the data subject requests it for the establishment, exercise or defense of a right in court; or",
+        "desc17": "• the data subject has objected to the processing (other than direct marketing), for the period during which it is verified whether the legitimate rights of the controller prevail over those of the data subject.",
+
+        "desc18": "→ the right to data portability, respectively (i) the right to receive personal data in a structured, commonly used and easy-to-read format, and (ii) the right to have such data transmitted by to Promotion Business Team SRL to another data operator, insofar as the conditions provided by law are met;",
+        "desc19": "→ the right to object - in respect of processing activities may be exercised by submitting a request as indicated below;",
+
+        "desc20": "• at any time, for reasons related to the particular situation of the data subject, that the data concerning him be processed under the legitimate interest of Promotion Business Team SRL or under the public interest, except in cases where Promotion Business Team SRL can demonstrate that it has legitimate and compelling reasons justifying the processing and prevailing over the interests, rights and freedoms of data subjects or that the purpose is to establish, exercise or defend a right in court;",
+        "desc21": "• at any time, free of charge and without any justification, that the data concerning it be processed for the purpose of direct marketing.",
+
+        "desc22": "→ the right not to be subject to an automatic individual decision, ie the right not to be subject to a decision taken solely on the basis of automatic processing activities, including profiling, which produces legal effects concerning the person concerned or similarly affects him to a significant extent;",
+        "desc23": "→ the right to contact the National Authority for the Supervision of Personal Data Processing or the competent courts, insofar as you deem it necessary."
+    },
+    "finaldisclaimer": "For any further questions regarding the processing of personal data and to exercise your rights mentioned above, please contact: pbtromania@gmail.com"
+}
