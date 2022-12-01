@@ -50,7 +50,7 @@ export default function Contact() {
 			Object.assign(formData, { [pair[0]]: pair[1] });
 		}
 
-		await fetch("/api/send-mail", {
+		await fetch("/api/contact", {
 			method: "POST",
 			headers: {
 				Accept: "application/json, text/plain, /*/",
@@ -67,9 +67,12 @@ export default function Contact() {
 						</div>,
 						{}
 					);
+					e.target.reset();
 				}
 			})
-			.catch((e) => console.log(e));
+			.catch((e) => {
+				console.log(e);
+			});
 	};
 
 	return (
@@ -116,12 +119,12 @@ export default function Contact() {
 								href="tel:+40786422450"
 								target="_blank"
 								rel="noopener noreferrer"
-								className="block w-fit opacity-100 hover:opacity-75"
+								className="block w-fit hover:text-cyan-700"
 							>
 								<p>
 									<span itemProp="telephone">
 										+40 786 422 450
-									</span>{" "}
+									</span>
 									- Claudiu Miron
 								</p>
 							</a>
@@ -129,12 +132,12 @@ export default function Contact() {
 								href="tel:+40723391843"
 								target="_blank"
 								rel="noopener noreferrer"
-								className="block w-fit opacity-100 hover:opacity-75"
+								className="block w-fit hover:text-cyan-700"
 							>
 								<p>
 									<span itemProp="telephone">
 										+40 723 391 843
-									</span>{" "}
+									</span>
 									- Ionut Nita
 								</p>
 							</a>
@@ -157,7 +160,7 @@ export default function Contact() {
 								href="mailto:pbtromania@gmail.com"
 								target="_blank"
 								rel="noopener noreferrer"
-								className="block w-fit opacity-100 hover:opacity-75"
+								className="block w-fit hover:text-cyan-700"
 							>
 								<p itemProp="email">pbtromania@gmail.com</p>
 							</a>
@@ -165,7 +168,7 @@ export default function Contact() {
 								href="mailto:ofertare@pbtromania.com"
 								target="_blank"
 								rel="noopener noreferrer"
-								className="block w-fit opacity-100 hover:opacity-75"
+								className="block w-fit hover:text-cyan-700"
 							>
 								<p itemProp="email">ofertare@pbtromania.com</p>
 							</a>
@@ -190,7 +193,7 @@ export default function Contact() {
 									href="https://goo.gl/maps/MsJhkRS4S4CgE8zNA"
 									target="_blank"
 									rel="noopener noreferrer"
-									className="block w-fit opacity-100 hover:opacity-75"
+									className="block w-fit hover:text-cyan-700"
 								>
 									<p itemProp="location">
 										Soseaua Tudor Vladimirescu 393
@@ -277,7 +280,7 @@ export default function Contact() {
 									fullWidth
 								/>
 
-								<div className="flex items-center justify-between space-x-4 pt-4">
+								<div className="flex flex-col sm:flex-row items-center justify-between space-x-4 pt-4">
 									<div className="flex items-center space-x-2">
 										<Checkbox
 											value={consent}
@@ -293,7 +296,7 @@ export default function Contact() {
 												passHref
 											>
 												<a className="text-sky-400 underline opacity-100 hover:opacity-75">
-													{t("common:privacypolicy")}.
+													{t("common:privacypolicy")}
 												</a>
 											</Link>
 										</div>
@@ -301,7 +304,7 @@ export default function Contact() {
 
 									<button
 										type="submit"
-										className={`theme-button1 ${
+										className={`theme-button1 mt-8 sm:mt-0 ${
 											!consent &&
 											"opacity-50 cursor-not-allowed"
 										}`}

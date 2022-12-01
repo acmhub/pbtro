@@ -1,0 +1,19 @@
+{
+	"description": "",
+	"models": "Models",
+
+	"profile": {
+		"toc": "Frame made of aluminum profile with thermal break, reinforced with wood",
+		"izolatie": "Insulation",
+		"otel": "Steel headboard",
+		"prag": "Aluminum thermal threshold",
+		"vitrare": "Quadruple laminated glass with thermal protection (optional laminated safety glass)"
+	},
+
+	"transfer": "Thermal Transfer Coefficient",
+	"fgeam": "Without Glass",
+	"cgeam": "With Glass",
+	"culori": "Available Colors",
+	"alb": "White",
+	"gri": "Anthracite Grey"
+}

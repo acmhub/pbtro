@@ -1,0 +1,19 @@
+{
+	"description": "",
+	"models": "Modele",
+
+	"profile": {
+		"toc": "Toc din profil de aluminiu cu rupere termică, ranforsat cu lemn",
+		"izolatie": "Izolație",
+		"otel": "Tăblie din oțel",
+		"prag": "Prag termic din aluminiu",
+		"vitrare": "Geam cvadruplu stratificat cu protecție termică (opțional sticlă de siguranță laminată)"
+	},
+
+	"transfer": "Coeficient de Transfer Termic",
+	"fgeam": "Fara Sticlă",
+	"cgeam": "Cu Sticlă",
+	"culori": "Culori Disponibile",
+	"alb": "Alb",
+	"gri": "Gri Antracit"
+}

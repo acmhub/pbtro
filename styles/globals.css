@@ -1,85 +1,91 @@
-@import './tailwind.css';
+@import "./tailwind.css";
 
 :root {
-    --navbar-index: 999;
+	--navbar-index: 999;
 
-    --theme1: #daa32b;
-    --theme2: #214e59;
+	--theme1: #daa32b;
+	--theme2: #214e59;
 }
 
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html,
 body {
-    background-color: #fafafa;
-    color: black;
-    font-family: 'Red Hat Display', sans-serif;
-    padding: 0;
-    margin: 0;
+	background-color: #fafafa;
+	color: black;
+	font-family: "Red Hat Display", sans-serif;
+	padding: 0;
+	margin: 0;
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+	color: inherit;
+	text-decoration: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+	transition: background-color 600000s 0s, color 600000s 0s;
 }
 
 .no-scroll {
-    overflow: hidden;
+	overflow: hidden;
 }
 
 .year-text {
-    background: url('/images/fillers/year-background.webp');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+	background: url("/images/fillers/year-background.webp");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	filter: contrast(1.5);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .facebook-icon {
-    color: #4267b2;
+	color: #4267b2;
 }
 
 .whatsapp-icon {
-    color: #128c7e;
+	color: #128c7e;
 }
 
 .product-landing {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .suppliers-swiper .swiper-wrapper,
 .atypics-swiper1 .swiper-wrapper,
 .atypics-swiper2 .swiper-wrapper {
-    transition-timing-function: linear !important;
+	transition-timing-function: linear !important;
 }
 
 span.m-icon-20 {
-    font-size: 20px;
-    font-variation-settings: 'OPSZ' 20;
+	font-size: 20px;
+	font-variation-settings: "OPSZ" 20;
 }
 span.m-icon-24 {
-    font-size: 24px;
-    font-variation-settings: 'OPSZ' 24;
+	font-size: 24px;
+	font-variation-settings: "OPSZ" 24;
 }
 span.m-icon-30 {
-    font-size: 30px;
-    font-variation-settings: 'OPSZ' 30;
+	font-size: 30px;
+	font-variation-settings: "OPSZ" 30;
 }
 span.m-icon-36 {
-    font-size: 36px;
-    font-variation-settings: 'OPSZ' 36;
+	font-size: 36px;
+	font-variation-settings: "OPSZ" 36;
 }
 span.m-icon-40 {
-    font-size: 40px;
-    font-variation-settings: 'OPSZ' 40;
+	font-size: 40px;
+	font-variation-settings: "OPSZ" 40;
 }
 span.m-icon-48 {
-    font-size: 48px;
-    font-variation-settings: 'OPSZ' 48;
+	font-size: 48px;
+	font-variation-settings: "OPSZ" 48;
 }

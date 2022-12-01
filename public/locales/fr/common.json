@@ -1,93 +1,100 @@
 {
-    "title": "Promotion Business Team - Fabricant de menuiserie PVC et Aluminium",
-    "home": "Maison",
-    "about": "À propos de nous",
-    "services": "Service",
-    "products": "Produits",
-    "accessories": "Accessoire",
-    "portfolio": "Portefeuille",
-    "contact": "Contact",
-    "getquote": "Offre Demande",
+	"title": "Promotion Business Team - Fabricant de menuiserie PVC et Aluminium",
+	"home": "Maison",
+	"about": "À propos de nous",
+	"services": "Service",
+	"products": "Produits",
+	"accessories": "Accessoire",
+	"portfolio": "Portefeuille",
+	"contact": "Contact",
+	"getquote": "Offre Demande",
 
-    "privacypolicy": "Politique de Confidentialité",
-    "cookiespolicy": "Politique de Cookies",
+	"privacypolicy": "Politique de Confidentialité",
+	"cookiespolicy": "Politique de Cookies",
 
-    "fereastrapbt": "Fenêtre PBT",
+	"fereastrapbt": "Fenêtre PBT",
 
-    "seemore": "Voir plus",
-    "moreinfo": "Plus d'information",
-    "send": "Envoyer",
+	"seemore": "Voir plus",
+	"moreinfo": "Plus d'information",
+	"send": "Envoyer",
 
-    "product": {
-        "title": "Produits que Nous Proposons",
+	"product": {
+		"title": "Produits que Nous Proposons",
 
-        "balustrada": "Balustrade",
-        "rulouexterior": "Rouleau Extérieur",
-        "pergola": "Pergola",
-        "copertina": "Abri d'auto",
-        "panelornamental": "Panneau Ornemental en Aluminium",
-        "usagaraj": "Porte de Garage",
-        "roletatextila": "Enrouleur Textile",
-        "tamplariepvc": "Menuiserie PVC",
-        "tamplariealuminiu": "Menuiserie Aluminium",
-        "tamplarielemn": "Menuiserie en Bois Lamellé",
-        "sticla": "Verre",
-        "peretecortina": "Mur-rideau",
-        "usaantifoc": "Porte coupe-feu",
-        "plasainsecte": "Filet à insectes",
-        "pereteantivant": "Mur de Vent"
-    },
+		"balustrada": "Balustrade",
+		"rulouexterior": "Rouleau Extérieur",
+		"pergola": "Pergola",
+		"copertina": "Abri d'auto",
+		"panelornamental": "Panneau Ornemental en Aluminium",
+		"usagaraj": "Porte de Garage",
+		"roletatextila": "Enrouleur Textile",
+		"tamplariepvc": "Menuiserie PVC",
+		"tamplariealuminiu": "Menuiserie Aluminium",
+		"tamplarielemn": "Menuiserie en Bois Lamellé",
+		"sticla": "Verre",
+		"peretecortina": "Mur-rideau",
+		"usaantifoc": "Porte coupe-feu",
+		"plasainsecte": "Filet à insectes",
+		"pereteantivant": "Mur de Vent",
+		"usametalica": "Porte Métallique"
+	},
 
-    "nav": {
-        "windoor": "Fenêtres et Portes",
-        "glass": "Verre",
-        "accessories": "Accessoire",
-        "exterior": "Extérieur"
-    },
+	"nav": {
+		"windoor": "Fenêtres et Portes",
+		"glass": "Verre",
+		"accessories": "Accessoire",
+		"exterior": "Extérieur"
+	},
 
-    "footer": {
-        "about": "Nous sommes une entreprise basée sur une équipe jeune et dynamique, composée de spécialistes en menuiserie PVC et aluminium. Ainsi, nous répondons à vos exigences avec d'excellents services de fabrication et d'installation.",
-        "navigation": "Navigation"
-    },
+	"footer": {
+		"about": "Nous sommes une entreprise basée sur une équipe jeune et dynamique, composée de spécialistes en menuiserie PVC et aluminium. Ainsi, nous répondons à vos exigences avec d'excellents services de fabrication et d'installation.",
+		"navigation": "Navigation"
+	},
 
-    "profilespecs": {
-        "adancime": "Profondeur Constructive",
-        "structura": "Structure de la Chambre",
-        "izolare": "Isolation Thermique",
-        "fonic": "Insonorisation",
-        "vitrare": "Taille Vitrage",
-        "clasa": "Classe de Profil",
-        "toc": "Talon",
-        "latimetoc": "Largeur Talon",
-        "tocdublu": "Talon Largeur Double Glissière",
-        "canat": "Largeur d'aile",
-        "cercevea": "Ceinture",
-        "montant": "Quantité de Largeur",
-        "variantaconstructiva": "Variante Constructive",
-        "cubariera": "Avec Barrière Thermique",
-        "farabariera": "Pas de Barrière Thermique"
-    },
+	"profilespecs": {
+		"adancime": "Profondeur Constructive",
+		"structura": "Structure de la Chambre",
+		"izolare": "Isolation Thermique",
+		"fonic": "Insonorisation",
+		"vitrare": "Taille Vitrage",
+		"clasa": "Classe de Profil",
+		"toc": "Talon",
+		"latimetoc": "Largeur Talon",
+		"tocdublu": "Talon Largeur Double Glissière",
+		"canat": "Largeur d'aile",
+		"cercevea": "Ceinture",
+		"montant": "Quantité de Largeur",
+		"variantaconstructiva": "Variante Constructive",
+		"cubariera": "Avec Barrière Thermique",
+		"farabariera": "Pas de Barrière Thermique"
+	},
 
-    "atypics": {
-        "title": "Formes Atypiques",
-        "description": "Vous pouvez opter pour des fenêtres aux formes atypiques variées, telles que l'arc de cercle, le cercle, le trapèze, le triangle ou d'autres formes asymétriques."
-    },
+	"atypics": {
+		"title": "Formes Atypiques",
+		"description": "Vous pouvez opter pour des fenêtres aux formes atypiques variées, telles que l'arc de cercle, le cercle, le trapèze, le triangle ou d'autres formes asymétriques."
+	},
 
-    "colors": {
-        "title": "Gamme de couleurs exceptionnelle",
-        "available": "Couleurs Disponibles",
-        "description": "Nous pouvons fournir des profils intérieurs et extérieurs dans presque toutes les couleurs que vous pouvez imaginer. Plus de 450 teintes et finitions différentes sont disponibles : couleurs métallisées ou anodisées, mates ou brillantes RAL, ou encore une peinture coatex spéciale anti-rayures et nécessitant peu d'entretien.",
-        "woodimitation": "Imitation Bois",
-        "ral": "Palette RAL"
-    },
+	"colors": {
+		"title": "Gamme de couleurs exceptionnelle",
+		"available": "Couleurs Disponibles",
+		"description": "Nous pouvons fournir des profils intérieurs et extérieurs dans presque toutes les couleurs que vous pouvez imaginer. Plus de 450 teintes et finitions différentes sont disponibles : couleurs métallisées ou anodisées, mates ou brillantes RAL, ou encore une peinture coatex spéciale anti-rayures et nécessitant peu d'entretien.",
+		"woodimitation": "Imitation Bois",
+		"ral": "Palette RAL"
+	},
 
-    "productcta": {
-        "title": "Nous sommes toujours intéressés par de nouveaux projets stimulants et intéressants.",
-        "description": "Alors pourquoi ne pas nous contacter et nous envoyer vos exigences de projet et nous nous occuperons du reste !"
-    },
+	"productcta": {
+		"title": "Nous sommes toujours intéressés par de nouveaux projets stimulants et intéressants.",
+		"description": "Alors pourquoi ne pas nous contacter et nous envoyer vos exigences de projet et nous nous occuperons du reste !"
+	},
 
-    "cookies": {
-        "title": "Nous Utilisons des Cookies",
-        "description": "Ce site utilise des cookies pour améliorer votre expérience. En utilisant notre site Web, vous acceptez l'utilisation de cookies et d'autres méthodes de suivi utilisées. Pour plus d'informations, veuillez lire la suite"
-    }
+	"cookies": {
+		"title": "Nous Utilisons des Cookies",
+		"description": "Ce site utilise des cookies pour améliorer votre expérience. En utilisant notre site Web, vous acceptez l'utilisation de cookies et d'autres méthodes de suivi utilisées. Pour plus d'informations, veuillez lire la suite"
+	},
+
+	"notfound": {
+		"error": "Erreur 404",
+		"title": "La page demandée n'a pu être trouvée.",
+		"backhome": "Retour à la page d'accueil"
+	}
 }

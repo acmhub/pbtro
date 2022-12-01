@@ -33,13 +33,13 @@ export default function Landing({ t }) {
 
 		const interval = setInterval(() => handleText(), 4000);
 		return () => clearInterval(interval);
-	}, [wordIndex]);
+	}, [wordIndex, textOptions.length]);
 
 	return (
 		<div className="relative">
 			<div className="section-spacing" />
 			<div className="container-padding">
-				<div className="relative bg-gradient-to-tr from-[#1A62A5] to-[#5BA2D7] shadow-xl">
+				<div className="relative bg-gradient-to-tr from-[#13528e] to-[#61abe4] shadow-xl">
 					<div className="h-full grid grid-cols-1 lg:grid-cols-2 min-h-[480px]">
 						<div className="space-y-10 px-8 py-8 lg:py-4 text-white my-auto">
 							<div className="space-y-4">
@@ -82,17 +82,17 @@ export default function Landing({ t }) {
 
 							<p>{t("landing.description")}</p>
 
-							<div className="flex space-x-4">
+							<div className="flex flex-wrap">
 								<Link href="/solicita-oferta" passHref>
-									<a>
-										<button className="theme-button1">
+									<a className="m-2">
+										<button className="theme-button1 whitespace-nowrap">
 											{t("common:getquote")}
 										</button>
 									</a>
 								</Link>
 								<Link href="/servicii" passHref>
-									<a>
-										<button className="theme-button1-outlined text-white">
+									<a className="m-2">
+										<button className="theme-button1 text-white">
 											{t("common:services")}
 										</button>
 									</a>
@@ -102,7 +102,7 @@ export default function Landing({ t }) {
 						<div className="flex items-end justify-end">
 							<img
 								src="/images/fillers/landing-image.webp"
-								alt=""
+								alt="Tamplarie Termopan si Tripan Bucuresti"
 								className="h-auto w-auto object-contain"
 							/>
 						</div>

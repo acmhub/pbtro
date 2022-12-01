@@ -1,0 +1,19 @@
+{
+	"description": "",
+	"models": "Modelli",
+
+	"profile": {
+		"toc": "Telaio in profilato di alluminio a taglio termico, rinforzato con legno",
+		"izolatie": "Isolamento",
+		"otel": "Testiera in acciaio",
+		"prag": "Soglia termica in alluminio",
+		"vitrare": "Vetro stratificato quadruplo con protezione termica (opzionale vetro stratificato di sicurezza)"
+	},
+
+	"transfer": "Coefficiente di Trasferimento Termico",
+	"fgeam": "Senza Vetro",
+	"cgeam": "Con Vetro",
+	"culori": "Colori Disponibili",
+	"alb": "Bianco",
+	"gri": "Grigio Antracite"
+}

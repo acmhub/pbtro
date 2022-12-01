@@ -1,16 +1,9 @@
-export default function handler(req, res) {
-	const { name, email, phone_number, location, quote } = req.body;
+import sendgrid from "@sendgrid/mail";
 
-	let nodemailer = require("nodemailer");
-	const transporter = nodemailer.createTransport({
-		port: 465,
-		host: "smtp.gmail.com",
-		auth: {
-			user: process.env.EMAIL,
-			pass: process.env.EMAIL_PASSWORD,
-		},
-		secure: true,
-	});
+sendgrid.setApiKey(process.env.SG_API_KEY);
+
+export default async (req, res) => {
+	const { name, email, phone_number, location, quote } = req.body;
 
 	var quoteItems = "";
 	quote.forEach((item) => {
@@ -23,39 +16,36 @@ export default function handler(req, res) {
 			);
 	});
 
-	const mailData = {
-		from: email,
-		to: "adyacmx@gmail.com",
-		subject: "[WEB] Cerere Oferta",
-		html: `
-		<div>
-			Nume: ${name} <br />
-			Numar de telefon: ${phone_number} <br />
-			Locatie: ${location}
-			<br /> <br />
-
-			Oferta: <br />
-			<table>
-				<thead>
-					<th></th>
-					<th></th>
-				</thead>
-				<tbody>
-				${quoteItems}
-				</tbody>
-			</table>
-		</div>`,
-	};
-
 	try {
-		transporter.sendMail(mailData, function (err, info) {
-			if (err) console.log(err);
-			else {
-				console.log(info);
-				res.send(200);
-			}
+		await sendgrid.send({
+			from: "web@pbtromania.ro",
+			to: "pbtromania@gmail.com",
+			subject: "[SITE] Cerere Oferta",
+			html: `
+			<div>
+				Nume: ${name} <br />
+				Email: ${email} <br />
+				Numar de telefon: ${phone_number} <br />
+				Locatie: ${location}
+				<br /> <br />
+	
+				Solicitare: <br />
+				<table>
+					<thead>
+						<th></th>
+						<th></th>
+					</thead>
+					<tbody>
+					${quoteItems}
+					</tbody>
+				</table>
+			</div>`,
 		});
 	} catch (error) {
-		res.status(error);
+		return res
+			.status(error.statusCode || 500)
+			.json({ error: error.message });
 	}
-}
+
+	return res.status(200).json({ error: "" });
+};

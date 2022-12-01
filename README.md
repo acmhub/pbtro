@@ -11,7 +11,7 @@ https://pbtromania.ro/
 Clone the project
 
 ```bash
-  git clone https://github.com/acmhub/homegarden.git
+  git clone https://github.com/acmhub/pbtro.git
 ```
 
 Go to the project directory

@@ -1,0 +1,19 @@
+{
+	"description": "",
+	"models": "Modelos",
+
+	"profile": {
+		"toc": "Marco fabricado en perfil de aluminio con rotura de puente térmico, reforzado con madera",
+		"izolatie": "Aislamiento",
+		"otel": "Cabecero de acero",
+		"prag": "Umbral térmico de aluminio",
+		"vitrare": "Vidrio laminado cuádruple con protección térmica (vidrio laminado de seguridad opcional)"
+	},
+
+	"transfer": "Coeficiente de Transferencia Térmica",
+	"fgeam": "Sin Vidrio",
+	"cgeam": "Con Vidrio",
+	"culori": "Colores Disponibles",
+	"alb": "Blanco",
+	"gri": "Gris Antracita"
+}

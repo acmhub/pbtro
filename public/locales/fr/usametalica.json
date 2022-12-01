@@ -1,0 +1,19 @@
+{
+	"description": "",
+	"models": "Des Modèles",
+
+	"profile": {
+		"toc": "Cadre en profilé d'aluminium à rupture de pont thermique, renforcé de bois",
+		"izolatie": "Isolation",
+		"otel": "Tête de lit en acier",
+		"prag": "Seuil thermique en aluminium",
+		"vitrare": "Quadruple verre feuilleté avec protection thermique (verre de sécurité feuilleté en option)"
+	},
+
+	"transfer": "Coefficient de Transfert Thermique",
+	"fgeam": "Sans Verre",
+	"cgeam": "Avec Verre",
+	"culori": "Couleurs Disponibles",
+	"alb": "Blanc",
+	"gri": "Gris Anthracite"
+}

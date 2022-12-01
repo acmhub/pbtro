@@ -1,93 +1,100 @@
 {
-    "title": "Promotion Business Team - Producător Tâmplărie PVC și Aluminiu",
-    "home": "Acasă",
-    "about": "Despre noi",
-    "services": "Servicii",
-    "products": "Produse",
-    "accessories": "Accesorii",
-    "portfolio": "Portofoliu",
-    "contact": "Contact",
-    "getquote": "Solicită Ofertă",
+	"title": "Promotion Business Team - Producător Tâmplărie PVC și Aluminiu",
+	"home": "Acasă",
+	"about": "Despre noi",
+	"services": "Servicii",
+	"products": "Produse",
+	"accessories": "Accesorii",
+	"portfolio": "Portofoliu",
+	"contact": "Contact",
+	"getquote": "Solicită Ofertă",
 
-    "privacypolicy": "Politica de Confidențialitate",
-    "cookiespolicy": "Politica de Cookies",
+	"privacypolicy": "Politica de Confidențialitate",
+	"cookiespolicy": "Politica de Cookies",
 
-    "fereastrapbt": "Fereastra PBT",
+	"fereastrapbt": "Fereastra PBT",
 
-    "seemore": "Vezi mai mult",
-    "moreinfo": "Mai multe informații",
-    "send": "Trimite",
+	"seemore": "Vezi mai mult",
+	"moreinfo": "Mai multe informații",
+	"send": "Trimite",
 
-    "product": {
-        "title": "Produsele Oferite de Noi",
+	"product": {
+		"title": "Produsele Oferite de Noi",
 
-        "balustrada": "Balustradă",
-        "rulouexterior": "Rulou Exterior",
-        "pergola": "Pergolă",
-        "copertina": "Copertină",
-        "panelornamental": "Panel Ornamental Aluminiu",
-        "usagaraj": "Ușă de Garaj",
-        "roletatextila": "Roletă Textilă",
-        "tamplariepvc": "Tâmplărie PVC",
-        "tamplariealuminiu": "Tâmplărie Aluminiu",
-        "tamplarielemn": "Tâmplărie Lemn Stratificat",
-        "sticla": "Sticlă",
-        "peretecortina": "Perete Cortină",
-        "usaantifoc": "Ușă Antifoc",
-        "plasainsecte": "Plasă contra Insectelor",
-        "pereteantivant": "Perete Antivânt"
-    },
+		"balustrada": "Balustradă",
+		"rulouexterior": "Rulou Exterior",
+		"pergola": "Pergolă",
+		"copertina": "Copertină",
+		"panelornamental": "Panel Ornamental Aluminiu",
+		"usagaraj": "Ușă de Garaj",
+		"roletatextila": "Roletă Textilă",
+		"tamplariepvc": "Tâmplărie PVC",
+		"tamplariealuminiu": "Tâmplărie Aluminiu",
+		"tamplarielemn": "Tâmplărie Lemn Stratificat",
+		"sticla": "Sticlă",
+		"peretecortina": "Perete Cortină",
+		"usaantifoc": "Ușă Antifoc",
+		"plasainsecte": "Plasă contra Insectelor",
+		"pereteantivant": "Perete Antivânt",
+		"usametalica": "Ușă Metalică"
+	},
 
-    "nav": {
-        "windoor": "Ferestre și Uși",
-        "glass": "Sticlă",
-        "accessories": "Accesorii",
-        "exterior": "Exterior"
-    },
+	"nav": {
+		"windoor": "Ferestre și Uși",
+		"glass": "Sticlă",
+		"accessories": "Accesorii",
+		"exterior": "Exterior"
+	},
 
-    "footer": {
-        "about": "Suntem o companie la baza căreia se află o echipă tânără și dinamică, formată din specialiști în tâmplăria PVC și cea din aluminiu. Astfel, răspundem cerințelor dumneavoastră prin servicii excelente de fabricare și montare.",
-        "navigation": "Navigație"
-    },
+	"footer": {
+		"about": "Suntem o companie la baza căreia se află o echipă tânără și dinamică, formată din specialiști în tâmplăria PVC și cea din aluminiu. Astfel, răspundem cerințelor dumneavoastră prin servicii excelente de fabricare și montare.",
+		"navigation": "Navigație"
+	},
 
-    "profilespecs": {
-        "adancime": "Adâncime Constructivă",
-        "structura": "Structură Camerală",
-        "izolare": "Izolare Termică",
-        "fonic": "Izolare Fonică",
-        "vitrare": "Dimensiune Vitrare",
-        "clasa": "Clasă Profil",
-        "toc": "Toc",
-        "latimetoc": "Lățime Toc",
-        "tocdublu": "Lățime Toc Glisare Dublă",
-        "canat": "Lățime Canat",
-        "cercevea": "Cercevea",
-        "montant": "Lățime Montant",
-        "variantaconstructiva": "Varianta Constructivă",
-        "cubariera": "Cu Barieră Termică",
-        "farabariera": "Fără Barieră Termică"
-    },
+	"profilespecs": {
+		"adancime": "Adâncime Constructivă",
+		"structura": "Structură Camerală",
+		"izolare": "Izolare Termică",
+		"fonic": "Izolare Fonică",
+		"vitrare": "Dimensiune Vitrare",
+		"clasa": "Clasă Profil",
+		"toc": "Toc",
+		"latimetoc": "Lățime Toc",
+		"tocdublu": "Lățime Toc Glisare Dublă",
+		"canat": "Lățime Canat",
+		"cercevea": "Cercevea",
+		"montant": "Lățime Montant",
+		"variantaconstructiva": "Varianta Constructivă",
+		"cubariera": "Cu Barieră Termică",
+		"farabariera": "Fără Barieră Termică"
+	},
 
-    "atypics": {
-        "title": "Forme Atipice",
-        "description": "Puteți opta pentru ferestre în diferite forme atipice, precum arc de cerc, cerc, trapez, triunghi sau alte forme asimetrice."
-    },
+	"atypics": {
+		"title": "Forme Atipice",
+		"description": "Puteți opta pentru ferestre în diferite forme atipice, precum arc de cerc, cerc, trapez, triunghi sau alte forme asimetrice."
+	},
 
-    "colors": {
-        "title": "Gamă excepţională de culori",
-        "available": "Culori Disponibile",
-        "description": "Putem furniza profile de interior şi exterior în aproape orice culoare pe care v-o puteţi imagina. Sunt disponibile peste 450 de nuanțe și finisaje diferite: culori metalice sau anodizate, mate sau RAL lucioase, sau chiar și o vopsea coatex specială rezistență la zgârieturi și cu o îngrijire minimă.",
-        "woodimitation": "Imitaţii Lemn",
-        "ral": "Paletar RAL"
-    },
+	"colors": {
+		"title": "Gamă excepţională de culori",
+		"available": "Culori Disponibile",
+		"description": "Putem furniza profile de interior şi exterior în aproape orice culoare pe care v-o puteţi imagina. Sunt disponibile peste 450 de nuanțe și finisaje diferite: culori metalice sau anodizate, mate sau RAL lucioase, sau chiar și o vopsea coatex specială rezistență la zgârieturi și cu o îngrijire minimă.",
+		"woodimitation": "Imitaţii Lemn",
+		"ral": "Paletar RAL"
+	},
 
-    "productcta": {
-        "title": "Suntem întotdeauna interesați de proiecte noi, provocatoare și interesante.",
-        "description": "Așadar, de ce nu ne contactați și ne trimiteți cerințele proiectului dumneavoastră, iar noi ne ocupăm de restul!"
-    },
+	"productcta": {
+		"title": "Suntem întotdeauna interesați de proiecte noi, provocatoare și interesante.",
+		"description": "Așadar, de ce nu ne contactați și ne trimiteți cerințele proiectului dumneavoastră, iar noi ne ocupăm de restul!"
+	},
 
-    "cookies": {
-        "title": "Folosim Cookies",
-        "description": "Acest website utilizează cookies pentru a vă îmbunătății experiența. Utilizând website-ul nostru, ești de acord cu utilizarea cookie-urilor, cât și a altor metode de urmărire folosite. Pentru mai multe informații vă rugăm să citiți"
-    }
+	"cookies": {
+		"title": "Folosim Cookies",
+		"description": "Acest website utilizează cookies pentru a vă îmbunătății experiența. Utilizând website-ul nostru, ești de acord cu utilizarea cookie-urilor, cât și a altor metode de urmărire folosite. Pentru mai multe informații vă rugăm să citiți"
+	},
+
+	"notfound": {
+		"error": "Eroare 404",
+		"title": "Pagina solicitată nu a putut fi gasită.",
+		"backhome": "Înapoi la prima pagină"
+	}
 }

@@ -1,93 +1,100 @@
 {
-    "title": "Promotion Business Team - Manufacturer of PVC and Aluminum carpentry",
-    "home": "Home",
-    "about": "About",
-    "services": "Services",
-    "products": "Products",
-    "accessories": "Accessories",
-    "portfolio": "Portfolio",
-    "contact": "Contact",
-    "getquote": "Get Quote",
+	"title": "Promotion Business Team - Manufacturer of PVC and Aluminum carpentry",
+	"home": "Home",
+	"about": "About",
+	"services": "Services",
+	"products": "Products",
+	"accessories": "Accessories",
+	"portfolio": "Portfolio",
+	"contact": "Contact",
+	"getquote": "Get Quote",
 
-    "privacypolicy": "Privacy Policy",
-    "cookiespolicy": "Cookie Policy",
+	"privacypolicy": "Privacy Policy",
+	"cookiespolicy": "Cookie Policy",
 
-    "fereastrapbt": "PBT Window",
+	"fereastrapbt": "PBT Window",
 
-    "seemore": "See more",
-    "moreinfo": "More info",
-    "send": "Send",
+	"seemore": "See more",
+	"moreinfo": "More info",
+	"send": "Send",
 
-    "product": {
-        "title": "Products Offered by Us",
+	"product": {
+		"title": "Products Offered by Us",
 
-        "balustrada": "Railing",
-        "rulouexterior": "Exterior Roller",
-        "pergola": "Pergola",
-        "copertina": "Canopy",
-        "panelornamental": "Aluminium Ornamental Panel",
-        "usagaraj": "Garage Door",
-        "roletatextila": "Textile Roller",
-        "tamplariepvc": "PVC Joinery",
-        "tamplariealuminiu": "Aluminium Joinery",
-        "tamplarielemn": "Wood Joinery",
-        "sticla": "Glass",
-        "peretecortina": "Curatin Wall",
-        "usaantifoc": "Fireproof Door",
-        "plasainsecte": "Insect Net",
-        "pereteantivant": "Windbreak Wall"
-    },
+		"balustrada": "Railing",
+		"rulouexterior": "Exterior Roller",
+		"pergola": "Pergola",
+		"copertina": "Canopy",
+		"panelornamental": "Aluminium Ornamental Panel",
+		"usagaraj": "Garage Door",
+		"roletatextila": "Textile Roller",
+		"tamplariepvc": "PVC Joinery",
+		"tamplariealuminiu": "Aluminium Joinery",
+		"tamplarielemn": "Wood Joinery",
+		"sticla": "Glass",
+		"peretecortina": "Curatin Wall",
+		"usaantifoc": "Fireproof Door",
+		"plasainsecte": "Insect Net",
+		"pereteantivant": "Windbreak Wall",
+		"usametalica": "Metallic Door"
+	},
 
-    "nav": {
-        "windoor": "Windows and Doors",
-        "glass": "Glass",
-        "accessories": "accessories",
-        "exterior": "Exterior"
-    },
+	"nav": {
+		"windoor": "Windows and Doors",
+		"glass": "Glass",
+		"accessories": "accessories",
+		"exterior": "Exterior"
+	},
 
-    "footer": {
-        "about": "We are a company based on a young and dynamic team, made up of specialists in PVC and aluminum carpentry. Thus, we meet your requirements with excellent manufacturing and installation services.",
-        "navigation": "Navigation"
-    },
+	"footer": {
+		"about": "We are a company based on a young and dynamic team, made up of specialists in PVC and aluminum carpentry. Thus, we meet your requirements with excellent manufacturing and installation services.",
+		"navigation": "Navigation"
+	},
 
-    "profilespecs": {
-        "adancime": "Constructive Depth",
-        "structura": "Chamber Structure",
-        "izolare": "Thermal Insulation",
-        "fonic": "Soundproofing",
-        "vitrare": "Glazing Size",
-        "clasa": "Profile class",
-        "toc": "Frame",
-        "latimetoc": "Frame Width",
-        "tocdublu": "Double sliding Frame Width",
-        "canat": "Wing Width",
-        "cercevea": "Sash",
-        "montant": "Mullion Width ",
-        "variantaconstructiva": "Constructive Variant",
-        "cubariera": "With Thermal Barrier",
-        "farabariera": "Without Thermal Barrier"
-    },
+	"profilespecs": {
+		"adancime": "Constructive Depth",
+		"structura": "Chamber Structure",
+		"izolare": "Thermal Insulation",
+		"fonic": "Soundproofing",
+		"vitrare": "Glazing Size",
+		"clasa": "Profile class",
+		"toc": "Frame",
+		"latimetoc": "Frame Width",
+		"tocdublu": "Double sliding Frame Width",
+		"canat": "Wing Width",
+		"cercevea": "Sash",
+		"montant": "Mullion Width ",
+		"variantaconstructiva": "Constructive Variant",
+		"cubariera": "With Thermal Barrier",
+		"farabariera": "Without Thermal Barrier"
+	},
 
-    "atypics": {
-        "title": "Atypical forms",
-        "description": "You can opt for windows in various atypical shapes, such as circular arch, circle, trapezoid, triangle or other asymmetrical shapes."
-    },
+	"atypics": {
+		"title": "Atypical forms",
+		"description": "You can opt for windows in various atypical shapes, such as circular arch, circle, trapezoid, triangle or other asymmetrical shapes."
+	},
 
-    "colors": {
-        "title": "Exceptional color range",
-        "available": "Available Colors",
-        "description": "We can supply interior and exterior profiles in almost any color you can imagine. More than 450 different shades and finishes are available: metallic or anodized colors, matte or RAL gloss, or even a special scratch-resistant and low-maintenance coatex paint.",
-        "woodimitation": "Wood Imitation",
-        "ral": "RAL Palette"
-    },
+	"colors": {
+		"title": "Exceptional color range",
+		"available": "Available Colors",
+		"description": "We can supply interior and exterior profiles in almost any color you can imagine. More than 450 different shades and finishes are available: metallic or anodized colors, matte or RAL gloss, or even a special scratch-resistant and low-maintenance coatex paint.",
+		"woodimitation": "Wood Imitation",
+		"ral": "RAL Palette"
+	},
 
-    "productcta": {
-        "title": "We are always interested in new, challenging and interesting projects.",
-        "description": "So why not contact us and send us your project requirements and we'll take care of the rest!"
-    },
+	"productcta": {
+		"title": "We are always interested in new, challenging and interesting projects.",
+		"description": "So why not contact us and send us your project requirements and we'll take care of the rest!"
+	},
 
-    "cookies": {
-        "title": "We use Cookies",
-        "description": "This website uses cookies to improve your experience. By using our website, you agree to the use of cookies and other tracking methods used. For more information please read on"
-    }
+	"cookies": {
+		"title": "We use Cookies",
+		"description": "This website uses cookies to improve your experience. By using our website, you agree to the use of cookies and other tracking methods used. For more information please read on"
+	},
+
+	"notfound": {
+		"error": "Error 404",
+		"title": "The requested page could not be found.",
+		"backhome": "Back to homepage"
+	}
 }

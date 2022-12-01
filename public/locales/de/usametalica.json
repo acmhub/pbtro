@@ -1,0 +1,19 @@
+{
+	"description": "",
+	"models": "Modelle",
+
+	"profile": {
+		"toc": "Rahmen aus Aluminiumprofil mit thermischer Trennung, verstärkt mit Holz",
+		"izolatie": "Isolierung",
+		"otel": "Kopfteil aus Stahl",
+		"prag": "Thermische Schwelle aus Aluminium",
+		"vitrare": "4-fach Verbundglas mit Wärmeschutz (optional VSG)"
+	},
+
+	"transfer": "Wärmeübertragungskoeffizient",
+	"fgeam": "Ohne Glas",
+	"cgeam": "Mit Glas",
+	"culori": "Verfügbare Farben",
+	"alb": "Weiss",
+	"gri": "Anthrazitgrau"
+}
