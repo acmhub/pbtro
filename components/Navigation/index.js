@@ -6,6 +6,11 @@ import { useTranslation } from "next-i18next";
 import Select from "@mui/material/Select";
 import MenuItem from "@mui/material/MenuItem";
 import ClickAwayListener from "@mui/base/ClickAwayListener";
+import {
+	MdOutlinePhoneInTalk,
+	MdOutlineMailOutline,
+	MdOutlineMap,
+} from "react-icons/md";
 import styled from "styled-components";
 import {
 	windoorProducts,
@@ -246,9 +251,7 @@ export default function Navigation() {
 							className="nav-link space-x-1"
 							itemProp="telephone"
 						>
-							<span className="material-symbols-outlined text-theme1">
-								phone_in_talk
-							</span>
+							<MdOutlinePhoneInTalk className="h-6 w-6 text-theme1" />
 							<p className="hidden lg:inline">+40 786 422 450</p>
 						</a>
 						<a
@@ -258,9 +261,7 @@ export default function Navigation() {
 							className="nav-link space-x-1"
 							itemProp="telephone"
 						>
-							<span className="material-symbols-outlined text-theme1">
-								phone_in_talk
-							</span>
+							<MdOutlinePhoneInTalk className="h-6 w-6 text-theme1" />
 							<p className="hidden lg:inline">+40 723 391 843</p>
 						</a>
 						<a
@@ -270,9 +271,7 @@ export default function Navigation() {
 							className="nav-link space-x-1"
 							itemProp="email"
 						>
-							<span className="material-symbols-outlined text-theme1">
-								drafts
-							</span>
+							<MdOutlineMailOutline className="h-6 w-6 text-theme1" />
 							<p className="hidden lg:inline">
 								pbtromania@gmail.com
 							</p>
@@ -284,9 +283,7 @@ export default function Navigation() {
 							className="nav-link space-x-1"
 							itemProp="location"
 						>
-							<span className="material-symbols-outlined text-theme1">
-								location_on
-							</span>
+							<MdOutlineMap className="h-6 w-6 text-theme1" />
 							<p className="hidden lg:inline">Domnești, IF</p>
 						</a>
 					</div>
@@ -593,9 +590,7 @@ export default function Navigation() {
 								rel="noopener noreferrer"
 								className="nav-link text-center"
 							>
-								<span className="material-symbols-outlined text-theme1">
-									phone_in_talk
-								</span>
+								<MdOutlinePhoneInTalk className="h-6 w-6 text-theme1" />
 								<p>+40 786 422 450</p>
 							</a>
 							<a
@@ -604,9 +599,7 @@ export default function Navigation() {
 								rel="noopener noreferrer"
 								className="nav-link text-center"
 							>
-								<span className="material-symbols-outlined text-theme1">
-									phone_in_talk
-								</span>
+								<MdOutlinePhoneInTalk className="h-6 w-6 text-theme1" />
 								<p>+40 723 391 843</p>
 							</a>
 							<a
@@ -615,9 +608,7 @@ export default function Navigation() {
 								rel="noopener noreferrer"
 								className="nav-link text-center"
 							>
-								<span className="material-symbols-outlined text-theme1">
-									drafts
-								</span>
+								<MdOutlineMailOutline className="h-6 w-6 text-theme1" />
 								<p>pbtromania@gmail.com</p>
 							</a>
 							<a
@@ -626,9 +617,7 @@ export default function Navigation() {
 								rel="noopener noreferrer"
 								className="nav-link text-center"
 							>
-								<span className="material-symbols-outlined text-theme1">
-									location_on
-								</span>
+								<MdOutlineMap className="h-6 w-6 text-theme1" />
 								<p>Domnești, IF</p>
 							</a>
 

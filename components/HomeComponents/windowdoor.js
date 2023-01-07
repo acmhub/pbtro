@@ -1,6 +1,15 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import {
+	MdDone,
+	MdOutlineVolumeOff,
+	MdOutlineLightMode,
+	MdOutlineVerifiedUser,
+	MdOutlineRecycling,
+	MdOutlineArchitecture,
+} from "react-icons/md";
+import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
 const cardsData = [
 	{
@@ -25,23 +34,23 @@ const cardsData = [
 
 const specsData = [
 	{
-		icon: "volume_off",
+		Icon: MdOutlineVolumeOff,
 		name: "windows.sound",
 	},
 	{
-		icon: "light_mode",
+		Icon: MdOutlineLightMode,
 		name: "windows.sun",
 	},
 	{
-		icon: "verified_user",
+		Icon: MdOutlineVerifiedUser,
 		name: "windows.durable",
 	},
 	{
-		icon: "recycling",
+		Icon: MdOutlineRecycling,
 		name: "windows.eco",
 	},
 	{
-		icon: "architecture",
+		Icon: MdOutlineArchitecture,
 		name: "windows.design",
 	},
 ];
@@ -91,9 +100,7 @@ export default function WindowDoor({ t }) {
 								key={i}
 							>
 								<div className="bg-theme1 h-8 w-8 grid place-content-center rounded-full">
-									<span className="material-icons block text-white">
-										done
-									</span>
+									<MdDone className="h-6 w-6 text-white" />
 								</div>
 								<div>{t(e)}</div>
 							</div>
@@ -130,9 +137,7 @@ export default function WindowDoor({ t }) {
 								<Link href={e.link} passhref>
 									<a className="flex items-center space-x-2 w-fit mx-auto">
 										<span>{t("common:moreinfo")}</span>
-										<span className="material-symbols-outlined">
-											trending_flat
-										</span>
+										<HiOutlineArrowNarrowRight className="h-6 w-6" />
 									</a>
 								</Link>
 							</div>
@@ -148,9 +153,7 @@ export default function WindowDoor({ t }) {
 							className="flex items-center space-x-2 text-white"
 							key={i}
 						>
-							<span className="material-symbols-outlined m-icon-36">
-								{e.icon}
-							</span>
+							<e.Icon className="h-8 w-8" />
 							<div className="text-xl">{t(e.name)}</div>
 						</div>
 					))}

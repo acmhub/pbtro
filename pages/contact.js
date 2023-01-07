@@ -5,6 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import TextField from "@mui/material/TextField";
 import Checkbox from "@mui/material/Checkbox";
+import {
+	MdOutlinePhoneInTalk,
+	MdOutlineMailOutline,
+	MdOutlineMap,
+} from "react-icons/md";
 import { toast } from "react-toastify";
 import styled from "styled-components";
 import Layout from "../components/General/Layout";
@@ -108,9 +113,7 @@ export default function Contact() {
 						>
 							<div className="flex items-center space-x-2 mb-2">
 								<div className="bg-theme2 w-fit grid place-content-center p-2">
-									<span className="material-symbols-outlined text-white">
-										phone_in_talk
-									</span>
+									<MdOutlinePhoneInTalk className="h-6 w-6 text-white" />
 								</div>
 								<h4>{t("callus")}</h4>
 							</div>
@@ -149,9 +152,7 @@ export default function Contact() {
 						>
 							<div className="flex items-center space-x-2 mb-2">
 								<div className="bg-theme2 w-fit grid place-content-center p-2">
-									<span className="material-symbols-outlined text-white">
-										mail
-									</span>
+									<MdOutlineMailOutline className="h-6 w-6 text-white" />
 								</div>
 								<h4>{t("emailus")}</h4>
 							</div>
@@ -177,9 +178,7 @@ export default function Contact() {
 						<div>
 							<div className="flex items-center space-x-2">
 								<div className="bg-theme2 w-fit grid place-content-center p-2 mb-2">
-									<span className="material-symbols-outlined text-white">
-										map
-									</span>
+									<MdOutlineMap className="h-6 w-6 text-white" />
 								</div>
 								<h4>{t("visitus")}</h4>
 							</div>

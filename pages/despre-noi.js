@@ -5,6 +5,15 @@ import VisibilitySensor from "react-visibility-sensor";
 import CountUp from "react-countup";
 import Image from "next/image";
 import Link from "next/link";
+import {
+	MdSupportAgent,
+	MdOutlineVerified,
+	MdOutlinePrecisionManufacturing,
+	MdSquareFoot,
+	MdOutlineLocalShipping,
+} from "react-icons/md";
+import { GiDrill } from "react-icons/gi";
+import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import Layout from "../components/General/Layout";
 import Suppliers from "../components/General/Suppliers";
 
@@ -29,32 +38,32 @@ const statsData = [
 
 const servicesData = [
 	{
-		icon: "support_agent",
+		Icon: MdSupportAgent,
 		title: "services.consult",
 		description: "services.consultdesc",
 	},
 	{
-		icon: "verified",
+		Icon: MdOutlineVerified,
 		title: "services.quality",
 		description: "services.qualitydesc",
 	},
 	{
-		icon: "precision_manufacturing",
+		Icon: MdOutlinePrecisionManufacturing,
 		title: "services.production",
 		description: "services.productiondesc",
 	},
 	{
-		icon: "square_foot",
+		Icon: MdSquareFoot,
 		title: "services.measurements",
 		description: "services.measurementsdesc",
 	},
 	{
-		icon: "local_shipping",
+		Icon: MdOutlineLocalShipping,
 		title: "services.delivery",
 		description: "services.deliverydesc",
 	},
 	{
-		icon: "tools_power_drill",
+		Icon: GiDrill,
 		title: "services.fitting",
 		description: "services.fittingdesc",
 	},
@@ -208,9 +217,7 @@ export default function About() {
 								key={i}
 							>
 								<div className="absolute left-1/2 -translate-x-1/2 -translate-y-10 flex items-center bg-theme1 text-white rounded-full w-fit p-2">
-									<span className="material-symbols-outlined m-icon-36">
-										{e.icon}
-									</span>
+									<e.Icon className="h-8 w-8" />
 								</div>
 								<div className="p-4">
 									<h4>{t(e.title)}</h4>
@@ -223,9 +230,7 @@ export default function About() {
 					<Link href="/servicii" passhref>
 						<a className="theme-button1 flex items-center space-x-2 w-fit mx-auto">
 							<span>{t("common:moreinfo")}</span>
-							<span className="material-symbols-outlined">
-								trending_flat
-							</span>
+							<HiOutlineArrowNarrowRight className="h-6 w-6" />
 						</a>
 					</Link>
 				</section>

@@ -12,6 +12,12 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import Tooltip from "@mui/material/Tooltip";
 import Modal from "@mui/material/Modal";
 import { toast } from "react-toastify";
+import {
+	MdClose,
+	MdExpandMore,
+	MdOutlineDeleteOutline,
+	MdOutlineEdit,
+} from "react-icons/md";
 import ProductRequirements from "../components/Quote";
 import ModifyProduct from "../components/Quote/Modify";
 
@@ -150,9 +156,7 @@ export default function GetQuote() {
 											: "auto",
 									}}
 									expandIcon={
-										<span className="material-symbols-outlined">
-											expand_more
-										</span>
+										<MdExpandMore className="h-6 w-6" />
 									}
 								>
 									<div className="flex w-full justify-between items-center pr-6">
@@ -181,9 +185,7 @@ export default function GetQuote() {
 														})
 													}
 												>
-													<span className="material-symbols-outlined text-theme1">
-														edit
-													</span>
+													<MdOutlineEdit className="h-6 w-6 text-theme1" />
 												</button>
 											</Tooltip>
 											<Modal
@@ -214,8 +216,8 @@ export default function GetQuote() {
 																`common:${modalState?.product?.translation_key}`
 															)}
 														</h4>
-														<span
-															className="material-symbols-outlined cursor-pointer"
+														<MdClose
+															className="h-6 w-6 cursor-pointer"
 															onClick={() =>
 																setModalState({
 																	state: false,
@@ -223,9 +225,7 @@ export default function GetQuote() {
 																		null,
 																})
 															}
-														>
-															close
-														</span>
+														/>
 													</div>
 													<div className="border-b" />
 													<ModifyProduct
@@ -265,9 +265,7 @@ export default function GetQuote() {
 														);
 													}}
 												>
-													<span className="material-symbols-outlined text-red-600">
-														delete
-													</span>
+													<MdOutlineDeleteOutline className="h-6 w-6 text-red-600" />
 												</button>
 											</Tooltip>
 										</div>

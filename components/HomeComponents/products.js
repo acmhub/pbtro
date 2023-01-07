@@ -4,6 +4,10 @@ import Link from "next/link";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper";
+import {
+	HiOutlineArrowNarrowLeft,
+	HiOutlineArrowNarrowRight,
+} from "react-icons/hi";
 import { productsData } from "../Products";
 
 function Products({ t }) {
@@ -13,12 +17,8 @@ function Products({ t }) {
 				<h2>{t("common:product.title")}</h2>
 
 				<div className="hidden lg:flex space-x-4">
-					<span className="material-symbols-outlined cursor-pointer arrow-left rotate-180 m-icon-30">
-						trending_flat
-					</span>
-					<span className="material-symbols-outlined cursor-pointer arrow-right m-icon-30">
-						trending_flat
-					</span>
+					<HiOutlineArrowNarrowLeft className="h-7 w-7 cursor-pointer arrow-left" />
+					<HiOutlineArrowNarrowRight className="h-7 w-7 cursor-pointer arrow-right" />
 				</div>
 			</div>
 
@@ -94,12 +94,8 @@ function Products({ t }) {
 				</Swiper>
 
 				<div className="flex justify-center lg:hidden space-x-4">
-					<span className="material-symbols-outlined cursor-pointer arrow-left rotate-180 m-icon-30">
-						trending_flat
-					</span>
-					<span className="material-symbols-outlined cursor-pointer arrow-right m-icon-30">
-						trending_flat
-					</span>
+					<HiOutlineArrowNarrowLeft className="h-7 w-7 cursor-pointer arrow-left" />
+					<HiOutlineArrowNarrowRight className="h-7 w-7 cursor-pointer arrow-right" />
 				</div>
 			</div>
 		</div>

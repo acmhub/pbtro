@@ -3,6 +3,7 @@ import dynamic from "next/dynamic";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
+import { MdOutlineFormatQuote } from "react-icons/md";
 
 const testimonialData = [
 	"testimonials.review1",
@@ -40,9 +41,7 @@ function Testimonials({ t }) {
 					<SwiperSlide className="h-auto py-6" key={i}>
 						<div className="card h-full pt-6">
 							<div className="bg-theme1 text-white h-10 w-10 absolute -top-0 left-5 shadow-xl rounded-full p-2">
-								<span className="material-symbols-outlined">
-									format_quote
-								</span>
+								<MdOutlineFormatQuote className="h-6 w-6" />
 							</div>
 							<p>{t(e)}</p>
 						</div>

@@ -3,6 +3,11 @@ import Link from "next/link";
 import TextField from "@mui/material/TextField";
 import Checkbox from "@mui/material/Checkbox";
 import { toast } from "react-toastify";
+import {
+	MdOutlinePhoneInTalk,
+	MdOutlineMailOutline,
+	MdOutlineMap,
+} from "react-icons/md";
 import styled from "styled-components";
 
 const FormStyles = styled.div`
@@ -163,9 +168,7 @@ export default function Contact({ t }) {
 						>
 							<div className="flex items-center space-x-2 mb-2">
 								<div className="bg-theme2 w-fit grid place-content-center p-2">
-									<span className="material-symbols-outlined text-white">
-										phone_in_talk
-									</span>
+									<MdOutlinePhoneInTalk className="h-6 w-6 text-white" />
 								</div>
 								<h4>{t("contact.callus")}</h4>
 							</div>
@@ -204,9 +207,7 @@ export default function Contact({ t }) {
 						>
 							<div className="flex items-center space-x-2 mb-2">
 								<div className="bg-theme2 w-fit grid place-content-center p-2">
-									<span className="material-symbols-outlined text-white">
-										mail
-									</span>
+									<MdOutlineMailOutline className="h-6 w-6 text-white" />
 								</div>
 								<h4>{t("contact.emailus")}</h4>
 							</div>
@@ -235,9 +236,7 @@ export default function Contact({ t }) {
 						>
 							<div className="flex items-center space-x-2">
 								<div className="bg-theme2 w-fit grid place-content-center p-2 mb-2">
-									<span className="material-symbols-outlined text-white">
-										map
-									</span>
+									<MdOutlineMap className="h-6 w-6 text-white" />
 								</div>
 								<h4>{t("contact.visitus")}</h4>
 							</div>

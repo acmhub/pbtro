@@ -1,9 +1,10 @@
-import Link from "next/link";
 import React from "react";
-import { useTranslation } from "next-i18next";
-import { productsData } from "../Products";
+import Link from "next/link";
 import Image from "next/image";
+import { useTranslation } from "next-i18next";
+import { MdOutlinePhoneInTalk, MdOutlineMailOutline } from "react-icons/md";
 import styled from "styled-components";
+import { productsData } from "../Products";
 
 const ImageWrapper = styled.div`
 	position: relative;
@@ -169,9 +170,7 @@ export default function Footer() {
 								rel="noopener noreferrer"
 								className="w-fit opacity-75 hover:opacity-100 flex items-center space-x-2"
 							>
-								<span className="material-symbols-outlined text-theme1">
-									phone_in_talk
-								</span>
+								<MdOutlinePhoneInTalk className="h-6 w-6 text-theme1" />
 								<div itemProp="telephone">+40 786 422 450</div>
 							</a>
 							<a
@@ -180,9 +179,7 @@ export default function Footer() {
 								rel="noopener noreferrer"
 								className="w-fit opacity-75 hover:opacity-100 flex items-center space-x-2"
 							>
-								<span className="material-symbols-outlined text-theme1">
-									phone_in_talk
-								</span>
+								<MdOutlinePhoneInTalk className="h-6 w-6 text-theme1" />
 								<div itemProp="telephone">+40 723 391 843</div>
 							</a>
 							<a
@@ -191,9 +188,7 @@ export default function Footer() {
 								rel="noopener noreferrer"
 								className="w-fit opacity-75 hover:opacity-100 flex items-center space-x-2"
 							>
-								<span className="material-symbols-outlined text-theme1">
-									email
-								</span>
+								<MdOutlineMailOutline className="h-6 w-6 text-theme1" />
 								<div itemProp="email">pbtromania@gmail.com</div>
 							</a>
 						</div>
