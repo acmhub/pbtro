@@ -53,6 +53,7 @@ class MyDocument extends Document {
 					{this.props.emotionStyleTags}
 					{/* Meta */}
 					<meta name="robots" content="index, follow" />
+
 					<meta
 						property="og:title"
 						content="Promotion Business Team - Producător Tâmplărie PVC și Aluminiu"
@@ -64,6 +65,10 @@ class MyDocument extends Document {
 					<meta
 						property="og:image"
 						content="/images/logos/logo.svg"
+					/>
+					<meta
+						name="keywords"
+						content="tamplarie, pvc, aluminiu, tamplarie bucuresti, tamplarie pvc, tamplarie aluminiu, tamplarie pvc bucuresti, tamplarie aluminiu bucuresti, sticla, geam termopan, geam tripan, tamplarie termopan, termopane bucuresti, tripane bucuresti"
 					/>
 
 					{/* FavIcon */}
@@ -124,19 +129,6 @@ class MyDocument extends Document {
 					<link
 						href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap"
 						rel="stylesheet"
-					/>
-
-					{/* Font Awesome */}
-					<link
-						rel="stylesheet"
-						href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-					/>
-					<link
-						rel="stylesheet"
-						href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-						integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-						crossOrigin="anonymous"
-						referrerPolicy="no-referrer"
 					/>
 				</Head>
 				<body>

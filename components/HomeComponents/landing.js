@@ -52,7 +52,7 @@ export default function Landing({ t }) {
 									</h4>
 								</div>
 								<div className="relative h-20 lg:h-8">
-									<AnimatePresence>
+									<AnimatePresence initial={false}>
 										<motion.div
 											initial={{
 												opacity: 0,
@@ -72,32 +72,25 @@ export default function Landing({ t }) {
 											transition={{ duration: 0.75 }}
 											key={wordIndex}
 										>
-											<h2 className="absolute">
+											<h1 className="text-4xl absolute">
 												{t(textOptions[wordIndex])}
-											</h2>
+											</h1>
 										</motion.div>
 									</AnimatePresence>
 								</div>
 							</div>
 
-							<p>{t("landing.description")}</p>
+							<p className="lg:max-w-md text-justify">
+								{t("landing.description")}
+							</p>
 
-							<div className="flex flex-wrap">
-								<Link href="/solicita-oferta" passHref>
-									<a className="m-2">
-										<button className="theme-button1 whitespace-nowrap">
-											{t("common:getquote")}
-										</button>
-									</a>
-								</Link>
-								<Link href="/servicii" passHref>
-									<a className="m-2">
-										<button className="theme-button1 text-white">
-											{t("common:services")}
-										</button>
-									</a>
-								</Link>
-							</div>
+							<Link href="/solicita-oferta" passHref>
+								<a className="block w-fit">
+									<button className="theme-button1">
+										{t("common:getquote")}
+									</button>
+								</a>
+							</Link>
 						</div>
 						<div className="flex items-end justify-end">
 							<img

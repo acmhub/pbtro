@@ -11,6 +11,7 @@ import {
 	MdOutlinePrecisionManufacturing,
 	MdSquareFoot,
 	MdOutlineLocalShipping,
+	MdCircle,
 } from "react-icons/md";
 import { GiDrill } from "react-icons/gi";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
@@ -131,6 +132,7 @@ export default function About() {
 			pageID="about"
 			title={t("common:about")}
 			description={t("paragraph")}
+			canonical="https://pbtromania.ro/despre-noi"
 		>
 			<div className="section-spacing-lg" />
 
@@ -248,7 +250,7 @@ export default function About() {
 								</h5>
 
 								<div className="border-r-2 border-theme1 absolute h-full left-1 md:ml-6 md:left-20 top-3 z-10">
-									<i className="fas fa-circle -top-1 -ml-2 absolute text-theme2"></i>
+									<MdCircle className="absolute -top-1 -ml-1.5 text-theme2 h-4 w-4" />
 								</div>
 
 								<div className="basis-[78%] ml-10 md:ml-16 lg:ml-10 xl:ml-4">

@@ -83,6 +83,7 @@ export default function GetQuote() {
 			pageID="getquote"
 			title={t("common:getquote")}
 			description={t("description")}
+			canonical="https://pbtromania.ro/solicita-oferta"
 		>
 			<div className="section-spacing-lg" />
 

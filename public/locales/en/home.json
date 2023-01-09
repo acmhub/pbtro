@@ -1,98 +1,98 @@
 {
-    "landing": {
-        "subtitle": "choose the quality offered by pbt românia",
-        "title": "get the best offer for",
-        "description": "Our products are a safe long-term investment with no additional maintenance, repair, reconditioning, etc. costs."
-    },
-    "products": {
-        "title": "Products Offered by Us"
-    },
-    "about": {
-        "experience": "years of experience",
-        "description": "Promotion Business Team is a company at the base of which is a young and dynamic team, made up of specialists in thermopane and tripan PVC and aluminum carpentry.",
-        "projects": "completed projects",
-        "clients": "satisfied clients",
-        "services": "services offered",
-        "employees": "employees"
-    },
-    "windows": {
-        "rightchoice": "the right choice",
-        "windoor": "Windows and Doors",
-        "paragraph1": "We offer you a wide range of windows and doors, characterized by top-class profiles, thermopane or triple-pane glazing and unique designs for all tastes, ideal for fitting out any type of space.",
-        "paragraph2": "Our carpentry guarantees you a carefree life because we only use materials of the latest generation, which do not require special maintenance.",
-        "production": "Own Production",
-        "team": "Professional Team",
-        "quality": "Quality Materials",
-        "measurements": "Free Measurements",
-        "pvcdesc": "PVC carpentry windows are a modern and comfortable solution for your home.",
-        "aludesc": "Aluminum profiles are the ideal option for large buildings, sliding doors of a villa or for complex architectural systems.",
-        "wooddesc": "Laminate woodwork not only looks stylish, but also offers outstanding reliability. It should be noted that it is also an environmentally friendly solution.",
-        "sound": "Soundproofing",
-        "sun": "Solar Control",
-        "durable": "Durability",
-        "eco": "Eco-Friendly",
-        "design": "Modern Design"
-    },
-    "services": {
-        "title": "Services offered by us",
-        "consult": "Consulting",
-        "consultdesc": "Our specialists are always available to customers with recommendations and information.",
-        "quality": "Quality",
-        "qualitydesc": "Not only the architecture and style of the interior and exterior design matter, but also the materials used, but especially their quality.",
-        "production": "Production",
-        "productiondesc": "We use the best quality raw materials and accessories, with equipment handled by experts in carpentry production.",
-        "measurements": "Measurements",
-        "measurementsdesc": "Correct measurements are extremely important. We carry out this stage with the greatest care, in any type of building or room.",
-        "delivery": "Delivery",
-        "deliverydesc": "Thanks to our own fleet, we can schedule and transport any type of joinery or glass.",
-        "fitting": "Fitting",
-        "fittingdesc": "We assemble and check after completion, very carefully. Everything for the safety and comfort of our customers!"
-    },
-    "calltoaction": {
-        "title": "Our process",
-        "draft": "Send us a sketch",
-        "draftdesc": "To be able to make an estimated price offer.",
-        "support": "Consultancy based on the offer",
-        "supportdesc": "We offer free support on the basis of the offer to be able to determine the final details.",
-        "paymeasure": "Payment and measurements",
-        "paymeasuredesc": "After making the payment we will make the final measurements.",
-        "production": "Production and assembly",
-        "productiondesc": "Once the production is completed we will contact you to execute the installation.",
-        "happy": "Enjoy your product",
-        "happydesc": "And we will wait for your next order!"
-    },
-    "accessories": {
-        "paragraph": "A first criterion for selecting a carpentry accessory manufacturer can be its experience and seniority in the manufacturing market.",
-        "glaf": "Cover",
-        "pervaz": "Sill",
-        "broasca": "Door lock",
-        "panel": "Panel"
-    },
-    "testimonials": {
-        "title": "Customer Reviews About Us",
-        "review1": "We had a very good collaboration. Prompt and to the point. I hope we continue the same. Thanks.",
-        "review2": "I will highly recommend you every chance I get. For me the completion of this project involved quite a lot of effort until I contacted you.",
-        "review3": "It is very good and fast to work with them. So far there has been no unanswered question and no unsolved problem. We are very very pleased. Good luck.",
-        "review4": "Everything is worked with seriousness, accuracy, resulting in a product of high standards. Thank you!",
-        "review5": "Seriousness and professionalism are the best words to describe this company. We are happy with the service and the speed with which any requirements are resolved.",
-        "review6": "I want to thank you personally for the work done. Honestly, I didn't expect the project to turn out so well. Thank you!",
-        "review7": "Quality, professionalism, everything superlative!",
-        "review8": "An extraordinary team, who knew how to communicate with us and brilliantly responded to the demanding requirements we had.",
-        "happyclients": "Some of our happy customers"
-    },
-    "contact": {
-        "title": "Contact us",
-        "name": "Name",
-        "phone": "Phone number",
-        "subject": "Subject",
-        "message": "Message",
-        "agreewith": "I agree with the",
+	"landing": {
+		"subtitle": "choose the quality offered by pbt românia",
+		"title": "get the best offer for",
+		"description": "Our products are a safe long-term investment with no additional maintenance, repair, reconditioning, etc. costs."
+	},
+	"products": {
+		"title": "Products Offered by Us"
+	},
+	"about": {
+		"experience": "years of experience",
+		"description": "Promotion Business Team is a company at the base of which is a young and dynamic team, made up of specialists in thermopane and tripan PVC and aluminum carpentry.",
+		"projects": "completed projects",
+		"clients": "satisfied clients",
+		"services": "services offered",
+		"employees": "employees"
+	},
+	"windows": {
+		"rightchoice": "the right choice",
+		"windoor": "Windows and Doors",
+		"paragraph1": "We offer you a wide range of windows and doors, characterized by top-class profiles, thermopane or triple-pane glazing and unique designs for all tastes, ideal for fitting out any type of space.",
+		"paragraph2": "Our carpentry guarantees you a carefree life because we only use materials of the latest generation, which do not require special maintenance.",
+		"production": "Own Production",
+		"team": "Professional Team",
+		"quality": "Quality Materials",
+		"measurements": "Free Measurements",
+		"pvcdesc": "PVC carpentry windows are a modern and comfortable solution for your home.",
+		"aludesc": "Aluminum profiles are the ideal option for large buildings, sliding doors of a villa or for complex architectural systems.",
+		"wooddesc": "Laminate woodwork not only looks stylish, but also offers outstanding reliability. It should be noted that it is also an environmentally friendly solution.",
+		"sound": "Soundproofing",
+		"sun": "Solar Control",
+		"durable": "Durability",
+		"eco": "Eco-Friendly",
+		"design": "Modern Design"
+	},
+	"services": {
+		"title": "Services offered by us",
+		"consult": "Consulting",
+		"consultdesc": "Our specialists are always available to customers with recommendations and information.",
+		"quality": "Quality",
+		"qualitydesc": "Not only the architecture and style of the interior and exterior design matter, but also the materials used, but especially their quality.",
+		"production": "Production",
+		"productiondesc": "We use the best quality raw materials and accessories, with equipment handled by experts in carpentry production.",
+		"measurements": "Measurements",
+		"measurementsdesc": "Correct measurements are extremely important. We carry out this stage with the greatest care, in any type of building or room.",
+		"delivery": "Delivery",
+		"deliverydesc": "Thanks to our own fleet, we can schedule and transport any type of joinery or glass.",
+		"fitting": "Fitting",
+		"fittingdesc": "We assemble and check after completion, very carefully. Everything for the safety and comfort of our customers!"
+	},
+	"calltoaction": {
+		"title": "Our process",
+		"draft": "Send us a sketch",
+		"draftdesc": "To be able to make an estimated price offer.",
+		"support": "Consultancy based on the offer",
+		"supportdesc": "We offer free support on the basis of the offer to be able to determine the final details.",
+		"paymeasure": "Payment and measurements",
+		"paymeasuredesc": "After making the payment we will make the final measurements.",
+		"production": "Production and assembly",
+		"productiondesc": "Once the production is completed we will contact you to execute the installation.",
+		"happy": "Enjoy your product",
+		"happydesc": "And we will wait for your next order!"
+	},
+	"accessories": {
+		"paragraph": "A first criterion for selecting a carpentry accessory manufacturer can be its experience and seniority in the manufacturing market.",
+		"glaf": "Cover",
+		"pervaz": "Sill",
+		"broasca": "Door lock",
+		"panel": "Panel"
+	},
+	"testimonials": {
+		"title": "Customer Reviews About Us",
+		"review1": "We had a very good collaboration. Prompt and to the point. I hope we continue the same. Thanks.",
+		"review2": "I will highly recommend you every chance I get. For me the completion of this project involved quite a lot of effort until I contacted you.",
+		"review3": "It is very good and fast to work with them. So far there has been no unanswered question and no unsolved problem. We are very very pleased. Good luck.",
+		"review4": "Everything is worked with seriousness, accuracy, resulting in a product of high standards. Thank you!",
+		"review5": "Seriousness and professionalism are the best words to describe this company. We are happy with the service and the speed with which any requirements are resolved.",
+		"review6": "I want to thank you personally for the work done. Honestly, I didn't expect the project to turn out so well. Thank you!",
+		"review7": "Quality, professionalism, everything superlative!",
+		"review8": "An extraordinary team, who knew how to communicate with us and brilliantly responded to the demanding requirements we had.",
+		"happyclients": "Some of our happy customers"
+	},
+	"contact": {
+		"title": "Contact us",
+		"name": "Name",
+		"phone": "Phone number",
+		"subject": "Subject",
+		"message": "Message",
+		"agreewith": "I agree with the",
 
-        "callus": "Call us",
-        "emailus": "Email us",
-        "visitus": "Visit us",
+		"callus": "Call us",
+		"emailus": "Email us",
+		"visitus": "Visit us",
 
-        "thankyou": "Thank you",
-        "shortly": "We will get back to you as soon as possible."
-    }
+		"thankyou": "Thank you",
+		"shortly": "We will get back to you as soon as possible."
+	}
 }

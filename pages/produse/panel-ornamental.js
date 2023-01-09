@@ -26,6 +26,7 @@ export default function PanelOrnamental() {
 		<Layout
 			title={t("common:product.panelornamental")}
 			description={t("description")}
+			canonical="https://pbtromania.ro/produse/panel-ornamental"
 		>
 			<div className="section-spacing" />
 

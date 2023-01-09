@@ -12,6 +12,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/effect-fade";
 import "react-toastify/dist/ReactToastify.css";
+import "../styles/tailwind.css";
 import "../styles/globals.css";
 
 const clientSideEmotionCache = createEmotionCache();

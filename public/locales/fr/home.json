@@ -1,98 +1,98 @@
 {
-    "landing": {
-        "subtitle": "choisissez la qualité offerte par pbt românia",
-        "title": "obtenir la meilleure offre pour",
-        "description": "Nos produits sont un investissement sûr à long terme sans frais supplémentaires de maintenance, de réparation, de reconditionnement, etc."
-    },
-    "products": {
-        "title": "Produits que nous proposons"
-    },
-    "about": {
-        "experience": "années d'expérience",
-        "description": "Promotion Business Team est une entreprise qui s'appuie sur une équipe jeune et dynamique, composée de spécialistes de la menuiserie thermopane et tripan PVC et aluminium.",
-        "projects": "projets achevés",
-        "clients": "clients satisfaits",
-        "services": "services offerts",
-        "employees": "personnel"
-    },
-    "windows": {
-        "rightchoice": "Le bon choix",
-        "windoor": "Fenêtres et Portes",
-        "paragraph1": "Nous vous proposons une large gamme de fenêtres et de portes, caractérisées par des profils haut de gamme, des vitrages thermo ou triple vitrage et des designs uniques pour tous les goûts, idéaux pour aménager tout type d'espace.",
-        "paragraph2": "Notre menuiserie vous garantit une vie sans soucis car nous n'utilisons que des matériaux de dernière génération, qui ne nécessitent pas d'entretien particulier.",
-        "production": "Propre fabrication",
-        "team": "Equipe Professionelle",
-        "quality": "Matériaux de Qualité",
-        "measurements": "Mesures Gratuites",
-        "pvcdesc": "Les fenêtres de menuiserie en PVC sont une solution moderne et confortable pour votre maison.",
-        "aludesc": "Les profilés en aluminium sont l'option idéale pour les grands bâtiments, les portes coulissantes d'une villa ou pour les systèmes architecturaux complexes.",
-        "wooddesc": "Les boiseries en stratifié sont non seulement élégantes, mais offrent également une fiabilité exceptionnelle. A noter qu'il s'agit également d'une solution respectueuse de l'environnement.",
-        "sound": "Insonorisation",
-        "sun": "Contrôle Solaire",
-        "durable": "Durabilité",
-        "eco": "Eco-Friendly",
-        "design": "Design Moderne"
-    },
-    "services": {
-        "title": "Services offerts par nous",
-        "consult": "Consultant",
-        "consultdesc": "Nos spécialistes sont toujours à la disposition des clients avec des recommandations et des informations.",
-        "quality": "Qualité",
-        "qualitydesc": "Non seulement l'architecture et le style du design intérieur et extérieur comptent, mais aussi les matériaux utilisés, mais surtout leur qualité.",
-        "production": "Production",
-        "productiondesc": "Nous utilisons les meilleures matières premières et accessoires de qualité, avec des équipements gérés par des experts en production de menuiserie.",
-        "measurements": "Mesure",
-        "measurementsdesc": "Des mesures correctes sont extrêmement importantes. Nous réalisons cette étape avec le plus grand soin, dans tout type de bâtiment ou de pièce.",
-        "delivery": "Livraison",
-        "deliverydesc": "Grâce à notre propre flotte, nous pouvons programmer et transporter tout type de menuiserie ou de verre.",
-        "fitting": "Raccord",
-        "fittingdesc": "Nous assemblons et vérifions après l'achèvement, très soigneusement. Tout pour la sécurité et le confort de nos clients !"
-    },
-    "calltoaction": {
-        "title": "Notre processus",
-        "draft": "Envoyez-nous un croquis",
-        "draftdesc": "Pouvoir faire une offre de prix estimative.",
-        "support": "Conseil basé sur l'offre",
-        "supportdesc": "Nous offrons une assistance gratuite sur la base de l'offre pour pouvoir déterminer les derniers détails.",
-        "paymeasure": "Paiement et mesures",
-        "paymeasuredesc": "Après avoir effectué le paiement, nous effectuerons les mesures finales.",
-        "production": "Fabrication et assemblage",
-        "productiondesc": "Une fois la production terminée, nous vous contacterons pour exécuter l'installation.",
-        "happy": "Profitez de votre produit",
-        "happydesc": "Et nous attendrons votre prochaine commande!"
-    },
-    "accessories": {
-        "paragraph": "Un premier critère de sélection d'un fabricant d'accessoires de menuiserie peut être son expérience et son ancienneté sur le marché de la fabrication.",
-        "glaf": "Montant",
-        "pervaz": "Seuil",
-        "broasca": "Porte grenouille",
-        "panel": "Panneau"
-    },
-    "testimonials": {
-        "title": "Commentaires des clients À propos de nous",
-        "review1": "Nous avons eu une très bonne collaboration. Rapide et précis. J'espère que nous continuerons ainsi. Merci.",
-        "review2": "Je vous recommanderai vivement à chaque occasion. Pour moi, la réalisation de ce projet a demandé beaucoup d'efforts jusqu'à ce que je vous contacte.",
-        "review3": "C'est très bon et rapide de travailler avec eux. Jusqu'à présent, il n'y a eu aucune question sans réponse et aucun problème non résolu. Nous sommes très très contents. Bonne chance.",
-        "review4": "Tout est travaillé avec sérieux, précision, aboutissant à un produit de grande qualité. Merci!",
-        "review5": "Sérieux et professionnalisme sont les meilleurs mots pour décrire cette entreprise. Nous sommes satisfaits du service et de la rapidité avec laquelle toutes les exigences sont résolues.",
-        "review6": "Je tiens à vous remercier personnellement pour le travail accompli. Honnêtement, je ne m'attendais pas à ce que le projet tourne aussi bien. Merci!",
-        "review7": "Qualité, professionnalisme, tout au superlatif !",
-        "review8": "Une équipe extraordinaire, qui a su communiquer avec nous et a répondu avec brio aux exigences exigeantes que nous avions.",
-        "happyclients": "Certains de nos clients satisfaits"
-    },
-    "contact": {
-        "title": "Contactez-nous",
-        "name": "Nom",
-        "phone": "Numéro de téléphone",
-        "subject": "Sujet",
-        "message": "Message",
-        "agreewith": "je suis d'accord avec",
+	"landing": {
+		"subtitle": "choisissez la qualité offerte par pbt românia",
+		"title": "obtenir la meilleure offre pour",
+		"description": "Nos produits sont un investissement sûr à long terme sans frais supplémentaires de maintenance, de réparation, de reconditionnement, etc."
+	},
+	"products": {
+		"title": "Produits que nous proposons"
+	},
+	"about": {
+		"experience": "années d'expérience",
+		"description": "Promotion Business Team est une entreprise qui s'appuie sur une équipe jeune et dynamique, composée de spécialistes de la menuiserie thermopane et tripan PVC et aluminium.",
+		"projects": "projets achevés",
+		"clients": "clients satisfaits",
+		"services": "services offerts",
+		"employees": "personnel"
+	},
+	"windows": {
+		"rightchoice": "Le bon choix",
+		"windoor": "Fenêtres et Portes",
+		"paragraph1": "Nous vous proposons une large gamme de fenêtres et de portes, caractérisées par des profils haut de gamme, des vitrages thermo ou triple vitrage et des designs uniques pour tous les goûts, idéaux pour aménager tout type d'espace.",
+		"paragraph2": "Notre menuiserie vous garantit une vie sans soucis car nous n'utilisons que des matériaux de dernière génération, qui ne nécessitent pas d'entretien particulier.",
+		"production": "Propre fabrication",
+		"team": "Equipe Professionelle",
+		"quality": "Matériaux de Qualité",
+		"measurements": "Mesures Gratuites",
+		"pvcdesc": "Les fenêtres de menuiserie en PVC sont une solution moderne et confortable pour votre maison.",
+		"aludesc": "Les profilés en aluminium sont l'option idéale pour les grands bâtiments, les portes coulissantes d'une villa ou pour les systèmes architecturaux complexes.",
+		"wooddesc": "Les boiseries en stratifié sont non seulement élégantes, mais offrent également une fiabilité exceptionnelle. A noter qu'il s'agit également d'une solution respectueuse de l'environnement.",
+		"sound": "Insonorisation",
+		"sun": "Contrôle Solaire",
+		"durable": "Durabilité",
+		"eco": "Eco-Friendly",
+		"design": "Design Moderne"
+	},
+	"services": {
+		"title": "Services offerts par nous",
+		"consult": "Consultant",
+		"consultdesc": "Nos spécialistes sont toujours à la disposition des clients avec des recommandations et des informations.",
+		"quality": "Qualité",
+		"qualitydesc": "Non seulement l'architecture et le style du design intérieur et extérieur comptent, mais aussi les matériaux utilisés, mais surtout leur qualité.",
+		"production": "Production",
+		"productiondesc": "Nous utilisons les meilleures matières premières et accessoires de qualité, avec des équipements gérés par des experts en production de menuiserie.",
+		"measurements": "Mesure",
+		"measurementsdesc": "Des mesures correctes sont extrêmement importantes. Nous réalisons cette étape avec le plus grand soin, dans tout type de bâtiment ou de pièce.",
+		"delivery": "Livraison",
+		"deliverydesc": "Grâce à notre propre flotte, nous pouvons programmer et transporter tout type de menuiserie ou de verre.",
+		"fitting": "Raccord",
+		"fittingdesc": "Nous assemblons et vérifions après l'achèvement, très soigneusement. Tout pour la sécurité et le confort de nos clients !"
+	},
+	"calltoaction": {
+		"title": "Notre processus",
+		"draft": "Envoyez-nous un croquis",
+		"draftdesc": "Pouvoir faire une offre de prix estimative.",
+		"support": "Conseil basé sur l'offre",
+		"supportdesc": "Nous offrons une assistance gratuite sur la base de l'offre pour pouvoir déterminer les derniers détails.",
+		"paymeasure": "Paiement et mesures",
+		"paymeasuredesc": "Après avoir effectué le paiement, nous effectuerons les mesures finales.",
+		"production": "Fabrication et assemblage",
+		"productiondesc": "Une fois la production terminée, nous vous contacterons pour exécuter l'installation.",
+		"happy": "Profitez de votre produit",
+		"happydesc": "Et nous attendrons votre prochaine commande!"
+	},
+	"accessories": {
+		"paragraph": "Un premier critère de sélection d'un fabricant d'accessoires de menuiserie peut être son expérience et son ancienneté sur le marché de la fabrication.",
+		"glaf": "Montant",
+		"pervaz": "Seuil",
+		"broasca": "Porte grenouille",
+		"panel": "Panneau"
+	},
+	"testimonials": {
+		"title": "Commentaires des clients À propos de nous",
+		"review1": "Nous avons eu une très bonne collaboration. Rapide et précis. J'espère que nous continuerons ainsi. Merci.",
+		"review2": "Je vous recommanderai vivement à chaque occasion. Pour moi, la réalisation de ce projet a demandé beaucoup d'efforts jusqu'à ce que je vous contacte.",
+		"review3": "C'est très bon et rapide de travailler avec eux. Jusqu'à présent, il n'y a eu aucune question sans réponse et aucun problème non résolu. Nous sommes très très contents. Bonne chance.",
+		"review4": "Tout est travaillé avec sérieux, précision, aboutissant à un produit de grande qualité. Merci!",
+		"review5": "Sérieux et professionnalisme sont les meilleurs mots pour décrire cette entreprise. Nous sommes satisfaits du service et de la rapidité avec laquelle toutes les exigences sont résolues.",
+		"review6": "Je tiens à vous remercier personnellement pour le travail accompli. Honnêtement, je ne m'attendais pas à ce que le projet tourne aussi bien. Merci!",
+		"review7": "Qualité, professionnalisme, tout au superlatif !",
+		"review8": "Une équipe extraordinaire, qui a su communiquer avec nous et a répondu avec brio aux exigences exigeantes que nous avions.",
+		"happyclients": "Certains de nos clients satisfaits"
+	},
+	"contact": {
+		"title": "Contactez-nous",
+		"name": "Nom",
+		"phone": "Numéro de téléphone",
+		"subject": "Sujet",
+		"message": "Message",
+		"agreewith": "je suis d'accord avec",
 
-        "callus": "Appelez-nous",
-        "emailus": "Envoyez-nous un e-mail",
-        "visitus": "Rendez nous visite",
+		"callus": "Appelez-nous",
+		"emailus": "Envoyez-nous un e-mail",
+		"visitus": "Rendez nous visite",
 
-        "thankyou": "Nous te remercions",
-        "shortly": "Nous vous contacterons dès que possible."
-    }
+		"thankyou": "Nous te remercions",
+		"shortly": "Nous vous contacterons dès que possible."
+	}
 }

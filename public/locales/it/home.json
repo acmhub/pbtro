@@ -1,98 +1,98 @@
 {
-    "landing": {
-        "subtitle": "scegli la qualità offerta da pbt românia",
-        "title": "ottenere il miglior affare per",
-        "description": "I nostri prodotti sono un investimento sicuro a lungo termine senza costi aggiuntivi di manutenzione, riparazione, ricondizionamento, ecc."
-    },
-    "products": {
-        "title": "Prodotti Offerti da Noi"
-    },
-    "about": {
-        "experience": "anni di esperienza",
-        "description": "Promotion Business Team è un'azienda alla cui base c'è un team giovane e dinamico, formato da specialisti in termopane e tripan carpenteria in PVC e alluminio.",
-        "projects": "progetti completati",
-        "clients": "clienti soddisfatti",
-        "services": "servizi offerti",
-        "employees": "personale"
-    },
-    "windows": {
-        "rightchoice": "La scelta giusta",
-        "windoor": "Finestre e Porte",
-        "paragraph1": "Vi proponiamo un'ampia gamma di serramenti, caratterizzati da profili di prima qualità, vetri termolanti o tripli vetri e design unici per tutti i gusti, ideali per arredare ogni tipo di spazio.",
-        "paragraph2": "La nostra falegnameria ti garantisce una vita spensierata perché utilizziamo solo materiali di ultima generazione, che non necessitano di particolari manutenzioni.",
-        "production": "Produzione Propria",
-        "team": "Squadra Professionale",
-        "quality": "Materiali di Qualità",
-        "measurements": "Misure Gratuite",
-        "pvcdesc": "Le finestre in carpenteria in PVC sono una soluzione moderna e confortevole per la tua casa.",
-        "aludesc": "I profili in alluminio sono l'opzione ideale per grandi edifici, porte scorrevoli di una villa o per complessi sistemi architettonici.",
-        "wooddesc": "La lavorazione del legno laminato non solo ha un aspetto elegante, ma offre anche un'affidabilità eccezionale. Va notato che è anche una soluzione ecologica.",
-        "sound": "Insonorizzazione",
-        "sun": "Controllo Solare",
-        "durable": "Durabilità",
-        "eco": "Ecologico",
-        "design": "Design Moderno"
-    },
-    "services": {
-        "title": "Servizi offerti da noi",
-        "consult": "Consulente",
-        "consultdesc": "I nostri specialisti sono sempre a disposizione dei clienti con consigli e informazioni.",
-        "quality": "Qualità",
-        "qualitydesc": "Non contano solo l'architettura e lo stile del design di interni ed esterni, ma anche i materiali utilizzati, ma soprattutto la loro qualità.",
-        "production": "Produzione",
-        "productiondesc": "Utilizziamo materie prime e accessori della migliore qualità, con attrezzature gestite da esperti nella produzione di falegnameria.",
-        "measurements": "Misurare",
-        "measurementsdesc": "Le misurazioni corrette sono estremamente importanti. Eseguiamo questa fase con la massima cura, in qualsiasi tipologia di edificio o locale.",
-        "delivery": "Consegna",
-        "deliverydesc": "Grazie alla nostra flotta siamo in grado di programmare e trasportare qualsiasi tipo di falegnameria o vetro.",
-        "fitting": "Raccordo",
-        "fittingdesc": "Montiamo e controlliamo dopo il completamento, con molta attenzione. Tutto per la sicurezza e il comfort dei nostri clienti!"
-    },
-    "calltoaction": {
-        "title": "Il nostro processo",
-        "draft": "Inviaci uno schizzo",
-        "draftdesc": "Per poter fare un'offerta a prezzo stimato.",
-        "support": "Consulenza in base all'offerta",
-        "supportdesc": "Offriamo supporto gratuito sulla base dell'offerta per poter determinare i dettagli finali.",
-        "paymeasure": "Pagamento e misure",
-        "paymeasuredesc": "Dopo aver effettuato il pagamento effettueremo le misure finali.",
-        "production": "Produzione e montaggio",
-        "productiondesc": "Una volta completata la produzione, ti contatteremo per eseguire l'installazione.",
-        "happy": "Goditi il tuo prodotto",
-        "happydesc": "E aspetteremo il tuo prossimo ordine!"
-    },
-    "accessories": {
-        "paragraph": "Un primo criterio per selezionare un produttore di accessori per falegnameria può essere la sua esperienza e anzianità nel mercato manifatturiero.",
-        "glaf": "Stipite",
-        "pervaz": "Davanzale",
-        "broasca": "Porta della rana",
-        "panel": "Pannello"
-    },
-    "testimonials": {
-        "title": "Recensioni dei clienti su di noi",
-        "review1": "Abbiamo avuto un'ottima collaborazione. Puntuali e al punto. Spero che continuiamo lo stesso. Grazie.",
-        "review2": "Ti consiglierò vivamente ogni volta che ne avrò. Per me il completamento di questo progetto ha comportato un notevole sforzo fino a quando non ti ho contattato.",
-        "review3": "È molto buono e veloce lavorare con loro. Finora non ci sono state domande senza risposta e nessun problema irrisolto. Siamo molto molto contenti. Buona fortuna.",
-        "review4": "Tutto è lavorato con serietà, accuratezza, risultando in un prodotto di standard elevati. Grazie!",
-        "review5": "Serietà e professionalità sono le parole migliori per descrivere questa azienda. Siamo contenti del servizio e della velocità con cui vengono risolte eventuali esigenze.",
-        "review6": "Voglio ringraziarla personalmente per il lavoro svolto. Sinceramente, non mi aspettavo che il progetto andasse così bene. Grazie!",
-        "review7": "Qualità, professionalità, tutto superlativo!",
-        "review8": "Un team straordinario, che ha saputo comunicare con noi e ha risposto brillantemente alle esigenti richieste che avevamo.",
-        "happyclients": "Alcuni dei nostri clienti felici"
-    },
-    "contact": {
-        "title": "Contattaci",
-        "name": "Nome",
-        "phone": "Numero di telefono",
-        "subject": "Argomento",
-        "message": "Messaggio",
-        "agreewith": "Sono d'accordo con",
+	"landing": {
+		"subtitle": "scegli la qualità offerta da pbt românia",
+		"title": "ottenere il miglior affare per",
+		"description": "I nostri prodotti sono un investimento sicuro a lungo termine senza costi aggiuntivi di manutenzione, riparazione, ricondizionamento, ecc."
+	},
+	"products": {
+		"title": "Prodotti Offerti da Noi"
+	},
+	"about": {
+		"experience": "anni di esperienza",
+		"description": "Promotion Business Team è un'azienda alla cui base c'è un team giovane e dinamico, formato da specialisti in termopane e tripan carpenteria in PVC e alluminio.",
+		"projects": "progetti completati",
+		"clients": "clienti soddisfatti",
+		"services": "servizi offerti",
+		"employees": "personale"
+	},
+	"windows": {
+		"rightchoice": "La scelta giusta",
+		"windoor": "Finestre e Porte",
+		"paragraph1": "Vi proponiamo un'ampia gamma di serramenti, caratterizzati da profili di prima qualità, vetri termolanti o tripli vetri e design unici per tutti i gusti, ideali per arredare ogni tipo di spazio.",
+		"paragraph2": "La nostra falegnameria ti garantisce una vita spensierata perché utilizziamo solo materiali di ultima generazione, che non necessitano di particolari manutenzioni.",
+		"production": "Produzione Propria",
+		"team": "Squadra Professionale",
+		"quality": "Materiali di Qualità",
+		"measurements": "Misure Gratuite",
+		"pvcdesc": "Le finestre in carpenteria in PVC sono una soluzione moderna e confortevole per la tua casa.",
+		"aludesc": "I profili in alluminio sono l'opzione ideale per grandi edifici, porte scorrevoli di una villa o per complessi sistemi architettonici.",
+		"wooddesc": "La lavorazione del legno laminato non solo ha un aspetto elegante, ma offre anche un'affidabilità eccezionale. Va notato che è anche una soluzione ecologica.",
+		"sound": "Insonorizzazione",
+		"sun": "Controllo Solare",
+		"durable": "Durabilità",
+		"eco": "Ecologico",
+		"design": "Design Moderno"
+	},
+	"services": {
+		"title": "Servizi offerti da noi",
+		"consult": "Consulente",
+		"consultdesc": "I nostri specialisti sono sempre a disposizione dei clienti con consigli e informazioni.",
+		"quality": "Qualità",
+		"qualitydesc": "Non contano solo l'architettura e lo stile del design di interni ed esterni, ma anche i materiali utilizzati, ma soprattutto la loro qualità.",
+		"production": "Produzione",
+		"productiondesc": "Utilizziamo materie prime e accessori della migliore qualità, con attrezzature gestite da esperti nella produzione di falegnameria.",
+		"measurements": "Misurare",
+		"measurementsdesc": "Le misurazioni corrette sono estremamente importanti. Eseguiamo questa fase con la massima cura, in qualsiasi tipologia di edificio o locale.",
+		"delivery": "Consegna",
+		"deliverydesc": "Grazie alla nostra flotta siamo in grado di programmare e trasportare qualsiasi tipo di falegnameria o vetro.",
+		"fitting": "Raccordo",
+		"fittingdesc": "Montiamo e controlliamo dopo il completamento, con molta attenzione. Tutto per la sicurezza e il comfort dei nostri clienti!"
+	},
+	"calltoaction": {
+		"title": "Il nostro processo",
+		"draft": "Inviaci uno schizzo",
+		"draftdesc": "Per poter fare un'offerta a prezzo stimato.",
+		"support": "Consulenza in base all'offerta",
+		"supportdesc": "Offriamo supporto gratuito sulla base dell'offerta per poter determinare i dettagli finali.",
+		"paymeasure": "Pagamento e misure",
+		"paymeasuredesc": "Dopo aver effettuato il pagamento effettueremo le misure finali.",
+		"production": "Produzione e montaggio",
+		"productiondesc": "Una volta completata la produzione, ti contatteremo per eseguire l'installazione.",
+		"happy": "Goditi il tuo prodotto",
+		"happydesc": "E aspetteremo il tuo prossimo ordine!"
+	},
+	"accessories": {
+		"paragraph": "Un primo criterio per selezionare un produttore di accessori per falegnameria può essere la sua esperienza e anzianità nel mercato manifatturiero.",
+		"glaf": "Stipite",
+		"pervaz": "Davanzale",
+		"broasca": "Porta della rana",
+		"panel": "Pannello"
+	},
+	"testimonials": {
+		"title": "Recensioni dei clienti su di noi",
+		"review1": "Abbiamo avuto un'ottima collaborazione. Puntuali e al punto. Spero che continuiamo lo stesso. Grazie.",
+		"review2": "Ti consiglierò vivamente ogni volta che ne avrò. Per me il completamento di questo progetto ha comportato un notevole sforzo fino a quando non ti ho contattato.",
+		"review3": "È molto buono e veloce lavorare con loro. Finora non ci sono state domande senza risposta e nessun problema irrisolto. Siamo molto molto contenti. Buona fortuna.",
+		"review4": "Tutto è lavorato con serietà, accuratezza, risultando in un prodotto di standard elevati. Grazie!",
+		"review5": "Serietà e professionalità sono le parole migliori per descrivere questa azienda. Siamo contenti del servizio e della velocità con cui vengono risolte eventuali esigenze.",
+		"review6": "Voglio ringraziarla personalmente per il lavoro svolto. Sinceramente, non mi aspettavo che il progetto andasse così bene. Grazie!",
+		"review7": "Qualità, professionalità, tutto superlativo!",
+		"review8": "Un team straordinario, che ha saputo comunicare con noi e ha risposto brillantemente alle esigenti richieste che avevamo.",
+		"happyclients": "Alcuni dei nostri clienti felici"
+	},
+	"contact": {
+		"title": "Contattaci",
+		"name": "Nome",
+		"phone": "Numero di telefono",
+		"subject": "Argomento",
+		"message": "Messaggio",
+		"agreewith": "Sono d'accordo con",
 
-        "callus": "Chiamaci",
-        "emailus": "Mandaci un email",
-        "visitus": "Visitateci",
+		"callus": "Chiamaci",
+		"emailus": "Mandaci un email",
+		"visitus": "Visitateci",
 
-        "thankyou": "Ti ringraziamo",
-        "shortly": "Ti contatteremo al più presto."
-    }
+		"thankyou": "Ti ringraziamo",
+		"shortly": "Ti contatteremo al più presto."
+	}
 }

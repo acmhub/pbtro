@@ -79,7 +79,7 @@ export default function Contact({ t }) {
 
 	return (
 		<div className="container-padding space-y-10">
-			<h1>{t("common:contact")}</h1>
+			<h2>{t("common:contact")}</h2>
 
 			<div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
 				<div className="col-span-1 lg:col-span-4">
@@ -131,8 +131,9 @@ export default function Contact({ t }) {
 											setConsent(e.target.checked)
 										}
 										className="p-0"
+										id="consent"
 									/>
-									<div>
+									<label htmlFor="consent">
 										{t("contact.agreewith")}{" "}
 										<Link
 											href="/politica-confidentialitate"
@@ -142,7 +143,7 @@ export default function Contact({ t }) {
 												{t("common:privacypolicy")}
 											</a>
 										</Link>
-									</div>
+									</label>
 								</div>
 
 								<button

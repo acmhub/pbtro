@@ -5,6 +5,7 @@ https://pbtromania.ro/
 ## Screenshots
 
 ![App Screenshot](https://i.imgur.com/QyA85pp.png)
+![Lighthouse Report](https://i.imgur.com/GWaZnhJ.png)
 
 ## Run Locally
 

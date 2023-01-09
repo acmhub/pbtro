@@ -11,6 +11,7 @@ import {
 	MdOutlineMailOutline,
 	MdOutlineMap,
 } from "react-icons/md";
+import { FaFacebookF, FaWhatsapp } from "react-icons/fa";
 import styled from "styled-components";
 import {
 	windoorProducts,
@@ -250,8 +251,9 @@ export default function Navigation() {
 							rel="noopener noreferrer"
 							className="nav-link space-x-1"
 							itemProp="telephone"
+							aria-label="telephone"
 						>
-							<MdOutlinePhoneInTalk className="h-6 w-6 text-theme1" />
+							<MdOutlinePhoneInTalk className="h-5 w-6 text-theme1" />
 							<p className="hidden lg:inline">+40 786 422 450</p>
 						</a>
 						<a
@@ -260,8 +262,9 @@ export default function Navigation() {
 							rel="noopener noreferrer"
 							className="nav-link space-x-1"
 							itemProp="telephone"
+							aria-label="telephone"
 						>
-							<MdOutlinePhoneInTalk className="h-6 w-6 text-theme1" />
+							<MdOutlinePhoneInTalk className="h-5 w-6 text-theme1" />
 							<p className="hidden lg:inline">+40 723 391 843</p>
 						</a>
 						<a
@@ -270,8 +273,9 @@ export default function Navigation() {
 							rel="noopener noreferrer"
 							className="nav-link space-x-1"
 							itemProp="email"
+							aria-label="email"
 						>
-							<MdOutlineMailOutline className="h-6 w-6 text-theme1" />
+							<MdOutlineMailOutline className="h-5 w-6 text-theme1" />
 							<p className="hidden lg:inline">
 								pbtromania@gmail.com
 							</p>
@@ -282,8 +286,9 @@ export default function Navigation() {
 							rel="noopener noreferrer"
 							className="nav-link space-x-1"
 							itemProp="location"
+							aria-label="location"
 						>
-							<MdOutlineMap className="h-6 w-6 text-theme1" />
+							<MdOutlineMap className="h-5 w-6 text-theme1" />
 							<p className="hidden lg:inline">Domnești, IF</p>
 						</a>
 					</div>
@@ -294,16 +299,18 @@ export default function Navigation() {
 							target="_blank"
 							rel="noopener noreferrer"
 							className="nav-link"
+							aria-label="facebook"
 						>
-							<i className="fa-brands fa-facebook-f text-theme1 hover:facebook-icon" />
+							<FaFacebookF className="h-4 w-6 text-theme1 hover:facebook-icon" />
 						</a>
 						<a
 							href="https://wa.me/+40786422450"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="nav-link"
+							aria-label="whatsapp"
 						>
-							<i className="fa-brands fa-whatsapp text-theme1" />
+							<FaWhatsapp className="h-4 w-6 text-theme1 hover:whatsapp-icon" />
 						</a>
 
 						<div className="nav-link">
@@ -590,7 +597,7 @@ export default function Navigation() {
 								rel="noopener noreferrer"
 								className="nav-link text-center"
 							>
-								<MdOutlinePhoneInTalk className="h-6 w-6 text-theme1" />
+								<MdOutlinePhoneInTalk className="h-6 w-6 text-theme1 mx-auto" />
 								<p>+40 786 422 450</p>
 							</a>
 							<a
@@ -599,7 +606,7 @@ export default function Navigation() {
 								rel="noopener noreferrer"
 								className="nav-link text-center"
 							>
-								<MdOutlinePhoneInTalk className="h-6 w-6 text-theme1" />
+								<MdOutlinePhoneInTalk className="h-6 w-6 text-theme1 mx-auto" />
 								<p>+40 723 391 843</p>
 							</a>
 							<a
@@ -608,7 +615,7 @@ export default function Navigation() {
 								rel="noopener noreferrer"
 								className="nav-link text-center"
 							>
-								<MdOutlineMailOutline className="h-6 w-6 text-theme1" />
+								<MdOutlineMailOutline className="h-6 w-6 text-theme1 mx-auto" />
 								<p>pbtromania@gmail.com</p>
 							</a>
 							<a
@@ -617,7 +624,7 @@ export default function Navigation() {
 								rel="noopener noreferrer"
 								className="nav-link text-center"
 							>
-								<MdOutlineMap className="h-6 w-6 text-theme1" />
+								<MdOutlineMap className="h-6 w-6 text-theme1 mx-auto" />
 								<p>Domnești, IF</p>
 							</a>
 
@@ -627,16 +634,18 @@ export default function Navigation() {
 									target="_blank"
 									rel="noopener noreferrer"
 									className="nav-link facebook-icon"
+									aria-label="facebook"
 								>
-									<i className="fa-brands fa-fw fa-lg fa-facebook-f" />
+									<FaFacebookF className="h-5 w-5" />
 								</a>
 								<a
 									href="https://wa.me/+40786422450"
 									target="_blank"
 									rel="noopener noreferrer"
 									className="nav-link whatsapp-icon"
+									aria-label="whatsapp"
 								>
-									<i className="fa-brands fa-fw fa-lg fa-whatsapp" />
+									<FaWhatsapp className="h-5 w-5" />
 								</a>
 							</div>
 						</div>

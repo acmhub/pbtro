@@ -34,7 +34,7 @@ const portfolioData = [
 export default function Portfolio({ t }) {
 	return (
 		<div className="container-padding space-y-10">
-			<h1>{t("common:portfolio")}</h1>
+			<h2>{t("common:portfolio")}</h2>
 
 			<div className="grid grid-cols-1 lg:grid-cols-3 lg:row-auto gap-1">
 				{portfolioData.map((e, i) => (

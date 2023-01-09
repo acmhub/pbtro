@@ -166,7 +166,7 @@ export default function Colors({ t }) {
 					<div className="relative h-72 w-full">
 						<Image
 							src="/images/colors/colors-profile.png"
-							alt="Multicolor"
+							alt="Tamplarie Imitatie Lemn"
 							layout="fill"
 							objectFit="contain"
 							className="-scale-x-100"

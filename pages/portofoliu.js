@@ -88,7 +88,8 @@ export default function Portfolio() {
 		<Layout
 			pageID="portfolio"
 			title={t("common:portfolio")}
-			description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ex quidem perspiciatis architecto? Quam, voluptas aliquid laboriosam officiis corrupti esse."
+			description={t("common:footer.about")}
+			canonical="https://pbtromania.ro/portofoliu"
 		>
 			<div className="section-spacing-lg" />
 
@@ -105,7 +106,7 @@ export default function Portfolio() {
 							>
 								<Image
 									src={e.src}
-									alt=" "
+									alt="Tamplarie pvc si aluminiu"
 									layout="fill"
 									objectFit="cover"
 								/>

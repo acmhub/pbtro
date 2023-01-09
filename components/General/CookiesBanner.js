@@ -15,7 +15,7 @@ export default function CookiesBanner() {
 
 	const handleAccept = () => {
 		setVisible(false);
-		setCookie("pbt_consent", true, { maxAge: 1000 * 60 * 60 * 24 * 14 });
+		setCookie("pbt_consent", true, { maxAge: 1000 * 60 * 60 * 24 * 21 });
 		toast.success(<div>Cookies Acceptate</div>, {});
 	};
 

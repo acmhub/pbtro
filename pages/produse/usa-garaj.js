@@ -135,6 +135,7 @@ export default function UsaGaraj() {
 		<Layout
 			title={t("common:product.usagaraj")}
 			description={t("description")}
+			canonical="https://pbtromania.ro/produse/usa-garaj"
 		>
 			<div className="section-spacing" />
 

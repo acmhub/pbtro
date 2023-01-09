@@ -46,7 +46,7 @@ const servicesData = [
 export default function Services({ t }) {
 	return (
 		<div className="container-padding space-y-10">
-			<h1 className="text-center">{t("services.title")}</h1>
+			<h2 className="text-center">{t("services.title")}</h2>
 
 			<div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
 				{servicesData.map((e, i) => (
@@ -54,7 +54,7 @@ export default function Services({ t }) {
 						<div className="bg-theme2 text-white h-full w-fit flex items-center p-2">
 							<e.Icon className="h-8 w-8" />
 						</div>
-						<div className="p-4">
+						<div className="space-y-4 p-4">
 							<h4>{t(e.title)}</h4>
 							<p>{t(e.description)}</p>
 						</div>

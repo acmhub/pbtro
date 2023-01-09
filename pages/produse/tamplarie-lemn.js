@@ -22,6 +22,7 @@ export default function TamplarieLemn() {
 		<Layout
 			title={t("common:product.tamplarielemn")}
 			description={t("description")}
+			canonical="https://pbtromania.ro/produse/tamplarie-lemn"
 		>
 			<div className="section-spacing" />
 

@@ -84,7 +84,8 @@ export default function Contact() {
 		<Layout
 			pageID="contact"
 			title={t("common:contact")}
-			description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ex quidem perspiciatis architecto? Quam, voluptas aliquid laboriosam officiis corrupti esse."
+			description={t("common:productcta.title")}
+			canonical="https://pbtromania.ro/contact"
 		>
 			<div className="section-spacing-lg" />
 

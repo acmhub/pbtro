@@ -5,14 +5,16 @@ export default function BackToTop() {
 	const [scrolled, setScrolled] = useState(false);
 
 	useEffect(() => {
-		const changeBackground = () => {
+		const buttonState = () => {
 			if (window.scrollY >= 500) {
 				setScrolled(true);
 			} else {
 				setScrolled(false);
 			}
 		};
-		window.addEventListener("scroll", changeBackground);
+
+		window.addEventListener("scroll", buttonState, { passive: true });
+		return () => window.removeEventListener("scroll", buttonState);
 	}, []);
 
 	const scrollToTop = () => {

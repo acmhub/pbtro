@@ -100,6 +100,7 @@ export default function PereteAntivant() {
 		<Layout
 			title={t("common:product.pereteantivant")}
 			description={t("description")}
+			canonical="https://pbtromania.ro/produse/perete-antivant"
 		>
 			<div className="section-spacing" />
 

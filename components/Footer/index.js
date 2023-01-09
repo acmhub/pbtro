@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useTranslation } from "next-i18next";
 import { MdOutlinePhoneInTalk, MdOutlineMailOutline } from "react-icons/md";
+import { FaFacebookF, FaWhatsapp } from "react-icons/fa";
 import styled from "styled-components";
 import { productsData } from "../Products";
 
@@ -67,7 +68,7 @@ export default function Footer() {
 					<div className="relative h-20 mx-auto mb-12">
 						<Image
 							src="/images/logos/logo.svg"
-							alt="Promotion Business Team"
+							alt="Promotion Business Team - Producător Tâmplărie PVC și Aluminiu"
 							layout="fill"
 							objectFit="contain"
 						/>
@@ -89,15 +90,17 @@ export default function Footer() {
 									href="https://www.facebook.com/PBT-Romania-404413622991425"
 									target="_blank"
 									rel="noopener noreferrer"
+									aria-label="facebook"
 								>
-									<i className="fa-brands fa-fw fa-facebook-f facebook-icon" />
+									<FaFacebookF className="h-5 w-5 facebook-icon" />
 								</a>
 								<a
 									href="https://wa.me/+40786422450"
 									target="_blank"
 									rel="noopener noreferrer"
+									aria-label="whatsapp"
 								>
-									<i className="fa-brands fa-fw fa-whatsapp whatsapp-icon" />
+									<FaWhatsapp className="h-5 w-5 whatsapp-icon" />
 								</a>
 							</div>
 						</div>
@@ -169,6 +172,7 @@ export default function Footer() {
 								target="_blank"
 								rel="noopener noreferrer"
 								className="w-fit opacity-75 hover:opacity-100 flex items-center space-x-2"
+								aria-label="telephone"
 							>
 								<MdOutlinePhoneInTalk className="h-6 w-6 text-theme1" />
 								<div itemProp="telephone">+40 786 422 450</div>
@@ -178,6 +182,7 @@ export default function Footer() {
 								target="_blank"
 								rel="noopener noreferrer"
 								className="w-fit opacity-75 hover:opacity-100 flex items-center space-x-2"
+								aria-label="telephone"
 							>
 								<MdOutlinePhoneInTalk className="h-6 w-6 text-theme1" />
 								<div itemProp="telephone">+40 723 391 843</div>
@@ -187,6 +192,7 @@ export default function Footer() {
 								target="_blank"
 								rel="noopener noreferrer"
 								className="w-fit opacity-75 hover:opacity-100 flex items-center space-x-2"
+								aria-label="email"
 							>
 								<MdOutlineMailOutline className="h-6 w-6 text-theme1" />
 								<div itemProp="email">pbtromania@gmail.com</div>
@@ -197,6 +203,7 @@ export default function Footer() {
 					<div className="col-span-1 lg:col-span-8">
 						<iframe
 							title="location"
+							aria-label="location"
 							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2850.3339008248113!2d25.97047921552232!3d44.40579357910266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b200fc0e10d997%3A0x6ae5655545a9990d!2sDistribuitor%20Ferestre%20si%20Usi%20-%20Promotion%20Business%20Team!5e0!3m2!1sro!2sro!4v1644401679264!5m2!1sro!2sro"
 							className="h-64 lg:h-full w-full block"
 							itemProp="location"

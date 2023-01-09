@@ -45,7 +45,8 @@ export default function Services() {
 		<Layout
 			pageID="services"
 			title={t("common:services")}
-			description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ex quidem perspiciatis architecto? Quam, voluptas aliquid laboriosam officiis corrupti esse."
+			description={t("common:services.consultdesc")}
+			canonical="https://pbtromania.ro/servicii"
 		>
 			<div className="section-spacing-lg" />
 

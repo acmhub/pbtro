@@ -8,12 +8,19 @@ import Footer from "../Footer";
 import BackToTop from "./BackToTop";
 import CookiesBanner from "./CookiesBanner";
 
-export default function Layout({ title, description, pageID, children }) {
+export default function Layout({
+	title,
+	description,
+	pageID,
+	canonical,
+	children,
+}) {
 	const { t } = useTranslation("");
 	return (
 		<React.Fragment>
 			<Head>
 				<title>{title ? `${title} | PBT` : t("title")}</title>
+				<link rel="canonical" href={canonical} key="canonical" />
 				{description && (
 					<meta name="description" content={description} />
 				)}

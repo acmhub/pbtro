@@ -31,6 +31,7 @@ export default function UsaMetalica() {
 		<Layout
 			title={t("common:product.usametalica")}
 			description={t("description")}
+			canonical="https://pbtromania.ro/produse/usa-metalica"
 		>
 			<div className="section-spacing" />
 

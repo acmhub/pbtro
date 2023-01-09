@@ -25,6 +25,7 @@ export default function UsaAntifoc() {
 		<Layout
 			title={t("common:product.usaantifoc")}
 			description={t("description")}
+			canonical="https://pbtromania.ro/produse/usa-antifoc"
 		>
 			<div className="section-spacing" />
 
