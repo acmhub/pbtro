@@ -75,7 +75,7 @@ export const productsData = [
 		href: "/produse/perete-antivant",
 	},
 	{
-		src: "/images/products/usa-antifoc/highlight.webp",
+		src: "/images/products/usa-metalica/highlight.webp",
 		name: "product.usametalica",
 		href: "/produse/usa-metalica",
 	},

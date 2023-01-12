@@ -1,43 +1,50 @@
 {
-    "description": "Der Komfort und die Sicherheit im Gebrauch, die Eleganz des Designs, die Einbeziehung neuester Technologien gemäß den europäischen Normen zur Betriebssicherheit sowie die Verfügbarkeit einer Reihe von optionalen Ausstattungen machen unsere Garagentore zur idealen Lösung für Sie.",
+	"description": "Der Komfort und die Sicherheit im Gebrauch, die Eleganz des Designs, die Einbeziehung neuester Technologien gemäß den europäischen Normen zur Betriebssicherheit sowie die Verfügbarkeit einer Reihe von optionalen Ausstattungen machen unsere Garagentore zur idealen Lösung für Sie.",
 
-    "variants": {
-        "benefit": "Garagentor Benefit",
-        "benefitdesc1": "Eine gute Wahl aufgrund des Qualitäts-/Preisverhältnisses. Sie sind billige Garagentore aufgrund der Reduzierung von Materialverlusten, wobei die Paneele in Standardgrößen hergestellt werden. Sie sind mit Zugfedern ausgestattet, die unter der Schiene, auf der die Tür gleitet, oder an ihren Seiten montiert werden können.",
-        "benefitdesc2": "Der Hauptvorteil von Toren mit Zugfedern liegt darin, dass die Montage der Schiene auch bei kleinen Seitenpfosten und Traversen erfolgen kann. 15.000 Zyklen sind garantiert.",
-        "benefitxl": "Garagentor Benefit XL",
-        "benefitxldesc1": "BeneFit XL Sektionaltore sind für kleine Garagen mit einer maximalen Länge von 3,2 m gebaut und mit Zugfedern ausgestattet, die sich in den Seitenpfosten befinden.",
-        "benefitxldesc2": "Dank dieser Lösung reduziert sich der erforderliche Strahlabstand auf 65 mm bei einem manuellen Garagentor und 120 mm bei einem elektrischen Garagentor. BeneFit XL wird für 15.000 Betriebszyklen garantiert.",
-        "optima": "Garagentor Optima",
-        "optimadesc1": "Optima Garagen-Sektionaltore bieten die flexibelsten Konstruktionsmöglichkeiten. Sie können auf Bestellung in jeder Größe hergestellt werden und sind mit Torsionsfedern ausgestattet, die sowohl auf dem Träger, auf dem das Tor angebracht ist, als auch hinter den Schienen montiert werden können.",
-        "optimadesc2": "Optima Türen sind für 25.000 Betriebszyklen garantiert. Wenn wir eine durchschnittliche tägliche Nutzung von 3 Zyklen berücksichtigen, kommen wir auf eine Lebensdauer von über 20 Jahren.",
-        "vogue": "Garagentor Vogue",
-        "voguedesc1": "Wie das Optima kann auch das Vogue-Sektionalgaragentor in jeder Größe auf Bestellung gefertigt werden. Stattdessen bietet es Ihnen die Möglichkeit der Individualisierung mit Edelstahleinsätzen. 25.000 Schaltspiele und eine Lebensdauer von über 20 Jahren sind garantiert."
-    },
+	"variants": {
+		"benefit": "Garagentor Benefit",
+		"benefitdesc1": "Eine gute Wahl aufgrund des Qualitäts-/Preisverhältnisses. Sie sind billige Garagentore aufgrund der Reduzierung von Materialverlusten, wobei die Paneele in Standardgrößen hergestellt werden. Sie sind mit Zugfedern ausgestattet, die unter der Schiene, auf der die Tür gleitet, oder an ihren Seiten montiert werden können.",
+		"benefitdesc2": "Der Hauptvorteil von Toren mit Zugfedern liegt darin, dass die Montage der Schiene auch bei kleinen Seitenpfosten und Traversen erfolgen kann. 15.000 Zyklen sind garantiert.",
+		"benefitxl": "Garagentor Benefit XL",
+		"benefitxldesc1": "BeneFit XL Sektionaltore sind für kleine Garagen mit einer maximalen Länge von 3,2 m gebaut und mit Zugfedern ausgestattet, die sich in den Seitenpfosten befinden.",
+		"benefitxldesc2": "Dank dieser Lösung reduziert sich der erforderliche Strahlabstand auf 65 mm bei einem manuellen Garagentor und 120 mm bei einem elektrischen Garagentor. BeneFit XL wird für 15.000 Betriebszyklen garantiert.",
+		"optima": "Garagentor Optima",
+		"optimadesc1": "Optima Garagen-Sektionaltore bieten die flexibelsten Konstruktionsmöglichkeiten. Sie können auf Bestellung in jeder Größe hergestellt werden und sind mit Torsionsfedern ausgestattet, die sowohl auf dem Träger, auf dem das Tor angebracht ist, als auch hinter den Schienen montiert werden können.",
+		"optimadesc2": "Optima Türen sind für 25.000 Betriebszyklen garantiert. Wenn wir eine durchschnittliche tägliche Nutzung von 3 Zyklen berücksichtigen, kommen wir auf eine Lebensdauer von über 20 Jahren.",
+		"vogue": "Garagentor Vogue",
+		"voguedesc1": "Wie das Optima kann auch das Vogue-Sektionalgaragentor in jeder Größe auf Bestellung gefertigt werden. Stattdessen bietet es Ihnen die Möglichkeit der Individualisierung mit Edelstahleinsätzen. 25.000 Schaltspiele und eine Lebensdauer von über 20 Jahren sind garantiert."
+	},
 
-    "accessories": {
-        "vitrare": "Verglasung",
-        "fer640": "Rechteckige Fenster 640x340",
-        "fer610": "Rechteckige Fenster 610x140",
-        "usa": "Fußgängertür",
-        "linii": "Modellreihen",
-        "acces": "Zugangstür im Gebäude",
-        "accesorii": "Zubehörteil",
-        "buton": "Wandknopf",
-        "fotocelule": "Fotozellensystem",
-        "maner": "Einfacher Griff",
-        "yalablocare": "Yală-Schleuse",
-        "yaladeblocare": "Yală Motor freischalten",
-        "sistemblocare": "Zusätzliches Verriegelungssystem",
-        "bolt": "Bolzen",
-        "telecomanda": "Fernbedienung 4 Kanäle"
-    },
+	"carina": {
+		"sectional": "Garagen-Sektionaltor",
+		"standard": "Standardabmessungen",
+		"description1": "Nach deutschem Design mit strengen Qualitätsstandards gebaut, sind Carina-Türen so konzipiert, dass sie über 20.000 Betriebszyklen standhalten. Versuchen Sie, ausgehend von diesem Wert, 20.000 Zyklen, die Anzahl der Nutzungsjahre zu berechnen.",
+		"description2": "Carina Garagentore werden in Standardmaßen gefertigt und ab Lager geliefert. Bemaltes Blechmaterial kann die vorübergehende Verfügbarkeit von Fertigprodukten beeinflussen."
+	},
 
-    "warranty": "Garantie",
-    "5ani": "5 Jahre",
-    "10ani": "10 Jahre",
-    "15ani": "15 Jahre",
-    "cicluri": "Nutzungszyklen",
-    "actionare": "Betrieb",
-    "elecmanual": "Elektrisch oder Manuell"
+	"accessories": {
+		"vitrare": "Verglasung",
+		"fer640": "Rechteckige Fenster 640x340",
+		"fer610": "Rechteckige Fenster 610x140",
+		"usa": "Fußgängertür",
+		"linii": "Modellreihen",
+		"acces": "Zugangstür im Gebäude",
+		"accesorii": "Zubehörteil",
+		"buton": "Wandknopf",
+		"fotocelule": "Fotozellensystem",
+		"maner": "Einfacher Griff",
+		"yalablocare": "Yală-Schleuse",
+		"yaladeblocare": "Yală Motor freischalten",
+		"sistemblocare": "Zusätzliches Verriegelungssystem",
+		"bolt": "Bolzen",
+		"telecomanda": "Fernbedienung 4 Kanäle"
+	},
+
+	"warranty": "Garantie",
+	"5ani": "5 Jahre",
+	"10ani": "10 Jahre",
+	"15ani": "15 Jahre",
+	"cicluri": "Nutzungszyklen",
+	"actionare": "Betrieb",
+	"elecmanual": "Elektrisch oder Manuell"
 }

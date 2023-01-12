@@ -1,13 +1,21 @@
 import React from "react";
+import dynamic from "next/dynamic";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import Layout from "../../../components/General/Layout";
-import ProductLanding from "../../../components/Products/ProductLanding";
-import ConstructiveOptions from "../../../components/Products/ConstructiveOptions";
-import Profiles from "../../../components/Products/Profiles";
-import Atypics from "../../../components/Products/Atypics";
-import Colors from "../../../components/Products/Colors";
-import ProductCTA from "../../../components/Products/ProductCTA";
+
+const ProductLanding = dynamic(() =>
+	import("../../../components/Products/ProductLanding")
+);
+const ConstructiveOptions = dynamic(() =>
+	import("../../../components/Products/ConstructiveOptions")
+);
+const Profiles = dynamic(() => import("../../../components/Products/Profiles"));
+const Atypics = dynamic(() => import("../../../components/Products/Atypics"));
+const Colors = dynamic(() => import("../../../components/Products/Colors"));
+const ProductCTA = dynamic(() =>
+	import("../../../components/Products/ProductCTA")
+);
 
 const landingData = {
 	src: "/images/products/tamplarie-pvc/highlight.webp",

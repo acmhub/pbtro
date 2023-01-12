@@ -378,6 +378,7 @@ export default function Navigation() {
 								layout="fill"
 								objectFit="contain"
 								itemProp="logo"
+								url="https://pbtromania.ro"
 								priority
 							/>
 						</a>
@@ -454,6 +455,7 @@ export default function Navigation() {
 						>
 							<div className="nav-link">
 								<button
+									className="outline-none"
 									onClick={() =>
 										setDropdownToggle(!dropdownToggle)
 									}
@@ -463,14 +465,14 @@ export default function Navigation() {
 								<div
 									className={`${
 										dropdownToggle
-											? "flex flex-col space-y-3 ml-2 my-4 pl-2 border-l-2 lg:space-y-0 lg:w-4/6 duration-200 ease-in-out opacity-1 pointer-events-all lg:shadow-xl"
+											? "flex flex-col space-y-3 ml-2 my-4 pl-2 lg:ml-0 border-l-2 lg:space-y-0 lg:w-4/6 duration-200 ease-in-out opacity-1 pointer-events-all lg:shadow-[0_5px_20px__rgba(0,0,0,0.5)]"
 											: "hidden opacity-0 pointer-events-none"
 									}
-                                lg:absolute lg:grid lg:grid-cols-4 lg:gap-2 lg:card lg:top-[54px] lg:left-1/2 lg:-translate-x-1/2 lg:border-none lg:bg-theme1
+                                	lg:absolute lg:grid lg:grid-cols-4 lg:gap-8 lg:card lg:top-[54px] lg:left-1/2 lg:-translate-x-1/2 lg:border lg:border-neutral-300 lg:w-4/6
                                 `}
 								>
 									<div className="col-span-1 space-y-2">
-										<h5 className="lg:text-white">
+										<h5 className="lg:pb-1 lg:border-b">
 											{t("nav.windoor")}
 										</h5>
 
@@ -482,7 +484,7 @@ export default function Navigation() {
 													key={i}
 													passHref
 												>
-													<a className="nav-link lg:text-gray-100 lg:hover:text-white w-fit whitespace-nowrap">
+													<a className="nav-link w-fit whitespace-nowrap lg:text-neutral-600 lg:hover:text-black lg:hover:underline">
 														{t(e.name)}
 													</a>
 												</Link>
@@ -490,7 +492,7 @@ export default function Navigation() {
 										</div>
 									</div>
 									<div className="col-span-1 space-y-2">
-										<h5 className="lg:text-white">
+										<h5 className="lg:pb-1 lg:border-b">
 											{t("nav.glass")}
 										</h5>
 
@@ -502,7 +504,7 @@ export default function Navigation() {
 													key={i}
 													passHref
 												>
-													<a className="nav-link lg:text-gray-100 lg:hover:text-white w-fit whitespace-nowrap">
+													<a className="nav-link w-fit whitespace-nowrap lg:text-neutral-600 lg:hover:text-black lg:hover:underline">
 														{t(e.name)}
 													</a>
 												</Link>
@@ -510,7 +512,7 @@ export default function Navigation() {
 										</div>
 									</div>
 									<div className="col-span-1 space-y-2">
-										<h5 className="lg:text-white">
+										<h5 className="lg:pb-1 lg:border-b">
 											{t("nav.accessories")}
 										</h5>
 
@@ -522,7 +524,7 @@ export default function Navigation() {
 													key={i}
 													passHref
 												>
-													<a className="nav-link lg:text-gray-100 lg:hover:text-white w-fit whitespace-nowrap">
+													<a className="nav-link w-fit whitespace-nowrap lg:text-neutral-600 lg:hover:text-black lg:hover:underline">
 														{t(e.name)}
 													</a>
 												</Link>
@@ -530,7 +532,7 @@ export default function Navigation() {
 										</div>
 									</div>
 									<div className="col-span-1 space-y-2">
-										<h5 className="lg:text-white">
+										<h5 className="lg:pb-1 lg:border-b">
 											{t("nav.exterior")}
 										</h5>
 
@@ -542,7 +544,7 @@ export default function Navigation() {
 													key={i}
 													passHref
 												>
-													<a className="nav-link lg:text-gray-100 lg:hover:text-white w-fit whitespace-nowrap">
+													<a className="nav-link w-fit whitespace-nowrap lg:text-neutral-600 lg:hover:text-black lg:hover:underline">
 														{t(e.name)}
 													</a>
 												</Link>

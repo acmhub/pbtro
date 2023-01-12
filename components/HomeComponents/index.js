@@ -1,13 +1,15 @@
-import Landing from "./landing";
-import Products from "./products";
-import About from "./about";
-import WindowDoor from "./windowdoor";
-import Services from "./services";
-import Portfolio from "./portfolio";
-import CallToAction from "./call-to-action";
-import Accessories from "./accessories";
-import Testimonials from "./testimonials";
-import Contact from "./contact";
+import dynamic from "next/dynamic";
+
+const Landing = dynamic(() => import("./landing"));
+const Products = dynamic(() => import("./products"));
+const About = dynamic(() => import("./about"));
+const WindowDoor = dynamic(() => import("./windowdoor"));
+const Services = dynamic(() => import("./services"));
+const Portfolio = dynamic(() => import("./portfolio"));
+const CallToAction = dynamic(() => import("./call-to-action"));
+const Accessories = dynamic(() => import("./accessories"));
+const Testimonials = dynamic(() => import("./testimonials"));
+const Contact = dynamic(() => import("./contact"));
 
 export {
 	Landing,

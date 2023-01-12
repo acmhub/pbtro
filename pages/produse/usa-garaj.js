@@ -1,15 +1,24 @@
 import React from "react";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import { MdDone, MdOutlineSettingsRemote } from "react-icons/md";
 import { IoRepeatSharp } from "react-icons/io5";
 import { CiMedal } from "react-icons/ci";
 import Layout from "../../components/General/Layout";
-import ProductLanding from "../../components/Products/ProductLanding";
-import ProductVariants from "../../components/Products/ProductVariants";
-import ProductAccessories from "../../components/Products/ProductAccessories";
-import ProductCTA from "../../components/Products/ProductCTA";
+const ProductLanding = dynamic(() =>
+	import("../../components/Products/ProductLanding")
+);
+const ProductVariants = dynamic(() =>
+	import("../../components/Products/ProductVariants")
+);
+const ProductAccessories = dynamic(() =>
+	import("../../components/Products/ProductAccessories")
+);
+const ProductCTA = dynamic(() =>
+	import("../../components/Products/ProductCTA")
+);
 
 const landingData = {
 	src: "/images/products/usa-garaj/highlight.webp",
@@ -19,7 +28,7 @@ const landingData = {
 
 const variantsData = [
 	{
-		src: "/images/products/usa-garaj/highlight.webp",
+		src: "/images/products/usa-garaj/benefit.webp",
 		name: "variants.benefit",
 		description: ["variants.benefitdesc1", "variants.benefitdesc2"],
 		stats: [
@@ -28,7 +37,7 @@ const variantsData = [
 		],
 	},
 	{
-		src: "/images/products/usa-garaj/highlight.webp",
+		src: "/images/products/usa-garaj/benefitxl.webp",
 		name: "variants.benefitxl",
 		description: ["variants.benefitxldesc1", "variants.beneftixldesc2"],
 		stats: [
@@ -42,7 +51,7 @@ const variantsData = [
 		],
 	},
 	{
-		src: "/images/products/usa-garaj/highlight.webp",
+		src: "/images/products/usa-garaj/optima.webp",
 		name: "variants.optima",
 		description: ["variants.optimadesc1", "variants.optimadesc2"],
 		stats: [
@@ -51,7 +60,7 @@ const variantsData = [
 		],
 	},
 	{
-		src: "/images/products/usa-garaj/highlight.webp",
+		src: "/images/products/usa-garaj/vogue.webp",
 		name: "variants.vogue",
 		description: ["variants.voguedesc1"],
 		stats: [
@@ -127,7 +136,13 @@ const accessoriesData = [
 	},
 ];
 
-const ctaData = ["/images/products/usa-garaj/highlight.webp"];
+const ctaData = [
+	"/images/products/usa-garaj/highlight.webp",
+	"/images/products/usa-garaj/benefit.webp",
+	"/images/products/usa-garaj/benefitxl.webp",
+	"/images/products/usa-garaj/optima.webp",
+	"/images/products/usa-garaj/vogue.webp",
+];
 
 export default function UsaGaraj() {
 	const { t } = useTranslation("usagaraj");
@@ -153,25 +168,16 @@ export default function UsaGaraj() {
 					<div className="relative grid grid-cols-1 lg:grid-cols-3 gap-8 z-10">
 						<div className="space-y-8 lg:text-white my-auto">
 							<div>
-								<h3>Usa de Garaj Sectionala</h3>
-								<h5>Cote Standard</h5>
+								<h3>{t("carina.sectional")}</h3>
+								<h5>{t("carina.standard")}</h5>
 							</div>
 
 							<div className="space-y-2">
 								<p className="text-justify">
-									Construite după proiecte germane, cu norme
-									de calitate riguroase, ușile Carina sunt
-									gândite să reziste la peste 20 000 de
-									cicluri de acționare. Încercați să calculați
-									numărul de ani de utilizare plecând de la
-									această valoare, 20 000 de cicluri.
+									{t("carina.description1")}
 								</p>
 								<p className="text-justify">
-									Ușile de garaj Carina sunt fabricate pe
-									dimensiuni standard și se livrează din stoc.
-									Stocul de tablă vopsită poate influența
-									disponibilitatea temporară a produselor
-									finite.
+									{t("carina.description2")}
 								</p>
 							</div>
 						</div>
@@ -190,7 +196,7 @@ export default function UsaGaraj() {
 
 						<div className="order-last my-auto">
 							<h4 className="text-center mb-4">
-								Culori disponibile
+								{t("common:colors.available")}
 							</h4>
 							<div className="grid grid-cols-1 lg:grid-cols-3 gap-1">
 								{[

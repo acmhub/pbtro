@@ -1,10 +1,17 @@
 import React from "react";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
+import dynamic from "next/dynamic";
 import Layout from "../../components/General/Layout";
-import ProductLanding from "../../components/Products/ProductLanding";
-import ModelsGallery from "../../components/Products/ModelsGallery";
-import ProductCTA from "../../components/Products/ProductCTA";
+const ProductLanding = dynamic(() =>
+	import("../../components/Products/ProductLanding")
+);
+const ModelsGallery = dynamic(() =>
+	import("../../components/Products/ModelsGallery")
+);
+const ProductCTA = dynamic(() =>
+	import("../../components/Products/ProductCTA")
+);
 import {
 	zebraData,
 	roleteData,

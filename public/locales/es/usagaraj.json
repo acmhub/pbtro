@@ -1,43 +1,50 @@
 {
-    "description": "La comodidad y seguridad en el uso, la elegancia del diseño, la incorporación de las últimas tecnologías en cumplimiento de las normas europeas en materia de seguridad operativa, así como la disponibilidad de una gama de equipamientos opcionales hacen de nuestras puertas de garaje la solución ideal para usted.",
+	"description": "La comodidad y seguridad en el uso, la elegancia del diseño, la incorporación de las últimas tecnologías en cumplimiento de las normas europeas en materia de seguridad operativa, así como la disponibilidad de una gama de equipamientos opcionales hacen de nuestras puertas de garaje la solución ideal para usted.",
 
-    "variants": {
-        "benefit": "Puerta de la Cochera Benefit",
-        "benefitdesc1": "Una buena elección por la relación calidad/precio. Son puertas de garaje económicas por la reducción de pérdidas de material, siendo los paneles de medidas estándar. Están equipados con resortes de tracción que se pueden montar debajo del riel sobre el que se desliza la puerta o en sus costados.",
-        "benefitdesc2": "La principal ventaja de las puertas con resortes de tensión radica en el hecho de que la instalación de la guía se puede realizar incluso cuando los montantes laterales y la viga son de tamaño pequeño. 15.000 ciclos están garantizados.",
-        "benefitxl": "Puerta de la Cochera Benefit XL",
-        "benefitxldesc1": "Las puertas seccionales BeneFit XL están construidas para garajes pequeños, con una longitud máxima de 3,2 m y están equipadas con resortes de tensión ubicados en los postes laterales.",
-        "benefitxldesc2": "Gracias a esta solución, el espacio entre vigas necesario se reduce a 65 mm, en el caso de una puerta de garaje manual, ya 120 mm en el caso de una puerta de garaje eléctrica. BeneFit XL está garantizado para 15.000 ciclos de funcionamiento.",
-        "optima": "Puerta de la Cochera Optima",
-        "optimadesc1": "Las puertas de garaje seccionales Optima ofrecen las opciones de construcción más flexibles. Se pueden fabricar por encargo, en cualquier tamaño, y están equipados con muelles de torsión que se pueden montar tanto en la viga sobre la que se aplica la puerta como detrás de los rieles.",
-        "optimadesc2": "Las puertas Optima tienen una garantía de 25.000 ciclos de funcionamiento. Si consideramos un uso diario medio de 3 ciclos, llegaremos a una vida útil de más de 20 años.",
-        "vogue": "Puerta de la Cochera Vogue",
-        "voguedesc1": "Al igual que la Optima, la puerta de garaje seccional Vogue se puede fabricar bajo pedido en cualquier tamaño. En cambio, te ofrece la posibilidad de personalización con insertos de acero inoxidable. Se garantizan 25.000 ciclos de funcionamiento y una vida útil de más de 20 años."
-    },
+	"variants": {
+		"benefit": "Puerta de la Cochera Benefit",
+		"benefitdesc1": "Una buena elección por la relación calidad/precio. Son puertas de garaje económicas por la reducción de pérdidas de material, siendo los paneles de medidas estándar. Están equipados con resortes de tracción que se pueden montar debajo del riel sobre el que se desliza la puerta o en sus costados.",
+		"benefitdesc2": "La principal ventaja de las puertas con resortes de tensión radica en el hecho de que la instalación de la guía se puede realizar incluso cuando los montantes laterales y la viga son de tamaño pequeño. 15.000 ciclos están garantizados.",
+		"benefitxl": "Puerta de la Cochera Benefit XL",
+		"benefitxldesc1": "Las puertas seccionales BeneFit XL están construidas para garajes pequeños, con una longitud máxima de 3,2 m y están equipadas con resortes de tensión ubicados en los postes laterales.",
+		"benefitxldesc2": "Gracias a esta solución, el espacio entre vigas necesario se reduce a 65 mm, en el caso de una puerta de garaje manual, ya 120 mm en el caso de una puerta de garaje eléctrica. BeneFit XL está garantizado para 15.000 ciclos de funcionamiento.",
+		"optima": "Puerta de la Cochera Optima",
+		"optimadesc1": "Las puertas de garaje seccionales Optima ofrecen las opciones de construcción más flexibles. Se pueden fabricar por encargo, en cualquier tamaño, y están equipados con muelles de torsión que se pueden montar tanto en la viga sobre la que se aplica la puerta como detrás de los rieles.",
+		"optimadesc2": "Las puertas Optima tienen una garantía de 25.000 ciclos de funcionamiento. Si consideramos un uso diario medio de 3 ciclos, llegaremos a una vida útil de más de 20 años.",
+		"vogue": "Puerta de la Cochera Vogue",
+		"voguedesc1": "Al igual que la Optima, la puerta de garaje seccional Vogue se puede fabricar bajo pedido en cualquier tamaño. En cambio, te ofrece la posibilidad de personalización con insertos de acero inoxidable. Se garantizan 25.000 ciclos de funcionamiento y una vida útil de más de 20 años."
+	},
 
-    "accessories": {
-        "vitrare": "Acristalamiento",
-        "fer640": "Ventanas Rectangulares 640x340",
-        "fer610": "Ventanas Rectangulares 610x140",
-        "usa": "Puerta Peatonal",
-        "linii": "Líneas Modelo",
-        "acces": "Puerta de Acceso al Edificio",
-        "accesorii": "Accesorio",
-        "buton": "Botón de Pared",
-        "fotocelule": "Sistema de Fotocélulas",
-        "maner": "Mango Sencillo",
-        "yalablocare": "Cerradura Yala",
-        "yaladeblocare": "Motor de desbloqueo",
-        "sistemblocare": "Sistema de bloqueo adicional",
-        "bolt": "Tornillo",
-        "telecomanda": "Mando a distancia 4 Canales"
-    },
+	"carina": {
+		"sectional": "Puerta de Garaje Seccional",
+		"standard": "Dimensiones Estándar",
+		"description1": "Construidas según diseños alemanes, con rigurosos estándares de calidad, las puertas Carina están diseñadas para soportar más de 20.000 ciclos de funcionamiento. Intenta calcular el número de años de uso a partir de este valor, 20.000 ciclos.",
+		"description2": "Las puertas de garaje Carina se fabrican en tamaños estándar y se entregan en stock. El stock de láminas pintadas puede influir en la disponibilidad temporal de los productos terminados."
+	},
 
-    "warranty": "Garantizar",
-    "5ani": "5 años",
-    "10ani": "10 años",
-    "15ani": "15 años",
-    "cicluri": "Ciclos de Uso",
-    "actionare": "Operación",
-    "elecmanual": "Eléctrico o Manual"
+	"accessories": {
+		"vitrare": "Acristalamiento",
+		"fer640": "Ventanas Rectangulares 640x340",
+		"fer610": "Ventanas Rectangulares 610x140",
+		"usa": "Puerta Peatonal",
+		"linii": "Líneas Modelo",
+		"acces": "Puerta de Acceso al Edificio",
+		"accesorii": "Accesorio",
+		"buton": "Botón de Pared",
+		"fotocelule": "Sistema de Fotocélulas",
+		"maner": "Mango Sencillo",
+		"yalablocare": "Cerradura Yala",
+		"yaladeblocare": "Motor de desbloqueo",
+		"sistemblocare": "Sistema de bloqueo adicional",
+		"bolt": "Tornillo",
+		"telecomanda": "Mando a distancia 4 Canales"
+	},
+
+	"warranty": "Garantizar",
+	"5ani": "5 años",
+	"10ani": "10 años",
+	"15ani": "15 años",
+	"cicluri": "Ciclos de Uso",
+	"actionare": "Operación",
+	"elecmanual": "Eléctrico o Manual"
 }

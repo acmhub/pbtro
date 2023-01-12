@@ -4,7 +4,7 @@ import { useTranslation } from "next-i18next";
 import Link from "next/link";
 import Layout from "../components/General/Layout";
 
-export default function GetQuote() {
+export default function ErrorPage() {
 	const { t } = useTranslation();
 	return (
 		<Layout pageID="notfound" title={t("common:notfound.error")}>

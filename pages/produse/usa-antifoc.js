@@ -1,13 +1,18 @@
 import React, { useState } from "react";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
+import dynamic from "next/dynamic";
 import Image from "next/image";
-import Layout from "../../components/General/Layout";
-import ProductLanding from "../../components/Products/ProductLanding";
-import ProductCTA from "../../components/Products/ProductCTA";
-import { firedoorData } from "../../components/Products/UsaAntifoc";
 import Modal from "@mui/material/Modal";
 import { MdClose, MdDone } from "react-icons/md";
+import Layout from "../../components/General/Layout";
+const ProductLanding = dynamic(() =>
+	import("../../components/Products/ProductLanding")
+);
+const ProductCTA = dynamic(() =>
+	import("../../components/Products/ProductCTA")
+);
+import { firedoorData } from "../../components/Products/UsaAntifoc";
 
 const landingData = {
 	src: "/images/products/usa-antifoc/highlight.webp",

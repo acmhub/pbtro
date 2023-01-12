@@ -1,12 +1,17 @@
 import React from "react";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
+import dynamic from "next/dynamic";
 import Image from "next/image";
-import Layout from "../../components/General/Layout";
-import ProductCTA from "../../components/Products/ProductCTA";
-import ProductLanding from "../../components/Products/ProductLanding";
-import Atypics from "../../components/Products/Atypics";
 import { MdDone } from "react-icons/md";
+import Layout from "../../components/General/Layout";
+const ProductLanding = dynamic(() =>
+	import("../../components/Products/ProductLanding")
+);
+const ProductCTA = dynamic(() =>
+	import("../../components/Products/ProductCTA")
+);
+const Atypics = dynamic(() => import("../../components/Products/Atypics"));
 
 const landingData = {
 	src: "/images/products/tamplarie-lemn/highlight.webp",

@@ -3,61 +3,61 @@
 @tailwind utilities;
 
 @layer components {
-    .container-padding {
-        @apply container mx-auto px-4;
-    }
+	.container-padding {
+		@apply container mx-auto px-4;
+	}
 
-    .card {
-        @apply bg-white shadow p-4;
-    }
+	.card {
+		@apply bg-white shadow p-4;
+	}
 
-    /* Buttons */
-    .theme-button1 {
-        @apply bg-gradient-to-r from-[#eea617] to-[#FCB731]  text-white px-6 py-2.5 hover:shadow-lg duration-100 ease-out;
-    }
+	/* Buttons */
+	.theme-button1 {
+		@apply bg-gradient-to-r from-[#eea617] to-[#FCB731]  text-white px-6 py-2.5 hover:shadow-lg duration-100 ease-out;
+	}
 
-    .theme-button1-outlined {
-        @apply border border-theme1 hover:bg-gradient-to-r from-[#eea617] to-[#FCB731] text-black hover:text-white px-6 py-2.5 hover:shadow-lg duration-100 ease-out;
-    }
+	.theme-button1-outlined {
+		@apply border border-theme1 hover:bg-gradient-to-r from-[#eea617] to-[#FCB731] text-black hover:text-white px-6 py-2.5 hover:shadow-lg duration-100 ease-out;
+	}
 
-    .theme-button2 {
-        @apply bg-gradient-to-r from-[#193d46] to-[#214e59]  text-white px-6 py-2.5 hover:shadow-lg duration-100 ease-out;
-    }
+	.theme-button2 {
+		@apply bg-gradient-to-r from-[#193d46] to-[#214e59]  text-white px-6 py-2.5 hover:shadow-lg duration-100 ease-out;
+	}
 
-    .theme-button2-outlined {
-        @apply border border-theme2 hover:bg-gradient-to-r from-[#193d46] to-[#214e59] text-black hover:text-white px-6 py-2.5 hover:shadow-lg duration-100 ease-out;
-    }
+	.theme-button2-outlined {
+		@apply border border-theme2 hover:bg-gradient-to-r from-[#193d46] to-[#214e59] text-black hover:text-white px-6 py-2.5 hover:shadow-lg duration-100 ease-out;
+	}
 
-    .section-spacing {
-        @apply py-16;
-    }
+	.section-spacing {
+		@apply py-16;
+	}
 
-    .section-spacing-lg {
-        @apply py-20;
-    }
+	.section-spacing-lg {
+		@apply py-20;
+	}
 
-    .material-symbols-outlined {
-        @apply block;
-    }
+	.material-symbols-outlined {
+		@apply block;
+	}
 }
 
 @layer base {
-    h1 {
-        @apply text-5xl;
-    }
-    h2 {
-        @apply text-4xl;
-    }
-    h3 {
-        @apply text-3xl;
-    }
-    h4 {
-        @apply text-2xl;
-    }
-    h5 {
-        @apply text-xl;
-    }
-    h6 {
-        @apply text-lg;
-    }
+	h1 {
+		@apply text-5xl;
+	}
+	h2 {
+		@apply text-4xl;
+	}
+	h3 {
+		@apply text-3xl;
+	}
+	h4 {
+		@apply text-2xl;
+	}
+	h5 {
+		@apply text-xl;
+	}
+	h6 {
+		@apply text-lg;
+	}
 }

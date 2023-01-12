@@ -1,43 +1,50 @@
 {
-    "description": "The convenience and safety in use, the elegance of the design, the incorporation of the latest technologies in compliance with the European norms regarding operational safety, as well as the availability of a range of optional equipment make our garage doors the ideal solution for you.",
+	"description": "The convenience and safety in use, the elegance of the design, the incorporation of the latest technologies in compliance with the European norms regarding operational safety, as well as the availability of a range of optional equipment make our garage doors the ideal solution for you.",
 
-    "variants": {
-        "benefit": "Benefit Garage Door",
-        "benefitdesc1": "A good choice due to the quality/price ratio. They are cheap garage doors due to the reduction of material losses, the panels being made to standard sizes. They are equipped with traction springs that can be mounted under the rail on which the door slides or on its sides.",
-        "benefitdesc2": "The main advantage of doors with tension springs lies in the fact that the installation of the track can be done even when the side posts and beam are small in size. 15,000 cycles are guaranteed.",
-        "benefitxl": "Benefit XL Garage Door",
-        "benefitxldesc1": "BeneFit XL sectional doors are built for small garages, with a maximum length of 3.2m and are equipped with tension springs located in the side posts.",
-        "benefitxldesc2": "Thanks to this solution, the required beam space is reduced to 65mm, in the case of a manual garage door, and 120mm in the case of an electric garage door. BeneFit XL is guaranteed for 15,000 operating cycles.",
-        "optima": "Optima Garage Door",
-        "optimadesc1": "Optima sectional garage doors offer the most flexible construction options. They can be made to order, in any size, and are equipped with torsion springs that can be mounted both on the beam on which the door is applied and behind the rails.",
-        "optimadesc2": "Optima doors are guaranteed for 25,000 operating cycles. If we consider an average daily use of 3 cycles, we will arrive at a service life of over 20 years.",
-        "vogue": "Vogue Garage Door",
-        "voguedesc1": "Like the Optima, the Vogue sectional garage door can be made to order in any size. Instead, it offers you the possibility of customization with stainless steel inserts. 25,000 operating cycles and a service life of over 20 years are guaranteed."
-    },
+	"variants": {
+		"benefit": "Benefit Garage Door",
+		"benefitdesc1": "A good choice due to the quality/price ratio. They are cheap garage doors due to the reduction of material losses, the panels being made to standard sizes. They are equipped with traction springs that can be mounted under the rail on which the door slides or on its sides.",
+		"benefitdesc2": "The main advantage of doors with tension springs lies in the fact that the installation of the track can be done even when the side posts and beam are small in size. 15,000 cycles are guaranteed.",
+		"benefitxl": "Benefit XL Garage Door",
+		"benefitxldesc1": "BeneFit XL sectional doors are built for small garages, with a maximum length of 3.2m and are equipped with tension springs located in the side posts.",
+		"benefitxldesc2": "Thanks to this solution, the required beam space is reduced to 65mm, in the case of a manual garage door, and 120mm in the case of an electric garage door. BeneFit XL is guaranteed for 15,000 operating cycles.",
+		"optima": "Optima Garage Door",
+		"optimadesc1": "Optima sectional garage doors offer the most flexible construction options. They can be made to order, in any size, and are equipped with torsion springs that can be mounted both on the beam on which the door is applied and behind the rails.",
+		"optimadesc2": "Optima doors are guaranteed for 25,000 operating cycles. If we consider an average daily use of 3 cycles, we will arrive at a service life of over 20 years.",
+		"vogue": "Vogue Garage Door",
+		"voguedesc1": "Like the Optima, the Vogue sectional garage door can be made to order in any size. Instead, it offers you the possibility of customization with stainless steel inserts. 25,000 operating cycles and a service life of over 20 years are guaranteed."
+	},
 
-    "accessories": {
-        "vitrare": "Glazing",
-        "fer640": "Square Window 640x340",
-        "fer610": "Square Window 610x140",
-        "usa": "Pedestrian Door",
-        "linii": "Line Model",
-        "acces": "Access Door in the Building",
-        "accesorii": "Accessories",
-        "buton": "Wall Button",
-        "fotocelule": "Photocell System",
-        "maner": "Simple Handle",
-        "yalablocare": "Lock Engine",
-        "yaladeblocare": "Unlock Engine",
-        "sistemblocare": "Additional Locking System",
-        "bolt": "Bolt",
-        "telecomanda": "4 Channel Remote"
-    },
+	"carina": {
+		"sectional": "Sectional Garage Door",
+		"standard": "Standard Dimensions",
+		"description1": "Built according to German designs, with rigorous quality standards, Carina doors are designed to withstand over 20,000 operating cycles. Try to calculate the number of years of use starting from this value, 20,000 cycles.",
+		"description2": "Carina garage doors are manufactured to standard sizes and delivered from stock. Painted sheet stock may influence the temporary availability of finished products."
+	},
 
-    "warranty": "Warranty",
-    "5ani": "5 years",
-    "10ani": "10 years",
-    "15ani": "15 years",
-    "cicluri": "Cycles of Use",
-    "actionare": "Action type",
-    "elecmanual": "Electric or Manual"
+	"accessories": {
+		"vitrare": "Glazing",
+		"fer640": "Square Window 640x340",
+		"fer610": "Square Window 610x140",
+		"usa": "Pedestrian Door",
+		"linii": "Line Model",
+		"acces": "Access Door in the Building",
+		"accesorii": "Accessories",
+		"buton": "Wall Button",
+		"fotocelule": "Photocell System",
+		"maner": "Simple Handle",
+		"yalablocare": "Lock Engine",
+		"yaladeblocare": "Unlock Engine",
+		"sistemblocare": "Additional Locking System",
+		"bolt": "Bolt",
+		"telecomanda": "4 Channel Remote"
+	},
+
+	"warranty": "Warranty",
+	"5ani": "5 years",
+	"10ani": "10 years",
+	"15ani": "15 years",
+	"cicluri": "Cycles of Use",
+	"actionare": "Action type",
+	"elecmanual": "Electric or Manual"
 }

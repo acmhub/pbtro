@@ -2,8 +2,9 @@ import React from "react";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import Image from "next/image";
+import dynamic from "next/dynamic";
 import Layout from "../components/General/Layout";
-import Products from "../components/HomeComponents/products";
+const Products = dynamic(() => import("../components/HomeComponents/products"));
 
 const servicesData = [
 	{

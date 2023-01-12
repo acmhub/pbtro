@@ -1,12 +1,13 @@
 import React from "react";
 import Head from "next/head";
+import dynamic from "next/dynamic";
 import { ToastContainer } from "react-toastify";
 import { useTranslation } from "next-i18next";
 
-import Navigation from "../Navigation";
-import Footer from "../Footer";
-import BackToTop from "./BackToTop";
-import CookiesBanner from "./CookiesBanner";
+const Navigation = dynamic(() => import("../Navigation"));
+const Footer = dynamic(() => import("../Footer"));
+const BackToTop = dynamic(() => import("./BackToTop"));
+const CookiesBanner = dynamic(() => import("./CookiesBanner"));
 
 export default function Layout({
 	title,

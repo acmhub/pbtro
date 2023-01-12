@@ -7,9 +7,9 @@ import FormControl from "@mui/material/FormControl";
 import TextField from "@mui/material/TextField";
 import Select from "@mui/material/Select";
 import MenuItem from "@mui/material/MenuItem";
-import { firedoorData } from "../../Products/UsaAntifoc";
+import { metalicData } from "../../Products/MetallicDoor";
 
-export default function UsaAntifoc({
+export default function UsaMetalica({
 	handleAddProduct,
 	handleModifyProduct,
 	modifying,
@@ -23,7 +23,7 @@ export default function UsaAntifoc({
 			<input
 				type="text"
 				name="Produs"
-				value="Usa Antifoc"
+				value="Usa Metalica"
 				className="hidden"
 				readOnly
 			/>
@@ -71,7 +71,7 @@ export default function UsaAntifoc({
 					MenuProps={{ disableScrollLock: true }}
 					variant="standard"
 				>
-					{firedoorData.map((e, i) => (
+					{metalicData.map((e, i) => (
 						<MenuItem value={e.name} key={i}>
 							<div className="flex items-center space-x-2">
 								<div className="relative h-8 w-16">

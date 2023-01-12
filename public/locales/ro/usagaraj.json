@@ -1,43 +1,50 @@
 {
-    "description": "Comoditatea și siguranța în utilizare, eleganța designului, incorporarea celor mai noi tehnologii îconformitate cu normele europene referitoare la siguranță în exploatare precum și disponibilitatea unei game lde echipări opționale fac ca ușile noastre de garaj să fie soluția ideală pentru dumneavoastră.",
+	"description": "Comoditatea și siguranța în utilizare, eleganța designului, incorporarea celor mai noi tehnologii îconformitate cu normele europene referitoare la siguranță în exploatare precum și disponibilitatea unei game lde echipări opționale fac ca ușile noastre de garaj să fie soluția ideală pentru dumneavoastră.",
 
-    "variants": {
-        "benefit": "Ușa de Garaj Benefit",
-        "benefitdesc1": "O alegere bună datorită raportului calitate/preț. Sunt uși de garaj ieftine datorită reducerii pierderilor de material, panourile fiind realizate la dimensiuni standard. Sunt dotate cu arcuri de tracțiune ce pot fi montate sub șină pe care culisează ușa sau pe lateralele ei.",
-        "benefitdesc2": "Avantajul principal al ușilor cu arcuri de tracțiune consta în faptul că instalarea șinei se poate face și când stâlpii laterali și grindă au dimensiuni reduse. Sunt garantate 15 000 de cicluri.",
-        "benefitxl": "Ușa de Garaj Benefit XL",
-        "benefitxldesc1": "Ușile sectionale BeneFit XL sunt construite pentru garaje mici, cu lungime maxima de 3.2m și sunt echipate cu arcuri de tracțiune amplasate în stâlpii laterali.",
-        "benefitxldesc2": "Datorită acestei soluții, spațiul necesar de grindă este redus până la 65mm, în cazul unei uși de garaj manuale, și 120mm în cazul unei uși de garaj electrice. BeneFit XL sunt garantate 15 000 de cicluri de funcționare.",
-        "optima": "Ușa de Garaj Optima",
-        "optimadesc1": "Ușile de garaj secționale Optima oferă cele mai flexibile variante constructive. Pot fi realizate la comandă, în orice dimensiune, și sunt dotate cu arcuri de torsiune ce pot fi montate atat pe grindă pe care se aplică ușă, cât și în spatele sinelor.",
-        "optimadesc2": "Ușile Optima sunt garantate 25 000 de cicluri de funcționare. Dacă vom considera o utilizare medie zilnică de 3 cicluri, vom ajunge la o durată de folosință de peste 20 ani.",
-        "vogue": "Ușa de Garaj Vogue",
-        "voguedesc1": "La fel ca și Optima, ușa de garaj secțională Vogue se poate realiza pe comandă în orice dimensiune. În schimb, îți oferă posibilitatea personalizării cu inserții de inox. Sunt garantate 25 000 de cicluri de funcționare și o durată de folosință de peste 20 ani."
-    },
+	"variants": {
+		"benefit": "Ușa de Garaj Benefit",
+		"benefitdesc1": "O alegere bună datorită raportului calitate/preț. Sunt uși de garaj ieftine datorită reducerii pierderilor de material, panourile fiind realizate la dimensiuni standard. Sunt dotate cu arcuri de tracțiune ce pot fi montate sub șină pe care culisează ușa sau pe lateralele ei.",
+		"benefitdesc2": "Avantajul principal al ușilor cu arcuri de tracțiune consta în faptul că instalarea șinei se poate face și când stâlpii laterali și grindă au dimensiuni reduse. Sunt garantate 15 000 de cicluri.",
+		"benefitxl": "Ușa de Garaj Benefit XL",
+		"benefitxldesc1": "Ușile sectionale BeneFit XL sunt construite pentru garaje mici, cu lungime maxima de 3.2m și sunt echipate cu arcuri de tracțiune amplasate în stâlpii laterali.",
+		"benefitxldesc2": "Datorită acestei soluții, spațiul necesar de grindă este redus până la 65mm, în cazul unei uși de garaj manuale, și 120mm în cazul unei uși de garaj electrice. BeneFit XL sunt garantate 15 000 de cicluri de funcționare.",
+		"optima": "Ușa de Garaj Optima",
+		"optimadesc1": "Ușile de garaj secționale Optima oferă cele mai flexibile variante constructive. Pot fi realizate la comandă, în orice dimensiune, și sunt dotate cu arcuri de torsiune ce pot fi montate atat pe grindă pe care se aplică ușă, cât și în spatele sinelor.",
+		"optimadesc2": "Ușile Optima sunt garantate 25 000 de cicluri de funcționare. Dacă vom considera o utilizare medie zilnică de 3 cicluri, vom ajunge la o durată de folosință de peste 20 ani.",
+		"vogue": "Ușa de Garaj Vogue",
+		"voguedesc1": "La fel ca și Optima, ușa de garaj secțională Vogue se poate realiza pe comandă în orice dimensiune. În schimb, îți oferă posibilitatea personalizării cu inserții de inox. Sunt garantate 25 000 de cicluri de funcționare și o durată de folosință de peste 20 ani."
+	},
 
-    "accessories": {
-        "vitrare": "Vitrare",
-        "fer640": "Ferestre Dreptunghiulare 640x340",
-        "fer610": "Ferestre Dreptunghiulare 610x140",
-        "usa": "Ușă Pietonală",
-        "linii": "Model Linii",
-        "acces": "Ușă de Acces în Clădire",
-        "accesorii": "Accesorii",
-        "buton": "Buton Perete",
-        "fotocelule": "Sistem de Fotocelule",
-        "maner": "Mâner Simplu",
-        "yalablocare": "Yală Blocare",
-        "yaladeblocare": "Yală Deblocare Motor",
-        "sistemblocare": "Sistem Suplimentar Blocare",
-        "bolt": "Bolt",
-        "telecomanda": "Telecomandă 4 Canale"
-    },
+	"accessories": {
+		"vitrare": "Vitrare",
+		"fer640": "Ferestre Dreptunghiulare 640x340",
+		"fer610": "Ferestre Dreptunghiulare 610x140",
+		"usa": "Ușă Pietonală",
+		"linii": "Model Linii",
+		"acces": "Ușă de Acces în Clădire",
+		"accesorii": "Accesorii",
+		"buton": "Buton Perete",
+		"fotocelule": "Sistem de Fotocelule",
+		"maner": "Mâner Simplu",
+		"yalablocare": "Yală Blocare",
+		"yaladeblocare": "Yală Deblocare Motor",
+		"sistemblocare": "Sistem Suplimentar Blocare",
+		"bolt": "Bolt",
+		"telecomanda": "Telecomandă 4 Canale"
+	},
 
-    "warranty": "Garanție",
-    "5ani": "5 ani",
-    "10ani": "10 ani",
-    "15ani": "15 ani",
-    "cicluri": "Cicluri de Utilizare",
-    "actionare": "Acționare",
-    "elecmanual": "Electric sau Manual"
+	"carina": {
+		"sectional": "Ușă de Garaj Secțională",
+		"standard": "Cote Standard",
+		"description1": "Construite după proiecte germane, cu norme de calitate riguroase, ușile Carina sunt gândite să reziste la peste 20 000 de cicluri de acționare. Încercați să calculați numărul de ani de utilizare plecând de la această valoare, 20 000 de cicluri.",
+		"description2": "Ușile de garaj Carina sunt fabricate pe dimensiuni standard și se livrează din stoc. Stocul de tablă vopsită poate influența disponibilitatea temporară a produselor finite."
+	},
+
+	"warranty": "Garanție",
+	"5ani": "5 ani",
+	"10ani": "10 ani",
+	"15ani": "15 ani",
+	"cicluri": "Cicluri de Utilizare",
+	"actionare": "Acționare",
+	"elecmanual": "Electric sau Manual"
 }

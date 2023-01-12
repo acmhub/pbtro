@@ -86,6 +86,21 @@ function Products({ t }) {
 												{t(`common:${e.name}`)}
 											</div>
 										</div>
+
+										<div
+											itemProp="aggregateRating"
+											itemType="https://schema.org/AggregateRating"
+											itemScope
+										>
+											<meta
+												itemProp="reviewCount"
+												content="89"
+											/>
+											<meta
+												itemProp="ratingValue"
+												content="4.4"
+											/>
+										</div>
 									</div>
 								</a>
 							</Link>

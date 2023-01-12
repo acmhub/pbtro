@@ -3,7 +3,6 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import Image from "next/image";
 import Link from "next/link";
-import TextField from "@mui/material/TextField";
 import Checkbox from "@mui/material/Checkbox";
 import {
 	MdOutlinePhoneInTalk,
@@ -245,40 +244,64 @@ export default function Contact() {
 								onSubmit={handleSubmit}
 								className="card bg-theme2 text-white col-span-1 lg:col-span-4 space-y-6"
 							>
-								<TextField
-									name="name"
-									label={t("name")}
-									variant="standard"
-									fullWidth
-								/>
+								<div className="flex flex-col">
+									<label htmlFor="name">{t("name")}</label>
+									<input
+										type="text"
+										name="name"
+										id="name"
+										className="bg-transparent outline-none border-b p-1"
+										required
+									/>
+								</div>
+								<div className="flex flex-col">
+									<label htmlFor="email">Email</label>
+									<input
+										type="email"
+										name="email"
+										id="email"
+										className="bg-transparent outline-none border-b p-1"
+										required
+									/>
+								</div>
 
-								<TextField
-									name="email"
-									label="Email"
-									variant="standard"
-									fullWidth
-								/>
-								<TextField
-									name="phone_number"
-									label={t("phone")}
-									variant="standard"
-									fullWidth
-								/>
+								<div className="flex flex-col">
+									<label htmlFor="phone_number">
+										{t("phone")}
+									</label>
+									<input
+										type="text"
+										name="phone_number"
+										id="phone_number"
+										className="bg-transparent outline-none border-b p-1"
+										required
+									/>
+								</div>
 
-								<TextField
-									name="subject"
-									label={t("subject")}
-									variant="standard"
-									fullWidth
-								/>
-								<TextField
-									name="message"
-									label={t("message")}
-									variant="standard"
-									rows={5}
-									multiline
-									fullWidth
-								/>
+								<div className="flex flex-col">
+									<label htmlFor="subject">
+										{t("subject")}
+									</label>
+									<input
+										type="text"
+										name="subject"
+										id="subject"
+										className="bg-transparent outline-none border-b p-1"
+										required
+									/>
+								</div>
+
+								<div className="flex flex-col">
+									<label htmlFor="message">
+										{t("message")}
+									</label>
+									<textarea
+										name="message"
+										id="message"
+										rows="5"
+										className="resize-none bg-transparent outline-none border-b p-1"
+									/>
+								</div>
 
 								<div className="flex flex-col sm:flex-row items-center justify-between space-x-4 pt-4">
 									<div className="flex items-center space-x-2">

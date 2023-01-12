@@ -139,7 +139,7 @@ export default function Colors({ t }) {
 
 									<MdClose
 										className="h-6 w-6 cursor-pointer"
-										onClick={() => setWood(false)}
+										onClick={() => setRAL(false)}
 									/>
 								</div>
 

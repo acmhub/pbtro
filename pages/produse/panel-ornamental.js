@@ -1,11 +1,18 @@
 import React from "react";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
+import dynamic from "next/dynamic";
 import Layout from "../../components/General/Layout";
-import ProductLanding from "../../components/Products/ProductLanding";
-import ModelsGallery from "../../components/Products/ModelsGallery";
-import Colors from "../../components/Products/Colors";
-import ProductCTA from "../../components/Products/ProductCTA";
+const ProductLanding = dynamic(() =>
+	import("../../components/Products/ProductLanding")
+);
+const ModelsGallery = dynamic(() =>
+	import("../../components/Products/ModelsGallery")
+);
+const Colors = dynamic(() => import("../../components/Products/Colors"));
+const ProductCTA = dynamic(() =>
+	import("../../components/Products/ProductCTA")
+);
 import {
 	aluminiuData,
 	inoxData,

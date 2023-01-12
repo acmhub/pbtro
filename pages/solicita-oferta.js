@@ -1,25 +1,15 @@
 import React, { useState, useContext, useEffect } from "react";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import Layout from "../components/General/Layout";
 import { Store } from "../utils/StateProvider";
 import { productsData } from "../components/Products";
-import TextField from "@mui/material/TextField";
-import Accordion from "@mui/material/Accordion";
-import AccordionSummary from "@mui/material/AccordionSummary";
-import AccordionDetails from "@mui/material/AccordionDetails";
-import Tooltip from "@mui/material/Tooltip";
-import Modal from "@mui/material/Modal";
 import { toast } from "react-toastify";
-import {
-	MdClose,
-	MdExpandMore,
-	MdOutlineDeleteOutline,
-	MdOutlineEdit,
-} from "react-icons/md";
-import ProductRequirements from "../components/Quote";
-import ModifyProduct from "../components/Quote/Modify";
+
+const ProductRequirements = dynamic(() => import("../components/Quote"));
+const QuoteList = dynamic(() => import("../components/Quote/QuoteList"));
 
 export default function GetQuote() {
 	const { t } = useTranslation("getquote");
@@ -28,10 +18,6 @@ export default function GetQuote() {
 		selectedProduct,
 		quote: { quoteItems },
 	} = state;
-	const [modalState, setModalState] = useState({
-		state: false,
-		product: null,
-	});
 
 	const [quoteData, setQuoteData] = useState([]);
 	useEffect(() => {
@@ -149,177 +135,7 @@ export default function GetQuote() {
 				{state?.quote?.quoteItems?.length > 0 && (
 					<div className="mt-20">
 						{state.quote.quoteItems.map((e, i) => (
-							<Accordion className="divide-y" key={i}>
-								<AccordionSummary
-									sx={{
-										pointerEvents: modalState.state
-											? "none"
-											: "auto",
-									}}
-									expandIcon={
-										<MdExpandMore className="h-6 w-6" />
-									}
-								>
-									<div className="flex w-full justify-between items-center pr-6">
-										<span>
-											{i < 9 ? "0" + (i + 1) : i + 1}.{" "}
-											{e.translation_key.length <= 13
-												? t(
-														`common:${e.translation_key}`
-												  )
-												: t(
-														`common:${e.translation_key}`
-												  ).substring(0, 13) + ".."}
-										</span>
-
-										<div className="space-x-4">
-											<Tooltip
-												title={<h6>{t("edit")}</h6>}
-												placement="top"
-											>
-												<button
-													className="p-1"
-													onClick={() =>
-														setModalState({
-															state: true,
-															product: e,
-														})
-													}
-												>
-													<MdOutlineEdit className="h-6 w-6 text-theme1" />
-												</button>
-											</Tooltip>
-											<Modal
-												aria-labelledby="update-product-modal-title"
-												aria-describedby="update-product-modal-description"
-												open={
-													modalState?.product?.key ===
-													e.key
-														? true
-														: false
-												}
-												onClose={() =>
-													setModalState({
-														state: false,
-														product: null,
-													})
-												}
-												closeAfterTransition
-											>
-												<div className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 h-[82vh] w-[90%] lg:max-w-4xl overflow-y-auto card">
-													<div className="flex justify-between items-center">
-														<h4>
-															{i < 9
-																? "0" + (i + 1)
-																: i + 1}
-															.{" "}
-															{t(
-																`common:${modalState?.product?.translation_key}`
-															)}
-														</h4>
-														<MdClose
-															className="h-6 w-6 cursor-pointer"
-															onClick={() =>
-																setModalState({
-																	state: false,
-																	product:
-																		null,
-																})
-															}
-														/>
-													</div>
-													<div className="border-b" />
-													<ModifyProduct
-														data={
-															modalState.product
-														}
-														modalState={modalState}
-														setModalState={
-															setModalState
-														}
-														t={t}
-													/>
-												</div>
-											</Modal>
-
-											<Tooltip
-												title={<h6>{t("delete")}</h6>}
-												placement="top"
-											>
-												<button
-													className="p-1"
-													onClick={() => {
-														dispatch({
-															type: "REMOVE_ITEM",
-															payload: e.key,
-														});
-														toast.success(
-															<div>
-																{t(
-																	`common:${e.translation_key}`
-																)}{" "}
-																{t(
-																	"removeditem"
-																)}
-															</div>,
-															{}
-														);
-													}}
-												>
-													<MdOutlineDeleteOutline className="h-6 w-6 text-red-600" />
-												</button>
-											</Tooltip>
-										</div>
-									</div>
-								</AccordionSummary>
-								<AccordionDetails>
-									<div className="overflow-x-auto">
-										<table className="table-auto w-full border">
-											<thead className="bg-gray-100">
-												<tr className="divide-x">
-													{Object.entries(e)
-														.slice(2, -1)
-														.map((label, head) => (
-															<th
-																scope="row"
-																className="whitespace-nowrap py-2 px-6 text-left"
-																key={head}
-															>
-																{t(label[0])}
-															</th>
-														))}
-												</tr>
-											</thead>
-											<tbody>
-												<tr className="border-t divide-x">
-													{Object.entries(e)
-														.slice(2, -1)
-														.map((value, body) => (
-															<td
-																scope="row"
-																className="whitespace-nowrap last:whitespace-normal px-6 py-2"
-																key={body}
-															>
-																{value[1]
-																	.length >=
-																125
-																	? t(
-																			value[1]
-																	  ).substring(
-																			0,
-																			125
-																	  ) + "..."
-																	: t(
-																			value[1]
-																	  )}
-															</td>
-														))}
-												</tr>
-											</tbody>
-										</table>
-									</div>
-								</AccordionDetails>
-							</Accordion>
+							<QuoteList e={e} t={t} i={i} key={i} />
 						))}
 					</div>
 				)}
@@ -327,50 +143,53 @@ export default function GetQuote() {
 				{state?.quote?.quoteItems?.length > 0 && (
 					<form
 						onSubmit={handleQuoteSubmit}
-						className="card space-y-2 mt-20"
+						className="card space-y-8 mt-20"
 					>
-						<TextField
-							name="name"
-							label={t("Nume")}
-							variant="standard"
-							fullWidth
-							required
-						/>
-						<div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
-							<TextField
-								name="email"
-								label="Email"
-								variant="standard"
-								fullWidth
-								required
-							/>
-							<TextField
-								name="phone_number"
-								label={t("Numar de telefon")}
-								variant="standard"
-								fullWidth
+						<div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+							<div className="flex flex-col">
+								<label htmlFor="name">{t("Nume")}</label>
+								<input
+									type="text"
+									name="name"
+									id="name"
+									className="outline-none border-b p-1"
+									required
+								/>
+							</div>
+							<div className="flex flex-col">
+								<label htmlFor="email">Email</label>
+								<input
+									type="email"
+									name="email"
+									id="email"
+									className="outline-none border-b p-1"
+									required
+								/>
+							</div>
+							<div className="flex flex-col">
+								<label htmlFor="phone_number">
+									{t("Numar de telefon")}
+								</label>
+								<input
+									type="text"
+									name="phone_number"
+									id="phone_number"
+									className="outline-none border-b p-1"
+									required
+								/>
+							</div>
+						</div>
+
+						<div className="flex flex-col">
+							<label htmlFor="location">{t("Locatie")}</label>
+							<input
+								type="text"
+								name="location"
+								id="location"
+								className="outline-none border-b p-1"
 								required
 							/>
 						</div>
-
-						<TextField
-							name="location"
-							label={t("Locatie")}
-							variant="standard"
-							fullWidth
-							required
-						/>
-
-						<div className="py-2" />
-						{/* <input
-							type="text"
-							name="quote"
-							className="hidden"
-							value={Object.entries(quoteData)
-								.join("<br/><br/>")
-								.replace(/[[\]",]/g, "<br/>")}
-							readOnly
-						/> */}
 
 						<button
 							type="submit"
