@@ -465,7 +465,7 @@ export default function Navigation() {
 								<div
 									className={`${
 										dropdownToggle
-											? "flex flex-col space-y-3 ml-2 my-4 pl-2 lg:ml-0 border-l-2 lg:space-y-0 lg:w-4/6 duration-200 ease-in-out opacity-1 pointer-events-all lg:shadow-[0_5px_20px__rgba(0,0,0,0.5)]"
+											? "flex flex-col space-y-3 ml-2 my-4 pl-2 lg:ml-0 border-l-2 lg:space-y-0 lg:w-4/6 duration-200 ease-in-out opacity-1 pointer-events-all lg:shadow-[0_5px_20px__rgba(0,0,0,0.33)]"
 											: "hidden opacity-0 pointer-events-none"
 									}
                                 	lg:absolute lg:grid lg:grid-cols-4 lg:gap-8 lg:card lg:top-[54px] lg:left-1/2 lg:-translate-x-1/2 lg:border lg:border-neutral-300 lg:w-4/6

@@ -282,11 +282,11 @@ export default function About() {
 				<div className="section-spacing" />
 
 				<section id="cta">
-					<div className="relative bg-gradient-to-tr bg-opacity-50 from-[#bb9031] to-[#f4b632] shadow-xl">
+					<div className="relative bg-gradient-to-tr from-[#bb9031] to-[#f4b632]  shadow-xl">
 						<div className="grid grid-cols-1 lg:grid-cols-2">
-							<div className="space-y-10 px-8 py-8 lg:py-16 text-white my-auto">
+							<div className="space-y-8 px-8 py-8 lg:py-16 text-white my-auto">
 								<div className="space-y-4">
-									<h2>{t("cta.title")}</h2>
+									<h3>{t("cta.title")}</h3>
 									<p>{t("cta.description")}</p>
 								</div>
 
