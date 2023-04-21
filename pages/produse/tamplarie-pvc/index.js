@@ -4,18 +4,12 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import Layout from "../../../components/General/Layout";
 
-const ProductLanding = dynamic(() =>
-	import("../../../components/Products/ProductLanding")
-);
-const ConstructiveOptions = dynamic(() =>
-	import("../../../components/Products/ConstructiveOptions")
-);
+const ProductLanding = dynamic(() => import("../../../components/Products/ProductLanding"));
+const ConstructiveOptions = dynamic(() => import("../../../components/Products/ConstructiveOptions"));
 const Profiles = dynamic(() => import("../../../components/Products/Profiles"));
 const Atypics = dynamic(() => import("../../../components/Products/Atypics"));
 const Colors = dynamic(() => import("../../../components/Products/Colors"));
-const ProductCTA = dynamic(() =>
-	import("../../../components/Products/ProductCTA")
-);
+const ProductCTA = dynamic(() => import("../../../components/Products/ProductCTA"));
 
 const landingData = {
 	src: "/images/products/tamplarie-pvc/highlight.webp",
@@ -27,10 +21,7 @@ const constructiveData = [
 	{
 		source: "/images/products/tamplarie-pvc/fereastra.webp",
 		title: "constructive.fereastra",
-		description: [
-			"constructive.fereastradesc1",
-			"constructive.fereastradesc2",
-		],
+		description: ["constructive.fereastradesc1", "constructive.fereastradesc2"],
 	},
 	{
 		source: "/images/products/tamplarie-pvc/usa.webp",
@@ -45,6 +36,36 @@ const constructiveData = [
 ];
 
 const profilesData = [
+	{
+		manufacturer: "PBT",
+		manufacturerLogo: "/images/logos/logo.svg",
+		model: "Therm Plus 500",
+		profile: "/images/products/tamplarie-pvc/pbt500.webp",
+		href: "/produse/tamplarie-pvc/thermplus500",
+		image: "/images/products/tamplarie-pvc/klass_demo.webp",
+		tehnicalDetails: [
+			{
+				label: "common:profilespecs.adancime",
+				value: "70mm",
+			},
+			{
+				label: "common:profilespecs.structura",
+				value: "5",
+			},
+			{
+				label: "common:profilespecs.izolare",
+				value: "1.3 W/m2k",
+			},
+			{
+				label: "common:profilespecs.vitrare",
+				value: "24mm / 42mm",
+			},
+			{
+				label: "common:profilespecs.clasa",
+				value: "B",
+			},
+		],
+	},
 	{
 		manufacturer: "Klass",
 		manufacturerLogo: "/images/suppliers/klass.webp",
@@ -78,30 +99,30 @@ const profilesData = [
 	{
 		manufacturer: "Salamander",
 		manufacturerLogo: "/images/suppliers/salamander.webp",
-		model: "Streamline 76",
-		profile: "/images/products/tamplarie-pvc/sl76.webp",
-		href: "/produse/tamplarie-pvc/streamline76",
-		image: "/images/products/tamplarie-pvc/streamline_demo.webp",
+		model: "bluEvolution 73",
+		profile: "/images/products/tamplarie-pvc/bE73.webp",
+		href: "/produse/tamplarie-pvc/bluevolution73",
+		image: "/images/products/tamplarie-pvc/be73_demo.webp",
 		tehnicalDetails: [
 			{
 				label: "common:profilespecs.adancime",
-				value: "76mm",
+				value: "73mm",
 			},
 			{
 				label: "common:profilespecs.structura",
-				value: "5 / 7",
+				value: "5",
 			},
 			{
 				label: "common:profilespecs.izolare",
-				value: "1.3 W/m2k",
+				value: "1.2 W/m2k",
 			},
 			{
 				label: "common:profilespecs.vitrare",
-				value: "24mm / 40mm",
+				value: "24mm / 44mm",
 			},
 			{
 				label: "common:profilespecs.clasa",
-				value: "A",
+				value: "B",
 			},
 		],
 	},
@@ -197,9 +218,7 @@ export default function TamplariePVC() {
 				<div className="section-spacing" />
 
 				<section id="profiles">
-					<h2 className="text-center mb-10">
-						{t("common:fereastrapbt")}
-					</h2>
+					<h2 className="text-center mb-10">{t("common:fereastrapbt")}</h2>
 					<Profiles data={profilesData} t={t} />
 				</section>
 			</div>
@@ -228,10 +247,7 @@ export default function TamplariePVC() {
 export async function getStaticProps({ locale }) {
 	return {
 		props: {
-			...(await serverSideTranslations(locale, [
-				"common",
-				"tamplariepvc",
-			])),
+			...(await serverSideTranslations(locale, ["common", "tamplariepvc"])),
 		},
 	};
 }

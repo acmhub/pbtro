@@ -5,12 +5,7 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Tooltip from "@mui/material/Tooltip";
 import Modal from "@mui/material/Modal";
-import {
-	MdClose,
-	MdExpandMore,
-	MdOutlineDeleteOutline,
-	MdOutlineEdit,
-} from "react-icons/md";
+import { MdClose, MdExpandMore, MdOutlineDeleteOutline, MdOutlineEdit } from "react-icons/md";
 import { toast } from "react-toastify";
 import { Store } from "../../utils/StateProvider";
 const ModifyProduct = dynamic(() => import("./Modify"));
@@ -35,14 +30,11 @@ export default function QuoteList({ e, t, i }) {
 						{i < 9 ? "0" + (i + 1) : i + 1}.{" "}
 						{e.translation_key.length <= 13
 							? t(`common:${e.translation_key}`)
-							: t(`common:${e.translation_key}`).substring(
-									0,
-									13
-							  ) + ".."}
+							: t(`common:${e.translation_key}`).substring(0, 13) + ".."}
 					</span>
 
 					<div className="space-x-4">
-						<Tooltip title={<h6>{t("edit")}</h6>} placement="top">
+						<Tooltip title={<p className="text-lg">{t("edit")}</p>} placement="top">
 							<button
 								className="p-1"
 								onClick={() =>
@@ -58,11 +50,7 @@ export default function QuoteList({ e, t, i }) {
 						<Modal
 							aria-labelledby="update-product-modal-title"
 							aria-describedby="update-product-modal-description"
-							open={
-								modalState?.product?.key === e.key
-									? true
-									: false
-							}
+							open={modalState?.product?.key === e.key ? true : false}
 							onClose={() =>
 								setModalState({
 									state: false,
@@ -73,12 +61,10 @@ export default function QuoteList({ e, t, i }) {
 						>
 							<div className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 h-[82vh] w-[90%] lg:max-w-4xl overflow-y-auto card">
 								<div className="flex justify-between items-center">
-									<h4>
+									<p className="text-2xl">
 										{i < 9 ? "0" + (i + 1) : i + 1}.{" "}
-										{t(
-											`common:${modalState?.product?.translation_key}`
-										)}
-									</h4>
+										{t(`common:${modalState?.product?.translation_key}`)}
+									</p>
 									<MdClose
 										className="h-6 w-6 cursor-pointer"
 										onClick={() =>
@@ -99,7 +85,7 @@ export default function QuoteList({ e, t, i }) {
 							</div>
 						</Modal>
 
-						<Tooltip title={<h6>{t("delete")}</h6>} placement="top">
+						<Tooltip title={<p className="text-lg">{t("delete")}</p>} placement="top">
 							<button
 								className="p-1"
 								onClick={() => {
@@ -109,8 +95,7 @@ export default function QuoteList({ e, t, i }) {
 									});
 									toast.success(
 										<div>
-											{t(`common:${e.translation_key}`)}{" "}
-											{t("removeditem")}
+											{t(`common:${e.translation_key}`)} {t("removeditem")}
 										</div>,
 										{}
 									);
@@ -130,11 +115,7 @@ export default function QuoteList({ e, t, i }) {
 								{Object.entries(e)
 									.slice(2, -1)
 									.map((label, head) => (
-										<th
-											scope="row"
-											className="whitespace-nowrap py-2 px-6 text-left"
-											key={head}
-										>
+										<th scope="row" className="whitespace-nowrap py-2 px-6 text-left" key={head}>
 											{t(label[0])}
 										</th>
 									))}
@@ -151,10 +132,7 @@ export default function QuoteList({ e, t, i }) {
 											key={body}
 										>
 											{value[1].length >= 125
-												? t(value[1]).substring(
-														0,
-														125
-												  ) + "..."
+												? t(value[1]).substring(0, 125) + "..."
 												: t(value[1])}
 										</td>
 									))}

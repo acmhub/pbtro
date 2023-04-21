@@ -3,20 +3,10 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import dynamic from "next/dynamic";
 import Layout from "../../components/General/Layout";
-const ProductLanding = dynamic(() =>
-	import("../../components/Products/ProductLanding")
-);
-const ModelsGallery = dynamic(() =>
-	import("../../components/Products/ModelsGallery")
-);
-const ProductCTA = dynamic(() =>
-	import("../../components/Products/ProductCTA")
-);
-import {
-	zebraData,
-	roleteData,
-	jaluzeleData,
-} from "../../components/Products/Rolete";
+const ProductLanding = dynamic(() => import("../../components/Products/ProductLanding"));
+const ModelsGallery = dynamic(() => import("../../components/Products/ModelsGallery"));
+const ProductCTA = dynamic(() => import("../../components/Products/ProductCTA"));
+import { zebraData, roleteData, jaluzeleData } from "../../components/Products/Rolete";
 
 const landingData = {
 	src: "/images/products/roleta-textila/highlight.webp",
@@ -43,7 +33,7 @@ export default function RoletaTextila() {
 				<div className="section-spacing" />
 
 				<section className="space-y-4" id="rolete">
-					<h3 className="text-center">{t("modelsrolete")}</h3>
+					<p className="text-3xl text-center">{t("modelsrolete")}</p>
 
 					<ModelsGallery data={roleteData} />
 				</section>
@@ -52,8 +42,8 @@ export default function RoletaTextila() {
 
 				<section className="space-y-4" id="zebra">
 					<div>
-						<h3 className="text-center">{t("modelszebra")}</h3>
-						<h6 className="text-center">Day & Night</h6>
+						<p className="text-3xl text-center">{t("modelszebra")}</p>
+						<p className="text-center text-lg">Day & Night</p>
 					</div>
 
 					<ModelsGallery data={zebraData} />
@@ -62,7 +52,7 @@ export default function RoletaTextila() {
 				<div className="section-spacing" />
 
 				<section className="space-y-4" id="jaluzele">
-					<h3 className="text-center">{t("modelsjaluzele")}</h3>
+					<p className="text-3xl text-center">{t("modelsjaluzele")}</p>
 
 					<ModelsGallery data={jaluzeleData} />
 				</section>
@@ -80,10 +70,7 @@ export default function RoletaTextila() {
 export async function getStaticProps({ locale }) {
 	return {
 		props: {
-			...(await serverSideTranslations(locale, [
-				"common",
-				"roletatextila",
-			])),
+			...(await serverSideTranslations(locale, ["common", "roletatextila"])),
 		},
 	};
 }

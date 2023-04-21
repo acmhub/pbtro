@@ -5,12 +5,8 @@ import dynamic from "next/dynamic";
 import Image from "next/image";
 import { MdDone } from "react-icons/md";
 import Layout from "../../components/General/Layout";
-const ProductLanding = dynamic(() =>
-	import("../../components/Products/ProductLanding")
-);
-const ProductCTA = dynamic(() =>
-	import("../../components/Products/ProductCTA")
-);
+const ProductLanding = dynamic(() => import("../../components/Products/ProductLanding"));
+const ProductCTA = dynamic(() => import("../../components/Products/ProductCTA"));
 const Atypics = dynamic(() => import("../../components/Products/Atypics"));
 
 const landingData = {
@@ -40,13 +36,11 @@ export default function TamplarieLemn() {
 					<div className="lg:absolute top-0 left-0 h-full w-1/2 bg-theme2 z-0"></div>
 					<div className="relative grid grid-cols-1 lg:grid-cols-3 gap-8 z-10">
 						<div className="space-y-4 lg:text-white my-auto">
-							<h3>
+							<p className="text-3xl">
 								{t("common:product.tamplarielemn")} <br />
 								{t("aluplating")}
-							</h3>
-							<p className="text-justify">
-								{t("aluplatingdesc")}
 							</p>
+							<p className="text-justify">{t("aluplatingdesc")}</p>
 						</div>
 
 						<div className="order-first lg:order-2">
@@ -63,19 +57,14 @@ export default function TamplarieLemn() {
 
 						<div className="order-last my-auto">
 							<div className="space-y-8 w-fit mx-auto lg:w-full">
-								{["durabil", "termic", "fonic", "estetic"].map(
-									(e, i) => (
-										<div
-											className="flex items-center space-x-2"
-											key={i}
-										>
-											<div className="bg-theme1 rounded-full h-8 w-8 grid place-content-center p-0.5">
-												<MdDone className="h-6 w-6 text-white" />
-											</div>
-											<span>{t(e)}</span>
+								{["durabil", "termic", "fonic", "estetic"].map((e, i) => (
+									<div className="flex items-center space-x-2" key={i}>
+										<div className="bg-theme1 rounded-full h-8 w-8 grid place-content-center p-0.5">
+											<MdDone className="h-6 w-6 text-white" />
 										</div>
-									)
-								)}
+										<span>{t(e)}</span>
+									</div>
+								))}
 							</div>
 						</div>
 					</div>
@@ -90,9 +79,7 @@ export default function TamplarieLemn() {
 
 			<div className="container-padding">
 				<section className="space-y-10" id="colors">
-					<h2 className="text-center">
-						{t("common:colors.available")}
-					</h2>
+					<p className="text-4xl text-center">{t("common:colors.available")}</p>
 
 					<div className="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 gap-2">
 						{[
@@ -111,16 +98,9 @@ export default function TamplarieLemn() {
 						].map((e, i) => (
 							<div key={i}>
 								<div className="relative h-52 w-auto">
-									<Image
-										src={e}
-										alt="Culoare"
-										layout="fill"
-										objectFit="cover"
-									/>
+									<Image src={e} alt="Culoare" layout="fill" objectFit="cover" />
 								</div>
-								<h6 className="text-center">
-									{e.replace(/^.*[\\\/]/, "").slice(0, -5)}
-								</h6>
+								<p className="text-lg text-center">{e.replace(/^.*[\\\/]/, "").slice(0, -5)}</p>
 							</div>
 						))}
 					</div>
@@ -139,10 +119,7 @@ export default function TamplarieLemn() {
 export async function getStaticProps({ locale }) {
 	return {
 		props: {
-			...(await serverSideTranslations(locale, [
-				"common",
-				"tamplarielemn",
-			])),
+			...(await serverSideTranslations(locale, ["common", "tamplarielemn"])),
 		},
 	};
 }

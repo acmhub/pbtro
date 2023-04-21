@@ -4,11 +4,7 @@ import { useTranslation } from "next-i18next";
 import Image from "next/image";
 import Link from "next/link";
 import Checkbox from "@mui/material/Checkbox";
-import {
-	MdOutlinePhoneInTalk,
-	MdOutlineMailOutline,
-	MdOutlineMap,
-} from "react-icons/md";
+import { MdOutlinePhoneInTalk, MdOutlineMailOutline, MdOutlineMap } from "react-icons/md";
 import { toast } from "react-toastify";
 import styled from "styled-components";
 import Layout from "../components/General/Layout";
@@ -93,29 +89,22 @@ export default function Contact() {
 
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
 					<div className="col-span-1 space-y-10 my-auto">
-						<div
-							itemType="https://schema.org/Organization"
-							itemScope
-						>
-							<h4 itemProp="legalName">
+						<div itemType="https://schema.org/Organization" itemScope>
+							<p className="text-2xl" itemProp="legalName">
 								PROMOTION BUSINESS TEAM SRL
-							</h4>
-							<h6>
-								{t("cui")}:{" "}
-								<span itemProp="taxID">RO19011272</span>
-							</h6>
-							<h6>{t("rc")}: J40/14519/2006</h6>
+							</p>
+							<p className="text-xl">
+								{t("cui")}: <span itemProp="taxID">RO19011272</span>
+							</p>
+							<p className="text-xl">{t("rc")}: J40/14519/2006</p>
 						</div>
 
-						<div
-							itemType="https://schema.org/Organization"
-							itemScope
-						>
+						<div itemType="https://schema.org/Organization" itemScope>
 							<div className="flex items-center space-x-2 mb-2">
 								<div className="bg-theme2 w-fit grid place-content-center p-2">
 									<MdOutlinePhoneInTalk className="h-6 w-6 text-white" />
 								</div>
-								<h4>{t("callus")}</h4>
+								<p className="text-2xl">{t("callus")}</p>
 							</div>
 
 							<a
@@ -125,10 +114,7 @@ export default function Contact() {
 								className="block w-fit hover:text-cyan-700"
 							>
 								<p>
-									<span itemProp="telephone">
-										+40 786 422 450
-									</span>
-									- Claudiu Miron
+									<span itemProp="telephone">+40 786 422 450</span>- Claudiu Miron
 								</p>
 							</a>
 							<a
@@ -138,23 +124,17 @@ export default function Contact() {
 								className="block w-fit hover:text-cyan-700"
 							>
 								<p>
-									<span itemProp="telephone">
-										+40 723 391 843
-									</span>
-									- Ionut Nita
+									<span itemProp="telephone">+40 723 391 843</span>- Ionut Nita
 								</p>
 							</a>
 						</div>
 
-						<div
-							itemType="https://schema.org/Organization"
-							itemScope
-						>
+						<div itemType="https://schema.org/Organization" itemScope>
 							<div className="flex items-center space-x-2 mb-2">
 								<div className="bg-theme2 w-fit grid place-content-center p-2">
 									<MdOutlineMailOutline className="h-6 w-6 text-white" />
 								</div>
-								<h4>{t("emailus")}</h4>
+								<p className="text-2xl">{t("emailus")}</p>
 							</div>
 
 							<a
@@ -180,23 +160,17 @@ export default function Contact() {
 								<div className="bg-theme2 w-fit grid place-content-center p-2 mb-2">
 									<MdOutlineMap className="h-6 w-6 text-white" />
 								</div>
-								<h4>{t("visitus")}</h4>
+								<p className="text-2xl">{t("visitus")}</p>
 							</div>
 
-							<div
-								className="space-y-4"
-								itemType="https://schema.org/Organization"
-								itemScope
-							>
+							<div className="space-y-4" itemType="https://schema.org/Organization" itemScope>
 								<a
 									href="https://goo.gl/maps/MsJhkRS4S4CgE8zNA"
 									target="_blank"
 									rel="noopener noreferrer"
 									className="block w-fit hover:text-cyan-700"
 								>
-									<p itemProp="location">
-										Soseaua Tudor Vladimirescu 393
-									</p>
+									<p itemProp="location">Soseaua Tudor Vladimirescu 393</p>
 									<p itemProp="location">Domnești, Ilfov</p>
 								</a>
 
@@ -266,9 +240,7 @@ export default function Contact() {
 								</div>
 
 								<div className="flex flex-col">
-									<label htmlFor="phone_number">
-										{t("phone")}
-									</label>
+									<label htmlFor="phone_number">{t("phone")}</label>
 									<input
 										type="text"
 										name="phone_number"
@@ -279,9 +251,7 @@ export default function Contact() {
 								</div>
 
 								<div className="flex flex-col">
-									<label htmlFor="subject">
-										{t("subject")}
-									</label>
+									<label htmlFor="subject">{t("subject")}</label>
 									<input
 										type="text"
 										name="subject"
@@ -292,9 +262,7 @@ export default function Contact() {
 								</div>
 
 								<div className="flex flex-col">
-									<label htmlFor="message">
-										{t("message")}
-									</label>
+									<label htmlFor="message">{t("message")}</label>
 									<textarea
 										name="message"
 										id="message"
@@ -307,17 +275,12 @@ export default function Contact() {
 									<div className="flex items-center space-x-2">
 										<Checkbox
 											value={consent}
-											onChange={(e) =>
-												setConsent(e.target.checked)
-											}
+											onChange={(e) => setConsent(e.target.checked)}
 											className="p-0"
 										/>
 										<div>
 											{t("agreewith")}{" "}
-											<Link
-												href="/politica-confidentialitate"
-												passHref
-											>
+											<Link href="/politica-confidentialitate" passHref>
 												<a className="text-sky-400 underline opacity-100 hover:opacity-75">
 													{t("common:privacypolicy")}
 												</a>
@@ -328,8 +291,7 @@ export default function Contact() {
 									<button
 										type="submit"
 										className={`theme-button1 mt-8 sm:mt-0 ${
-											!consent &&
-											"opacity-50 cursor-not-allowed"
+											!consent && "opacity-50 cursor-not-allowed"
 										}`}
 										disabled={!consent}
 									>

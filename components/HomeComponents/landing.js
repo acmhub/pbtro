@@ -44,12 +44,8 @@ export default function Landing({ t }) {
 						<div className="space-y-10 px-8 py-8 lg:py-4 text-white my-auto">
 							<div className="space-y-4">
 								<div>
-									<h6 className="uppercase text-sm">
-										{t("landing.subtitle")}
-									</h6>
-									<h4 className="capitalize">
-										{t("landing.title")}
-									</h4>
+									<p className="uppercase text-sm">{t("landing.subtitle")}</p>
+									<p className="text-2xl capitalize">{t("landing.title")}</p>
 								</div>
 								<div className="relative h-20 lg:h-8">
 									<AnimatePresence initial={false}>
@@ -72,23 +68,17 @@ export default function Landing({ t }) {
 											transition={{ duration: 0.75 }}
 											key={wordIndex}
 										>
-											<h1 className="text-4xl absolute">
-												{t(textOptions[wordIndex])}
-											</h1>
+											<h1 className="absolute text-4xl">{t(textOptions[wordIndex])}</h1>
 										</motion.div>
 									</AnimatePresence>
 								</div>
 							</div>
 
-							<p className="lg:max-w-md text-justify">
-								{t("landing.description")}
-							</p>
+							<p className="lg:max-w-md text-justify">{t("landing.description")}</p>
 
 							<Link href="/solicita-oferta" passHref>
 								<a className="block w-fit">
-									<button className="theme-button1">
-										{t("common:getquote")}
-									</button>
+									<button className="theme-button1">{t("common:getquote")}</button>
 								</a>
 							</Link>
 						</div>

@@ -3,11 +3,7 @@ import Link from "next/link";
 import TextField from "@mui/material/TextField";
 import Checkbox from "@mui/material/Checkbox";
 import { toast } from "react-toastify";
-import {
-	MdOutlinePhoneInTalk,
-	MdOutlineMailOutline,
-	MdOutlineMap,
-} from "react-icons/md";
+import { MdOutlinePhoneInTalk, MdOutlineMailOutline, MdOutlineMap } from "react-icons/md";
 import styled from "styled-components";
 
 const FormStyles = styled.div`
@@ -84,36 +80,13 @@ export default function Contact({ t }) {
 			<div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
 				<div className="col-span-1 lg:col-span-4">
 					<FormStyles>
-						<form
-							onSubmit={handleSubmit}
-							className="card bg-theme2 text-white space-y-6"
-						>
-							<TextField
-								name="name"
-								label={t("contact.name")}
-								variant="standard"
-								fullWidth
-							/>
+						<form onSubmit={handleSubmit} className="card bg-theme2 text-white space-y-6">
+							<TextField name="name" label={t("contact.name")} variant="standard" fullWidth />
 
-							<TextField
-								name="email"
-								label="Email"
-								variant="standard"
-								fullWidth
-							/>
-							<TextField
-								name="phone_number"
-								label={t("contact.phone")}
-								variant="standard"
-								fullWidth
-							/>
+							<TextField name="email" label="Email" variant="standard" fullWidth />
+							<TextField name="phone_number" label={t("contact.phone")} variant="standard" fullWidth />
 
-							<TextField
-								name="subject"
-								label={t("contact.subject")}
-								variant="standard"
-								fullWidth
-							/>
+							<TextField name="subject" label={t("contact.subject")} variant="standard" fullWidth />
 							<TextField
 								name="message"
 								label={t("contact.message")}
@@ -127,18 +100,13 @@ export default function Contact({ t }) {
 								<div className="flex items-center space-x-2">
 									<Checkbox
 										value={consent}
-										onChange={(e) =>
-											setConsent(e.target.checked)
-										}
+										onChange={(e) => setConsent(e.target.checked)}
 										className="p-0"
 										id="consent"
 									/>
 									<label htmlFor="consent">
 										{t("contact.agreewith")}{" "}
-										<Link
-											href="/politica-confidentialitate"
-											passHref
-										>
+										<Link href="/politica-confidentialitate" passHref>
 											<a className="text-sky-400 underline opacity-100 hover:opacity-75">
 												{t("common:privacypolicy")}
 											</a>
@@ -149,8 +117,7 @@ export default function Contact({ t }) {
 								<button
 									type="submit"
 									className={`theme-button1 mt-8 sm:mt-0 ${
-										!consent &&
-										"opacity-50 cursor-not-allowed"
+										!consent && "opacity-50 cursor-not-allowed"
 									}`}
 									disabled={!consent}
 								>
@@ -163,15 +130,12 @@ export default function Contact({ t }) {
 
 				<div className="col-span-1 lg:col-span-8 space-y-10 my-auto order-first lg:order-last">
 					<div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
-						<div
-							itemType="https://schema.org/Organization"
-							itemScope
-						>
+						<div itemType="https://schema.org/Organization" itemScope>
 							<div className="flex items-center space-x-2 mb-2">
 								<div className="bg-theme2 w-fit grid place-content-center p-2">
 									<MdOutlinePhoneInTalk className="h-6 w-6 text-white" />
 								</div>
-								<h4>{t("contact.callus")}</h4>
+								<p className="text-2xl">{t("contact.callus")}</p>
 							</div>
 
 							<a
@@ -181,10 +145,7 @@ export default function Contact({ t }) {
 								className="block w-fit hover:text-cyan-700"
 							>
 								<p>
-									<span itemProp="telephone">
-										+40 786 422 450
-									</span>{" "}
-									- Claudiu Miron
+									<span itemProp="telephone">+40 786 422 450</span> - Claudiu Miron
 								</p>
 							</a>
 							<a
@@ -194,23 +155,17 @@ export default function Contact({ t }) {
 								className="block w-fit hover:text-cyan-700"
 							>
 								<p>
-									<span itemProp="telephone">
-										+40 723 391 843
-									</span>{" "}
-									- Ionut Nita
+									<span itemProp="telephone">+40 723 391 843</span> - Ionut Nita
 								</p>
 							</a>
 						</div>
 
-						<div
-							itemType="https://schema.org/Organization"
-							itemScope
-						>
+						<div itemType="https://schema.org/Organization" itemScope>
 							<div className="flex items-center space-x-2 mb-2">
 								<div className="bg-theme2 w-fit grid place-content-center p-2">
 									<MdOutlineMailOutline className="h-6 w-6 text-white" />
 								</div>
-								<h4>{t("contact.emailus")}</h4>
+								<p className="text-2xl">{t("contact.emailus")}</p>
 							</div>
 
 							<a
@@ -231,15 +186,12 @@ export default function Contact({ t }) {
 							</a>
 						</div>
 
-						<div
-							itemType="https://schema.org/Organization"
-							itemScope
-						>
+						<div itemType="https://schema.org/Organization" itemScope>
 							<div className="flex items-center space-x-2">
 								<div className="bg-theme2 w-fit grid place-content-center p-2 mb-2">
 									<MdOutlineMap className="h-6 w-6 text-white" />
 								</div>
-								<h4>{t("contact.visitus")}</h4>
+								<p className="text-2xl">{t("contact.visitus")}</p>
 							</div>
 
 							<a
@@ -248,9 +200,7 @@ export default function Contact({ t }) {
 								rel="noopener noreferrer"
 								className="block w-fit hover:text-cyan-700"
 							>
-								<p itemProp="location">
-									Șoseaua Tudor Vladimirescu 393
-								</p>
+								<p itemProp="location">Șoseaua Tudor Vladimirescu 393</p>
 								<p itemProp="location">Domnești, Ilfov</p>
 							</a>
 						</div>

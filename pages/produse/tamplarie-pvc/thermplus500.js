@@ -7,11 +7,11 @@ import Layout from "../../../components/General/Layout";
 const tehnicalDetails = [
 	{
 		label: "common:profilespecs.adancime",
-		value: "76mm",
+		value: "70mm",
 	},
 	{
 		label: "common:profilespecs.structura",
-		value: "5 / 7",
+		value: "5",
 	},
 	{
 		label: "common:profilespecs.izolare",
@@ -19,21 +19,18 @@ const tehnicalDetails = [
 	},
 	{
 		label: "common:profilespecs.vitrare",
-		value: "24mm / 40mm",
+		value: "24mm / 42mm",
 	},
 	{
 		label: "common:profilespecs.clasa",
-		value: "A",
+		value: "B",
 	},
 ];
 
-export default function Streamline76() {
+export default function ThermPlus() {
 	const { t } = useTranslation("");
 	return (
-		<Layout
-			title="Salamander Streamline76"
-			canonical="https://pbtromania.ro/produse/tamplarie-pvc/streamline76"
-		>
+		<Layout title="Therm Plus 500" canonical="https://pbtromania.ro/produse/tamplarie-pvc/thermplus500">
 			<div className="section-spacing" />
 
 			<div className="container-padding space-y-10">
@@ -42,31 +39,24 @@ export default function Streamline76() {
 				<div>
 					<div className="relative h-64 w-auto">
 						<Image
-							src="/images/products/tamplarie-pvc/sl76.webp"
-							alt="Streamline76"
+							src="/images/products/tamplarie-pvc/pbt500.webp"
+							alt="K-600"
 							layout="fill"
 							objectFit="contain"
 						/>
 					</div>
 					<div className="flex justify-center items-center space-x-4">
 						<div className="relative h-28 w-28">
-							<Image
-								src="/images/suppliers/salamander.webp"
-								alt="Salamander"
-								layout="fill"
-								objectFit="contain"
-							/>
+							<Image src="/images/logos/logo.svg" alt="PBT" layout="fill" objectFit="contain" />
 						</div>
-						<h4>Streamline76</h4>
+						<h4>Therm Plus 500</h4>
 					</div>
 				</div>
 
 				<div className="md:max-w-2xl md:mx-auto space-y-2">
 					{tehnicalDetails.map((detail, index) => (
 						<div className="card" key={index}>
-							<div className="text-gray-400">
-								{t(detail.label)}
-							</div>
+							<div className="text-gray-400">{t(detail.label)}</div>
 							<h5>{t(detail.value)}</h5>
 						</div>
 					))}

@@ -62,9 +62,7 @@ export default function WindowDoor({ t }) {
 				<div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-0">
 					<div className="col-span-1 lg:col-span-4 space-y-10 my-auto">
 						<div className="space-y-2">
-							<h6 className="text-gray-400 uppercase">
-								{t("windows.rightchoice")}
-							</h6>
+							<p className="text-gray-400 uppercase">{t("windows.rightchoice")}</p>
 							<h2>{t("windows.windoor")}</h2>
 						</div>
 
@@ -78,10 +76,7 @@ export default function WindowDoor({ t }) {
 						<div className="relative h-[400px] w-full">
 							<Image
 								src="/images/fillers/windowplant.webp"
-								alt={
-									t("common:fereastrapbt") +
-									"- Geam termopan tripan"
-								}
+								alt={t("common:fereastrapbt") + "- Geam termopan tripan"}
 								layout="fill"
 								objectFit="contain"
 							/>
@@ -89,22 +84,16 @@ export default function WindowDoor({ t }) {
 					</div>
 
 					<div className="col-span-1 lg:col-span-3 space-y-8 my-auto">
-						{[
-							"windows.production",
-							"windows.team",
-							"windows.quality",
-							"windows.measurements",
-						].map((e, i) => (
-							<div
-								className="flex items-center space-x-2"
-								key={i}
-							>
-								<div className="bg-theme1 h-8 w-8 grid place-content-center rounded-full">
-									<MdDone className="h-6 w-6 text-white" />
+						{["windows.production", "windows.team", "windows.quality", "windows.measurements"].map(
+							(e, i) => (
+								<div className="flex items-center space-x-2" key={i}>
+									<div className="bg-theme1 h-8 w-8 grid place-content-center rounded-full">
+										<MdDone className="h-6 w-6 text-white" />
+									</div>
+									<div>{t(e)}</div>
 								</div>
-								<div>{t(e)}</div>
-							</div>
-						))}
+							)
+						)}
 					</div>
 				</div>
 
@@ -113,22 +102,15 @@ export default function WindowDoor({ t }) {
 						<div className="card flex flex-col divide-y" key={i}>
 							<div className="grid grid-cols-1 xl:grid-cols-12 gap-4 pb-3">
 								<div className="col-span-1 xl:col-span-8 space-y-2">
-									<div>
-										<h6 className="text-theme1">
-											{t("common:fereastrapbt")}
-										</h6>
-										<h4>{t(e.name)}</h4>
+									<div className="mb-2 space-y-1">
+										<p className="text-theme1">{t("common:fereastrapbt")}</p>
+										<h2 className="text-3xl">{t(e.name)}</h2>
 									</div>
 									<p>{t(e.description)}</p>
 								</div>
 								<div className="col-span-1 xl:col-span-4 mb-auto order-first xl:order-last">
 									<div className="relative h-24 w-auto">
-										<Image
-											src={e.image}
-											alt={t(e.name)}
-											layout="fill"
-											objectFit="contain"
-										/>
+										<Image src={e.image} alt={t(e.name)} layout="fill" objectFit="contain" />
 									</div>
 								</div>
 							</div>
@@ -147,12 +129,9 @@ export default function WindowDoor({ t }) {
 			</div>
 
 			<div className="bg-theme2 pt-14 pb-4">
-				<div className="container-padding flex flex-col lg:flex-row lg:items-center justify-between w-fit lg:w-full space-y-4 lg:space-y-0">
+				<div className="container-padding flex flex-col lg:flex-row lg:items-center justify-between w-fit lg:w-full space-y-5 lg:space-y-0">
 					{specsData.map((e, i) => (
-						<div
-							className="flex items-center space-x-2 text-white"
-							key={i}
-						>
+						<div className="flex items-center space-x-2 text-white" key={i}>
 							<e.Icon className="h-8 w-8" />
 							<div className="text-xl">{t(e.name)}</div>
 						</div>

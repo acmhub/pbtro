@@ -19,7 +19,7 @@ const testimonialData = [
 function Testimonials({ t }) {
 	return (
 		<div className="container-padding space-y-10">
-			<h3 className="text-center">{t("testimonials.title")}</h3>
+			<h2 className="text-3xl text-center">{t("testimonials.title")}</h2>
 
 			<Swiper
 				loop={true}
@@ -49,19 +49,24 @@ function Testimonials({ t }) {
 				))}
 			</Swiper>
 
-			<div className="space-y-5">
-				<h4 className="text-center">
-					{t("testimonials.happyclients")}
-				</h4>
-				<div className="grid grid-cols-2 lg:grid-cols-5 gap-4">
+			<div className="space-y-10">
+				<p className="text-2xl text-center">{t("testimonials.happyclients")}</p>
+				<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
 					{[
+						"/images/clients/Toyota.webp",
 						"/images/clients/Clinica Sante.webp",
-						"/images/clients/Ewe Residence.webp",
+						"/images/clients/Federatia Romana de Baschet.webp",
+						"/images/clients/Politia Romana.webp",
+						"/images/clients/Optimum Construction & Project Management.webp",
+						"/images/clients/Spital Marius Nasta.webp",
+						"/images/clients/Colegiul Mihai Bravu.webp",
+						"/images/clients/Piata Drumul Taberei.webp",
 						"/images/clients/Pallady Towers.webp",
 						"/images/clients/Real Residence Resort.webp",
 						"/images/clients/Stejarul Residence.webp",
+						"/images/clients/Ewe Residence.webp",
 					].map((e, i) => (
-						<div className="relative h-24 w-24 mx-auto" key={i}>
+						<div className="relative h-20 w-20 mx-auto" key={i}>
 							<Image
 								src={e}
 								title={e.replace(/^.*[\\\/]/, "").slice(0, -5)}

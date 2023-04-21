@@ -4,20 +4,11 @@ import { useTranslation } from "next-i18next";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import Layout from "../../components/General/Layout";
-const ProductLanding = dynamic(() =>
-	import("../../components/Products/ProductLanding")
-);
-const ModelsGallery = dynamic(() =>
-	import("../../components/Products/ModelsGallery")
-);
+const ProductLanding = dynamic(() => import("../../components/Products/ProductLanding"));
+const ModelsGallery = dynamic(() => import("../../components/Products/ModelsGallery"));
 const Colors = dynamic(() => import("../../components/Products/Colors"));
-const ProductCTA = dynamic(() =>
-	import("../../components/Products/ProductCTA")
-);
-import {
-	aluminiuData,
-	inoxData,
-} from "../../components/Products/PanelOrnamental";
+const ProductCTA = dynamic(() => import("../../components/Products/ProductCTA"));
+import { aluminiuData, inoxData } from "../../components/Products/PanelOrnamental";
 
 const landingData = {
 	src: "/images/products/panel-ornamental/highlight.webp",
@@ -63,7 +54,7 @@ export default function PanelOrnamental() {
 				<div className="section-spacing" />
 
 				<section className="space-y-4" id="aluminiu">
-					<h3 className="text-center mb-10">{t("alumodels")}</h3>
+					<h2 className="text-3xl text-center mb-10">{t("alumodels")}</h2>
 
 					<ModelsGallery data={aluminiuData} />
 				</section>
@@ -71,10 +62,10 @@ export default function PanelOrnamental() {
 				<div className="section-spacing" />
 
 				<section className="space-y-4" id="inox">
-					<h3 className="text-center mb-10">
+					<h2 className="text-3xl text-center mb-10">
 						{t("alumodels")} <br />
 						{t("inoxmodels")}
-					</h3>
+					</h2>
 
 					<ModelsGallery data={inoxData} />
 				</section>
@@ -82,19 +73,12 @@ export default function PanelOrnamental() {
 				<div className="section-spacing" />
 
 				<section id="accessories">
-					<h3 className="text-center mb-10">
-						{t("common:accessories")}
-					</h3>
+					<h2 className="text-3xl text-center mb-10">{t("common:accessories")}</h2>
 
 					<div className="grid grid-cols-2 lg:grid-cols-8 gap-8">
 						{accessories.map((e) => (
 							<div className="relative h-16 w-16 mx-auto" key={e}>
-								<Image
-									src={e}
-									alt={t("common:accessories")}
-									className="object-contain"
-									layout="fill"
-								/>
+								<Image src={e} alt={t("common:accessories")} className="object-contain" layout="fill" />
 							</div>
 						))}
 					</div>
@@ -117,10 +101,7 @@ export default function PanelOrnamental() {
 export async function getStaticProps({ locale }) {
 	return {
 		props: {
-			...(await serverSideTranslations(locale, [
-				"common",
-				"panelornamental",
-			])),
+			...(await serverSideTranslations(locale, ["common", "panelornamental"])),
 		},
 	};
 }

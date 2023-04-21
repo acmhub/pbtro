@@ -42,9 +42,7 @@ export default function Accessories({ t }) {
 					<div className={e.colClass} key={i}>
 						{/* <Link href="/accesorii" passHref> */}
 						{/* <a> */}
-						<div
-							className={`relative h-96 ${e.cardHeight} w-full overflow-hidden shadow`}
-						>
+						<div className={`relative h-96 ${e.cardHeight} w-full overflow-hidden shadow`}>
 							<Image
 								src={e.src}
 								alt={t("common:accessories")}
@@ -53,9 +51,7 @@ export default function Accessories({ t }) {
 								className="hover:scale-110 duration-200 ease-in-out"
 							/>
 							<div className="absolute bottom-0 left-0 h-[50%] w-full bg-gradient-to-t from-[rgba(0,0,0,0.5)] via-transparent to-transparent pointer-events-none z-10" />
-							<h4 className="absolute bottom-2 left-2 text-white z-10">
-								{t(e.name)}
-							</h4>
+							<p className="absolute bottom-2 left-2 text-2xl text-white z-10">{t(e.name)}</p>
 						</div>
 						{/* </a> */}
 						{/* </Link> */}

@@ -75,11 +75,7 @@ const timelineData = [
 		year: "2006",
 		card: [
 			{
-				content: [
-					"timeline.2006p1",
-					"timeline.2006p2",
-					"timeline.2006p3",
-				],
+				content: ["timeline.2006p1", "timeline.2006p2", "timeline.2006p3"],
 			},
 		],
 	},
@@ -139,10 +135,7 @@ export default function About() {
 			<div className="container-padding">
 				<h1 className="text-center lg:mb-20">{t("common:about")}</h1>
 
-				<section
-					className="relative space-y-10 lg:p-4"
-					id="description"
-				>
+				<section className="relative space-y-10 lg:p-4" id="description">
 					<div className="lg:absolute top-0 left-0 h-full w-1/2 bg-theme2 z-0"></div>
 
 					<div className="relative grid grid-cols-1 lg:grid-cols-3 gap-8 z-10">
@@ -167,26 +160,21 @@ export default function About() {
 							<div className="grid grid-cols-2 z-10">
 								{statsData.map((e, i) => (
 									<div className="text-center p-2" key={i}>
-										<h4>
+										<p className="text-2xl">
 											<VisibilitySensor
-												onChange={(visible) =>
-													visible &&
-													setStatsCount(true)
-												}
+												onChange={(visible) => visible && setStatsCount(true)}
 												partialVisibility={false}
 												delayedCall
 											>
 												<CountUp
 													start={0}
-													end={
-														statsCount ? e.count : 0
-													}
+													end={statsCount ? e.count : 0}
 													suffix={i <= 1 ? "+" : ""}
 													duration={(i + 1) * 1.2}
 													decimals={0}
 												/>
 											</VisibilitySensor>
-										</h4>
+										</p>
 										<p className="uppercase">{t(e.name)}</p>
 									</div>
 								))}
@@ -214,15 +202,12 @@ export default function About() {
 
 					<div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-y-10 lg:gap-x-4">
 						{servicesData.map((e, i) => (
-							<div
-								className="relative bg-white shadow flex flex-col items-center pt-4"
-								key={i}
-							>
+							<div className="relative bg-white shadow flex flex-col items-center pt-4" key={i}>
 								<div className="absolute left-1/2 -translate-x-1/2 -translate-y-10 flex items-center bg-theme1 text-white rounded-full w-fit p-2">
 									<e.Icon className="h-8 w-8" />
 								</div>
 								<div className="p-4">
-									<h4>{t(e.title)}</h4>
+									<p className="text-2xl">{t(e.title)}</p>
 									<p>{t(e.description)}</p>
 								</div>
 							</div>
@@ -245,9 +230,7 @@ export default function About() {
 					<div className="relative mt-5 md:w-2/3 md:mx-auto">
 						{timelineData.map((e, i) => (
 							<div className="relative flex items-center" key={i}>
-								<h5 className="hidden md:block w-[12%] mb-auto">
-									{t(e.year)}
-								</h5>
+								<p className="hidden text-xl md:block w-[12%] mb-auto">{t(e.year)}</p>
 
 								<div className="border-r-2 border-theme1 absolute h-full left-1 md:ml-6 md:left-20 top-3 z-10">
 									<MdCircle className="absolute -top-1 -ml-1.5 text-theme2 h-4 w-4" />
@@ -255,21 +238,15 @@ export default function About() {
 
 								<div className="basis-[78%] ml-10 md:ml-16 lg:ml-10 xl:ml-4">
 									<div className="mb-4 lg:mt-2 md:hidden">
-										<div className="font-bold">
-											{t(e.year)}
-										</div>
+										<div className="font-bold">{t(e.year)}</div>
 									</div>
 
 									{e.card.map((card, index) => (
 										<div key={index}>
 											<div className="mb-5">
-												{card.content.map(
-													(pgh, idx) => (
-														<p key={idx}>
-															{t(pgh)}
-														</p>
-													)
-												)}
+												{card.content.map((pgh, idx) => (
+													<p key={idx}>{t(pgh)}</p>
+												))}
 											</div>
 										</div>
 									))}
@@ -291,9 +268,7 @@ export default function About() {
 								</div>
 
 								<div className="flex space-x-4">
-									<button className="theme-button1">
-										{t("common:getquote")}
-									</button>
+									<button className="theme-button1">{t("common:getquote")}</button>
 								</div>
 							</div>
 							<div className="flex items-end justify-end">

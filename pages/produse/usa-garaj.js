@@ -7,18 +7,10 @@ import { MdDone, MdOutlineSettingsRemote } from "react-icons/md";
 import { IoRepeatSharp } from "react-icons/io5";
 import { CiMedal } from "react-icons/ci";
 import Layout from "../../components/General/Layout";
-const ProductLanding = dynamic(() =>
-	import("../../components/Products/ProductLanding")
-);
-const ProductVariants = dynamic(() =>
-	import("../../components/Products/ProductVariants")
-);
-const ProductAccessories = dynamic(() =>
-	import("../../components/Products/ProductAccessories")
-);
-const ProductCTA = dynamic(() =>
-	import("../../components/Products/ProductCTA")
-);
+const ProductLanding = dynamic(() => import("../../components/Products/ProductLanding"));
+const ProductVariants = dynamic(() => import("../../components/Products/ProductVariants"));
+const ProductAccessories = dynamic(() => import("../../components/Products/ProductAccessories"));
+const ProductCTA = dynamic(() => import("../../components/Products/ProductCTA"));
 
 const landingData = {
 	src: "/images/products/usa-garaj/highlight.webp",
@@ -168,17 +160,13 @@ export default function UsaGaraj() {
 					<div className="relative grid grid-cols-1 lg:grid-cols-3 gap-8 z-10">
 						<div className="space-y-8 lg:text-white my-auto">
 							<div>
-								<h3>{t("carina.sectional")}</h3>
-								<h5>{t("carina.standard")}</h5>
+								<p className="text-3xl">{t("carina.sectional")}</p>
+								<p className="text-xl">{t("carina.standard")}</p>
 							</div>
 
 							<div className="space-y-2">
-								<p className="text-justify">
-									{t("carina.description1")}
-								</p>
-								<p className="text-justify">
-									{t("carina.description2")}
-								</p>
+								<p className="text-justify">{t("carina.description1")}</p>
+								<p className="text-justify">{t("carina.description2")}</p>
 							</div>
 						</div>
 
@@ -195,9 +183,7 @@ export default function UsaGaraj() {
 						</div>
 
 						<div className="order-last my-auto">
-							<h4 className="text-center mb-4">
-								{t("common:colors.available")}
-							</h4>
+							<p className="text-2xl text-center mb-4">{t("common:colors.available")}</p>
 							<div className="grid grid-cols-1 lg:grid-cols-3 gap-1">
 								{[
 									"/images/products/usa-garaj/ral9016.webp",
@@ -206,18 +192,11 @@ export default function UsaGaraj() {
 								].map((e, i) => (
 									<div className="space-y-2" key={i}>
 										<div className="relative h-28 w-auto">
-											<Image
-												src={e}
-												alt="Culoare RAL"
-												layout="fill"
-												objectFit="cover"
-											/>
+											<Image src={e} alt="Culoare RAL" layout="fill" objectFit="cover" />
 											<MdDone className="h-6 w-6 text-white" />
 										</div>
 										<div className="text-center uppercase">
-											{e
-												.replace(/^.*[\\\/]/, "")
-												.slice(0, -5)}
+											{e.replace(/^.*[\\\/]/, "").slice(0, -5)}
 										</div>
 									</div>
 								))}

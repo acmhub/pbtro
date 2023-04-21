@@ -79,11 +79,11 @@ export default function Footer() {
 			<div className="container-padding divide-y pt-20">
 				<div className="grid grid-cols-1 lg:grid-cols-12 gap-10 pb-5">
 					<div className="col-span-1 lg:col-span-4 space-y-4">
-						<h3>{t("about")}</h3>
+						<p className="text-3xl">{t("about")}</p>
 						<p>{t("footer.about")}</p>
 
 						<div className="space-y-2 pt-4">
-							<h5>Social media</h5>
+							<p className="text-xl">Social media</p>
 
 							<div className="flex space-x-2">
 								<a
@@ -106,52 +106,35 @@ export default function Footer() {
 						</div>
 					</div>
 					<div className="col-span-1 lg:col-span-2 space-y-4">
-						<h3>{t("footer.navigation")}</h3>
+						<p className="text-3xl">{t("footer.navigation")}</p>
 
 						<div className="flex flex-col space-y-1">
 							<Link href="/" passHref>
-								<a className="w-fit opacity-75 hover:opacity-100">
-									{t("home")}
-								</a>
+								<a className="w-fit opacity-75 hover:opacity-100">{t("home")}</a>
 							</Link>
 							<Link href="/despre-noi" passHref>
-								<a className="w-fit opacity-75 hover:opacity-100">
-									{t("about")}
-								</a>
+								<a className="w-fit opacity-75 hover:opacity-100">{t("about")}</a>
 							</Link>
 							<Link href="/servicii" passHref>
-								<a className="w-fit opacity-75 hover:opacity-100">
-									{t("services")}
-								</a>
+								<a className="w-fit opacity-75 hover:opacity-100">{t("services")}</a>
 							</Link>
 							<Link href="/produse" passHref>
-								<a className="w-fit opacity-75 hover:opacity-100">
-									{t("products")}
-								</a>
+								<a className="w-fit opacity-75 hover:opacity-100">{t("products")}</a>
 							</Link>
 							<Link href="/portofoliu" passHref>
-								<a className="w-fit opacity-75 hover:opacity-100">
-									{t("portfolio")}
-								</a>
+								<a className="w-fit opacity-75 hover:opacity-100">{t("portfolio")}</a>
 							</Link>
-							{/* <Link href="/accesorii" passHref>
-                                <a className="w-fit opacity-75 hover:opacity-100">{t('accessories')}</a>
-                            </Link> */}
 							<Link href="/contact" passHref>
-								<a className="w-fit opacity-75 hover:opacity-100">
-									{t("contact")}
-								</a>
+								<a className="w-fit opacity-75 hover:opacity-100">{t("contact")}</a>
 							</Link>
 						</div>
 					</div>
 					<div className="col-span-1 lg:col-span-6 space-y-4">
-						<h3>{t("products")}</h3>
+						<p className="text-3xl">{t("products")}</p>
 						<div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-1">
 							{productsData.map((e, i) => (
 								<Link href={e.href} passHref key={i}>
-									<a className="w-fit opacity-75 hover:opacity-100">
-										{t(e.name)}
-									</a>
+									<a className="w-fit opacity-75 hover:opacity-100">{t(e.name)}</a>
 								</Link>
 							))}
 						</div>
@@ -160,13 +143,9 @@ export default function Footer() {
 
 				<div className="grid grid-cols-1 lg:grid-cols-12 gap-4 py-5">
 					<div className="col-span-1 lg:col-span-4 space-y-4">
-						<h3>{t("contact")}</h3>
+						<p className="text-3xl">{t("contact")}</p>
 
-						<div
-							className="space-y-2"
-							itemType="https://schema.org/Organization"
-							itemScope
-						>
+						<div className="space-y-2" itemType="https://schema.org/Organization" itemScope>
 							<a
 								href="tel:+40786422450"
 								target="_blank"
@@ -213,20 +192,15 @@ export default function Footer() {
 
 				<div className="flex flex-col-reverse lg:flex-row lg:justify-between lg:space-y-0 text-gray-400 pt-5">
 					<div className="mt-4 lg:mt-0">
-						&copy; Promotion Business Team România 2006 -{" "}
-						{new Date().getFullYear()}
+						&copy; Promotion Business Team România 2006 - {new Date().getFullYear()}
 					</div>
 					<div>
 						<div className="grid grid-cols-1 lg:grid-cols-2 gap-2 lg:divide-x">
 							<Link href="/politica-confidentialitate" passhref>
-								<a className="lg:px-2 w-fit hover:text-black">
-									{t("privacypolicy")}
-								</a>
+								<a className="lg:px-2 w-fit hover:text-black">{t("privacypolicy")}</a>
 							</Link>
 							<Link href="/politica-cookies" passhref>
-								<a className="lg:px-2 w-fit hover:text-black">
-									{t("cookiespolicy")}
-								</a>
+								<a className="lg:px-2 w-fit hover:text-black">{t("cookiespolicy")}</a>
 							</Link>
 						</div>
 					</div>

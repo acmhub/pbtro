@@ -19,11 +19,7 @@ export default function Home() {
 	const { t } = useTranslation("home");
 
 	return (
-		<Layout
-			pageID="home"
-			description={t("landing.description")}
-			canonical="https://pbtromania.ro"
-		>
+		<Layout pageID="home" description={t("landing.description")} canonical="https://pbtromania.ro">
 			<Landing t={t} />
 			<div className="py-10" />
 			<Products t={t} />

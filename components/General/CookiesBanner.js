@@ -9,8 +9,7 @@ import { toast } from "react-toastify";
 
 export default function CookiesBanner() {
 	const { t } = useTranslation();
-	let consent =
-		hasCookie("pbt_consent") || getCookie("pbt_consent") ? true : false;
+	let consent = getCookie("pbt_consent") ? true : false;
 	const [visible, setVisible] = useState(false);
 
 	const handleAccept = () => {
@@ -41,24 +40,16 @@ export default function CookiesBanner() {
 					animate={{ opacity: 1 }}
 					exit={{ opacity: 0 }}
 				>
-					<button
-						className="absolute top-1 right-2 z-10"
-						onClick={handleAccept}
-					>
+					<button className="absolute top-1 right-2 z-10" onClick={handleAccept}>
 						<MdClose className="h-6 w-6" />
 					</button>
 
 					<div className="card border shadow-xl bg-white space-y-4">
 						<div className="flex items-center space-x-4">
 							<div className="relative h-10 w-10">
-								<Image
-									src="/images/icons/cookie.svg"
-									alt="Cookies"
-									layout="fill"
-									objectFit="contain"
-								/>
+								<Image src="/images/icons/cookie.svg" alt="Cookies" layout="fill" objectFit="contain" />
 							</div>
-							<h4>{t("cookies.title")}</h4>
+							<p className="text-2xl">{t("cookies.title")}</p>
 						</div>
 
 						<p>
@@ -70,10 +61,7 @@ export default function CookiesBanner() {
 							</Link>
 						</p>
 
-						<button
-							className="theme-button1-outlined block w-full"
-							onClick={handleAccept}
-						>
+						<button className="theme-button1-outlined block w-full" onClick={handleAccept}>
 							Accept
 						</button>
 					</div>

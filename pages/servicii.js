@@ -56,26 +56,14 @@ export default function Services() {
 
 				<div className="space-y-10">
 					{servicesData.map((e, i) => (
-						<div
-							className="grid card p-0 grid-cols-1 lg:grid-cols-2"
-							key={i}
-						>
-							<div
-								className={
-									i % 2 == 0 ? "order-first" : "lg:order-last"
-								}
-							>
+						<div className="grid card p-0 grid-cols-1 lg:grid-cols-2" key={i}>
+							<div className={i % 2 == 0 ? "order-first" : "lg:order-last"}>
 								<div className="relative h-96 w-full">
-									<Image
-										src={e.src}
-										alt={t(e.title)}
-										layout="fill"
-										objectFit="cover"
-									/>
+									<Image src={e.src} alt={t(e.title)} layout="fill" objectFit="cover" />
 								</div>
 							</div>
 							<div className="space-y-4 my-auto p-4">
-								<h3>{t(e.title)}</h3>
+								<p className="text-3xl">{t(e.title)}</p>
 								<p>{t(e.description)}</p>
 							</div>
 						</div>
@@ -89,9 +77,7 @@ export default function Services() {
 					<div className="relative grid grid-cols-1 lg:grid-cols-3 gap-10 z-10">
 						<div className="space-y-4 lg:text-white my-auto">
 							<h2>{t("export.title")}</h2>
-							<p className="text-justify">
-								{t("export.description")}
-							</p>
+							<p className="text-justify">{t("export.description")}</p>
 						</div>
 
 						<div className="order-first lg:order-last lg:col-span-2">

@@ -6,12 +6,8 @@ import Image from "next/image";
 import Modal from "@mui/material/Modal";
 import { MdClose, MdDone } from "react-icons/md";
 import Layout from "../../components/General/Layout";
-const ProductLanding = dynamic(() =>
-	import("../../components/Products/ProductLanding")
-);
-const ProductCTA = dynamic(() =>
-	import("../../components/Products/ProductCTA")
-);
+const ProductLanding = dynamic(() => import("../../components/Products/ProductLanding"));
+const ProductCTA = dynamic(() => import("../../components/Products/ProductCTA"));
 import { firedoorData } from "../../components/Products/UsaAntifoc";
 
 const landingData = {
@@ -43,13 +39,11 @@ export default function UsaAntifoc() {
 					<div className="lg:absolute top-0 left-0 h-full w-1/2 bg-theme2 z-0"></div>
 					<div className="relative grid grid-cols-1 lg:grid-cols-3 gap-8 z-10">
 						<div className="space-y-4 lg:text-white my-auto">
-							<h3>
+							<p className="text-3xl">
 								{t("details.title1")} <br />
 								{t("details.title2")}
-							</h3>
-							<p className="text-justify">
-								{t("details.paragraph")}
 							</p>
+							<p className="text-justify">{t("details.paragraph")}</p>
 						</div>
 
 						<div className="order-first lg:order-2">
@@ -66,16 +60,8 @@ export default function UsaAntifoc() {
 
 						<div className="order-last my-auto">
 							<div className="space-y-8 w-fit mx-auto lg:w-full">
-								{[
-									"details.quality",
-									"details.heat",
-									"details.cover",
-									"details.estetic",
-								].map((e, i) => (
-									<div
-										className="flex items-center space-x-2"
-										key={i}
-									>
+								{["details.quality", "details.heat", "details.cover", "details.estetic"].map((e, i) => (
+									<div className="flex items-center space-x-2" key={i}>
 										<div className="bg-theme1 rounded-full h-8 w-8 grid place-content-center p-0.5">
 											<MdDone className="h-6 w-6 text-white" />
 										</div>
@@ -90,24 +76,16 @@ export default function UsaAntifoc() {
 				<div className="section-spacing" />
 
 				<section className="space-y-4" id="models">
-					<h3 className="text-center">{t("details.models")}</h3>
+					<p className="text-3xl text-center">{t("details.models")}</p>
 
 					<div className="grid grid-cols-2 lg:grid-cols-6 gap-1">
 						{firedoorData.map((e, i) => (
 							<div key={i}>
-								<div
-									className="cursor-zoom-in"
-									onClick={() => setModalState(i)}
-								>
+								<div className="cursor-zoom-in" onClick={() => setModalState(i)}>
 									<div className="relative h-40 w-auto">
-										<Image
-											src={e.source}
-											alt={e.name}
-											layout="fill"
-											objectFit="contain"
-										/>
+										<Image src={e.source} alt={e.name} layout="fill" objectFit="contain" />
 									</div>
-									<h6 className="text-center">{e.name}</h6>
+									<p className="text-lg text-center">{e.name}</p>
 								</div>
 								<Modal
 									open={modalState === i ? true : false}
@@ -124,14 +102,9 @@ export default function UsaAntifoc() {
 											<MdClose className="h-6 w-6" />
 										</div>
 										<div className="relative h-[80vh] w-full">
-											<Image
-												src={e.source}
-												alt={e.name}
-												layout="fill"
-												objectFit="contain"
-											/>
+											<Image src={e.source} alt={e.name} layout="fill" objectFit="contain" />
 										</div>
-										<h5>{e.name}</h5>
+										<p className="text-xl">{e.name}</p>
 									</div>
 								</Modal>
 							</div>

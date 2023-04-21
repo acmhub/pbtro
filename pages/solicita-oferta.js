@@ -21,9 +21,7 @@ export default function GetQuote() {
 
 	const [quoteData, setQuoteData] = useState([]);
 	useEffect(() => {
-		setQuoteData(
-			state.quote.quoteItems.map((e) => Object.entries(e).slice(1, -1))
-		);
+		setQuoteData(state.quote.quoteItems.map((e) => Object.entries(e).slice(1, -1)));
 	}, [state.quote]);
 
 	const handleProduct = (e) => {
@@ -32,9 +30,7 @@ export default function GetQuote() {
 			payload: e,
 		});
 
-		document
-			.querySelector("#product-requirements")
-			.scrollIntoView({ behavior: "smooth" });
+		document.querySelector("#product-requirements").scrollIntoView({ behavior: "smooth" });
 	};
 
 	const handleQuoteSubmit = async (e) => {
@@ -86,10 +82,7 @@ export default function GetQuote() {
 							{productsData.map((e, i) => (
 								<div
 									className={`
-                                    ${
-										selectedProduct === e.name &&
-										"bg-theme1 text-white"
-									}
+                                    ${selectedProduct === e.name && "bg-theme1 text-white"}
                                     block hover:bg-theme1 hover:text-white duration-200 ease-in-out cursor-pointer p-2`}
 									onClick={() => handleProduct(e.name)}
 									key={i}
@@ -101,10 +94,7 @@ export default function GetQuote() {
 					</div>
 
 					<div className="col-span-1 lg:col-span-9">
-						<div
-							className="pt-32 -mt-32 pointer-events-none -z-10"
-							id="product-requirements"
-						/>
+						<div className="pt-32 -mt-32 pointer-events-none -z-10" id="product-requirements" />
 						{!selectedProduct ? (
 							<div className="flex flex-col items-center justify-center h-full space-y-4">
 								<div className="relative h-48 w-48">
@@ -115,23 +105,15 @@ export default function GetQuote() {
 										objectFit="contain"
 									/>
 								</div>
-								<h4 className="text-center">
-									{t("emptyorder")}
-								</h4>
+								<p className="text-2xl text-center">{t("emptyorder")}</p>
 							</div>
 						) : (
-							<ProductRequirements
-								selectedProduct={selectedProduct}
-								t={t}
-							/>
+							<ProductRequirements selectedProduct={selectedProduct} t={t} />
 						)}
 					</div>
 				</div>
 
-				<div
-					className="pt-12 -mt-12 pointer-events-none -z-10"
-					id="quote-details"
-				/>
+				<div className="pt-12 -mt-12 pointer-events-none -z-10" id="quote-details" />
 				{state?.quote?.quoteItems?.length > 0 && (
 					<div className="mt-20">
 						{state.quote.quoteItems.map((e, i) => (
@@ -141,10 +123,7 @@ export default function GetQuote() {
 				)}
 
 				{state?.quote?.quoteItems?.length > 0 && (
-					<form
-						onSubmit={handleQuoteSubmit}
-						className="card space-y-8 mt-20"
-					>
+					<form onSubmit={handleQuoteSubmit} className="card space-y-8 mt-20">
 						<div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
 							<div className="flex flex-col">
 								<label htmlFor="name">{t("Nume")}</label>
@@ -167,9 +146,7 @@ export default function GetQuote() {
 								/>
 							</div>
 							<div className="flex flex-col">
-								<label htmlFor="phone_number">
-									{t("Numar de telefon")}
-								</label>
+								<label htmlFor="phone_number">{t("Numar de telefon")}</label>
 								<input
 									type="text"
 									name="phone_number"
@@ -191,10 +168,7 @@ export default function GetQuote() {
 							/>
 						</div>
 
-						<button
-							type="submit"
-							className="theme-button1 block w-fit mx-auto"
-						>
+						<button type="submit" className="theme-button1 block w-fit mx-auto">
 							{t("common:send")}
 						</button>
 					</form>

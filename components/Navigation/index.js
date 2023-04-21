@@ -6,19 +6,10 @@ import { useTranslation } from "next-i18next";
 import Select from "@mui/material/Select";
 import MenuItem from "@mui/material/MenuItem";
 import ClickAwayListener from "@mui/base/ClickAwayListener";
-import {
-	MdOutlinePhoneInTalk,
-	MdOutlineMailOutline,
-	MdOutlineMap,
-} from "react-icons/md";
+import { MdOutlinePhoneInTalk, MdOutlineMailOutline, MdOutlineMap } from "react-icons/md";
 import { FaFacebookF, FaWhatsapp } from "react-icons/fa";
 import styled from "styled-components";
-import {
-	windoorProducts,
-	glassProducts,
-	accessoriesProducts,
-	exteriorProducts,
-} from "../Products";
+import { windoorProducts, glassProducts, accessoriesProducts, exteriorProducts } from "../Products";
 
 const NavStyles = styled.div`
 	#contact-details-nav {
@@ -220,9 +211,7 @@ export default function Navigation() {
 	};
 
 	useEffect(() => {
-		toggle
-			? document.body.classList.add("no-scroll")
-			: document.body.classList.remove("no-scroll");
+		toggle ? document.body.classList.add("no-scroll") : document.body.classList.remove("no-scroll");
 
 		const handleScroll = () => {
 			if (window.scrollY >= 125) {
@@ -240,11 +229,7 @@ export default function Navigation() {
 		<NavStyles>
 			<nav id="contact-details-nav">
 				<div className="container-padding border-b flex items-center justify-between">
-					<div
-						className="flex items-center"
-						itemType="https://schema.org/Organization"
-						itemScope
-					>
+					<div className="flex items-center" itemType="https://schema.org/Organization" itemScope>
 						<a
 							href="tel:+40786422450"
 							target="_blank"
@@ -276,9 +261,7 @@ export default function Navigation() {
 							aria-label="email"
 						>
 							<MdOutlineMailOutline className="h-5 w-6 text-theme1" />
-							<p className="hidden lg:inline">
-								pbtromania@gmail.com
-							</p>
+							<p className="hidden lg:inline">pbtromania@gmail.com</p>
 						</a>
 						<a
 							href="https://goo.gl/maps/MsJhkRS4S4CgE8zNA"
@@ -334,20 +317,14 @@ export default function Navigation() {
 								{locales.map((e, i) => (
 									<MenuItem
 										className={`flex items-center justify-center py-1 ${
-											e.value === router.locale &&
-											"hidden"
+											e.value === router.locale && "hidden"
 										}`}
 										value={e.value}
 										key={i}
 										disableGutters
 									>
 										<div className="relative h-8 w-8">
-											<Image
-												src={e.icon}
-												alt={e.value}
-												layout="fill"
-												objectFit="contain"
-											/>
+											<Image src={e.icon} alt={e.value} layout="fill" objectFit="contain" />
 										</div>
 									</MenuItem>
 								))}
@@ -358,20 +335,12 @@ export default function Navigation() {
 			</nav>
 
 			<nav
-				className={
-					navbar || toggle
-						? `navbar-fixed bg-white ${toggle && "navbar-toggled"}`
-						: "navbar-static"
-				}
+				className={navbar || toggle ? `navbar-fixed bg-white ${toggle && "navbar-toggled"}` : "navbar-static"}
 				id="routes-nav"
 			>
 				<div className="container-padding flex items-center justify-between">
 					<Link href="/" passHref>
-						<a
-							className="relative h-12 w-24"
-							itemType="https://schema.org/Organization"
-							itemScope
-						>
+						<a className="relative h-12 w-24" itemType="https://schema.org/Organization" itemScope>
 							<Image
 								src="/images/logos/logo.svg"
 								alt="Promotion Business Team - Tamplarie PVC Termopan si Tripan"
@@ -385,11 +354,7 @@ export default function Navigation() {
 					</Link>
 
 					<div
-						className={
-							toggle
-								? "nav-toggle opened lg:hidden"
-								: "nav-toggle lg:hidden"
-						}
+						className={toggle ? "nav-toggle opened lg:hidden" : "nav-toggle lg:hidden"}
 						onClick={() => setToggle(!toggle)}
 					>
 						<svg width="100" height="100" viewBox="0 0 100 100">
@@ -414,11 +379,7 @@ export default function Navigation() {
 					>
 						<Link href="/" passHref>
 							<a
-								className={
-									currentRoute == "/"
-										? "nav-link active"
-										: "nav-link"
-								}
+								className={currentRoute == "/" ? "nav-link active" : "nav-link"}
 								onClick={() => setToggle(false)}
 							>
 								{t("home")}
@@ -426,11 +387,7 @@ export default function Navigation() {
 						</Link>
 						<Link href="/despre-noi" passHref>
 							<a
-								className={
-									currentRoute == "/despre-noi"
-										? "nav-link active"
-										: "nav-link"
-								}
+								className={currentRoute == "/despre-noi" ? "nav-link active" : "nav-link"}
 								onClick={() => setToggle(false)}
 							>
 								{t("about")}
@@ -439,27 +396,16 @@ export default function Navigation() {
 
 						<Link href="/servicii" passHref>
 							<a
-								className={
-									currentRoute == "/servicii"
-										? "nav-link active"
-										: "nav-link"
-								}
+								className={currentRoute == "/servicii" ? "nav-link active" : "nav-link"}
 								onClick={() => setToggle(false)}
 							>
 								{t("services")}
 							</a>
 						</Link>
 
-						<ClickAwayListener
-							onClickAway={() => setDropdownToggle(false)}
-						>
+						<ClickAwayListener onClickAway={() => setDropdownToggle(false)}>
 							<div className="nav-link">
-								<button
-									className="outline-none"
-									onClick={() =>
-										setDropdownToggle(!dropdownToggle)
-									}
-								>
+								<button className="outline-none" onClick={() => setDropdownToggle(!dropdownToggle)}>
 									{t("products")}
 								</button>
 								<div
@@ -472,18 +418,11 @@ export default function Navigation() {
                                 `}
 								>
 									<div className="col-span-1 space-y-2">
-										<h5 className="lg:pb-1 lg:border-b">
-											{t("nav.windoor")}
-										</h5>
+										<p className="text-xl lg:pb-1 lg:border-b">{t("nav.windoor")}</p>
 
 										<div className="flex flex-col">
 											{windoorProducts.map((e, i) => (
-												<Link
-													href={e.href}
-													as={e.href}
-													key={i}
-													passHref
-												>
+												<Link href={e.href} as={e.href} key={i} passHref>
 													<a className="nav-link w-fit whitespace-nowrap lg:text-neutral-600 lg:hover:text-black lg:hover:underline">
 														{t(e.name)}
 													</a>
@@ -492,18 +431,11 @@ export default function Navigation() {
 										</div>
 									</div>
 									<div className="col-span-1 space-y-2">
-										<h5 className="lg:pb-1 lg:border-b">
-											{t("nav.glass")}
-										</h5>
+										<p className="text-lg lg:pb-1 lg:border-b">{t("nav.glass")}</p>
 
 										<div className="flex flex-col">
 											{glassProducts.map((e, i) => (
-												<Link
-													href={e.href}
-													as={e.href}
-													key={i}
-													passHref
-												>
+												<Link href={e.href} as={e.href} key={i} passHref>
 													<a className="nav-link w-fit whitespace-nowrap lg:text-neutral-600 lg:hover:text-black lg:hover:underline">
 														{t(e.name)}
 													</a>
@@ -512,18 +444,11 @@ export default function Navigation() {
 										</div>
 									</div>
 									<div className="col-span-1 space-y-2">
-										<h5 className="lg:pb-1 lg:border-b">
-											{t("nav.accessories")}
-										</h5>
+										<p className="text-lg lg:pb-1 lg:border-b">{t("nav.accessories")}</p>
 
 										<div className="flex flex-col">
 											{accessoriesProducts.map((e, i) => (
-												<Link
-													href={e.href}
-													as={e.href}
-													key={i}
-													passHref
-												>
+												<Link href={e.href} as={e.href} key={i} passHref>
 													<a className="nav-link w-fit whitespace-nowrap lg:text-neutral-600 lg:hover:text-black lg:hover:underline">
 														{t(e.name)}
 													</a>
@@ -532,18 +457,11 @@ export default function Navigation() {
 										</div>
 									</div>
 									<div className="col-span-1 space-y-2">
-										<h5 className="lg:pb-1 lg:border-b">
-											{t("nav.exterior")}
-										</h5>
+										<p className="text-lg lg:pb-1 lg:border-b">{t("nav.exterior")}</p>
 
 										<div className="flex flex-col">
 											{exteriorProducts.map((e, i) => (
-												<Link
-													href={e.href}
-													as={e.href}
-													key={i}
-													passHref
-												>
+												<Link href={e.href} as={e.href} key={i} passHref>
 													<a className="nav-link w-fit whitespace-nowrap lg:text-neutral-600 lg:hover:text-black lg:hover:underline">
 														{t(e.name)}
 													</a>
@@ -555,22 +473,9 @@ export default function Navigation() {
 							</div>
 						</ClickAwayListener>
 
-						{/* <Link href="/accesorii" passHref>
-                            <a
-                                className={currentRoute == '/accesorii' ? 'nav-link active' : 'nav-link'}
-                                onClick={() => setToggle(false)}
-                            >
-                                {t('accessories')}
-                            </a>
-                        </Link> */}
-
 						<Link href="/portofoliu" passHref>
 							<a
-								className={
-									currentRoute == "/servicii"
-										? "nav-link active"
-										: "nav-link"
-								}
+								className={currentRoute == "/servicii" ? "nav-link active" : "nav-link"}
 								onClick={() => setToggle(false)}
 							>
 								{t("portfolio")}
@@ -579,11 +484,7 @@ export default function Navigation() {
 
 						<Link href="/contact" passHref>
 							<a
-								className={
-									currentRoute == "/contact"
-										? "nav-link active"
-										: "nav-link"
-								}
+								className={currentRoute == "/contact" ? "nav-link active" : "nav-link"}
 								onClick={() => setToggle(false)}
 							>
 								{t("contact")}
@@ -653,13 +554,8 @@ export default function Navigation() {
 						</div>
 
 						<Link href="/solicita-oferta" passHref>
-							<a
-								className="nav-link"
-								onClick={() => setToggle(false)}
-							>
-								<button className="theme-button1">
-									{t("getquote")}
-								</button>
+							<a className="nav-link" onClick={() => setToggle(false)}>
+								<button className="theme-button1">{t("getquote")}</button>
 							</a>
 						</Link>
 

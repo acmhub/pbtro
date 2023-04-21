@@ -30,7 +30,7 @@ export default function About({ t }) {
 
 	return (
 		<div className="space-y-10">
-			<div className="container-padding relative space-y-20">
+			<div className="container-padding relative space-y-10">
 				<div className="relative grid grid-cols-1 lg:grid-cols-12 gap-8 z-10">
 					<div className="col-span-1 lg:col-span-3 relative h-96">
 						<div className="absolute top-2 left-2 h-72 w-[75%] shadow-xl">
@@ -56,38 +56,41 @@ export default function About({ t }) {
 					<div className="col-span-1 lg:col-span-6 text-center">
 						<h2 className="year-text h-56 grid place-content-center text-[14rem] font-bold">
 							<VisibilitySensor
-								onChange={(visible) =>
-									visible && setYearCount(true)
-								}
+								onChange={(visible) => visible && setYearCount(true)}
 								partialVisibility={false}
 								delayedCall
 							>
 								<CountUp
 									start={0}
-									end={
-										yearCount
-											? new Date().getFullYear() - 2006
-											: 0
-									}
+									end={yearCount ? new Date().getFullYear() - 2006 : 0}
 									duration={3}
 									decimals={0}
 								/>
 							</VisibilitySensor>
 						</h2>
 						<div className="space-y-4 my-auto">
-							<h4 className="text-4xl uppercase">
-								{t("about.experience")}
-							</h4>
-							<p className="lg:w-4/5 lg:mx-auto">
-								{t("about.description")}
-							</p>
+							<p className="text-4xl uppercase">{t("about.experience")}</p>
+							<p className="lg:w-4/5 lg:mx-auto">{t("about.description")}</p>
 							<Link href="/despre-noi" passHref>
 								<a className="block mx-auto w-fit">
-									<button className="theme-button1">
-										{t("common:seemore")}
-									</button>
+									<button className="theme-button1">{t("common:seemore")}</button>
 								</a>
 							</Link>
+						</div>
+
+						<div className="flex items-center justify-evenly mt-12">
+							{["/images/iso/iso 9001.svg", "/images/iso/iso 14001.svg", "/images/iso/iso 45001.svg"].map(
+								(e) => (
+									<div className="relative h-24 w-24" key={e}>
+										<Image
+											src={e}
+											alt={e.replace(/^.*[\\\/]/, "").slice(0, -4)}
+											title={e.replace(/^.*[\\\/]/, "").slice(0, -4)}
+											layout="fill"
+										/>
+									</div>
+								)
+							)}
 						</div>
 					</div>
 
@@ -121,11 +124,9 @@ export default function About({ t }) {
 				<div className="grid grid-cols-2 xl:grid-cols-4 lg:divide-x">
 					{statsData.map((e, i) => (
 						<div className="text-center p-2" key={i}>
-							<h4>
+							<p className="text-2xl">
 								<VisibilitySensor
-									onChange={(visible) =>
-										visible && setStatsCount(true)
-									}
+									onChange={(visible) => visible && setStatsCount(true)}
 									partialVisibility={false}
 									delayedCall
 								>
@@ -137,7 +138,7 @@ export default function About({ t }) {
 										decimals={0}
 									/>
 								</VisibilitySensor>
-							</h4>
+							</p>
 							<p className="uppercase">{t(e.name)}</p>
 						</div>
 					))}

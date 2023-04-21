@@ -50,23 +50,17 @@ export default function CallToAction({ t }) {
 									i % 2 == 0 ? "justify-start" : "justify-end"
 								} w-full mx-auto items-center`}
 							>
-								<div
-									className={`w-full sm:w-1/2 ${
-										i % 2 == 0 ? "sm:pr-8" : "sm:pl-8"
-									}`}
-								>
+								<div className={`w-full sm:w-1/2 ${i % 2 == 0 ? "sm:pr-8" : "sm:pl-8"}`}>
 									<div className="relative bg-white rounded shadow space-y-1 pt-8 sm:pt-4 p-4">
-										<h5
+										<p
 											className={`${
-												i % 2
-													? "text-left"
-													: "sm:text-right"
-											} text-theme1 tracking-widest font-bold opacity-80`}
+												i % 2 ? "text-left" : "sm:text-right"
+											} text-xl text-theme1 tracking-widest font-bold opacity-80`}
 										>
 											0{i + 1}
-										</h5>
+										</p>
 
-										<h4>{t(e.title)}</h4>
+										<p className="text-2xl">{t(e.title)}</p>
 										<p>{t(e.description)}</p>
 									</div>
 								</div>

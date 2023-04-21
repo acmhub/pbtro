@@ -10,19 +10,11 @@ export default function ModelsGallery({ data }) {
 			<div className="grid grid-cols-2 lg:grid-cols-6 gap-1">
 				{data.map((e, i) => (
 					<div key={i}>
-						<div
-							className="cursor-zoom-in"
-							onClick={() => setModalState(i)}
-						>
+						<div className="cursor-zoom-in" onClick={() => setModalState(i)}>
 							<div className="relative h-40 w-auto">
-								<Image
-									src={e.source}
-									alt={e.name}
-									layout="fill"
-									objectFit="contain"
-								/>
+								<Image src={e.source} alt={e.name} layout="fill" objectFit="contain" />
 							</div>
-							<h6 className="text-center">{e.name}</h6>
+							<p className="text-lg text-center">{e.name}</p>
 						</div>
 						<Modal
 							open={modalState === i ? true : false}
@@ -39,14 +31,9 @@ export default function ModelsGallery({ data }) {
 									<MdClose className="h-6 w-6" />
 								</div>
 								<div className="relative h-[80vh] w-full">
-									<Image
-										src={e.source}
-										alt={e.name}
-										layout="fill"
-										objectFit="contain"
-									/>
+									<Image src={e.source} alt={e.name} layout="fill" objectFit="contain" />
 								</div>
-								<h5>{e.name}</h5>
+								<p className="text-xl">{e.name}</p>
 							</div>
 						</Modal>
 					</div>

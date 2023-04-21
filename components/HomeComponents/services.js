@@ -50,12 +50,12 @@ export default function Services({ t }) {
 
 			<div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
 				{servicesData.map((e, i) => (
-					<div className="bg-white shadow flex items-center" key={i}>
+					<div className="bg-white shadow flex items-center lg:items-start" key={i}>
 						<div className="bg-theme2 text-white h-full w-fit flex items-center p-2">
 							<e.Icon className="h-8 w-8" />
 						</div>
-						<div className="space-y-4 p-4">
-							<h4>{t(e.title)}</h4>
+						<div className="p-4">
+							<p className="text-2xl">{t(e.title)}</p>
 							<p>{t(e.description)}</p>
 						</div>
 					</div>
