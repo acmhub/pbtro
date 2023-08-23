@@ -116,7 +116,7 @@ export default function About({ t }) {
 				</div>
 
 				<img
-					src="/images/fillers/worldmap.png"
+					src="/images/fillers/worldmap.webp"
 					alt="geam"
 					className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] h-96 w-fit object-contain opacity-[0.05] z-[0]"
 				/>

@@ -177,12 +177,12 @@ export default function Contact({ t }) {
 								<p itemProp="email">pbtromania@gmail.com</p>
 							</a>
 							<a
-								href="mailto:ofertare@pbtromania.com"
+								href="mailto:ofertare@pbtromania.ro"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="block w-fit hover:text-cyan-700"
 							>
-								<p itemProp="email">ofertare@pbtromania.com</p>
+								<p itemProp="email">ofertare@pbtromania.ro</p>
 							</a>
 						</div>
 
@@ -195,7 +195,7 @@ export default function Contact({ t }) {
 							</div>
 
 							<a
-								href="https://goo.gl/maps/MsJhkRS4S4CgE8zNA"
+								href="https://goo.gl/maps/xgbzgJTLwbP6MpGn9"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="block w-fit hover:text-cyan-700"
@@ -207,11 +207,15 @@ export default function Contact({ t }) {
 					</div>
 
 					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1007.7445496637981!2d25.973106131550402!3d44.40583219758094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b201dc486174b3%3A0xef650263b69335fa!2sTermopane%20ferestre%20si%20usi%20-%20tamplarie%20PVC%20si%20ALUMINIU%20PBT!5e0!3m2!1sro!2sro!4v1692774113076!5m2!1sro!2sro"
 						title="location"
-						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2850.3339008248113!2d25.97047921552232!3d44.40579357910266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b200fc0e10d997%3A0x6ae5655545a9990d!2sDistribuitor%20Ferestre%20si%20Usi%20-%20Promotion%20Business%20Team!5e0!3m2!1sro!2sro!4v1644401679264!5m2!1sro!2sro"
-						className="block h-64 w-full"
+						aria-label="location"
 						itemProp="location"
-					/>
+						allowfullscreen=""
+						loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"
+						className="block h-64 w-full"
+					></iframe>
 				</div>
 			</div>
 		</div>

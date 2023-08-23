@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Landing({ t }) {
@@ -82,12 +83,16 @@ export default function Landing({ t }) {
 								</a>
 							</Link>
 						</div>
+
 						<div className="flex items-end justify-end">
-							<img
-								src="/images/fillers/landing-image.webp"
-								alt="Tamplarie Termopan si Tripan Bucuresti"
-								className="h-auto w-auto object-contain"
-							/>
+							<div className="relative h-64 w-96 xl:h-96 xl:w-[36rem]">
+								<Image
+									src="/images/fillers/landing-image.webp"
+									alt="Tamplarie Termopan si Tripan Bucuresti"
+									className="h-auto w-auto object-contain"
+									layout="fill"
+								/>
+							</div>
 						</div>
 					</div>
 				</div>

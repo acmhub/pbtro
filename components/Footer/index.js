@@ -167,7 +167,7 @@ export default function Footer() {
 								<div itemProp="telephone">+40 723 391 843</div>
 							</a>
 							<a
-								href="mailto:pbtromania@gmail"
+								href="mailto:pbtromania@gmail.com"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="w-fit opacity-75 hover:opacity-100 flex items-center space-x-2"
@@ -181,12 +181,15 @@ export default function Footer() {
 
 					<div className="col-span-1 lg:col-span-8">
 						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1007.7445496637981!2d25.973106131550402!3d44.40583219758094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b201dc486174b3%3A0xef650263b69335fa!2sTermopane%20ferestre%20si%20usi%20-%20tamplarie%20PVC%20si%20ALUMINIU%20PBT!5e0!3m2!1sro!2sro!4v1692774113076!5m2!1sro!2sro"
 							title="location"
 							aria-label="location"
-							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2850.3339008248113!2d25.97047921552232!3d44.40579357910266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b200fc0e10d997%3A0x6ae5655545a9990d!2sDistribuitor%20Ferestre%20si%20Usi%20-%20Promotion%20Business%20Team!5e0!3m2!1sro!2sro!4v1644401679264!5m2!1sro!2sro"
-							className="h-64 lg:h-full w-full block"
 							itemProp="location"
-						/>
+							allowfullscreen=""
+							loading="lazy"
+							referrerpolicy="no-referrer-when-downgrade"
+							className="h-64 lg:h-full w-full block"
+						></iframe>
 					</div>
 				</div>
 

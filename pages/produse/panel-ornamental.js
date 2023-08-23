@@ -1,14 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import dynamic from "next/dynamic";
 import Image from "next/image";
+import Modal from "@mui/material/Modal";
+import { MdClose } from "react-icons/md";
 import Layout from "../../components/General/Layout";
 const ProductLanding = dynamic(() => import("../../components/Products/ProductLanding"));
 const ModelsGallery = dynamic(() => import("../../components/Products/ModelsGallery"));
 const Colors = dynamic(() => import("../../components/Products/Colors"));
 const ProductCTA = dynamic(() => import("../../components/Products/ProductCTA"));
-import { aluminiuData, inoxData } from "../../components/Products/PanelOrnamental";
+import { panelModels, glassModels, stainedModels } from "../../components/Products/PanelOrnamental";
 
 const landingData = {
 	src: "/images/products/panel-ornamental/highlight.webp",
@@ -16,29 +18,11 @@ const landingData = {
 	description: ["description"],
 };
 
-const accessories = [
-	"/images/products/panel-ornamental/accessories/l1005.webp",
-	"/images/products/panel-ornamental/accessories/l1010.webp",
-	"/images/products/panel-ornamental/accessories/l1015.webp",
-	"/images/products/panel-ornamental/accessories/l1020.webp",
-	"/images/products/panel-ornamental/accessories/l1025.webp",
-	"/images/products/panel-ornamental/accessories/5.webp",
-	"/images/products/panel-ornamental/accessories/20.webp",
-	"/images/products/panel-ornamental/accessories/30.webp",
-	"/images/products/panel-ornamental/accessories/35.webp",
-	"/images/products/panel-ornamental/accessories/40.webp",
-	"/images/products/panel-ornamental/accessories/45.webp",
-	"/images/products/panel-ornamental/accessories/100.webp",
-	"/images/products/panel-ornamental/accessories/210.webp",
-	"/images/products/panel-ornamental/accessories/300.webp",
-	"/images/products/panel-ornamental/accessories/309.webp",
-	"/images/products/panel-ornamental/accessories/500.webp",
-];
-
 const ctaData = ["/images/products/panel-ornamental/highlight.webp"];
 
 export default function PanelOrnamental() {
 	const { t } = useTranslation("panelornamental");
+	const [modalState, setModalState] = useState("");
 
 	return (
 		<Layout
@@ -53,32 +37,57 @@ export default function PanelOrnamental() {
 
 				<div className="section-spacing" />
 
-				<section className="space-y-4" id="aluminiu">
+				<section className="space-y-4" id="panel-models">
 					<h2 className="text-3xl text-center mb-10">{t("alumodels")}</h2>
 
-					<ModelsGallery data={aluminiuData} />
+					<ModelsGallery data={panelModels} />
 				</section>
 
 				<div className="section-spacing" />
 
-				<section className="space-y-4" id="inox">
+				<section className="space-y-4" id="glass-models">
 					<h2 className="text-3xl text-center mb-10">
 						{t("alumodels")} <br />
-						{t("inoxmodels")}
+						{t("glassmodels")}
 					</h2>
 
-					<ModelsGallery data={inoxData} />
+					<ModelsGallery data={glassModels} />
 				</section>
 
 				<div className="section-spacing" />
 
-				<section id="accessories">
-					<h2 className="text-3xl text-center mb-10">{t("common:accessories")}</h2>
+				<section className="space-y-4" id="stainedglass-models">
+					<h2 className="text-3xl text-center mb-10">{t("stainedmodels")}</h2>
 
-					<div className="grid grid-cols-2 lg:grid-cols-8 gap-8">
-						{accessories.map((e) => (
-							<div className="relative h-16 w-16 mx-auto" key={e}>
-								<Image src={e} alt={t("common:accessories")} className="object-contain" layout="fill" />
+					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+						{stainedModels.map((e, i) => (
+							<div key={i}>
+								<div className="cursor-zoom-in" onClick={() => setModalState(i)}>
+									<div className="relative h-40 md:h-64 w-auto">
+										<Image src={e.source} alt={e.name} layout="fill" objectFit="contain" />
+									</div>
+									<p className="text-lg text-center">{e.name}</p>
+								</div>
+								<Modal
+									open={modalState === i ? true : false}
+									onClose={() => setModalState("")}
+									aria-labelledby="rolete-model"
+									aria-describedby="rolete-model-details"
+									sx={{ paper: { outline: "none" } }}
+								>
+									<div className="container absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 max-w-xs lg:max-w-none lg:w-[600px] bg-white shadow space-y-2 p-2">
+										<div
+											className="absolute top-1 right-1 cursor-pointer z-10"
+											onClick={() => setModalState("")}
+										>
+											<MdClose className="h-6 w-6" />
+										</div>
+										<div className="relative h-[80vh] w-full">
+											<Image src={e.source} alt={e.name} layout="fill" objectFit="contain" />
+										</div>
+										<p className="text-center text-xl">{e.name}</p>
+									</div>
+								</Modal>
 							</div>
 						))}
 					</div>

@@ -264,7 +264,7 @@ export default function Navigation() {
 							<p className="hidden lg:inline">pbtromania@gmail.com</p>
 						</a>
 						<a
-							href="https://goo.gl/maps/MsJhkRS4S4CgE8zNA"
+							href="https://goo.gl/maps/xgbzgJTLwbP6MpGn9"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="nav-link space-x-1"

@@ -4,10 +4,7 @@ import { useTranslation } from "next-i18next";
 import Modal from "@mui/material/Modal";
 import Image from "next/image";
 import { MdClose } from "react-icons/md";
-import {
-	HiOutlineArrowNarrowLeft,
-	HiOutlineArrowNarrowRight,
-} from "react-icons/hi";
+import { HiOutlineArrowNarrowLeft, HiOutlineArrowNarrowRight } from "react-icons/hi";
 import Layout from "../components/General/Layout";
 
 const portfolioData = [
@@ -104,12 +101,7 @@ export default function Portfolio() {
 								onClick={() => setModalState(i)}
 								key={i}
 							>
-								<Image
-									src={e.src}
-									alt="Tamplarie pvc si aluminiu"
-									layout="fill"
-									objectFit="cover"
-								/>
+								<Image src={e.src} alt="Tamplarie pvc si aluminiu" layout="fill" objectFit="cover" />
 							</div>
 						</div>
 					))}
@@ -121,7 +113,7 @@ export default function Portfolio() {
 					aria-labelledby="portfolio-modal"
 					aria-describedby="portfolio-modal-details"
 				>
-					<div className="container absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-96 lg:w-[600px] bg-white shadow-xl">
+					<div className="container absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 max-w-xs lg:w-[600px] bg-white shadow-xl">
 						<div
 							className="absolute top-2 right-2 flex justify-end cursor-pointer z-10"
 							onClick={() => setModalState(null)}
@@ -140,14 +132,8 @@ export default function Portfolio() {
 						</div>
 
 						<div className="flex items-center justify-center space-x-5 my-2">
-							<HiOutlineArrowNarrowLeft
-								className="h-7 w-7 cursor-pointer"
-								onClick={handlePrev}
-							/>
-							<HiOutlineArrowNarrowRight
-								className="h-7 w-7 cursor-pointer"
-								onClick={handleNext}
-							/>
+							<HiOutlineArrowNarrowLeft className="h-7 w-7 cursor-pointer" onClick={handlePrev} />
+							<HiOutlineArrowNarrowRight className="h-7 w-7 cursor-pointer" onClick={handleNext} />
 						</div>
 					</div>
 				</Modal>
